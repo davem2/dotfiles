@@ -1,6 +1,6 @@
 # Dotfiles
 
-Various configuration files for my Arch desktop boxes 
+Various configuration files for my Arch Linux desktop boxes 
 
 
 ## TODO
