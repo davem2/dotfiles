@@ -1,0 +1,53 @@
+#
+# ~/.bashrc
+#
+
+
+# Greeting
+fortune | cowthink
+echo -e '\n'
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Set environment
+export EDITOR="vim"
+export VISUAL="vim"
+
+## ls ## {{{
+alias ls='ls -hF --color=auto'
+alias ll='ls -l'
+alias la='ll -A'
+alias lx='ll -BX'                   # sort by extension
+alias lz='ll -rS'                   # sort by size
+alias lt='ll -rt'                   # sort by date
+alias lm='la | more'
+
+## Modified commands ## {{{
+alias grep='grep --color=auto'
+alias more='less'
+alias df='df -h'
+alias du='du -c -h'
+# }}}
+
+# Command prompt
+#PS1='\e[1;33m[\u@\h \w]\e[0;37m\n\$ '
+#PS1='\$ '
+
+# Set title bar text
+export PROMPT_COMMAND='echo -ne "\033]0;$PWD\007"'
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# avoid duplicates..
+export HISTCONTROL=ignoredups:erasedups  
+
+# remember a lot of history
+export HISTSIZE=100000                   # big big history
+export HISTFILESIZE=100000               # big big history
+
+# append history entries..
+shopt -s histappend
+source ~/packer-completion.bash

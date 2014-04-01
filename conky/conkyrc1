@@ -1,0 +1,53 @@
+use_xft yes
+xftfont 123:size=8
+xftalpha 0.1
+update_interval 2
+total_run_times 0
+#own_window yes
+#own_window_type desktop
+own_window no
+own_window_type root
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+#own_window_argb_value 100
+#own_window_transparent yes
+double_buffer yes
+minimum_size 280 5
+maximum_width 1000
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color EAEAEA
+default_shade_color 555555
+default_outline_color green
+alignment tr
+gap_x 130
+gap_y 130
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+net_avg_samples 1
+override_utf8_locale yes
+use_spacer yes
+short_units yes
+background yes
+
+TEXT
+#FFA300
+#${color orange}${font Droid Sans:pixelsize=32}${time %a}${color EAEAEA}${font Droid Sans:pixelsize=80}${voffset -43}${time %d}${font Droid Sans:pixelsize=32}
+#${color 888888}${font Droid Sans Mono:pixelsize=22}${hr 1}
+#${color EAEAEA}${font Droid Sans Mono:pixelsize=24}${font Droid Sans Mono:pixelsize=24}${exec cal}
+#${color 888888}${font Droid Sans Mono:pixelsize=22}${hr 1}
+${color orange}${font Droid Sans Mono:pixelsize=11}${alignc}CPU  $color${cpu}%    ${color orange}RAM  $color$mem   ${color orange}DOWN  $color${downspeed enp6s0}   ${color orange}UP  $color${upspeed enp6s0}
+${color EAEAEA}${font Droid Sans Mono:pixelsize=32}${hr 1}
+${color EAEAEA}${font Droid Sans:pixelsize=130}${alignc}${time %H}${voffset -10}:${voffset 10}${time %M}${font Droid Sans:pixelsize=32}
+${voffset 20}${color EAEAEA}${font Droid Sans Mono:size=13}${execpi 60 DJS=$(date +%-d); cal | sed s/"\b$DJS\b"/'${color orange}'"$DJS"'$color'/ | sed s/^/'${alignc}'/ }
+${color EAEAEA}${font Droid Sans Mono:pixelsize=42}${voffset -10}${hr 1}${font Simplicity:pixelsize=30}
+#${font DejaVu Sans:size=8}${color #ffccaa}TODO
+#${font DejaVu Sans:size=8}${color #CC00CC}${execi 300 /home/david/bin/todolist.sh }
+
+#${color EAEAEA}${font Simplicity:pixelsize=30}${execpi 14400 ~/bin/brainyquote.sh | sed -n '1p' | fmt -s -w 43 -g 38 }
+#${alignc}${color EAEAEA}${font Simplicity:pixelsize=20} -- ${execpi 14400 ~/bin/brainyquote.sh | sed -n '2p' }
+${color EAEAEA}${font Simplicity:pixelsize=30}${execpi 10000 ~/bin/brainyquote.py | fmt -s -w 47 -g 37 | sed '$s/^/${font Simplicity:pixelsize=20}${alignr} /' }
+
+
