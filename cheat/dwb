@@ -1,0 +1,16 @@
+j, k - Scroll up / down, [n]
+J, K - Cycle through tabs
+h, l - Scroll left / right
+H, L - Move back / forward
+o - Open URL
+O - Open URL in new tab
+wo - Open URL in a new window
+go - Edit current URL
+gt - Jump to tab
+gd - Download the current site
+d - Close tab
+F - Show link hints
+wf - Open in new window
+vF - Open in new tab
+/, ? - Search forward / backward
++, - - Zoom in / out, [n]

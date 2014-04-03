@@ -1,0 +1,23 @@
+Alt-A = tile
+Alt-U = untile
+Alt-Ctrl-C = quit
+Alt-Q = reload_configuration
+Alt-Shift-S = refresh_workarea
+Alt-Shift-space = reset
+
+Alt-J, Alt-Right = previous
+Alt-K, Alt-Left = next
+Alt-C = cycle
+Alt-Z = cycle_tiler
+Alt-F = float
+
+Alt-Shift-D = toggle_decorations
+Alt-Shift-B = toggle_borders
+
+Alt-M = focus_master
+Alt-Return = make_active_master
+Alt-H = decrease_master
+Alt-L = increase_master
+Alt-comma = decrement_masters
+Alt-period = increment_masters
+

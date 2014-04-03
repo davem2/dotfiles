@@ -1,0 +1,27 @@
+# To implement a for loop:
+for file in `ls .`;
+do 
+    echo $file found;
+done
+
+# To implement a case command:
+case "$1"
+in
+    0) echo "zero found";;
+    1) echo "one found";;
+    2) echo "two found";;
+    3*) echo "something beginning with 3 found";;
+esac
+
+# Hotkeys
+Ctrl + A    Go to the beginning of the line you are currently typing on
+Ctrl + E    Go to the end of the line you are currently typing on
+Ctrl + L    Clears the Screen, similar to the clear command
+Ctrl + W    Clears the word before the cursor position.
+Ctrl + U    Clears the line before the cursor position. 
+Ctrl + K    Clear the line after the cursor
+Ctrl + R    Let’s you search through previously used commands
+Ctrl + C    Kill whatever you are running
+Ctrl + D    Exit the current shell
+Ctrl + Z    Puts whatever you are running into a suspended background process. fg restores it.
+
