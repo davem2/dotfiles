@@ -1,0 +1,5 @@
+# List audio devices
+arecord -l
+
+# Record in cd-quality for 20 seconds using mic detected as card 1 device 0 (discovered using example above)
+arecord -f cd -D hw:1,0 -d 20 test.wav
