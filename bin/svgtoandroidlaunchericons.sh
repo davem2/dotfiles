@@ -10,21 +10,20 @@
 #	XXXHDPI - 192 x 192.
 #	WEB - 512 x 512
 #	
-# Based off similar script by Christian Beier, shoutrLabs
+# Based off script by Christian Beier, shoutrLabs
 #
 
-
 function svgToPng {
-
 	FILE=$1
 	SIZE=$2
 	DESTDIR=`basename $FILE .svg`"_icons/$3"
 	
     if [ -e $FILE ]; then
-		echo '################### EXPORTING '$FILE $SIZE $DESTDIR' ...'
+		echo '### EXPORTING '$FILE $SIZE $DESTDIR' ...'
 
-        EXPORTFILE=`basename $FILE .svg`
-        EXPORTFILE=$EXPORTFILE".png"
+#        EXPORTFILE=`basename $FILE .svg`
+#        EXPORTFILE=$EXPORTFILE".png"
+        EXPORTFILE="launcher.png"
 
         # If format is WIDTHxHEIGHT do this, else assume 1:1 ratio
         if [ `echo $SIZE | grep -E '^[0-9]+x[0-9]+$'` ]; then
