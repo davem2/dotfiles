@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+# Helper script for deploying dotfiles. 
+#
+# 	usage: deploy bash /home/david/.dotfiles/bash/bashrc /home/david/.bashrc
+#
+
+PACKAGE_NAME=$1
+SOURCE_FILE=$2
+DEST_FILE=$3
+DOTFILES=$(pwd)
+
+printf '*** Deploying %s\n    %s -> %s\n' "$PACKAGE_NAME" "$SOURCE_FILE" "$DEST_FILE" 
+
+if [ -d $SOURCE_FILE ]; then
+	cp -nr $DEST_FILE ${DOTFILES}/backup/
+	ln -fsn $SOURCE_FILE $DEST_FILE
+else
+	mkdir -p ${DOTFILES}/backup/$PACKAGE_NAME && cp -n ${HOME}/.bashrc ${DOTFILES}/backup/$PACKAGE_NAME/
+	ln -fs ${DOTFILES}/bash/bashrc ${HOME}/.bashrc
+fi
