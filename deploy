@@ -1,12 +1,11 @@
 #!/bin/bash
 #
 # Helper script for deploying dotfiles. 
-#
-# 	usage: deploy bash /home/david/.dotfiles/bash/bashrc /home/david/.bashrc
+# usage: deploy bash /home/david/.dotfiles/bash/bashrc /home/david/.bashrc
 #
 
 if [ $# -ne 3 ]; then 
-	printf >&2 "Wrong number of arguments\n"
+	printf >&2 "$0: Wrong number of arguments\n"
 	exit 1
 fi
 
@@ -15,12 +14,12 @@ SOURCE_FILE="$2"
 DEST_FILE="$3"
 DOTFILES="$(pwd)"
 
-printf '%s\n    %s -> %s\n' "$PACKAGE_NAME" "$SOURCE_FILE" "$DEST_FILE" 
+printf "%s\n    %s -> %s\n" "$PACKAGE_NAME" "$SOURCE_FILE" "$DEST_FILE" 
 
 if [ -d "$SOURCE_FILE" ]; then
 	cp -nr $DEST_FILE $DOTFILES/backup/
 	ln -fsn $SOURCE_FILE $DEST_FILE
 else
-	mkdir -p $DOTFILES/backup/$PACKAGE_NAME && cp -n $HOME/.bashrc $DOTFILES/backup/$PACKAGE_NAME/
-	ln -fs $DOTFILES/bash/bashrc $HOME/.bashrc
+	mkdir -p $DOTFILES/backup/$PACKAGE_NAME && cp -n $DEST_FILE $DOTFILES/backup/$PACKAGE_NAME/
+	ln -fs $SOURCE_FILE $DEST_FILE
 fi

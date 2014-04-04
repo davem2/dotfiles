@@ -32,7 +32,7 @@ openbox:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/openbox/rc.xml ${HOME}/.config/openbox/rc.xml
 	
 slim:
-	@printf '*** Deploying %s\n    %s -> %s\n' "$@" "$(DOTFILES)/desktop/slim/slim.conf" "/etc/slim.conf" 
+	@printf "%s\n    %s -> %s\n" "$@" "$(DOTFILES)/desktop/slim/slim.conf" "/etc/slim.conf" 
 	@mkdir -p $(DOTFILES)/backup/$@ && cp -n /etc/slim.conf $(DOTFILES)/backup/$@/
 	sudo ln -fs $(DOTFILES)/desktop/slim/slim.conf /etc/slim.conf
 
