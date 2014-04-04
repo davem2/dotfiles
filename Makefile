@@ -15,10 +15,10 @@ bash:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/bash/bashrc ${HOME}/.bashrc
 
 bin:
-	@$(DOTFILES)/deploy $@ $(DOTFILES)/bin/ ${HOME}/bin
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/bin ${HOME}/bin
 
 cheat:
-	@$(DOTFILES)/deploy $@ $(DOTFILES)/cheat/ ${HOME}/.cheat
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/cheat ${HOME}/.cheat
 
 conky:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/conky/conkyrc1 ${HOME}/.conkyrc
