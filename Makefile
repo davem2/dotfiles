@@ -48,5 +48,5 @@ volumeicon:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/volumeicon/volumeicon ${HOME}/.config/volumeicon/volumeicon
 		
 X11:
-	@$(DOTFILES)/deploy $@ $(DOTFILES)/xinitrc ${HOME}/.xinitrc
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/xinitrc ${HOME}/.xinitrc
 
