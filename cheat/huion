@@ -1,0 +1,8 @@
+# Steps to patch Linux kernel for Huion H610 graphics tablet support
+
+git clone https://github.com/DIGImend/huion-driver.git
+sudo pacman -S linux-headers
+make
+modprobe -r hid-huion
+make install
+
