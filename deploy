@@ -17,9 +17,24 @@ DOTFILES="$(pwd)"
 printf "%s\n    %s -> %s\n" "$PACKAGE_NAME" "$SOURCE_FILE" "$DEST_FILE" 
 
 if [ -d "$SOURCE_FILE" ]; then
-	cp -nr $DEST_FILE $DOTFILES/backup/
-	rm -r $DEST_FILE
-	ln -fsn $SOURCE_FILE $DEST_FILE
+	cp -nr $DEST_FILE $DOTFILES/backup/ 
+	if [ -e $DEST_FILE ]; then
+		# When creating symlink to a directory, if that directory 
+		# already exists the symlink will be created within the directory
+		# rather than replacing it.  Removing the existing directory
+		# before creating the symlink is the solution
+		
+		# Too dangerous to remove existing directory using 
+		# rm -rf $DEST_FILE
+		
+		# Play it safe..
+		echo "*** Existing directory $DEST_FILE must be manually removed, before repository version can be deployed ***"
+		exit 1
+		
+	else
+		ln -fsn $SOURCE_FILE $DEST_FILE
+	fi
+	
 else
 	mkdir -p $DOTFILES/backup/$PACKAGE_NAME && cp -n $DEST_FILE $DOTFILES/backup/$PACKAGE_NAME/
 	ln -fs $SOURCE_FILE $DEST_FILE
