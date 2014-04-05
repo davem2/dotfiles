@@ -1,0 +1,11 @@
+# Find MIME type of given file
+xdg-mime query filetype somefile.pdf
+
+# Find default application for opening given mimetype
+xdg-mime query mimetype application/pdf
+
+# Set default application for opening given mimetype(s)
+xdg-mime default pdfreader.desktop application/pdf
+
+# .desktop files are located in /usr/share/applications
+
