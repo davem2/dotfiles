@@ -2,7 +2,7 @@
 xdg-mime query filetype somefile.pdf
 
 # Find default application for opening given mimetype
-xdg-mime query mimetype application/pdf
+xdg-mime query default application/pdf
 
 # Set default application for opening given mimetype(s)
 xdg-mime default pdfreader.desktop application/pdf
