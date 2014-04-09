@@ -1,0 +1,6 @@
+# Mount (or create) encrypted encfs directory 
+encfs ~/.encrypted ~/unencrypted
+
+# Unmount encfs directory
+fusermount -u ~/unencrypted
+
