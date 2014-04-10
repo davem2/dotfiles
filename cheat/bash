@@ -1,17 +1,16 @@
 # To implement a for loop:
-for file in `ls .`;
-do 
-    echo $file found;
-done
+for file in `ls .`; do echo $file found; done
 
 # To implement a case command:
-case "$1"
-in
-    0) echo "zero found";;
-    1) echo "one found";;
-    2) echo "two found";;
-    3*) echo "something beginning with 3 found";;
+case "$1" in
+    1) echo "two found";;
+    2*) echo "something beginning with 3 found";;
 esac
+
+# Create an array of filenames
+unset list1 
+while IFS= read -rd '' file; do list1+=("$file"); done < <(find "$Dir1" ! -type d -print0)
+fileCount=${#list1[@]}
 
 # Hotkeys
 Ctrl + A    Go to the beginning of the line you are currently typing on
