@@ -1,45 +1,29 @@
 #!/bin/bash
 
-Dir1="/home/david/wallpapers/main"
-Dir2="/home/david/wallpapers/"
-#Dir=$1
+DIR1="${HOME}/wallpapers/main"	# Wallpapers specific for main monitor containing conky overlay
+DIR2="${HOME}/wallpapers/"		# Wallpapers for secondary monitor(s)
+#DIR1=$1						# TODO: Allow wallpaper directories to be passed as command line args?
 
-if [ ! -d "$Dir1" ]; then 
-    echo "Not Exist $Dir1"
+if [ ! -d "$DIR1" ]; then 
+    echo "No such directory: $DIR1"
     exit 1
-fi
-
-if [ ! -d "$Dir2" ]; then 
-    echo "Not Exist $Dir2"
+elif [ ! -d "$DIR2" ]; then 
+    echo "No such directory: $DIR2"
     exit 1
 fi
 
 SetBG () {
 
-unset list1	
-while IFS= read -rd '' file; do list1+=("$file"); done < <(find "$Dir1" ! -type d -print0)
-TotalFiles1=${#list1[@]}
-
-unset list2
-while IFS= read -rd '' file; do list2+=("$file"); done < <(find "$Dir2" ! -type d -print0)
-TotalFiles2=${#list2[@]}
-
-RandomNumber=$(( $RANDOM % $TotalFiles1 ))
-test ! $RandomNumber = 0 || RandomNumber=1
-RandomFile1="${list1[RandomNumber]}"
-#RandomFile1="/home/david/wallpapers/sfbg.jpg"
-
-RandomNumber=$(( $RANDOM % $TotalFiles2 ))
-test ! $RandomNumber = 0 || RandomNumber=1
-RandomFile2="${list2[RandomNumber]}"
+#bg1="${HOME}/wallpapers/sfbg.jpg"
+bg1=$(find "$DIR1" ! -type d -print0 | shuf -z -n 1)
+bg2=$(find "$DIR2" ! -type d -print0 | shuf -z -n 1)
 
 # Set background(s) with feh
-#feh --bg-fill "${RandomFile1}" "${RandomFile2}"
+#feh --bg-fill "${bg1}" "${bg2}"
 #alternate: pushes colors towards #aaa
-convert "${RandomFile1}" -size 1x1 xc:\#aaa -fx 'u*v.p{0,0}' jpg:- | feh --bg-fill - "${RandomFile2}"
+convert "${bg1}" -size 1x1 xc:\#aaa -fx 'u*v.p{0,0}' jpg:- | feh --bg-fill - "${bg2}"
 
-logger "Wallpaper changed: $RandomFile1, $RandomFile2"
-logger "$TotalFiles1, $TotalFiles2"
+logger "Wallpaper changed: $bg1, $bg2"
 
 }
 
