@@ -2,9 +2,8 @@
 
 # adapted from https://github.com/thejandroman/bing-wallpaper/blob/master/bing-wallpaper.sh
 
-PICTURE_DIR="$HOME/wallpapers/bing-wallpapers/"
-
-mkdir -p $PICTURE_DIR
+BING_WALLPAPER_DIRECTORY="$HOME/wallpapers/bing-wallpapers/"
+mkdir -p $BING_WALLPAPER_DIRECTORY
 
 DownloadBingWallpaper() {
 
@@ -17,20 +16,23 @@ urls=( $(curl -s http://www.bing.com | \
 # Save wallpaper if it's new
 for p in ${urls[@]}; do
     filename=$(echo $p|sed -e "s/.*\/\(.*\)/\1/")
-    if [ ! -f $PICTURE_DIR/$filename ]; then
+    todayWallpaper="$BING_WALLPAPER_DIRECTORY/$filename"
+    if [ ! -f $todayWallpaper ]; then
         logger "Downloading: $filename ..."
-        curl -Lo "$PICTURE_DIR/$filename" $p
+        curl -Lo "$todayWallpaper" $p
     else
         logger "Skipping: $filename ..."
     fi
 done
 
 # Grab a random previously downloaded bing wallpaper to use for secondary display
-RANDOM_WALLPAPER=$(ls $PICTURE_DIR | shuf -n 1)
+randomWallpaper=$(find $BING_WALLPAPER_DIRECTORY ! -type d -print0 | shuf -z -n 1)
 
-#feh --bg-fill "$PICTURE_DIR/$filename" "$PICTURE_DIR/$RANDOM_WALLPAPER"
+#feh --bg-fill "$todayWallpaper" "$randomWallpaper"
 #alternate: pushes colors towards #aaa
-convert "$PICTURE_DIR/$RANDOM_WALLPAPER" -size 1x1 xc:\#aaa -fx 'u*v.p{0,0}' jpg:- | feh --bg-fill - "$PICTURE_DIR/$filename"
+convert "$randomWallpaper" -size 1x1 xc:\#aaa -fx 'u*v.p{0,0}' jpg:- | feh --bg-fill - "$todayWallpaper"
+
+logger "Wallpaper changed: $randomWallpaper, $todayWallpaper"
 
 }
 
