@@ -13,6 +13,7 @@ echo -e '\n'
 # Set environment
 export EDITOR="vim"
 export VISUAL="vim"
+export TMPDIR="$HOME/tmp"
 
 ## ls ## {{{
 alias ls='ls -hF --color=auto'
