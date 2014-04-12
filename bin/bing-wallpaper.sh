@@ -29,8 +29,8 @@ done
 randomWallpaper=$(find $BING_WALLPAPER_DIRECTORY ! -type d -print0 | shuf -z -n 1)
 
 #feh --bg-fill "$todayWallpaper" "$randomWallpaper"
-#alternate: pushes colors towards #aaa
-convert "$randomWallpaper" -size 1x1 xc:\#aaa -fx 'u*v.p{0,0}' jpg:- | feh --bg-fill - "$todayWallpaper"
+#alternate: pushes colors towards #777 to allow conky overlay (white) to be readable
+convert "$randomWallpaper" -size 1x1 xc:\#777 -fx 'u*v.p{0,0}' jpg:- | feh --bg-fill - "$todayWallpaper"
 
 logger "Wallpaper changed: $randomWallpaper, $todayWallpaper"
 
