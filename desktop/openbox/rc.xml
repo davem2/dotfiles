@@ -246,6 +246,9 @@
     </keybind>
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
+	  <action name="Execute">
+        <command>amixer set Master toggle</command>
+      </action>      
     </keybind>
     <!-- Keybindings for windows -->
     <keybind key="A-F4">
