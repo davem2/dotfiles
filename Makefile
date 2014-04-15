@@ -29,7 +29,7 @@ obmenu-generator:
 openbox:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/openbox/autostart ${HOME}/.config/openbox/autostart
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/openbox/menu.xml ${HOME}/.config/openbox/menu.xml
-	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/openbox/rc.xml ${HOME}/.config/openbox/rc.xml
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/openbox/rc_base.xml ${HOME}/.config/openbox/rc.xml
 	
 slim:
 	@printf "%s\n    %s -> %s\n" "$@" "$(DOTFILES)/desktop/slim/slim.conf" "/etc/slim.conf" 

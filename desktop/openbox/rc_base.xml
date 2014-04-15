@@ -244,6 +244,24 @@
         <to>4</to>
       </action>
     </keybind>
+    <keybind key="C-Left">
+		<keybind key="Up">
+			<keybind key="Down">
+				<keybind key="Left">
+					<keybind key="Right">
+					  <action name="Execute">
+						<command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_extended.xml</command>
+					  </action>      
+					</keybind>
+				</keybind>
+			</keybind>
+		</keybind>
+    </keybind>
+    <keybind key="F8">
+	  <action name="Execute">
+        <command>pkill mplayer</command>
+      </action>      
+    </keybind>
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
 	  <action name="Execute">

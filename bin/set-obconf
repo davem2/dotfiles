@@ -1,0 +1,23 @@
+#!/bin/bash
+
+obconf_path=$HOME/.config/openbox/rc.xml
+usage="Usage: $0 rc.xml"
+
+# Enforce calling syntax, one required argument new openbox rc.xml to load
+if [ $# -ne 1 ]; then
+	echo "$usage"
+	notify-send "$usage"
+	exit 1
+fi
+
+# Swap to desired configuration
+ln -fs $1 $obconf_path
+
+# Reload openbox
+openbox --reconfigure
+
+
+notify-send "Changed OpenBox active configuration to $1"
+
+
+
