@@ -368,7 +368,7 @@
     </keybind>
     <keybind key="W-b">
       <action name="Execute">
-        <command>~/bin/launchbrowser.sh</command>
+        <command>~/bin/launchbrowser</command>
       </action>
     </keybind>
     <keybind key="W-A-b">

@@ -17,8 +17,8 @@
 #xfce-mcs-manager &
 
 
-#/home/david/bin/randomwallpaper.sh &
-/home/david/bin/bing-wallpaper.sh &
+#~/bin/randomwallpaper &
+~/bin/bing-wallpaper &
 conky &
 tint2 &
 volumeicon &

@@ -44,10 +44,8 @@ ${color EAEAEA}${font Droid Sans:pixelsize=130}${alignc}${time %H}${voffset -10}
 ${voffset 20}${color EAEAEA}${font Droid Sans Mono:size=13}${execpi 60 DJS=$(date +%-d); cal | sed s/"\b$DJS\b"/'${color orange}'"$DJS"'$color'/ | sed s/^/'${alignc}'/ }
 ${color EAEAEA}${font Droid Sans Mono:pixelsize=42}${voffset -10}${hr 1}${font Simplicity:pixelsize=30}
 #${font DejaVu Sans:size=8}${color #ffccaa}TODO
-#${font DejaVu Sans:size=8}${color #CC00CC}${execi 300 /home/david/bin/todolist.sh }
+#${font DejaVu Sans:size=8}${color #CC00CC}${execi 300 ~/bin/todolist }
 
-#${color EAEAEA}${font Simplicity:pixelsize=30}${execpi 14400 ~/bin/brainyquote.sh | sed -n '1p' | fmt -s -w 43 -g 38 }
-#${alignc}${color EAEAEA}${font Simplicity:pixelsize=20} -- ${execpi 14400 ~/bin/brainyquote.sh | sed -n '2p' }
-${color EAEAEA}${font Simplicity:pixelsize=30}${execpi 10000 ~/bin/brainyquote.py | fmt -s -w 47 -g 37 | sed '$s/^/${font Simplicity:pixelsize=20}${alignr} /' }
+${color EAEAEA}${font Simplicity:pixelsize=30}${execpi 10000 ~/bin/brainyquote | fmt -s -w 47 -g 37 | sed '$s/^/${font Simplicity:pixelsize=20}${alignr} /' }
 
 
