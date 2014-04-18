@@ -3,9 +3,9 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://openbox.org/">
   <menu id="root-menu" label="Applications">
-    <item label="File Manager" icon=""><action name="Execute"><execute>pcmanfm</execute></action></item>
+    <item label="File Manager" icon=""><action name="Execute"><execute>thunar</execute></action></item>
     <item label="Terminal" icon=""><action name="Execute"><execute>xterm</execute></action></item>
-    <item label="Web Browser" icon=""><action name="Execute"><execute>firefox</execute></action></item>
+    <item label="Web Browser" icon=""><action name="Execute"><execute>google-chrome</execute></action></item>
     <item label="Run command" icon=""><action name="Execute"><execute>gmrun</execute></action></item>
     <item label="Instant messaging" icon=""><action name="Execute"><execute>pidgin</execute></action></item>
   <separator label="Applications"/>
@@ -16,7 +16,7 @@
     <item label="compton" icon=""><action name="Execute"><execute>compton</execute></action></item>
     <item label="DIYLC" icon="/usr/share/pixmaps/diylc.png"><action name="Execute"><execute>diylc</execute></action></item>
     <item label="File Manager" icon=""><action name="Execute"><execute>exo-open --launch FileManager</execute></action></item>
-    <item label="PacmanXG" icon="/usr/share/pixmaps/pacmanxg.png"><action name="Execute"><execute>ssx pacmanxg</execute></action></item>
+    <item label="PacmanXG" icon=""><action name="Execute"><execute>ssx pacmanxg</execute></action></item>
     <item label="qtFM" icon="/usr/share/pixmaps/qtfm.png"><action name="Execute"><execute>qtfm</execute></action></item>
     <item label="QTodo.txt" icon="/usr/share/pixmaps/qtodotxt.png"><action name="Execute"><execute>/usr/bin/qtodotxt</execute></action></item>
     <item label="Synapse" icon=""><action name="Execute"><execute>synapse</execute></action></item>
@@ -50,7 +50,7 @@
     <item label="Dosbox" icon="/usr/share/pixmaps/dosbox.png"><action name="Execute"><execute>dosbox</execute></action></item>
     <item label="GTetrinet" icon="/usr/share/pixmaps/gtetrinet.png"><action name="Execute"><execute>gtetrinet</execute></action></item>
     <item label="nonogram-qt" icon=""><action name="Execute"><execute>nonogram-qt</execute></action></item>
-    <item label="Paintown" icon="/usr/share/pixmaps/paintown.png"><action name="Execute"><execute>paintown</execute></action></item>
+    <item label="PainTown" icon="/usr/share/pixmaps/paintown.png"><action name="Execute"><execute>paintown</execute></action></item>
     <item label="Urban Terror" icon="/usr/share/pixmaps/urbanterror.png"><action name="Execute"><execute>urbanterror</execute></action></item>
     <item label="Vacuum Magic" icon="/usr/share/pixmaps/vacuum.png"><action name="Execute"><execute>vacuum</execute></action></item>
     <item label="Zaz" icon="/usr/share/pixmaps/zaz.xpm"><action name="Execute"><execute>zaz</execute></action></item>
@@ -83,6 +83,7 @@
   </menu>
   <menu id="Multimedia" icon="" label="Multimedia">
     <item label="Audacity" icon="/usr/share/pixmaps/audacity.xpm"><action name="Execute"><execute>audacity</execute></action></item>
+    <item label="avidemux (Qt)" icon="/usr/share/pixmaps/avidemux.png"><action name="Execute"><execute>avidemux2_qt4</execute></action></item>
     <item label="FFADO Mixer" icon="/usr/share/pixmaps/ffado.png"><action name="Execute"><execute>ffado-mixer</execute></action></item>
     <item label="GNOME MPlayer" icon="/usr/share/icons/hicolor/16x16/apps/gnome-mplayer.png"><action name="Execute"><execute>gnome-mplayer</execute></action></item>
     <item label="gtk-recordMyDesktop" icon="/usr/share/pixmaps/gtk-recordmydesktop.png"><action name="Execute"><execute>gtk-recordMyDesktop</execute></action></item>
@@ -94,7 +95,8 @@
     <item label="Mixxx" icon="/usr/share/pixmaps/mixxx-icon.png"><action name="Execute"><execute>pasuspender mixxx</execute></action></item>
     <item label="MuseScore" icon="/usr/share/pixmaps/mscore.png"><action name="Execute"><execute>mscore</execute></action></item>
     <item label="OpenShot Video Editor" icon=""><action name="Execute"><execute>openshot</execute></action></item>
-    <item label="Pitivi Video Editor" icon="/usr/share/icons/hicolor/16x16/apps/pitivi.png"><action name="Execute"><execute>pitivi</execute></action></item>
+    <item label="Pitivi" icon="/usr/share/icons/hicolor/16x16/apps/pitivi.png"><action name="Execute"><execute>pitivi</execute></action></item>
+    <item label="PulseAudio Volume Control" icon=""><action name="Execute"><execute>pavucontrol</execute></action></item>
     <item label="QjackCtl" icon="/usr/share/icons/hicolor/32x32/apps/qjackctl.png"><action name="Execute"><execute>/usr/bin/qjackctl</execute></action></item>
     <item label="Qmmp" icon="/usr/share/icons/hicolor/16x16/apps/qmmp.png"><action name="Execute"><execute>qmmp</execute></action></item>
     <item label="Qt V4L2 test Utility" icon="/usr/share/icons/hicolor/16x16/apps/qv4l2.png"><action name="Execute"><execute>qv4l2</execute></action></item>
