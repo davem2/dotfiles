@@ -11,7 +11,6 @@ firefox=/usr/bin/firefox
 
 ## fix empty urls
 URL="$*"; [ -z "$URL" ] && URL=about:home
-printf "** $URL"
 
 ## I like to know when URL was sent to a browser (notify-osd)
 notify-send -t 2000 -i $icon -h string:x-canonical-append:browser "Opening URL" "$URL" &
