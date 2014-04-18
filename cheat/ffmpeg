@@ -1,0 +1,2 @@
+# Extract clip from video filem (1 min clip starting 2 min 35 secs into source video)
+ffmpeg -i infile.avi -ss 00:02:35.0 -t 00:01:00.0 -c copy outfile.avi
