@@ -1,0 +1,20 @@
+# To resize an image to a fixed width and proportional height:
+convert original-image.jpg -resize 100x converted-image.jpg
+
+# To resize an image to a fixed height and proportional width:
+convert original-image.jpg -resize x100 converted-image.jpg
+
+# To resize an image to a fixed width and height:
+convert original-image.jpg -resize 100x100 converted-image.jpg
+
+# To resize an image and simultaneously change its file type:
+convert original-image.jpg -resize 100x converted-image.png
+
+# Create thumbnail from pdf file
+convert -thumbnail x300 -background white -alpha remove input_file.pdf[0] output_thumbnail.png
+
+# To perform operation on all of the images within a directory:
+for f in ./*.pdf; 
+    do convert -thumbnail x300 -background white -alpha remove "$f"[0] "${f%.pdf}.png"; 
+done
+
