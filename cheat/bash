@@ -1,5 +1,5 @@
 # To implement a for loop:
-for file in `ls .`; do echo $file found; done
+for file in "./*"; do echo $file found; done
 
 # To implement a case command:
 case "$1" in
@@ -23,4 +23,7 @@ Ctrl + R    Let’s you search through previously used commands
 Ctrl + C    Kill whatever you are running
 Ctrl + D    Exit the current shell
 Ctrl + Z    Puts whatever you are running into a suspended background process. fg restores it.
+
+# Default arguments
+variable=${1:-defaultvalue}
 
