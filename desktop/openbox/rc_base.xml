@@ -340,7 +340,16 @@
           <enabled>true</enabled>
           <name>Thunar</name>
         </startupnotify>
-        <command>thunar</command>
+        <command>wlaunch thunar thunar</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-e">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Thunar</name>
+        </startupnotify>
+        <command>Thunar</command>
       </action>
     </keybind>
     <keybind key="W-w">
@@ -363,17 +372,22 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
+        <command>wlaunch xfce4-terminal xfce4-terminal</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-t">
+      <action name="Execute">
         <command>xfce4-terminal</command>
       </action>
     </keybind>
     <keybind key="W-b">
       <action name="Execute">
-        <command>~/bin/launchbrowser</command>
+        <command>wlaunch firefox Firefox</command>
       </action>
     </keybind>
-    <keybind key="W-A-b">
+    <keybind key="W-S-b">
       <action name="Execute">
-        <command>chromium</command>
+        <command>firefox</command>
       </action>
     </keybind>
     <!-- Screenshots -->
