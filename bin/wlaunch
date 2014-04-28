@@ -18,7 +18,8 @@ if [ -z "`wmctrl -lx | awk '{print $3}' | grep $app_wm_class`" ]; then
 	$app_exec &
 else
 	current_desk=`wmctrl -d | grep '*' | cut -d ' ' -f 1`
-	app_on_this_desk=`wmctrl -lx | awk '{print $1," ",$2," ",$3}' | grep "$current_desk[ ]*$app_wm_class" | cut -d ' ' -f 1`
+	app_on_this_desk=`wmctrl -lx | awk '{print $1," ",$2," ",$3}' | grep "$current_desk[ ]*$app_wm_class" | cut -d ' ' -f 1 | head -n 1`
+	
 	if [ -n "$app_on_this_desk" ]; then
 		# If application is running on active desktop then give raise and give focus
 		wmctrl -i -a $app_on_this_desk
