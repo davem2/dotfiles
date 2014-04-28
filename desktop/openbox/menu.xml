@@ -53,6 +53,7 @@
     <item label="PainTown" icon="/usr/share/pixmaps/paintown.png"><action name="Execute"><execute>paintown</execute></action></item>
     <item label="Urban Terror" icon="/usr/share/pixmaps/urbanterror.png"><action name="Execute"><execute>urbanterror</execute></action></item>
     <item label="Vacuum Magic" icon="/usr/share/pixmaps/vacuum.png"><action name="Execute"><execute>vacuum</execute></action></item>
+    <item label="Widelands" icon="/usr/share/pixmaps/widelands.png"><action name="Execute"><execute>widelands</execute></action></item>
     <item label="Zaz" icon="/usr/share/pixmaps/zaz.xpm"><action name="Execute"><execute>zaz</execute></action></item>
   </menu>
   <menu id="Graphics" icon="" label="Graphics">
@@ -124,7 +125,7 @@
     <item label="Qtransmission Bittorrent Client" icon="/usr/share/pixmaps/transmission-qt.png"><action name="Execute"><execute>transmission-qt</execute></action></item>
     <item label="QupZilla" icon="/usr/share/pixmaps/qupzilla.png"><action name="Execute"><execute>qupzilla</execute></action></item>
     <item label="SyncTERM" icon="/usr/share/icons/hicolor/64x64/apps/syncterm.png"><action name="Execute"><execute>syncterm</execute></action></item>
-    <item label="TeamSpeak 3" icon="/usr/share/pixmaps/teamspeak3.xpm"><action name="Execute"><execute>teamspeak3</execute></action></item>
+    <item label="TeamSpeak 3" icon="/usr/share/pixmaps/teamspeak3.xpm"><action name="Execute"><execute>wine '/home/david/.wine/drive_c/Program Files/TeamSpeak 3 Client/ts3client_win32.exe'</execute></action></item>
     <item label="Web Browser" icon=""><action name="Execute"><execute>exo-open --launch WebBrowser</execute></action></item>
     <item label="Zenmap (as root)" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><execute>/usr/share/zenmap/su-to-zenmap.sh</execute></action></item>
     <item label="Zenmap" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><execute>zenmap</execute></action></item>
@@ -155,6 +156,7 @@
     <item label="Notifications" icon="/usr/share/icons/hicolor/48x48/apps/xfce4-notifyd.png"><action name="Execute"><execute>xfce4-notifyd-config</execute></action></item>
     <item label="NVIDIA X Server Settings" icon="/usr/share/pixmaps/nvidia-settings.png"><action name="Execute"><execute>/usr/bin/nvidia-settings</execute></action></item>
     <item label="Openbox Configuration Manager" icon="/usr/share/pixmaps/obconf.png"><action name="Execute"><execute>obconf</execute></action></item>
+    <item label="Panel tint2" icon="/usr/share/pixmaps/tint2conf.png"><action name="Execute"><execute>tint2conf</execute></action></item>
     <item label="Panel" icon="/usr/share/icons/hicolor/16x16/apps/xfce4-panel.png"><action name="Execute"><execute>xfce4-panel --preferences</execute></action></item>
     <item label="Power Manager" icon="/usr/share/icons/hicolor/16x16/status/xfpm-ac-adapter.png"><action name="Execute"><execute>xfce4-power-manager-settings</execute></action></item>
     <item label="Preferred Applications" icon="/usr/share/icons/hicolor/24x24/apps/preferences-desktop-default-applications.png"><action name="Execute"><execute>exo-preferred-applications</execute></action></item>
