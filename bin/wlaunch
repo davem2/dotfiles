@@ -14,17 +14,19 @@ app_exec=${1:-$default_exec}
 app_wm_class=${2:-$default_wm_class}
  
 # If application is not started then start one
-if [ -z "`wmctrl -lx | grep $app_wm_class`" ]; then
+if [ -z "`wmctrl -lx | awk '{print $3}' | grep $app_wm_class`" ]; then
 	$app_exec &
 else
 	current_desk=`wmctrl -d | grep '*' | cut -d ' ' -f 1`
-	app_on_this_desk=`wmctrl -lx | grep "$current_desk[ ]*$app_wm_class" | cut -d ' ' -f 1`
-	if [ -n "$thunar_on_this_desk" ]; then
+	app_on_this_desk=`wmctrl -lx | awk '{print $1," ",$2," ",$3}' | grep "$current_desk[ ]*$app_wm_class" | cut -d ' ' -f 1`
+	if [ -n "$app_on_this_desk" ]; then
 		# If application is running on active desktop then give raise and give focus
 		wmctrl -i -a $app_on_this_desk
+		echo "app on this desk: $app_on_this_desk"
 	else
 		# If application is running on inactive desktop then move it to this desktop, give raise and give focus
 		wmctrl -x -R $app_wm_class
+		echo "app not on this desk: $app_on_this_desk"
 	fi;
 fi;
 
