@@ -382,7 +382,7 @@
     </keybind>
     <keybind key="W-b">
       <action name="Execute">
-        <command>wlaunch firefox Firefox</command>
+        <command>wlaunch firefox Navigator</command>
       </action>
     </keybind>
     <keybind key="W-S-b">
