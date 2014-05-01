@@ -1,12 +1,15 @@
 #!/bin/sh
 #
 # Smart application launcher, behaves as follows:
-# 	application not active -> launch application
-# 	application is active and has focus -> launch new application window
-# 	application is active and does not have focus -> give application focus
+# 	application is not running -> launch new application window 
+# 	application is running and has focus -> launch new application window
+# 	application is running and does not have focus -> give application focus 
 #
-# Depends on wmctrl and xdotool. To determine app_wm_class argument check output 
-# from "wmctrl -lx"
+# Depends on wmctrl and xdotool. 
+#
+# To determine app_wm_class argument use the following command to list WM_CLASS 
+# of each active window:
+# $	wmctrl -lx | awk '{print $3}' | cut -d '.' -f 1 
 #
 # Based off https://github.com/urukrama/dotfiles_loka/blob/master/scripts/only_thunar
 #
@@ -25,7 +28,7 @@ else
 	app_on_this_desk=`wmctrl -lx | awk '{print $1," ",$2," ",$3}' | grep "$current_desk[ ]*$app_wm_class" | cut -d ' ' -f 1 | head -n 1`
 	
 	if [ -n "$app_on_this_desk" ]; then
-		# Application is running on current desktop
+		# Application is running on active desktop
 		
 		app_with_focus=`printf "0x%x" $(xdotool getwindowfocus)`
 		app_to_focus=$app_on_this_desk
@@ -33,12 +36,12 @@ else
 			# Application is running and currently has focus, launch new window
 			$app_exec &
 		else
-			# If application is running on active desktop then give raise and give focus
+			# If application is running on active desktop then raise and give focus
 			wmctrl -i -a $app_on_this_desk
 		fi;
 		
 	else
-		# If application is running on inactive desktop then move it to this desktop, give raise and give focus
+		# If application is running on inactive desktop then move it to active desktop, raise and give focus
 		wmctrl -x -R $app_wm_class
 	fi;
 fi;
