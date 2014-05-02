@@ -1,22 +1,26 @@
 #!/bin/bash
+#
+# Sets wallpaper of main and secondary displays to a random image found in 
+# $dir1 (main display) and $dir2 (secondary)
+#
 
-DIR1="${HOME}/wallpapers/main"	# Wallpapers specific for main monitor containing conky overlay
-DIR2="${HOME}/wallpapers/"		# Wallpapers for secondary monitor(s)
-#DIR1=$1						# TODO: Allow wallpaper directories to be passed as command line args?
+dir1="${HOME}/wallpapers/main"	# Wallpapers specific for main monitor containing conky overlay
+dir2="${HOME}/wallpapers/"		# Wallpapers for secondary monitor(s)
+#dir1=$1						# TODO: Allow wallpaper directories to be passed as command line args?
 
-if [ ! -d "$DIR1" ]; then 
-    echo "No such directory: $DIR1"
+if [ ! -d "$dir1" ]; then 
+    echo "No such directory: $dir1"
     exit 1
-elif [ ! -d "$DIR2" ]; then 
-    echo "No such directory: $DIR2"
+elif [ ! -d "$dir2" ]; then 
+    echo "No such directory: $dir2"
     exit 1
 fi
 
 SetBG () {
 
 #bg1="${HOME}/wallpapers/sfbg.jpg"
-bg1=$(find "$DIR1" ! -type d -print0 | shuf -z -n 1)
-bg2=$(find "$DIR2" ! -type d -print0 | shuf -z -n 1)
+bg1=$(find "$dir1" ! -type d -print0 | shuf -z -n 1)
+bg2=$(find "$dir2" ! -type d -print0 | shuf -z -n 1)
 
 # Set background(s) with feh
 #feh --bg-fill "${bg1}" "${bg2}"

@@ -1,6 +1,8 @@
 #!/bin/sh
 #
-# Smart application launcher, behaves as follows:
+# Smart desktop application launcher
+#
+# Behaves as follows:
 # 	application is not running -> launch new application window 
 # 	application is running and has focus -> launch new application window
 # 	application is running and does not have focus -> give application focus 
