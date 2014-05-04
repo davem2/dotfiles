@@ -16,7 +16,7 @@
     <item label="compton" icon=""><action name="Execute"><execute>compton</execute></action></item>
     <item label="DIYLC" icon="/usr/share/pixmaps/diylc.png"><action name="Execute"><execute>diylc</execute></action></item>
     <item label="File Manager" icon=""><action name="Execute"><execute>exo-open --launch FileManager</execute></action></item>
-    <item label="PacmanXG" icon=""><action name="Execute"><execute>ssx pacmanxg</execute></action></item>
+    <item label="PacmanXG" icon="/usr/share/pixmaps/pacmanxg.png"><action name="Execute"><execute>ssx pacmanxg</execute></action></item>
     <item label="qtFM" icon="/usr/share/pixmaps/qtfm.png"><action name="Execute"><execute>qtfm</execute></action></item>
     <item label="QTodo.txt" icon="/usr/share/pixmaps/qtodotxt.png"><action name="Execute"><execute>/usr/bin/qtodotxt</execute></action></item>
     <item label="Synapse" icon=""><action name="Execute"><execute>synapse</execute></action></item>
@@ -91,6 +91,7 @@
     <item label="guitarix" icon="/usr/share/pixmaps/gx_head.png"><action name="Execute"><execute>guitarix</execute></action></item>
     <item label="Guitune" icon=""><action name="Execute"><execute>gtkguitune</execute></action></item>
     <item label="gxtuner" icon="/usr/share/pixmaps/gxtuner.png"><action name="Execute"><execute>gxtuner</execute></action></item>
+    <item label="Hydrogen Drum Machine" icon=""><action name="Execute"><execute>hydrogen</execute></action></item>
     <item label="Kdenlive" icon="/usr/share/pixmaps/kdenlive.xpm"><action name="Execute"><execute>kdenlive</execute></action></item>
     <item label="Lingot" icon="/usr/share/pixmaps/lingot/lingot-icon.svg"><action name="Execute"><execute>lingot</execute></action></item>
     <item label="Mixxx" icon="/usr/share/pixmaps/mixxx-icon.png"><action name="Execute"><execute>pasuspender mixxx</execute></action></item>
@@ -106,6 +107,7 @@
     <item label="Rosegarden" icon="/usr/share/icons/hicolor/32x32/apps/rosegarden.png"><action name="Execute"><execute>rosegarden</execute></action></item>
     <item label="Schism Tracker Font Editor" icon="/usr/share/icons/hicolor/72x72/apps/schismtracker-itf.png"><action name="Execute"><execute>schismtracker --font-editor</execute></action></item>
     <item label="Schism Tracker" icon="/usr/share/icons/hicolor/72x72/apps/schismtracker.png"><action name="Execute"><execute>schismtracker</execute></action></item>
+    <item label="Seq24" icon="/usr/share/pixmaps/seq24.png"><action name="Execute"><execute>seq24</execute></action></item>
     <item label="SMPlayer" icon="/usr/share/icons/hicolor/16x16/apps/smplayer.png"><action name="Execute"><execute>smplayer</execute></action></item>
     <item label="tuxguitar" icon="/usr/share/tuxguitar/share/skins/Lavender/icon-96x96.png"><action name="Execute"><execute>tuxguitar</execute></action></item>
     <item label="VLC media player" icon="/usr/share/icons/hicolor/16x16/apps/vlc.png"><action name="Execute"><execute>/usr/bin/vlc --started-from-file</execute></action></item>

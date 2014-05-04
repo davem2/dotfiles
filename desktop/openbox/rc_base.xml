@@ -390,6 +390,11 @@
         <command>firefox</command>
       </action>
     </keybind>
+    <keybind key="W-g">
+      <action name="Execute">
+        <command>wlaunch geany geany</command>
+      </action>
+    </keybind>
     <!-- Screenshots -->
     <keybind key="Print">
       <action name="Execute">
