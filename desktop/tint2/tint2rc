@@ -4,7 +4,7 @@
 
 # Background definitions
 # ID 1
-rounded = 3
+rounded = 0
 border_width = 1
 background_color = #3A3A33 100
 border_color = #111111 100
@@ -13,7 +13,7 @@ border_color = #111111 100
 rounded = 3
 border_width = 1
 background_color = #FFFDA4 60
-border_color = #FFFFFF 50
+border_color = #FFFFFF 46
 
 # ID 3
 rounded = 3
@@ -30,11 +30,11 @@ border_color = #ED2323 60
 # Panel
 panel_monitor = 2
 panel_position = bottom center horizontal
-panel_size = 99% 48
+panel_size = 100% 48
 panel_margin = 0 0
 panel_padding = 0 0 0
 panel_dock = 0
-wm_menu = 1
+wm_menu = 0
 panel_layer = normal
 panel_background_id = 1
 
