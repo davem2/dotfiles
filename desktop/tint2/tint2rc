@@ -13,7 +13,7 @@ border_color = #111111 100
 rounded = 3
 border_width = 1
 background_color = #FFFDA4 60
-border_color = #FFFFFF 46
+border_color = #FFFFFF 41
 
 # ID 3
 rounded = 3
@@ -91,6 +91,7 @@ time1_font = Bitstream Vera Sans Bold 12
 clock_font_color = #EFEFDD 100
 clock_padding = 6 6
 clock_background_id = 0
+clock_lclick_command = gsimplecal
 
 # Tooltips
 tooltip = 1

@@ -1,7 +1,7 @@
 #---------------------------------------------
 # TINT2CONF CONFIG FILE
-default_theme = /home/david/.config/tint2/icon_only_4.tint2rc
+default_theme = /home/david/.config/tint2/red_dock.tint2rc
 cmd_property = python2 /usr/bin/tintwizard.py
 width = 1313
-height = 553
+height = 1015
 
