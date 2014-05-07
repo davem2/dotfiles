@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# Toggle mute/unmute sound using amixer.  Works around issue where amixer 
+# toggle will mute channels besides master but not unmute them on next 
+# toggle.
+#
+
+if amixer get Master | grep -q '\[on\]'; then
+	echo on
+	amixer set Master mute
+else
+	echo off
+	amixer set Master unmute
+	amixer set Headphones unmute
+	amixer set Speaker unmute
+fi
