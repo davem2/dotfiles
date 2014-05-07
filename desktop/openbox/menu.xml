@@ -16,6 +16,7 @@
     <item label="compton" icon=""><action name="Execute"><execute>compton</execute></action></item>
     <item label="DIYLC" icon="/usr/share/pixmaps/diylc.png"><action name="Execute"><execute>diylc</execute></action></item>
     <item label="File Manager" icon=""><action name="Execute"><execute>exo-open --launch FileManager</execute></action></item>
+    <item label="Files" icon=""><action name="Execute"><execute>nautilus --new-window</execute></action></item>
     <item label="PacmanXG" icon="/usr/share/pixmaps/pacmanxg.png"><action name="Execute"><execute>ssx pacmanxg</execute></action></item>
     <item label="qtFM" icon="/usr/share/pixmaps/qtfm.png"><action name="Execute"><execute>qtfm</execute></action></item>
     <item label="QTodo.txt" icon="/usr/share/pixmaps/qtodotxt.png"><action name="Execute"><execute>/usr/bin/qtodotxt</execute></action></item>
@@ -154,6 +155,7 @@
   <menu id="Settings" icon="" label="Settings">
     <item label="About Razor" icon=""><action name="Execute"><execute>razor-about</execute></action></item>
     <item label="Adobe Flash Player" icon="/usr/share/icons/hicolor/16x16/apps/flash-player-properties.png"><action name="Execute"><execute>flash-player-properties</execute></action></item>
+    <item label="Customize Look and Feel" icon=""><action name="Execute"><execute>lxappearance</execute></action></item>
     <item label="File Manager" icon=""><action name="Execute"><execute>thunar-settings</execute></action></item>
     <item label="Notifications" icon="/usr/share/icons/hicolor/48x48/apps/xfce4-notifyd.png"><action name="Execute"><execute>xfce4-notifyd-config</execute></action></item>
     <item label="NVIDIA X Server Settings" icon="/usr/share/pixmaps/nvidia-settings.png"><action name="Execute"><execute>/usr/bin/nvidia-settings</execute></action></item>

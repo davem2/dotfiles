@@ -39,8 +39,8 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Onyx-Citrus</name>
-    <titleLayout>NLIMC</titleLayout>
+    <name>Numix-ArchBlue</name>
+    <titleLayout>NLIC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -265,7 +265,7 @@
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
       <action name="Execute">
-        <command>amixer set Master toggle</command>
+        <command>togglemute</command>
       </action>
     </keybind>
     <!-- Keybindings for windows -->
@@ -483,7 +483,7 @@
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>amixer sset Master,0 toggle</command>
+        <command>togglemute</command>
       </action>
     </keybind>
     <keybind key="W-Right">

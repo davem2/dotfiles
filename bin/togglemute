@@ -13,4 +13,5 @@ else
 	amixer set Master unmute
 	amixer set Headphones unmute
 	amixer set Speaker unmute
+# TODO: make channel names dynamic based on `amixer scontents` output
 fi
