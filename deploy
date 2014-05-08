@@ -9,18 +9,19 @@ if [ $# -ne 3 ]; then
 	exit 1
 fi
 
-PACKAGE_NAME="$1"
-SOURCE_FILE="$2"
-DEST_FILE="$3"
-DOTFILES="$(pwd)"
+package_name="$1"
+source_file="$2"
+dest_file="$3"
+dotfiles="$(pwd)"
 
-printf "%s\n    %s -> %s\n" "$PACKAGE_NAME" "$SOURCE_FILE" "$DEST_FILE" 
+printf "%s\n    %s -> %s\n" "$package_name" "$source_file" "$dest_file" 
 
-if [ -d "$SOURCE_FILE" ]; then
-	mkdir -p $DOTFILES/backup && mv -n $DEST_FILE $DOTFILES/backup/$PACKAGE_NAME
-	ln -fsT $SOURCE_FILE $DEST_FILE
+if [ -d "$source_file" ]; then
+	mkdir -p $dotfiles/backup && mv -n $dest_file $dotfiles/backup/$package_name
+	ln -fsT $source_file $dest_file
 	
 else
-	mkdir -p $DOTFILES/backup/$PACKAGE_NAME && cp -n $DEST_FILE $DOTFILES/backup/$PACKAGE_NAME/
-	ln -fs $SOURCE_FILE $DEST_FILE
+	mkdir -p $dotfiles/backup/$package_name && cp -n $dest_file $dotfiles/backup/$package_name/
+	ln -fs $source_file $dest_file
 fi
+
