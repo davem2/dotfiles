@@ -5,13 +5,16 @@
 # toggle.
 #
 
+muted_icon=stock_volume-mute
+unmuted_icon=stock_volume
+
 if amixer get Master | grep -q '\[on\]'; then
-	echo on
+	notify-send -t 2000 -i $muted_icon "Sound Muted"
 	amixer set Master mute
 else
-	echo off
-	amixer set Master unmute
+	notify-send -t 2000 -i $unmuted_icon "Sound Unmuted"
 	amixer set Headphones unmute
 	amixer set Speaker unmute
+	amixer set Master unmute
 # TODO: make channel names dynamic based on `amixer scontents` output
 fi
