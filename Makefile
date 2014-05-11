@@ -13,6 +13,7 @@ base: bash bin cheat tmux
 
 bash:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/bash/bashrc ${HOME}/.bashrc
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/bash/dircolors ${HOME}/.dircolors
 
 bin:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/bin ${HOME}/bin

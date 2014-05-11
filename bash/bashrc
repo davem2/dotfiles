@@ -53,3 +53,6 @@ export HISTFILESIZE=100000               # big big history
 shopt -s histappend
 source ~/packer-completion.bash
 PROMPT_COMMAND="history -a" 
+
+# pretty colors
+eval $(dircolors -b $HOME/.dircolors)
