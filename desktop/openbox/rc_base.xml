@@ -257,11 +257,13 @@
         </keybind>
       </keybind>
     </keybind>
+ <!-- 
     <keybind key="F8">
       <action name="Execute">
         <command>pkill mplayer</command>
       </action>
     </keybind>
+-->
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
       <action name="Execute">
