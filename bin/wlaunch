@@ -2,6 +2,9 @@
 #
 # Smart desktop application launcher
 #
+# wlaunch <app_exec> <app_wm_class>
+# wlaunch thunar thunar
+#
 # Behaves as follows:
 # 	application is not running -> launch new application window 
 # 	application is running and has focus -> launch new application window
@@ -16,11 +19,17 @@
 # Based off https://github.com/urukrama/dotfiles_loka/blob/master/scripts/only_thunar
 #
 
-default_exec="thunar"
-default_wm_class="thunar"
+usage="Usage: $0 <app_exec> <app_wm_class>"
 
-app_exec=${1:-$default_exec}
-app_wm_class=${2:-$default_wm_class}
+# Enforce calling syntax
+if [ $# -ne 2 ]; then
+	echo "$usage"
+	notify-send "$usage"
+	exit 1
+fi
+
+app_exec=$1
+app_wm_class=$2
  
 # If application is not started then start one
 if [ -z "`wmctrl -lx | awk '{print $3}' | grep $app_wm_class`" ]; then
