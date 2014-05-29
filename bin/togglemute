@@ -13,8 +13,8 @@ if amixer get Master | grep -q '\[on\]'; then
 	amixer set Master mute
 else
 	notify-send -t 2000 -i $unmuted_icon "Sound Unmuted"
-	amixer set Headphones unmute
-	amixer set Speaker unmute
-	amixer set Master unmute
+	amixer set Headphones unmute 100%
+	amixer set Speaker unmute 100%
+	amixer set Master unmute 100%
 # TODO: make channel names dynamic based on `amixer scontents` output
 fi
