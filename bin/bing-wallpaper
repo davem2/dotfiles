@@ -36,7 +36,9 @@ randomWallpaper=$(find $bing_wallpaper_directory ! -type d -print0 | shuf -z -n 
 
 #feh --bg-fill "$todayWallpaper" "$randomWallpaper"
 #alternate: pushes colors towards #777 to allow conky overlay (white) to be more readable
-convert "$randomWallpaper" -size 1x1 xc:\#777 -fx 'u*v.p{0,0}' jpg:- | feh --bg-fill - "$todayWallpaper"
+#convert "$randomWallpaper" -size 1x1 xc:\#777 -fx 'u*v.p{0,0}' jpg:- | feh --bg-fill - "$todayWallpaper"
+#alternate: darken with gradient 
+composite -compose Multiply gradient1.png "$randomWallpaper" png:- | feh --bg-fill - "$todayWallpaper"
 
 logger "Wallpaper changed: $randomWallpaper, $todayWallpaper"
 
