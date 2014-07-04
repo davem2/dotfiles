@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Repair video files created under avidemux (or any other software that produces incorrect output)
+
 for f in $(find . ! -type d)
 do 
 	filename="${f##*/}"
