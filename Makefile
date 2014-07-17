@@ -1,4 +1,4 @@
-PACKAGE_NAMES=bash bin cheat conky obmenu-generator openbox slim tint2 tmux volumeicon X11
+PACKAGE_NAMES=bash bin cheat conky mpv obmenu-generator openbox slim tint2 tmux volumeicon X11
 
 DOTFILES=$(shell pwd)
 
@@ -27,6 +27,9 @@ conky:
 obmenu-generator:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/obmenu-generator/schema.pl ${HOME}/.config/obmenu-generator/schema.pl
 	
+mpv:
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/mpv/config ${HOME}/.mpv/config
+
 openbox:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/openbox/autostart ${HOME}/.config/openbox/autostart
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/openbox/menu.xml ${HOME}/.config/openbox/menu.xml
