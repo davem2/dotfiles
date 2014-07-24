@@ -38,8 +38,8 @@ def main():
 	makeDirectoryExist(outdir)
 
 	# process input file(s)
-#	for infile in args['<file>']:
-#		fixAviFile(infile,outdir)
+	for infile in args['<file>']:
+		fixAviFile(infile,outdir)
 	
 	print(outdir)
 	
