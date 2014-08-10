@@ -20,6 +20,7 @@
     <item label="PacmanXG" icon="/usr/share/pixmaps/pacmanxg.png"><action name="Execute"><execute>ssx pacmanxg</execute></action></item>
     <item label="qtFM" icon="/usr/share/pixmaps/qtfm.png"><action name="Execute"><execute>qtfm</execute></action></item>
     <item label="QTodo.txt" icon="/usr/share/pixmaps/qtodotxt.png"><action name="Execute"><execute>/usr/bin/qtodotxt</execute></action></item>
+    <item label="Root Terminal" icon="/usr/share/pixmaps/gksu-root-terminal.png"><action name="Execute"><execute>gksu -l gnome-terminal</execute></action></item>
     <item label="Synapse" icon=""><action name="Execute"><execute>synapse</execute></action></item>
     <item label="Terminal Emulator" icon=""><action name="Execute"><execute>exo-open --launch TerminalEmulator</execute></action></item>
     <item label="Thunar File Manager" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute>thunar</execute></action></item>
@@ -34,6 +35,8 @@
     <item label="FLUID" icon="/usr/share/icons/hicolor/16x16/apps/fluid.png"><action name="Execute"><execute>fluid</execute></action></item>
     <item label="Fritzing" icon=""><action name="Execute"><execute>fritzing</execute></action></item>
     <item label="Geany" icon="/usr/share/icons/hicolor/16x16/apps/geany.png"><action name="Execute"><execute>geany</execute></action></item>
+    <item label="haroopad" icon="/usr/share/icons/hicolor/16x16/apps/haroopad.png"><action name="Execute"><execute>haroopad</execute></action></item>
+    <item label="MySQL Workbench" icon="/usr/share/icons/hicolor/16x16/apps/mysql-workbench.png"><action name="Execute"><execute>mysql-workbench</execute></action></item>
     <item label="OpenJDK Monitoring &amp; Management Console" icon="/usr/share/icons/hicolor/16x16/apps/java.png"><action name="Execute"><execute>/usr/bin/jconsole</execute></action></item>
     <item label="OpenJDK Policy Tool" icon="/usr/share/icons/hicolor/16x16/apps/java.png"><action name="Execute"><execute>/usr/bin/policytool</execute></action></item>
     <item label="Pencil" icon="/usr/share/pencil/skin/classic/icon.svg"><action name="Execute"><execute>/usr/bin/pencil</execute></action></item>
@@ -58,6 +61,7 @@
     <item label="Zaz" icon="/usr/share/pixmaps/zaz.xpm"><action name="Execute"><execute>zaz</execute></action></item>
   </menu>
   <menu id="Graphics" icon="" label="Graphics">
+    <item label="Agave" icon="/usr/share/icons/hicolor/16x16/apps/agave.png"><action name="Execute"><execute>agave</execute></action></item>
     <item label="Alchemy" icon="/usr/share/pixmaps/alchemy.png"><action name="Execute"><execute>alchemy</execute></action></item>
     <item label="AOI (Art of Illusion)" icon="/usr/share/pixmaps/aoi.png"><action name="Execute"><execute>java -Xmx512m -jar /usr/share/java/aoi/ArtOfIllusion.jar</execute></action></item>
     <item label="AzDrawing" icon="/usr/share/icons/hicolor/48x48/apps/azdrawing.png"><action name="Execute"><execute>azdrawing</execute></action></item>
@@ -66,8 +70,10 @@
     <item label="Darktable" icon="/usr/share/icons/hicolor/16x16/apps/darktable.png"><action name="Execute"><execute>darktable</execute></action></item>
     <item label="EasyPaint" icon="/usr/share/pixmaps/easypaint_64.png"><action name="Execute"><execute>easypaint</execute></action></item>
     <item label="Feh" icon="/usr/share/feh/images/feh.png"><action name="Execute"><execute>feh</execute></action></item>
+    <item label="gImageReader" icon=""><action name="Execute"><execute>gimagereader</execute></action></item>
     <item label="GNU Image Manipulation Program" icon="/usr/share/icons/hicolor/16x16/apps/gimp.png"><action name="Execute"><execute>gimp-2.8</execute></action></item>
     <item label="GrafX2" icon=""><action name="Execute"><execute>grafx</execute></action></item>
+    <item label="gThumb" icon="/usr/share/icons/hicolor/16x16/apps/gthumb.png"><action name="Execute"><execute>gthumb</execute></action></item>
     <item label="GV" icon="/usr/share/pixmaps/gv.xbm"><action name="Execute"><execute>gv</execute></action></item>
     <item label="Hugin Batch Processor" icon="/usr/share/pixmaps/ptbatcher.png"><action name="Execute"><execute>PTBatcherGUI</execute></action></item>
     <item label="Hugin Calibrate Lens" icon="/usr/share/pixmaps/hugin.png"><action name="Execute"><execute>calibrate_lens_gui</execute></action></item>
@@ -123,18 +129,20 @@
     <item label="Firefox" icon="/usr/share/icons/hicolor/16x16/apps/firefox.png"><action name="Execute"><execute>/usr/lib/firefox/firefox</execute></action></item>
     <item label="HexChat" icon="/usr/share/icons/hicolor/48x48/apps/hexchat.png"><action name="Execute"><execute>hexchat</execute></action></item>
     <item label="Hotot Qt" icon="/usr/share/icons/hicolor/32x32/apps/hotot.png"><action name="Execute"><execute>hotot-qt</execute></action></item>
+    <item label="Links" icon="/usr/share/pixmaps/links_32x32.xpm"><action name="Execute"><execute>xlinks -g</execute></action></item>
     <item label="Mail Reader" icon=""><action name="Execute"><execute>exo-open --launch MailReader</execute></action></item>
     <item label="Mumble" icon=""><action name="Execute"><execute>mumble</execute></action></item>
     <item label="Qtransmission Bittorrent Client" icon="/usr/share/pixmaps/transmission-qt.png"><action name="Execute"><execute>transmission-qt</execute></action></item>
     <item label="QupZilla" icon="/usr/share/pixmaps/qupzilla.png"><action name="Execute"><execute>qupzilla</execute></action></item>
     <item label="SyncTERM" icon="/usr/share/icons/hicolor/64x64/apps/syncterm.png"><action name="Execute"><execute>syncterm</execute></action></item>
-    <item label="TeamSpeak 3" icon="/usr/share/pixmaps/teamspeak3.xpm"><action name="Execute"><execute>wine '/home/david/.wine/drive_c/Program Files/TeamSpeak 3 Client/ts3client_win32.exe'</execute></action></item>
+    <item label="TeamSpeak 3" icon="/usr/share/pixmaps/teamspeak3.xpm"><action name="Execute"><execute>teamspeak3</execute></action></item>
     <item label="Web Browser" icon=""><action name="Execute"><execute>exo-open --launch WebBrowser</execute></action></item>
     <item label="Zenmap (as root)" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><execute>/usr/share/zenmap/su-to-zenmap.sh</execute></action></item>
     <item label="Zenmap" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><execute>zenmap</execute></action></item>
   </menu>
   <menu id="Office" icon="" label="Office">
     <item label="apvlv" icon=""><action name="Execute"><execute>apvlv</execute></action></item>
+    <item label="CoolReader3" icon="/usr/share/pixmaps/cr3.png"><action name="Execute"><execute>cr3</execute></action></item>
     <item label="ePDFViewer" icon="/usr/share/icons/hicolor/32x32/apps/epdfview.png"><action name="Execute"><execute>epdfview</execute></action></item>
     <item label="Gummi" icon="/usr/share/pixmaps/gummi.png"><action name="Execute"><execute>gummi</execute></action></item>
     <item label="GV" icon="/usr/share/pixmaps/gv.xbm"><action name="Execute"><execute>gv</execute></action></item>
@@ -164,6 +172,7 @@
     <item label="Panel" icon="/usr/share/icons/hicolor/16x16/apps/xfce4-panel.png"><action name="Execute"><execute>xfce4-panel --preferences</execute></action></item>
     <item label="Power Manager" icon="/usr/share/icons/hicolor/16x16/status/xfpm-ac-adapter.png"><action name="Execute"><execute>xfce4-power-manager-settings</execute></action></item>
     <item label="Preferred Applications" icon="/usr/share/icons/hicolor/24x24/apps/preferences-desktop-default-applications.png"><action name="Execute"><execute>exo-preferred-applications</execute></action></item>
+    <item label="Privilege granting" icon="/usr/share/pixmaps/gksu.png"><action name="Execute"><execute>gksu-properties</execute></action></item>
     <item label="Qt Configuration" icon=""><action name="Execute"><execute>qtconfig</execute></action></item>
     <item label="Razor Appearance Configuration" icon=""><action name="Execute"><execute>razor-config-appearance</execute></action></item>
     <item label="Razor Autosuspend Configuration" icon=""><action name="Execute"><execute>razor-config-autosuspend</execute></action></item>
@@ -181,10 +190,13 @@
     <item label="Cairo Composite Manager" icon="/usr/share/pixmaps/cairo-compmgr/cairo-compmgr.png"><action name="Execute"><execute>cairo-compmgr</execute></action></item>
     <item label="dconf Editor" icon="/usr/share/icons/hicolor/16x16/apps/dconf-editor.png"><action name="Execute"><execute>dconf-editor</execute></action></item>
     <item label="gtk2fontsel" icon=""><action name="Execute"><execute>gtk2fontsel</execute></action></item>
+    <item label="Htop" icon="/usr/share/pixmaps/htop.png"><action name="Execute"><execute>xterm -e 'htop'</execute></action></item>
     <item label="I-Nex" icon="/usr/share/pixmaps/i-nex.0.4.x.png"><action name="Execute"><execute>/usr/bin/i-nex</execute></action></item>
     <item label="Leave" icon=""><action name="Execute"><execute>razor-power</execute></action></item>
     <item label="LSHW" icon="/usr/share/lshw/artwork/logo.svg"><action name="Execute"><execute>/usr/sbin/gtk-lshw</execute></action></item>
     <item label="Oracle VM VirtualBox" icon="/usr/share/icons/hicolor/16x16/mimetypes/virtualbox.png"><action name="Execute"><execute>VirtualBox</execute></action></item>
+    <item label="paranoid" icon=""><action name="Execute"><execute>python2 /usr/bin/paranoid.py</execute></action></item>
+    <item label="System Profiler and Benchmark" icon="/usr/share/hardinfo/pixmaps/logo.png"><action name="Execute"><execute>hardinfo</execute></action></item>
     <item label="Thunar File Manager" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute>thunar</execute></action></item>
     <item label="urxvt (client)" icon=""><action name="Execute"><execute>urxvtc</execute></action></item>
     <item label="urxvt (tabbed)" icon=""><action name="Execute"><execute>urxvt-tabbed</execute></action></item>

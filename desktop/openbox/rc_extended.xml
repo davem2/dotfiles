@@ -294,8 +294,8 @@
     </keybind>
     <keybind key="F8">
       <action name="Execute">
-        <command>pkill mplayer</command>
-      </action>
+        <command>~/tsnap/bin/F8</command>
+       </action>
     </keybind>
     <keybind key="F9">
       <action name="Execute">
