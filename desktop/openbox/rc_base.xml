@@ -257,6 +257,12 @@
         </keybind>
       </keybind>
     </keybind>
+	<keybind key="W-space">
+		<action name="ShowMenu">
+			<menu>root-menu</menu>
+		</action>
+	</keybind>
+
  <!-- 
     <keybind key="F8">
       <action name="Execute">
