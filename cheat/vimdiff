@@ -1,0 +1,7 @@
+do - Get changes from other window into the current window.
+dp - Put the changes from current window into the other window.
+]c - Jump to the next change.
+[c - Jump to the previous change.
+
+Ctrl W + Ctrl W - Switch to the other split window.
+
