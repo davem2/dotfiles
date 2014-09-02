@@ -1,4 +1,4 @@
-PACKAGE_NAMES=bash bin cheat conky mpv obmenu-generator openbox slim tint2 tmux volumeicon X11
+PACKAGE_NAMES=bash bin cheat conky mpv obmenu-generator openbox slim tint2 tmux volumeicon X11 vim
 
 DOTFILES=$(shell pwd)
 
@@ -50,7 +50,10 @@ tmux:
 
 volumeicon:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/volumeicon/volumeicon ${HOME}/.config/volumeicon/volumeicon
-		
+
+vim:
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/vim/vimrc ${HOME}/.vimrc
+
 X11:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/xinitrc ${HOME}/.xinitrc
 

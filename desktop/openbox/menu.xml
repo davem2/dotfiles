@@ -84,8 +84,10 @@
     <item label="MComix" icon="/usr/share/icons/hicolor/16x16/apps/mcomix.png"><action name="Execute"><execute>mcomix</execute></action></item>
     <item label="mtPaint" icon="/usr/share/pixmaps/mtpaint.png"><action name="Execute"><execute>mtpaint</execute></action></item>
     <item label="MyPaint" icon="/usr/share/icons/hicolor/16x16/apps/mypaint.png"><action name="Execute"><execute>mypaint</execute></action></item>
+    <item label="Pdf2png" icon="/usr/share/pixmaps/pdf2png.png"><action name="Execute"><execute>pdf2png</execute></action></item>
     <item label="Pencil" icon="/usr/share/pencil/skin/classic/icon.svg"><action name="Execute"><execute>/usr/bin/pencil</execute></action></item>
     <item label="sK1 illustration program" icon="/usr/share/pixmaps/sk1.xpm"><action name="Execute"><execute>sk1</execute></action></item>
+    <item label="Viewnior" icon="/usr/share/icons/hicolor/16x16/apps/viewnior.png"><action name="Execute"><execute>viewnior</execute></action></item>
     <item label="Xara Xtreme" icon="/usr/share/pixmaps/xaralx.png"><action name="Execute"><execute>xaralx</execute></action></item>
     <item label="yEd Graph Editor" icon="/usr/share/pixmaps/yed.png"><action name="Execute"><execute>yed</execute></action></item>
   </menu>
@@ -156,9 +158,11 @@
     <item label="LibreOffice" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-startcenter.png"><action name="Execute"><execute>libreoffice</execute></action></item>
     <item label="Tomighty" icon="/usr/share/pixmaps/tomighty.png"><action name="Execute"><execute>tomighty</execute></action></item>
     <item label="Tuxcards" icon="/usr/share/icons/locolor/32x32/apps/tuxcards.png"><action name="Execute"><execute>tuxcards</execute></action></item>
+    <item label="YAGF" icon="/usr/share/pixmaps/yagf.png"><action name="Execute"><execute>yagf</execute></action></item>
   </menu>
   <menu id="Other" icon="/usr/share/icons/hicolor/48x48/apps/applications-other.png" label="Other">
     <item label="DGuitar" icon="/usr/share/pixmaps/dguitar.png"><action name="Execute"><execute>dguitar</execute></action></item>
+    <item label="Tint2 Openbox Menu" icon=""><action name="Execute"><execute>xdotool key super+space</execute></action></item>
   </menu>
   <menu id="Settings" icon="" label="Settings">
     <item label="About Razor" icon=""><action name="Execute"><execute>razor-about</execute></action></item>
