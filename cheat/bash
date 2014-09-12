@@ -13,12 +13,17 @@ while IFS= read -rd '' file; do list1+=("$file"); done < <(find "$Dir1" ! -type 
 fileCount=${#list1[@]}
 
 # Hotkeys
+-- Movement
 Ctrl + A    Go to the beginning of the line you are currently typing on
 Ctrl + E    Go to the end of the line you are currently typing on
+Alt  + B    Back one word
+Alt  + F    Forward one word
+-- Editing
 Ctrl + L    Clears the Screen, similar to the clear command
 Ctrl + W    Clears the word before the cursor position.
 Ctrl + U    Clears the line before the cursor position. 
 Ctrl + K    Clear the line after the cursor
+-- Other
 Ctrl + R    Let’s you search through previously used commands
 Ctrl + C    Kill whatever you are running
 Ctrl + D    Exit the current shell
