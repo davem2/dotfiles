@@ -2,13 +2,12 @@
 # ~/.bashrc
 #
 
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
 
 # Greeting
 fortune | cowthink
 echo -e '\n'
-
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
 
 # Set environment
 export EDITOR="vim"
@@ -57,8 +56,12 @@ PROMPT_COMMAND="history -a"
 # pretty colors
 eval $(dircolors -b $HOME/.dircolors)
 
+# Is this the proper place to set PATH? should be in .profile?
 PATH="/home/david/perl5/bin${PATH+:}$PATH"; export PATH;
 PERL5LIB="/home/david/perl5/lib/perl5${PERL5LIB+:}$PERL5LIB"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/home/david/perl5${PERL_LOCAL_LIB_ROOT+:}$PERL_LOCAL_LIB_ROOT"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/david/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/david/perl5"; export PERL_MM_OPT;
+
+PATH=$PATH:$HOME/bin:$HOME/.gem/ruby/2.1.0/bin:$HOME/pp/tools
+export PATH
