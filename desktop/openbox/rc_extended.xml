@@ -252,7 +252,7 @@
               <action name="Execute">
                 <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_base.xml</command>
               </action>
-            </keybind>
+			</keybind>
           </keybind>
         </keybind>
       </keybind>
@@ -317,6 +317,41 @@
         <command>~/tsnap/bin/F12</command>
       </action>
     </keybind>
+    <keybind key="S-F1">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F1</command>
+      </action>
+    </keybind>
+    <keybind key="S-F2">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F2</command>
+      </action>
+    </keybind>
+    <keybind key="S-F3">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F3</command>
+      </action>
+    </keybind>
+    <keybind key="S-F4">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F4</command>
+      </action>
+    </keybind>
+    <keybind key="S-F5">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F5</command>
+      </action>
+    </keybind>
+    <keybind key="S-F6">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F6</command>
+      </action>
+    </keybind>
+    <keybind key="S-F7">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F7</command>
+      </action>
+    </keybind>
     <keybind key="S-F8">
       <action name="Execute">
         <command>~/tsnap/bin/S-F8</command>
@@ -340,6 +375,66 @@
     <keybind key="S-F12">
       <action name="Execute">
         <command>~/tsnap/bin/S-F12</command>
+      </action>
+    </keybind>
+    <keybind key="C-F1">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F1</command>
+      </action>
+    </keybind>
+    <keybind key="C-F2">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F2</command>
+      </action>
+    </keybind>
+    <keybind key="C-F3">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F3</command>
+      </action>
+    </keybind>
+    <keybind key="C-F4">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F4</command>
+      </action>
+    </keybind>
+    <keybind key="C-F5">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F5</command>
+      </action>
+    </keybind>
+    <keybind key="C-F6">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F6</command>
+      </action>
+    </keybind>
+    <keybind key="C-F7">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F7</command>
+      </action>
+    </keybind>
+    <keybind key="C-F8">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F8</command>
+       </action>
+    </keybind>
+    <keybind key="C-F9">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F9</command>
+      </action>
+    </keybind>
+    <keybind key="C-F10">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F10</command>
+      </action>
+    </keybind>
+    <keybind key="C-F11">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F11</command>
+      </action>
+    </keybind>
+    <keybind key="C-F12">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F12</command>
       </action>
     </keybind>
     <keybind key="W-d">
