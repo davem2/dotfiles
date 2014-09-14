@@ -1,0 +1,17 @@
+# List everything in the target directory
+ls path/to/the/target/directory
+
+# List everything including hidden files
+ls -a
+
+# List all files, along with the size (with unit suffixes) and timestamp
+ls -lh 
+
+# List files, sorted by size
+ls -S
+
+# List directories only
+ls -d */
+
+# List files sorted by last modified (most recent at bottom)
+ls -rt

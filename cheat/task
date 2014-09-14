@@ -1,0 +1,4 @@
+# Add a new task to the project foo with the tag bar
+task add "This is the task description" project:foo +bar
+
+
