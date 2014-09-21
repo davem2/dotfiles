@@ -1,6 +1,36 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 #
+
+
+"""clean-history
+
+Usage:
+  clean-history [-qv] [histfile]
+  clean-history -h | --help
+  clean-history ---version
+
+Cleans up bash history.
+
+Examples:
+  clean-history 
+
+Options:
+  -h, --help        Show help.
+  -q, --quiet       Print less text.
+  -v, --verbose     Print more text.
+  --version         Show version.
+"""  
+
+__author__ = ""
+__copyright__ = ""
+__version__ = "0.1.0"
+__email__ = ""
+
+
+from docopt import docopt
 import os
+import logging
+
 
 # given a history (array of command lines) remove duplicates keeping the most recently invoked copy and order intact
 def dedupHistory( inBuf ):
@@ -9,6 +39,8 @@ def dedupHistory( inBuf ):
 	for line in inBuf:
 		if line not in outBuf:
 			outBuf.append(line)
+		else:
+			logging.info("Found duplicate: {}".format(line))
 	outBuf.reverse()
 	return outBuf
 
@@ -17,21 +49,52 @@ def removeLongLines( inBuf, maxLineLength ):
 	for line in inBuf:
 		if len(line) <= maxLineLength:
 			outBuf.append(line)
+		else:
+			logging.info("Found long line ({}): {}".format(len(line),line))
+
 	return outBuf
 
-#histfile = os.environ['HISTFILE']
-histfile = os.path.join(os.environ['HOME'],".bash_history")
+def main(args):
+	"""Run the code for Foobar"""
+	log = logging.getLogger('Foobar.main')
+	log.debug(args)
 
-# Read history file
-history = []
-with open(histfile) as f:
-	history = [line.rstrip('\n') for line in f]
-	
-# Clean history
-history = dedupHistory( history )
-history = removeLongLines( history, 400 )
+	#histfile = os.environ['HISTFILE']
+	histfile = os.path.join(os.environ['HOME'],".bash_history")
 
-# Write modified history file
-with open(histfile,"w") as f:
-	for line in history:
-		f.write(line + '\n')
+	# Read history file
+	history = []
+	with open(histfile) as f:
+		history = [line.rstrip('\n') for line in f]
+		
+	# Clean history
+	history = dedupHistory( history )
+	history = removeLongLines( history, 400 )
+
+	# Write modified history file
+	with open(histfile,"w") as f:
+		for line in history:
+			f.write(line + '\n')
+
+
+if __name__ == "__main__":
+	try:
+		from docopt import docopt
+	except:
+		print("""
+		Please install docopt using:
+			pip install docopt
+		For more refer to:
+		https://github.com/docopt/docopt
+		""")
+		raise
+
+	args = docopt(__doc__, version=__version__)
+
+	log_level = logging.INFO  # default
+	if args['--verbose']:
+		log_level = logging.DEBUG
+	elif args['--quiet']:
+		log_level = logging.ERROR
+	main(args)
+

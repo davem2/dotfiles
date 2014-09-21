@@ -58,3 +58,10 @@ git tag -a v1.0 -m 'Annotated tag message'
 
 # Delete last commit without rolling back local changes
 git reset HEAD^
+
+# Create archive of repository branch
+git archive master --format=zip --output=archive.zip
+
+# Stash away changes temporarily
+git stash
+git stash pop # restore stashed changes
