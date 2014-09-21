@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+#
+import os
+
+# given a history (array of command lines) remove duplicates keeping the most recently invoked copy and order intact
+def dedupHistory( inBuf ):
+	outBuf = []
+	inBuf.reverse()
+	for line in inBuf:
+		if line not in outBuf:
+			outBuf.append(line)
+	outBuf.reverse()
+	return outBuf
+
+def removeLongLines( inBuf, maxLineLength ):
+	outBuf = []
+	for line in inBuf:
+		if len(line) <= maxLineLength:
+			outBuf.append(line)
+	return outBuf
+
+#histfile = os.environ['HISTFILE']
+histfile = os.path.join(os.environ['HOME'],".bash_history")
+
+# Read history file
+history = []
+with open(histfile) as f:
+	history = [line.rstrip('\n') for line in f]
+	
+# Clean history
+history = dedupHistory( history )
+history = removeLongLines( history, 400 )
+
+# Write modified history file
+with open(histfile,"w") as f:
+	for line in history:
+		f.write(line + '\n')
