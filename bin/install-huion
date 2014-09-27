@@ -1,0 +1,11 @@
+#!/bin/sh
+cd ~/temp
+git clone https://github.com/DIGImend/huion-driver.git
+cd ~/temp/huion-driver
+make
+modprobe -r hid-huion
+echo "*** UNPLUG HUION H610 TABLET NOW ***"
+read -p "Press [Enter] to continue..."
+sudo make install
+echo "*** PLUG IN HUION H610 TABLET NOW ***"
+

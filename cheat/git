@@ -65,3 +65,8 @@ git archive master --format=zip --output=archive.zip
 # Stash away changes temporarily
 git stash
 git stash pop # restore stashed changes
+
+# Recover from detached head state
+git checkout master
+
+
