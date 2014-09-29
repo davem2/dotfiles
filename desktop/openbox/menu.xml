@@ -10,14 +10,17 @@
     <item label="Instant messaging" icon=""><action name="Execute"><execute>pidgin</execute></action></item>
   <separator label="Applications"/>
   <menu id="Accessories" icon="" label="Accessories">
+    <item label="7-Zip FM" icon="/usr/share/icons/hicolor/32x32/apps/p7zip.png"><action name="Execute"><execute>7zFM</execute></action></item>
     <item label="About Xfce" icon=""><action name="Execute"><execute>xfce4-about</execute></action></item>
     <item label="Bulk Rename" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute>/usr/lib/Thunar/ThunarBulkRename</execute></action></item>
     <item label="ClipIt" icon=""><action name="Execute"><execute>clipit</execute></action></item>
     <item label="compton" icon=""><action name="Execute"><execute>compton</execute></action></item>
+    <item label="CopyQ" icon=""><action name="Execute"><execute>copyq</execute></action></item>
     <item label="DIYLC" icon="/usr/share/pixmaps/diylc.png"><action name="Execute"><execute>diylc</execute></action></item>
     <item label="File Manager" icon=""><action name="Execute"><execute>exo-open --launch FileManager</execute></action></item>
     <item label="Files" icon=""><action name="Execute"><execute>nautilus --new-window</execute></action></item>
     <item label="PacmanXG" icon="/usr/share/pixmaps/pacmanxg.png"><action name="Execute"><execute>ssx pacmanxg</execute></action></item>
+    <item label="PeaZip" icon="/usr/share/pixmaps/peazip.png"><action name="Execute"><execute>peazip -style=cleanlooks</execute></action></item>
     <item label="qtFM" icon="/usr/share/pixmaps/qtfm.png"><action name="Execute"><execute>qtfm</execute></action></item>
     <item label="QTodo.txt" icon="/usr/share/pixmaps/qtodotxt.png"><action name="Execute"><execute>/usr/bin/qtodotxt</execute></action></item>
     <item label="Root Terminal" icon="/usr/share/pixmaps/gksu-root-terminal.png"><action name="Execute"><execute>gksu -l gnome-terminal</execute></action></item>
@@ -68,11 +71,13 @@
     <item label="AzMiniPainter" icon=""><action name="Execute"><execute>azminipt</execute></action></item>
     <item label="CinePaint" icon="/usr/share/pixmaps/cinepaint.png"><action name="Execute"><execute>cinepaint-remote</execute></action></item>
     <item label="Darktable" icon="/usr/share/icons/hicolor/16x16/apps/darktable.png"><action name="Execute"><execute>darktable</execute></action></item>
+    <item label="E-book Viewer" icon="/usr/share/pixmaps/calibre-viewer.png"><action name="Execute"><execute>ebook-viewer --detach</execute></action></item>
     <item label="EasyPaint" icon="/usr/share/pixmaps/easypaint_64.png"><action name="Execute"><execute>easypaint</execute></action></item>
     <item label="Feh" icon="/usr/share/feh/images/feh.png"><action name="Execute"><execute>feh</execute></action></item>
+    <item label="Geeqie" icon="/usr/share/pixmaps/geeqie.png"><action name="Execute"><execute>geeqie -r</execute></action></item>
     <item label="gImageReader" icon=""><action name="Execute"><execute>gimagereader</execute></action></item>
     <item label="GNU Image Manipulation Program" icon="/usr/share/icons/hicolor/16x16/apps/gimp.png"><action name="Execute"><execute>gimp-2.8</execute></action></item>
-    <item label="GrafX2" icon=""><action name="Execute"><execute>grafx</execute></action></item>
+    <item label="GrafX2" icon=""><action name="Execute"><execute>grafx2</execute></action></item>
     <item label="gThumb" icon="/usr/share/icons/hicolor/16x16/apps/gthumb.png"><action name="Execute"><execute>gthumb</execute></action></item>
     <item label="GV" icon="/usr/share/pixmaps/gv.xbm"><action name="Execute"><execute>gv</execute></action></item>
     <item label="Hugin Batch Processor" icon="/usr/share/pixmaps/ptbatcher.png"><action name="Execute"><execute>PTBatcherGUI</execute></action></item>
@@ -80,6 +85,7 @@
     <item label="Hugin Panorama Creator" icon="/usr/share/pixmaps/hugin.png"><action name="Execute"><execute>hugin</execute></action></item>
     <item label="Inkscape" icon="/usr/share/icons/hicolor/16x16/apps/inkscape.png"><action name="Execute"><execute>inkscape</execute></action></item>
     <item label="LibreOffice Draw" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-draw.png"><action name="Execute"><execute>libreoffice --draw</execute></action></item>
+    <item label="LRF Viewer" icon="/usr/share/pixmaps/calibre-viewer.png"><action name="Execute"><execute>lrfviewer</execute></action></item>
     <item label="Luminance HDR" icon="/usr/share/icons/hicolor/48x48/apps/luminance-hdr.png"><action name="Execute"><execute>luminance-hdr --gui</execute></action></item>
     <item label="MComix" icon="/usr/share/icons/hicolor/16x16/apps/mcomix.png"><action name="Execute"><execute>mcomix</execute></action></item>
     <item label="mtPaint" icon="/usr/share/pixmaps/mtpaint.png"><action name="Execute"><execute>mtpaint</execute></action></item>
@@ -89,6 +95,7 @@
     <item label="sK1 illustration program" icon="/usr/share/pixmaps/sk1.xpm"><action name="Execute"><execute>sk1</execute></action></item>
     <item label="Viewnior" icon="/usr/share/icons/hicolor/16x16/apps/viewnior.png"><action name="Execute"><execute>viewnior</execute></action></item>
     <item label="Xara Xtreme" icon="/usr/share/pixmaps/xaralx.png"><action name="Execute"><execute>xaralx</execute></action></item>
+    <item label="XnView Multi Platform" icon="/opt/xnviewmp/xnview.png"><action name="Execute"><execute>xnviewmp</execute></action></item>
     <item label="yEd Graph Editor" icon="/usr/share/pixmaps/yed.png"><action name="Execute"><execute>yed</execute></action></item>
   </menu>
   <menu id="Multimedia" icon="" label="Multimedia">
@@ -128,6 +135,7 @@
     <item label="Deluge" icon="/usr/share/pixmaps/deluge.png"><action name="Execute"><execute>deluge-gtk</execute></action></item>
     <item label="Dropbox" icon="/usr/share/pixmaps/dropbox.png"><action name="Execute"><execute>dropboxd</execute></action></item>
     <item label="dwb" icon="/usr/share/pixmaps/dwb.png"><action name="Execute"><execute>dwb</execute></action></item>
+    <item label="eric5 Web Browser" icon="/usr/share/pixmaps/ericWeb.png"><action name="Execute"><execute>eric5_webbrowser</execute></action></item>
     <item label="Firefox" icon="/usr/share/icons/hicolor/16x16/apps/firefox.png"><action name="Execute"><execute>/usr/lib/firefox/firefox</execute></action></item>
     <item label="HexChat" icon="/usr/share/icons/hicolor/48x48/apps/hexchat.png"><action name="Execute"><execute>hexchat</execute></action></item>
     <item label="Hotot Qt" icon="/usr/share/icons/hicolor/32x32/apps/hotot.png"><action name="Execute"><execute>hotot-qt</execute></action></item>
@@ -144,7 +152,9 @@
   </menu>
   <menu id="Office" icon="" label="Office">
     <item label="apvlv" icon=""><action name="Execute"><execute>apvlv</execute></action></item>
+    <item label="Calibre" icon="/usr/share/pixmaps/calibre-gui.png"><action name="Execute"><execute>calibre --detach</execute></action></item>
     <item label="CoolReader3" icon="/usr/share/pixmaps/cr3.png"><action name="Execute"><execute>cr3</execute></action></item>
+    <item label="Edit E-book" icon="/usr/share/pixmaps/calibre-ebook-edit.png"><action name="Execute"><execute>ebook-edit --detach</execute></action></item>
     <item label="ePDFViewer" icon="/usr/share/icons/hicolor/32x32/apps/epdfview.png"><action name="Execute"><execute>epdfview</execute></action></item>
     <item label="Gummi" icon="/usr/share/pixmaps/gummi.png"><action name="Execute"><execute>gummi</execute></action></item>
     <item label="GV" icon="/usr/share/pixmaps/gv.xbm"><action name="Execute"><execute>gv</execute></action></item>
@@ -200,6 +210,7 @@
     <item label="LSHW" icon="/usr/share/lshw/artwork/logo.svg"><action name="Execute"><execute>/usr/sbin/gtk-lshw</execute></action></item>
     <item label="Oracle VM VirtualBox" icon="/usr/share/icons/hicolor/16x16/mimetypes/virtualbox.png"><action name="Execute"><execute>VirtualBox</execute></action></item>
     <item label="paranoid" icon=""><action name="Execute"><execute>python2 /usr/bin/paranoid.py</execute></action></item>
+    <item label="PeaZip" icon="/usr/share/pixmaps/peazip.png"><action name="Execute"><execute>peazip -style=cleanlooks</execute></action></item>
     <item label="System Profiler and Benchmark" icon="/usr/share/hardinfo/pixmaps/logo.png"><action name="Execute"><execute>hardinfo</execute></action></item>
     <item label="Thunar File Manager" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute>thunar</execute></action></item>
     <item label="urxvt (client)" icon=""><action name="Execute"><execute>urxvtc</execute></action></item>

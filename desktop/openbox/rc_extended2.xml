@@ -39,8 +39,8 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Numix-ArchBlue</name>
-    <titleLayout>NLIC</titleLayout>
+    <name>Squadron</name>
+    <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -249,51 +249,199 @@
         <keybind key="Down">
           <keybind key="Left">
             <keybind key="Right">
-              <keybind key="1">
-                <action name="Execute">
-                  <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_extended1.xml</command>
-                </action>
-              </keybind>
+              <action name="Execute">
+                <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_base.xml</command>
+              </action>
             </keybind>
           </keybind>
         </keybind>
       </keybind>
     </keybind>
-    <keybind key="C-Left">
-      <keybind key="Up">
-        <keybind key="Down">
-          <keybind key="Left">
-            <keybind key="Right">
-              <keybind key="2">
-                <action name="Execute">
-                  <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_extended2.xml</command>
-                </action>
-              </keybind>
-            </keybind>
-          </keybind>
-        </keybind>
-      </keybind>
+    <keybind key="F1">
+      <action name="Execute">
+        <command>~/tsnap/bin/F1</command>
+      </action>
     </keybind>
-	<keybind key="W-space">
-		<action name="ShowMenu">
-			<menu>root-menu</menu>
-		</action>
-	</keybind>
-
- <!-- 
+    <keybind key="F2">
+      <action name="Execute">
+        <command>~/tsnap/bin/F2</command>
+      </action>
+    </keybind>
+    <keybind key="F3">
+      <action name="Execute">
+        <command>~/tsnap/bin/F3</command>
+      </action>
+    </keybind>
+    <keybind key="F4">
+      <action name="Execute">
+        <command>~/tsnap/bin/F4</command>
+      </action>
+    </keybind>
+    <keybind key="F5">
+      <action name="Execute">
+        <command>~/tsnap/bin/F5</command>
+      </action>
+    </keybind>
+    <keybind key="F6">
+      <action name="Execute">
+        <command>~/tsnap/bin/F6</command>
+      </action>
+    </keybind>
+    <keybind key="F7">
+      <action name="Execute">
+        <command>~/tsnap/bin/F7</command>
+      </action>
+    </keybind>
     <keybind key="F8">
       <action name="Execute">
-        <command>pkill mplayer</command>
+        <command>~/tsnap/bin/F8</command>
       </action>
     </keybind>
--->
+    <keybind key="F9">
+      <action name="Execute">
+        <command>~/tsnap/bin/F9</command>
+      </action>
+    </keybind>
+    <keybind key="F10">
+      <action name="Execute">
+        <command>~/tsnap/bin/F10</command>
+      </action>
+    </keybind>
+    <keybind key="F11">
+      <action name="Execute">
+        <command>~/tsnap/bin/F11</command>
+      </action>
+    </keybind>
+    <keybind key="F12">
+      <action name="Execute">
+        <command>~/tsnap/bin/F12</command>
+      </action>
+    </keybind>
+    <keybind key="S-F1">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F1</command>
+      </action>
+    </keybind>
+    <keybind key="S-F2">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F2</command>
+      </action>
+    </keybind>
+    <keybind key="S-F3">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F3</command>
+      </action>
+    </keybind>
+    <keybind key="S-F4">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F4</command>
+      </action>
+    </keybind>
+    <keybind key="S-F5">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F5</command>
+      </action>
+    </keybind>
+    <keybind key="S-F6">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F6</command>
+      </action>
+    </keybind>
+    <keybind key="S-F7">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F7</command>
+      </action>
+    </keybind>
+    <keybind key="S-F8">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F8</command>
+      </action>
+    </keybind>
+    <keybind key="S-F9">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F9</command>
+      </action>
+    </keybind>
+    <keybind key="S-F10">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F10</command>
+      </action>
+    </keybind>
+    <keybind key="S-F11">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F11</command>
+      </action>
+    </keybind>
+    <keybind key="S-F12">
+      <action name="Execute">
+        <command>~/tsnap/bin/S-F12</command>
+      </action>
+    </keybind>
+    <keybind key="C-F1">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F1</command>
+      </action>
+    </keybind>
+    <keybind key="C-F2">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F2</command>
+      </action>
+    </keybind>
+    <keybind key="C-F3">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F3</command>
+      </action>
+    </keybind>
+    <keybind key="C-F4">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F4</command>
+      </action>
+    </keybind>
+    <keybind key="C-F5">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F5</command>
+      </action>
+    </keybind>
+    <keybind key="C-F6">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F6</command>
+      </action>
+    </keybind>
+    <keybind key="C-F7">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F7</command>
+      </action>
+    </keybind>
+    <keybind key="C-F8">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F8</command>
+      </action>
+    </keybind>
+    <keybind key="C-F9">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F9</command>
+      </action>
+    </keybind>
+    <keybind key="C-F10">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F10</command>
+      </action>
+    </keybind>
+    <keybind key="C-F11">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F11</command>
+      </action>
+    </keybind>
+    <keybind key="C-F12">
+      <action name="Execute">
+        <command>~/tsnap/bin/C-F12</command>
+      </action>
+    </keybind>
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
-<!--
       <action name="Execute">
-        <command>togglemute</command>
+        <command>amixer set Master toggle</command>
       </action>
--->
     </keybind>
     <!-- Keybindings for windows -->
     <keybind key="A-F4">
@@ -367,16 +515,7 @@
           <enabled>true</enabled>
           <name>Thunar</name>
         </startupnotify>
-        <command>wlaunch thunar thunar</command>
-      </action>
-    </keybind>
-    <keybind key="W-S-e">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Thunar</name>
-        </startupnotify>
-        <command>Thunar</command>
+        <command>thunar</command>
       </action>
     </keybind>
     <keybind key="W-w">
@@ -399,27 +538,17 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>wlaunch xfce4-terminal xfce4-terminal</command>
-      </action>
-    </keybind>
-    <keybind key="W-S-t">
-      <action name="Execute">
         <command>xfce4-terminal</command>
       </action>
     </keybind>
     <keybind key="W-b">
       <action name="Execute">
-        <command>wlaunch firefox Navigator</command>
+        <command>~/bin/launchbrowser</command>
       </action>
     </keybind>
-    <keybind key="W-S-b">
+    <keybind key="W-A-b">
       <action name="Execute">
-        <command>firefox</command>
-      </action>
-    </keybind>
-    <keybind key="W-g">
-      <action name="Execute">
-        <command>wlaunch geany geany</command>
+        <command>chromium</command>
       </action>
     </keybind>
     <!-- Screenshots -->
@@ -510,7 +639,7 @@
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>togglemute</command>
+        <command>amixer sset Master,0 toggle</command>
       </action>
     </keybind>
     <keybind key="W-Right">
