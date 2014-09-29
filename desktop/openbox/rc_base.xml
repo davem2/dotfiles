@@ -425,7 +425,7 @@
     <!-- Screenshots -->
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot</command>
+        <command>screenshot</command>
       </action>
     </keybind>
     <keybind key="A-Print">

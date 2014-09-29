@@ -1,0 +1,2 @@
+#!/usr/bin/sh
+scrot -m -e 'gthumb $f'
