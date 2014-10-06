@@ -69,4 +69,11 @@ git stash pop # restore stashed changes
 # Recover from detached head state
 git checkout master
 
+# Create a patch containing changes made in last commit
+git diff HEAD^ HEAD > patch.txt
 
+# Apply a patch 
+git apply patch.txt 
+git am --signoff < patch.txt # apply the patch with signoff tag 
+git apply --stat patch.txt # summarize changes
+git apply --check patch.txt # show issues (if any)
