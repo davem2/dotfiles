@@ -45,9 +45,6 @@ shopt -s checkwinsize
 # avoid duplicates..
 export HISTCONTROL=ignoredups:erasedups  
 
-# exclude commands from history
-HISTIGNORE='&:[ \t]*:?:??:x:1'
-
 # remember a lot of history
 export HISTSIZE=100000                   # big big history
 export HISTFILESIZE=100000               # big big history
