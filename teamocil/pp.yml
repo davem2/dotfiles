@@ -1,13 +1,22 @@
 windows:
-    - name: ppgen
-      root: ~/pp/tools/repo/ppgen
-
-    - name: ppprep
-      root: ~/pp/tools/repo/ppgen
-    
     - name: ppimg
       root: ~/pp/tools/repo/ppgen
         
+    - name: ppprep
+      root: ~/pp/tools/repo/ppgen
+    
+    - name: ppgen
+      root: ~/pp/tools/repo/ppgen
+
     - name: PP
       root: /mnt/marge/e/dp/PP
+
+    - name: glimpses 
+      root: /mnt/marge/e/dp/PP/glimpses-of-nature
+
+    - name: lathe
+      root: /mnt/marge/e/dp/PP/a-manual-of-the-hand-lathe
+
+    - name: harpers-boys
+      root: /mnt/marge/e/dp/PP/harpers-outdoor-book-for-boys
 
