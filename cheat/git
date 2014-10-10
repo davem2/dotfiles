@@ -77,3 +77,14 @@ git apply patch.txt
 git am --signoff < patch.txt # apply the patch with signoff tag 
 git apply --stat patch.txt # summarize changes
 git apply --check patch.txt # show issues (if any)
+
+# Squash last two commits into a single new commit
+git reset --soft HEAD~2 &&
+git commit
+
+# Merge upstream changes into feature branch without creating a commit message
+git pull --rebase upstream master
+git checkout feature-x
+git rebase master
+git push --force origin feature-x
+

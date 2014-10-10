@@ -1,0 +1,13 @@
+windows:
+    - name: ppgen
+      root: ~/pp/tools/repo/ppgen
+
+    - name: ppprep
+      root: ~/pp/tools/repo/ppgen
+    
+    - name: ppimg
+      root: ~/pp/tools/repo/ppgen
+        
+    - name: PP
+      root: /mnt/marge/e/dp/PP
+

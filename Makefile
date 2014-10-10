@@ -1,4 +1,4 @@
-PACKAGE_NAMES=bash bin cheat conky mpv obmenu-generator openbox slim tint2 tmux volumeicon X11 vim
+PACKAGE_NAMES=bash bin cheat conky mpv obmenu-generator openbox slim teamocil tint2 tmux volumeicon X11 vim
 
 DOTFILES=$(shell pwd)
 
@@ -8,7 +8,7 @@ install: all
 
 # Metapackages
 openbox-desktop: openbox-base obmenu-generator conky tint2 volumeicon X11
-base: bash bin cheat tmux 
+base: bash bin cheat tmux teamocil
 
 
 bash:
@@ -39,6 +39,9 @@ slim:
 	@printf "%s\n    %s -> %s\n" "$@" "$(DOTFILES)/desktop/slim/slim.conf" "/etc/slim.conf" 
 	@mkdir -p $(DOTFILES)/backup/$@ && cp -n /etc/slim.conf $(DOTFILES)/backup/$@/
 	sudo ln -fs $(DOTFILES)/desktop/slim/slim.conf /etc/slim.conf
+
+teamocil:
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/teamocil ${HOME}/.teamocil
 
 tint2:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/tint2/icon_only_4.tint2rc ${HOME}/.config/tint2/icon_only_4.tint2rc
