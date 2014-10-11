@@ -1,9 +1,9 @@
 windows:
     - name: ppimg
-      root: ~/pp/tools/repo/ppgen
+      root: ~/pp/tools/repo/ppimg
         
     - name: ppprep
-      root: ~/pp/tools/repo/ppgen
+      root: ~/pp/tools/repo/ppprep
     
     - name: ppgen
       root: ~/pp/tools/repo/ppgen
