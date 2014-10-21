@@ -79,7 +79,7 @@ git apply --stat patch.txt # summarize changes
 git apply --check patch.txt # show issues (if any)
 
 # Squash last two commits into a single new commit
-git reset --soft HEAD~2 &&
+git reset --soft HEAD~2 
 git commit
 
 # Merge upstream changes into feature branch without creating a commit message
@@ -88,3 +88,9 @@ git checkout feature-x
 git rebase master
 git push --force origin feature-x
 
+# Delete remote branch
+git push origin --delete branchname
+
+# Abort operation in progess 
+git merge --abort
+git rebase --abort
