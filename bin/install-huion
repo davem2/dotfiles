@@ -1,7 +1,16 @@
 #!/bin/sh
-cd ~/temp
+
+cd $HOME/temp
+
+if [ -d "$HOME/tmp/$sd" ]; then
+cd huion-driver
+git pull origin master
+cd ..
+else
 git clone https://github.com/DIGImend/huion-driver.git
-cd ~/temp/huion-driver
+fi
+
+cd $HOME/temp/huion-driver
 make
 modprobe -r hid-huion
 echo "*** UNPLUG HUION H610 TABLET NOW ***"
