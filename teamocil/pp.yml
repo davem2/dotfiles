@@ -11,13 +11,13 @@ windows:
     - name: PP
       root: /mnt/marge/e/dp/PP
 
-    - name: lathe
+    - name: the-nursery
       root: /mnt/marge/e/dp/PP/the-nursery-book
 
     - name: harpers-boys
       root: /mnt/marge/e/dp/PP/harpers-outdoor-book-for-boys
 
-    - name: master-of 
+    - name: the-master
       root: /mnt/marge/e/dp/PP/the-master-of-stair
         
 

@@ -4,7 +4,7 @@ cd $HOME/temp
 
 if [ -d "$HOME/tmp/$sd" ]; then
 cd huion-driver
-git pull origin master
+git pull --rebase origin master
 cd ..
 else
 git clone https://github.com/DIGImend/huion-driver.git
@@ -13,8 +13,16 @@ fi
 cd $HOME/temp/huion-driver
 make
 modprobe -r hid-huion
-echo "*** UNPLUG HUION H610 TABLET NOW ***"
+echo "**************************************"
+echo "***                                ***"
+echo "***  UNPLUG HUION H610 TABLET NOW  ***"
+echo "***                                ***"
+echo "**************************************"
 read -p "Press [Enter] to continue..."
 sudo make install
-echo "*** PLUG IN HUION H610 TABLET NOW ***"
+echo "***************************************"
+echo "***                                 ***"
+echo "***  PLUG IN HUION H610 TABLET NOW  ***"
+echo "***                                 ***"
+echo "***************************************"
 

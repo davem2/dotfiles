@@ -7,7 +7,7 @@
 [[ -z "$TMUX" ]] && exec tmux
 
 # Greeting
-fortune | cowthink
+fortune all | cowthink
 echo -e '\n'
 
 # Set environment
