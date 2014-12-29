@@ -64,5 +64,9 @@ PERL_LOCAL_LIB_ROOT="/home/david/perl5${PERL_LOCAL_LIB_ROOT+:}$PERL_LOCAL_LIB_RO
 PERL_MB_OPT="--install_base \"/home/david/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/david/perl5"; export PERL_MM_OPT;
 
-PATH=$PATH:$HOME/bin:$HOME/.gem/ruby/2.1.0/bin:$HOME/pp/tools
+PATH=$PATH:$HOME/bin:$HOME/.gem/ruby/2.1.0/bin:$HOME/pp/tools:/usr/local/lib
 export PATH
+
+LD_LIBRARY_PATH=/usr/local/lib
+export LD_LIBRARY_PATH
+

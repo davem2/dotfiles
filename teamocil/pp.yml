@@ -8,16 +8,10 @@ windows:
     - name: ppgen
       root: ~/pp/tools/repo/ppgen
 
-    - name: PP
-      root: /mnt/marge/e/dp/PP
-
-    - name: the-nursery
-      root: /mnt/marge/e/dp/PP/the-nursery-book
+    - name: physiology
+      root: /mnt/marge/e/dp/PP/physiology
 
     - name: harpers-boys
       root: /mnt/marge/e/dp/PP/harpers-outdoor-book-for-boys
 
-    - name: the-master
-      root: /mnt/marge/e/dp/PP/the-master-of-stair
-        
 
