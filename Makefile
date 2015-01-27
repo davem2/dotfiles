@@ -11,6 +11,9 @@ openbox-desktop: openbox-base obmenu-generator conky tint2 volumeicon X11
 base: bash bin cheat tmux teamocil
 
 
+awesome:
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/awesome/rc.lua ${HOME}/.config/awesome/rc.lua
+
 bash:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/bash/bashrc ${HOME}/.bashrc
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/bash/dircolors ${HOME}/.dircolors
