@@ -42,10 +42,12 @@ beautiful.init("/usr/share/awesome/themes/default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "xfce4-terminal"
-editor = os.getenv("EDITOR") or "nano"
+editor = "geany"
+-- editor = os.getenv("EDITOR") or "nano"
 editor_cmd = terminal .. " -e " .. editor
 browser = 'wlaunch "firejail firefox" Navigator'
 -- browser = "firefox"
+filebrowser = "thunar"
 
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
@@ -92,6 +94,7 @@ for s = 1, screen.count() do
     tags[s] = awful.tag(tags.names, s, tags.layout)
 end
 -- }}}
+--
 
 -- {{{ Menu
 -- Create a laucher widget and a main menu
@@ -254,6 +257,8 @@ globalkeys = awful.util.table.join(
 --    awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
     awful.key({ modkey,           }, "t", function () awful.util.spawn(terminal) end),
     awful.key({ modkey,           }, "b", function () awful.util.spawn(browser) end),
+    awful.key({ modkey,           }, "g", function () awful.util.spawn(editor) end),
+    awful.key({ modkey,           }, "e", function () awful.util.spawn(filebrowser) end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit),
 
