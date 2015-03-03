@@ -10,3 +10,17 @@
 # Negative Lookbehind - Asserts that what immediately precedes the current position in the string is not foo
 (?<!foo)    
 
+# Set option
+(?i) G_REGEX_CASELESS  (case insensitive)
+(?m) G_REGEX_MULTILINE (multiline matching)
+(?s) G_REGEX_DOTALL    (. character matches everything including newlines)
+(?x) G_REGEX_EXTENDED
+(?UXJ) G_REGEX_UNGREEDY, G_REGEX_EXTRA, G_REGEX_DUPNAMES
+
+# Shorthand character classes
+\w - word character, matches [A-Za-z0-9_] (unicode letters and digits as well)
+\W - matches [^\w]
+\s - whitespace character, matches [ \t\r\n\f] (unicode separators as well)
+\S - matches [^\s]
+\d - digit character, matches [0-9] (unicode digits as well)
+\D - matches [^\d]
