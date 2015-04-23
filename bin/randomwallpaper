@@ -1,18 +1,18 @@
 #!/bin/bash
 #
-# Sets wallpaper of main and secondary displays to a random image found in 
+# Sets wallpaper of main and secondary displays to a random image found in
 # $dir1 (main display) and $dir2 (secondary)
 #
 
-dir1="${HOME}/wallpapers/main"	# Wallpapers specific for main monitor containing conky overlay
-dir2="${HOME}/wallpapers/"		# Wallpapers for secondary monitor(s)
-#dir1=$1						# TODO: Allow wallpaper directories to be passed as command line args?
+dir1="${HOME}/wallpapers/main"  # Wallpapers specific for main monitor containing conky overlay
+dir2="${HOME}/wallpapers/"      # Wallpapers for secondary monitor(s)
+#dir1=$1                        # TODO: Allow wallpaper directories to be passed as command line args?
 swap_interval=33m
 
-if [ ! -d "$dir1" ]; then 
+if [ ! -d "$dir1" ]; then
     echo "No such directory: $dir1"
     exit 1
-elif [ ! -d "$dir2" ]; then 
+elif [ ! -d "$dir2" ]; then
     echo "No such directory: $dir2"
     exit 1
 fi
@@ -34,8 +34,8 @@ logger "Wallpaper changed: $bg1, $bg2"
 
 SetBG
 while [[ -n $swap_interval ]]; do
-	echo $swap_interval
-	notify-send $swap_interval
-	sleep $swap_interval
-	SetBG
+    echo $swap_interval
+    notify-send $swap_interval
+    sleep $swap_interval
+    SetBG
 done
