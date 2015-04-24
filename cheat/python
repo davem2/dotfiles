@@ -1,3 +1,6 @@
+# Push release to pypi
+python setup.py sdist upload -r pypi
+
 # Basic web server with python
 python -m SimpleHTTPServer	# Python v2.7
 python -m http.server 8000	# Python 3

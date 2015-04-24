@@ -1,14 +1,23 @@
-# Lookahead - Asserts that what immediately follows the current position in the string is foo
+# Lookahead
 (?=foo) 
 
-# Lookbehind - Asserts that what immediately precedes the current position in the string is foo
+# Lookbehind
 (?<=foo)    
 
-# Negative Lookahead - Asserts that what immediately follows the current position in the string is not foo
+# Negative Lookahead
 (?!foo) 
 
-# Negative Lookbehind - Asserts that what immediately precedes the current position in the string is not foo
+# Negative Lookbehind
 (?<!foo)    
+
+# Flags for re.compile(), etc. Combine with '|':
+re.I == re.IGNORECASE   Ignore case
+re.L == re.LOCALE       Make \w, \b, and \s locale dependent
+re.M == re.MULTILINE    Multiline
+re.S == re.DOTALL       Dot matches all (including newline)
+re.U == re.UNICODE      Make \w, \b, \d, and \s unicode dependent
+re.X == re.VERBOSE      Verbose (unescaped whitespace in pattern
+                        is ignored, and '#' marks comment lines)
 
 # Set option
 (?i) G_REGEX_CASELESS  (case insensitive)
@@ -17,6 +26,18 @@
 (?x) G_REGEX_EXTENDED
 (?UXJ) G_REGEX_UNGREEDY, G_REGEX_EXTRA, G_REGEX_DUPNAMES
 
+# Extensions. Do not cause grouping, except 'P<name>':
+(?iLmsux)     Match empty string, sets re.X flags
+(?:...)       Non-capturing version of regular parens
+(?P<name>...) Create a named capturing group.
+(?P=name)     Match whatever matched prev named group
+(?#...)       A comment; ignored.
+(?=...)       Lookahead assertion, match without consuming
+(?!...)       Negative lookahead assertion
+(?<=...)      Lookbehind assertion, match if preceded
+(?<!...)      Negative lookbehind assertion
+(?(id)y|n)    Match 'y' if group 'id' matched, else 'n'
+
 # Shorthand character classes
 \w - word character, matches [A-Za-z0-9_] (unicode letters and digits as well)
 \W - matches [^\w]
@@ -24,3 +45,15 @@
 \S - matches [^\s]
 \d - digit character, matches [0-9] (unicode digits as well)
 \D - matches [^\d]
+\b - empty string at word (\w+) boundary
+\B - empty string not at word boundary
+\g<id> 
+   - match prev named or numbered group, e.g. \g<0>, \g<name>
+
+# Quantifiers (append '?' for non-greedy):
+{m}     Exactly m repetitions
+{m,n}   From m (default 0) to n (default infinity)
+*       0 or more. Same as {,}
++       1 or more. Same as {1,}
+?       0 or 1. Same as {,1}
+
