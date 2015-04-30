@@ -18,9 +18,9 @@
     <item label="CopyQ" icon=""><action name="Execute"><execute>copyq</execute></action></item>
     <item label="DIYLC" icon="/usr/share/pixmaps/diylc.png"><action name="Execute"><execute>diylc</execute></action></item>
     <item label="File Manager" icon=""><action name="Execute"><execute>exo-open --launch FileManager</execute></action></item>
-    <item label="Files" icon=""><action name="Execute"><execute>nautilus --new-window</execute></action></item>
     <item label="PacmanXG" icon="/usr/share/pixmaps/pacmanxg.png"><action name="Execute"><execute>ssx pacmanxg</execute></action></item>
     <item label="PeaZip" icon="/usr/share/pixmaps/peazip.png"><action name="Execute"><execute>peazip -style=cleanlooks</execute></action></item>
+    <item label="Qalculate!" icon="/usr/share/pixmaps/qalculate.png"><action name="Execute"><execute>qalculate-gtk</execute></action></item>
     <item label="qtFM" icon="/usr/share/pixmaps/qtfm.png"><action name="Execute"><execute>qtfm</execute></action></item>
     <item label="QTodo.txt" icon="/usr/share/pixmaps/qtodotxt.png"><action name="Execute"><execute>/usr/bin/qtodotxt</execute></action></item>
     <item label="Root Terminal" icon="/usr/share/pixmaps/gksu-root-terminal.png"><action name="Execute"><execute>gksu -l gnome-terminal</execute></action></item>
@@ -32,11 +32,11 @@
   <menu id="Development" icon="" label="Development">
     <item label="Android SDK" icon="/usr/share/pixmaps/android-sdk.png"><action name="Execute"><execute>android</execute></action></item>
     <item label="Android Studio" icon="/usr/share/pixmaps/android-studio.png"><action name="Execute"><execute>android-studio</execute></action></item>
-    <item label="CMake" icon="/usr/share/pixmaps/CMakeSetup32.png"><action name="Execute"><execute>cmake-gui</execute></action></item>
+    <item label="Bluefish Editor" icon="/usr/share/pixmaps/bluefish.png"><action name="Execute"><execute>bluefish</execute></action></item>
     <item label="Eclipse" icon="/usr/share/icons/hicolor/16x16/apps/eclipse.png"><action name="Execute"><execute>eclipse</execute></action></item>
-    <item label="Eric 5" icon="/usr/share/pixmaps/eric.png"><action name="Execute"><execute>eric5</execute></action></item>
+    <item label="eric6" icon="/usr/share/pixmaps/eric.png"><action name="Execute"><execute>eric6</execute></action></item>
     <item label="FLUID" icon="/usr/share/icons/hicolor/16x16/apps/fluid.png"><action name="Execute"><execute>fluid</execute></action></item>
-    <item label="Fritzing" icon=""><action name="Execute"><execute>fritzing</execute></action></item>
+    <item label="Fritzing" icon="/usr/share/pixmaps/fritzing.png"><action name="Execute"><execute>Fritzing</execute></action></item>
     <item label="Geany" icon="/usr/share/icons/hicolor/16x16/apps/geany.png"><action name="Execute"><execute>geany</execute></action></item>
     <item label="haroopad" icon="/usr/share/icons/hicolor/16x16/apps/haroopad.png"><action name="Execute"><execute>haroopad</execute></action></item>
     <item label="MySQL Workbench" icon="/usr/share/icons/hicolor/16x16/apps/mysql-workbench.png"><action name="Execute"><execute>mysql-workbench</execute></action></item>
@@ -52,13 +52,14 @@
   </menu>
   <menu id="Education" icon="" label="Education">
     <item label="LibreOffice Math" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-math.png"><action name="Execute"><execute>libreoffice --math</execute></action></item>
+    <item label="Speedreader" icon="/usr/share/pixmaps/speedreader.png"><action name="Execute"><execute>speedreader</execute></action></item>
   </menu>
   <menu id="Games" icon="" label="Games">
     <item label="Dosbox" icon="/usr/share/pixmaps/dosbox.png"><action name="Execute"><execute>dosbox</execute></action></item>
+    <item label="Dwarf Fortress" icon="/usr/share/pixmaps/dwarffortress.png"><action name="Execute"><execute>dwarffortress</execute></action></item>
     <item label="GTetrinet" icon="/usr/share/pixmaps/gtetrinet.png"><action name="Execute"><execute>gtetrinet</execute></action></item>
     <item label="nonogram-qt" icon=""><action name="Execute"><execute>nonogram-qt</execute></action></item>
     <item label="PainTown" icon="/usr/share/pixmaps/paintown.png"><action name="Execute"><execute>paintown</execute></action></item>
-    <item label="Urban Terror" icon="/usr/share/pixmaps/urbanterror.png"><action name="Execute"><execute>urbanterror</execute></action></item>
     <item label="Vacuum Magic" icon="/usr/share/pixmaps/vacuum.png"><action name="Execute"><execute>vacuum</execute></action></item>
     <item label="Widelands" icon="/usr/share/pixmaps/widelands.png"><action name="Execute"><execute>widelands</execute></action></item>
     <item label="Zaz" icon="/usr/share/pixmaps/zaz.xpm"><action name="Execute"><execute>zaz</execute></action></item>
@@ -69,14 +70,17 @@
     <item label="AOI (Art of Illusion)" icon="/usr/share/pixmaps/aoi.png"><action name="Execute"><execute>java -Xmx512m -jar /usr/share/java/aoi/ArtOfIllusion.jar</execute></action></item>
     <item label="AzDrawing" icon="/usr/share/icons/hicolor/48x48/apps/azdrawing.png"><action name="Execute"><execute>azdrawing</execute></action></item>
     <item label="AzMiniPainter" icon=""><action name="Execute"><execute>azminipt</execute></action></item>
+    <item label="Blender" icon="/usr/share/icons/hicolor/16x16/apps/blender.png"><action name="Execute"><execute>blender</execute></action></item>
     <item label="CinePaint" icon="/usr/share/pixmaps/cinepaint.png"><action name="Execute"><execute>cinepaint-remote</execute></action></item>
     <item label="Darktable" icon="/usr/share/icons/hicolor/16x16/apps/darktable.png"><action name="Execute"><execute>darktable</execute></action></item>
     <item label="E-book Viewer" icon="/usr/share/pixmaps/calibre-viewer.png"><action name="Execute"><execute>ebook-viewer --detach</execute></action></item>
     <item label="EasyPaint" icon="/usr/share/pixmaps/easypaint_64.png"><action name="Execute"><execute>easypaint</execute></action></item>
+    <item label="F-Spot" icon="/usr/share/icons/hicolor/16x16/apps/f-spot.png"><action name="Execute"><execute>f-spot</execute></action></item>
     <item label="Feh" icon="/usr/share/feh/images/feh.png"><action name="Execute"><execute>feh</execute></action></item>
     <item label="Geeqie" icon="/usr/share/pixmaps/geeqie.png"><action name="Execute"><execute>geeqie -r</execute></action></item>
-    <item label="gImageReader" icon=""><action name="Execute"><execute>gimagereader</execute></action></item>
+    <item label="gImageReader" icon=""><action name="Execute"><execute>gimagereader-qt4</execute></action></item>
     <item label="GNU Image Manipulation Program" icon="/usr/share/icons/hicolor/16x16/apps/gimp.png"><action name="Execute"><execute>gimp-2.8</execute></action></item>
+    <item label="GQview" icon="/usr/share/pixmaps/gqview.png"><action name="Execute"><execute>gqview -r</execute></action></item>
     <item label="GrafX2" icon=""><action name="Execute"><execute>grafx2</execute></action></item>
     <item label="gThumb" icon="/usr/share/icons/hicolor/16x16/apps/gthumb.png"><action name="Execute"><execute>gthumb</execute></action></item>
     <item label="GV" icon="/usr/share/pixmaps/gv.xbm"><action name="Execute"><execute>gv</execute></action></item>
@@ -110,8 +114,10 @@
     <item label="Hydrogen Drum Machine" icon=""><action name="Execute"><execute>hydrogen</execute></action></item>
     <item label="Kdenlive" icon="/usr/share/pixmaps/kdenlive.xpm"><action name="Execute"><execute>kdenlive</execute></action></item>
     <item label="Lingot" icon="/usr/share/pixmaps/lingot/lingot-icon.svg"><action name="Execute"><execute>lingot</execute></action></item>
+    <item label="LMMS" icon="/usr/share/pixmaps/lmms.png"><action name="Execute"><execute>env QT_X11_NO_NATIVE_MENUBAR=1 lmms</execute></action></item>
     <item label="Mixxx" icon="/usr/share/pixmaps/mixxx-icon.png"><action name="Execute"><execute>pasuspender mixxx</execute></action></item>
     <item label="MuseScore" icon="/usr/share/pixmaps/mscore.png"><action name="Execute"><execute>mscore</execute></action></item>
+    <item label="ocenaudio" icon="/usr/share/icons/hicolor/16x16/apps/ocenaudio.png"><action name="Execute"><execute>/opt/ocenaudio/bin/ocenaudio</execute></action></item>
     <item label="OpenShot Video Editor" icon=""><action name="Execute"><execute>openshot</execute></action></item>
     <item label="Pitivi" icon="/usr/share/icons/hicolor/16x16/apps/pitivi.png"><action name="Execute"><execute>pitivi</execute></action></item>
     <item label="PulseAudio Volume Control" icon=""><action name="Execute"><execute>pavucontrol</execute></action></item>
@@ -119,24 +125,33 @@
     <item label="Qmmp" icon="/usr/share/icons/hicolor/16x16/apps/qmmp.png"><action name="Execute"><execute>qmmp</execute></action></item>
     <item label="Qt V4L2 test Utility" icon="/usr/share/icons/hicolor/16x16/apps/qv4l2.png"><action name="Execute"><execute>qv4l2</execute></action></item>
     <item label="qt-recordMyDesktop" icon="/usr/share/pixmaps/qt-recordmydesktop.png"><action name="Execute"><execute>qt-recordMyDesktop</execute></action></item>
+    <item label="Qtractor" icon="/usr/share/icons/hicolor/32x32/apps/qtractor.png"><action name="Execute"><execute>/usr/bin/qtractor</execute></action></item>
     <item label="Rakarrack" icon="/usr/share/pixmaps/icono_rakarrack_128x128.png"><action name="Execute"><execute>rakarrack</execute></action></item>
     <item label="Rosegarden" icon="/usr/share/icons/hicolor/32x32/apps/rosegarden.png"><action name="Execute"><execute>rosegarden</execute></action></item>
     <item label="Schism Tracker Font Editor" icon="/usr/share/icons/hicolor/72x72/apps/schismtracker-itf.png"><action name="Execute"><execute>schismtracker --font-editor</execute></action></item>
     <item label="Schism Tracker" icon="/usr/share/icons/hicolor/72x72/apps/schismtracker.png"><action name="Execute"><execute>schismtracker</execute></action></item>
     <item label="Seq24" icon="/usr/share/pixmaps/seq24.png"><action name="Execute"><execute>seq24</execute></action></item>
+    <item label="SimpleScreenRecorder" icon="/usr/share/icons/hicolor/16x16/apps/simplescreenrecorder.png"><action name="Execute"><execute>simplescreenrecorder --logfile</execute></action></item>
     <item label="SMPlayer" icon="/usr/share/icons/hicolor/16x16/apps/smplayer.png"><action name="Execute"><execute>smplayer</execute></action></item>
+    <item label="SunVox" icon="/usr/share/icons/sunvox/sunvox.png"><action name="Execute"><execute>sunvox</execute></action></item>
     <item label="tuxguitar" icon="/usr/share/tuxguitar/share/skins/Lavender/icon-96x96.png"><action name="Execute"><execute>tuxguitar</execute></action></item>
     <item label="VLC media player" icon="/usr/share/icons/hicolor/16x16/apps/vlc.png"><action name="Execute"><execute>/usr/bin/vlc --started-from-file</execute></action></item>
+    <item label="ZynAddSubFX - Alsa" icon=""><action name="Execute"><execute>zynaddsubfx -I alsa -O alsa</execute></action></item>
+    <item label="ZynAddSubFX - Jack" icon=""><action name="Execute"><execute>zynaddsubfx -I jack -O jack</execute></action></item>
+    <item label="Zynaddsubfx" icon=""><action name="Execute"><execute>zynaddsubfx</execute></action></item>
   </menu>
   <menu id="Network" icon="/usr/share/icons/hicolor/48x48/apps/applications-internet.png" label="Network">
+    <item label="Aurora - Safe Mode" icon="/usr/share/pixmaps/firefox-aurora-icon.png"><action name="Execute"><execute>firefox-aurora -safe-mode</execute></action></item>
+    <item label="Aurora" icon="/usr/share/pixmaps/firefox-aurora-icon.png"><action name="Execute"><execute>firefox-aurora</execute></action></item>
     <item label="Avahi SSH Server Browser" icon=""><action name="Execute"><execute>/usr/bin/bssh</execute></action></item>
     <item label="Avahi VNC Server Browser" icon=""><action name="Execute"><execute>/usr/bin/bvnc</execute></action></item>
     <item label="Chromium" icon="/usr/share/icons/hicolor/16x16/apps/chromium.png"><action name="Execute"><execute>chromium</execute></action></item>
     <item label="Deluge" icon="/usr/share/pixmaps/deluge.png"><action name="Execute"><execute>deluge-gtk</execute></action></item>
-    <item label="Dropbox" icon="/usr/share/pixmaps/dropbox.png"><action name="Execute"><execute>dropboxd</execute></action></item>
+    <item label="Dropbox" icon="/usr/share/pixmaps/dropbox.png"><action name="Execute"><execute>dropbox</execute></action></item>
     <item label="dwb" icon="/usr/share/pixmaps/dwb.png"><action name="Execute"><execute>dwb</execute></action></item>
-    <item label="eric5 Web Browser" icon="/usr/share/pixmaps/ericWeb.png"><action name="Execute"><execute>eric5_webbrowser</execute></action></item>
+    <item label="eric6 Web Browser" icon="/usr/share/pixmaps/ericWeb.png"><action name="Execute"><execute>eric6_webbrowser</execute></action></item>
     <item label="Firefox" icon="/usr/share/icons/hicolor/16x16/apps/firefox.png"><action name="Execute"><execute>/usr/lib/firefox/firefox</execute></action></item>
+    <item label="Google Chrome (unstable)" icon="/usr/share/icons/hicolor/16x16/apps/google-chrome-unstable.png"><action name="Execute"><execute>/usr/bin/google-chrome-unstable</execute></action></item>
     <item label="HexChat" icon="/usr/share/icons/hicolor/48x48/apps/hexchat.png"><action name="Execute"><execute>hexchat</execute></action></item>
     <item label="Hotot Qt" icon="/usr/share/icons/hicolor/32x32/apps/hotot.png"><action name="Execute"><execute>hotot-qt</execute></action></item>
     <item label="Links" icon="/usr/share/pixmaps/links_32x32.xpm"><action name="Execute"><execute>xlinks -g</execute></action></item>
@@ -162,7 +177,7 @@
     <item label="LibreOffice Calc" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-calc.png"><action name="Execute"><execute>libreoffice --calc</execute></action></item>
     <item label="LibreOffice Draw" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-draw.png"><action name="Execute"><execute>libreoffice --draw</execute></action></item>
     <item label="LibreOffice Impress" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-impress.png"><action name="Execute"><execute>libreoffice --impress</execute></action></item>
-    <item label="LibreOffice Installer" icon=""><action name="Execute"><execute>/opt/libreoffice-installer/libreoffice-installer</execute></action></item>
+    <item label="LibreOffice Installer" icon=""><action name="Execute"><execute>libreoffice-installer</execute></action></item>
     <item label="LibreOffice Math" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-math.png"><action name="Execute"><execute>libreoffice --math</execute></action></item>
     <item label="LibreOffice Writer" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-writer.png"><action name="Execute"><execute>libreoffice --writer</execute></action></item>
     <item label="LibreOffice" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-startcenter.png"><action name="Execute"><execute>libreoffice</execute></action></item>
@@ -205,7 +220,9 @@
     <item label="dconf Editor" icon="/usr/share/icons/hicolor/16x16/apps/dconf-editor.png"><action name="Execute"><execute>dconf-editor</execute></action></item>
     <item label="gtk2fontsel" icon=""><action name="Execute"><execute>gtk2fontsel</execute></action></item>
     <item label="Htop" icon="/usr/share/pixmaps/htop.png"><action name="Execute"><execute>xterm -e 'htop'</execute></action></item>
-    <item label="I-Nex" icon="/usr/share/pixmaps/i-nex.0.4.x.png"><action name="Execute"><execute>/usr/bin/i-nex</execute></action></item>
+    <item label="I-Nex Library" icon="/usr/share/pixmaps/i-nex-128.png"><action name="Execute"><execute>/usr/bin/i-nex.gambas --library</execute></action></item>
+    <item label="I-Nex" icon="/usr/share/pixmaps/i-nex-128.png"><action name="Execute"><execute>/usr/bin/i-nex.gambas</execute></action></item>
+    <item label="Konsole" icon=""><action name="Execute"><execute>konsole</execute></action></item>
     <item label="Leave" icon=""><action name="Execute"><execute>razor-power</execute></action></item>
     <item label="LSHW" icon="/usr/share/lshw/artwork/logo.svg"><action name="Execute"><execute>/usr/sbin/gtk-lshw</execute></action></item>
     <item label="Oracle VM VirtualBox" icon="/usr/share/icons/hicolor/16x16/mimetypes/virtualbox.png"><action name="Execute"><execute>VirtualBox</execute></action></item>
@@ -242,6 +259,6 @@
   </menu>
   <separator/>
     <item label="Lock" icon=""><action name="Execute"><execute>xscreensaver-command -lock</execute></action></item>
-    <item label="Exit" icon=""><action name="Exit" /></item>
+    <item label="Exit" icon=""><action name="Exit"/></item>
   </menu>
 </openbox_menu>
