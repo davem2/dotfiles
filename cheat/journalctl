@@ -19,3 +19,9 @@ journalctl /usr/bin/dbus-daemon
 # Filter by PID
 journalctl _PID=123
 
+# Display journal size
+journalctl --disk-usage
+
+# Check logs for errors
+journalctl --verify
+
