@@ -6,7 +6,7 @@
 # ID 1
 rounded = 0
 border_width = 1
-background_color = #3A3A33 100
+background_color = #3A3A33 50
 border_color = #111111 100
 
 # ID 2
@@ -26,6 +26,12 @@ rounded = 3
 border_width = 1
 background_color = #888888 20
 border_color = #ED2323 60
+
+# ID 5
+rounded = 0
+border_width = 0
+background_color = #000000 100
+border_color = #FFFFFF 100
 
 # Panel
 panel_monitor = 2
@@ -87,7 +93,7 @@ systray_icon_asb = 100 0 0
 
 # Clock
 time1_format = %H:%M
-time1_font = Bitstream Vera Sans Bold 12
+time1_font = URW Gothic Book 17
 clock_font_color = #EFEFDD 100
 clock_padding = 6 6
 clock_background_id = 0
