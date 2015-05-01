@@ -17,8 +17,8 @@ MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
 FontName=Droid Sans Mono 12
 BackgroundMode=TERMINAL_BACKGROUND_IMAGE
-BackgroundImageFile=/home/david/wallpapers/126 - DQZGnGf.jpg
+BackgroundImageFile=/home/david/.config/xfce4/terminal/background.jpg
 FontAllowBold=FALSE
 ColorForeground=#fffffa67dcd5
 BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_CENTERED
-
+ScrollingBar=TERMINAL_SCROLLBAR_NONE

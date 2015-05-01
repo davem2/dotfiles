@@ -66,6 +66,8 @@ X11:
 
 xfce-terminal:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/xfce/terminal/terminalrc ${HOME}/.config/xfce4/terminal/terminalrc
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/xfce/terminal/accels.scm ${HOME}/.config/xfce4/terminal/accels.scm
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/xfce/terminal/background1.jpg ${HOME}/.config/xfce4/terminal/background.jpg
 
 zsh:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/zsh/zshrc ${HOME}/.zshrc
