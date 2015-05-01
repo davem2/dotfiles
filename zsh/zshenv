@@ -1,0 +1,6 @@
+typeset -U path
+path=($path $HOME/bin $HOME/.gem/ruby/2.1.0/bin $HOME/pp/tools)
+
+export EDITOR="vim"
+export VISUAL="vim"
+export TMPDIR="$HOME/tmp"

@@ -1,4 +1,4 @@
-PACKAGE_NAMES=bash bin cheat conky mpv obmenu-generator openbox slim teamocil tint2 tmux volumeicon X11 vim
+PACKAGE_NAMES=bash bin cheat conky mpv obmenu-generator openbox slim teamocil tint2 tmux volumeicon X11 xfce-terminal vim zsh
 
 DOTFILES=$(shell pwd)
 
@@ -7,8 +7,8 @@ all: $(PACKAGE_NAMES)
 install: all
 
 # Metapackages
-openbox-desktop: openbox-base obmenu-generator conky tint2 volumeicon X11
-base: bash bin cheat tmux teamocil
+openbox-desktop: openbox obmenu-generator conky tint2 volumeicon X11
+base: zsh bin cheat tmux teamocil xfce-terminal
 
 
 awesome:
@@ -63,4 +63,11 @@ vim:
 
 X11:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/xinitrc ${HOME}/.xinitrc
+
+xfce-terminal:
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/xfce/terminal/terminalrc ${HOME}/.config/xfce4/terminal/terminalrc
+
+zsh:
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/zsh/zshrc ${HOME}/.zshrc
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/zsh/zshenv ${HOME}/.zshenv
 

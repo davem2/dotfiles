@@ -1,0 +1,110 @@
+# Autocompletion
+autoload -U compinit
+compinit
+
+
+
+bindkey -e                          # emacs mode
+#bindkey -v                         # vi mode
+bindkey "^[[1~" beginning-of-line   # map Home to start of line
+bindkey "^[[4~" end-of-line         # map End to end of line
+bindkey "^[[3~" delete-char         # map Del to delete
+
+
+HISTFILE=~/.histfile
+HISTSIZE=10000
+SAVEHIST=10000
+
+setopt appendhistory
+setopt autocd
+setopt extendedglob
+setopt nomatch
+setopt notify
+export TERM="xterm-256color"
+
+#unsetopt MULTIBYTE                  # recognize Meta and Alt keys
+
+# if you do a 'rm *', Zsh will give you a sanity check!
+setopt RM_STAR_WAIT
+
+# allows you to type Bash style comments on your command line
+# good 'ol Bash
+setopt interactivecomments
+
+# Zsh has a spelling corrector
+setopt CORRECT
+
+unsetopt beep
+
+
+setopt HIST_IGNORE_DUPS             # prevent duplicate lines in history
+setopt PRINT_EXIT_VALUE
+
+alias ls='ls -hF --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto'
+alias ll='ls -l'
+alias la='ls -la'
+alias lt='ls -lrt'                  # sort by modification time
+alias lx='ls -lBX'                  # sort by extension
+alias lz='ls -lrS'                  # sort by size
+
+alias grep='grep --color=auto -d skip'
+alias cp="cp -i"                    # confirm before overwriting something
+alias df='df -h'                    # human readable
+alias du='du -hc'                   # human readable
+alias free='free -m'                # show sizes in MB
+alias np='nano PKGBUILD'
+alias pm='sudo pacman'
+alias pk='packer --noconfirm --noedit'
+alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
+
+
+################################################################
+# Prompt configuration
+#
+autoload -U promptinit
+
+setopt prompt_subst
+setopt promptsubst
+setopt promptpercent
+
+autoload colors; colors;
+
+local return_code="%(?..%{$fg[red]%}✗ ❨%?❩ %{$reset_color%})"
+local user_host='%{$fg[cyan]%}%n%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%}'
+local current_dir='%{$fg[magenta]%}%~%{$reset_color%}'
+local git_branch='$(git_prompt_info)%{$reset_color%}'
+
+#RPROMPT="${return_code}%{$reset_color%} [%{$fg[magenta]%}%@%{$reset_color%}]"
+RPROMPT="${return_code}%{$reset_color%}"
+PROMPT="%{$fg_bold[blue]%}╭─[${current_dir}%{$fg_bold[blue]%}]${git_branch}
+%{$fg_bold[blue]%}╰$%B%b "
+
+ZSH_THEME_GIT_PROMPT_SUFFIX=""
+
+# Git Prompt
+function git_prompt_info() {
+  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+  ismod=$(git status --porcelain | head -1 | grep "^ M ")
+  echo "%{$fg_bold[blue]%}(%{$fg_bold[yellow]%}${ref#refs/heads/}${ismod}%{$fg_bold[blue]%})%{$reset_color%}"
+}
+
+
+################################################################
+# Dirstack configuration
+#
+DIRSTACKFILE="$HOME/.cache/zsh/dirs"
+if [[ -f $DIRSTACKFILE ]] && [[ $#dirstack -eq 0 ]]; then
+  dirstack=( ${(f)"$(< $DIRSTACKFILE)"} )
+  [[ -d $dirstack[1] ]] && cd $dirstack[1]
+fi
+chpwd() {
+  print -l $PWD ${(u)dirstack} >$DIRSTACKFILE
+}
+
+DIRSTACKSIZE=20
+
+setopt autopushd
+setopt pushdsilent
+setopt pushdtohome
+setopt pushdignoredups              # remove duplicate entries
+setopt pushdminus                   # this reverts the +/- operators
