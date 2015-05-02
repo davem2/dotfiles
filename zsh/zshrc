@@ -1,26 +1,57 @@
-# Autocompletion
+export TERM="xterm-256color"
+
+################################################################
+# Auto-completion
+#
 autoload -U compinit
 compinit
 
+################################################################
+# Keyboard
+#
+autoload zkbd
+if [[ -f ~/.zkbd/$TERM-:0.0 ]]; then
+    source ~/.zkbd/$TERM-:0.0
+else
+    zkbd # walk user through new keymap file if one doesn't exist
+fi
+
+[[ -n ${key[Backspace]} ]] && bindkey "${key[Backspace]}" backward-delete-char
+[[ -n ${key[Insert]} ]] && bindkey "${key[Insert]}" overwrite-mode
+[[ -n ${key[Home]} ]] && bindkey "${key[Home]}" beginning-of-line
+[[ -n ${key[PageUp]} ]] && bindkey "${key[PageUp]}" up-line-or-history
+[[ -n ${key[Delete]} ]] && bindkey "${key[Delete]}" delete-char
+[[ -n ${key[End]} ]] && bindkey "${key[End]}" end-of-line
+[[ -n ${key[PageDown]} ]] && bindkey "${key[PageDown]}" down-line-or-history
+[[ -n ${key[Up]} ]] && bindkey "${key[Up]}" up-line-or-search
+[[ -n ${key[Left]} ]] && bindkey "${key[Left]}" backward-char
+[[ -n ${key[Down]} ]] && bindkey "${key[Down]}" down-line-or-search
+[[ -n ${key[Right]} ]] && bindkey "${key[Right]}" forward-char
 
 
 bindkey -e                          # emacs mode
 #bindkey -v                         # vi mode
-bindkey "^[[1~" beginning-of-line   # map Home to start of line
-bindkey "^[[4~" end-of-line         # map End to end of line
-bindkey "^[[3~" delete-char         # map Del to delete
+
+# History search
+[[ -n "${key[PageUp]}"   ]]  && bindkey  "${key[PageUp]}"    history-beginning-search-backward
+[[ -n "${key[PageDown]}" ]]  && bindkey  "${key[PageDown]}"  history-beginning-search-forward
 
 
+################################################################
+# History
+#
 HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
+setopt appendhistory                # append new history lines instead of overwriting
+setopt HIST_IGNORE_DUPS             # prevent duplicate lines in history
 
-setopt appendhistory
-setopt autocd
-setopt extendedglob
-setopt nomatch
+################################################################
+# Other options
+#
+setopt autocd                       # Change directory given just path
+setopt extendedglob                 # Use additional pattern matching features
 setopt notify
-export TERM="xterm-256color"
 
 #unsetopt MULTIBYTE                  # recognize Meta and Alt keys
 
@@ -30,16 +61,16 @@ setopt RM_STAR_WAIT
 # allows you to type Bash style comments on your command line
 # good 'ol Bash
 setopt interactivecomments
-
-# Zsh has a spelling corrector
-setopt CORRECT
+setopt CORRECT                      # zsh spellcheck
 
 unsetopt beep
 
 
-setopt HIST_IGNORE_DUPS             # prevent duplicate lines in history
 setopt PRINT_EXIT_VALUE
 
+################################################################
+# Aliases
+#
 alias ls='ls -hF --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto'
 alias ll='ls -l'
 alias la='ls -la'
@@ -59,9 +90,11 @@ alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
 
 
 ################################################################
-# Prompt configuration
+# Prompt
 #
 autoload -U promptinit
+promptinit
+#prompt clint
 
 setopt prompt_subst
 setopt promptsubst
@@ -90,7 +123,7 @@ function git_prompt_info() {
 
 
 ################################################################
-# Dirstack configuration
+# Dirstack
 #
 DIRSTACKFILE="$HOME/.cache/zsh/dirs"
 if [[ -f $DIRSTACKFILE ]] && [[ $#dirstack -eq 0 ]]; then
