@@ -40,9 +40,9 @@ openbox:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/openbox/rc_base.xml ${HOME}/.config/openbox/rc.xml
 
 slim:
-	@printf "%s\n    %s -> %s\n" "$@" "$(DOTFILES)/desktop/slim/slim.conf" "/etc/slim.conf"
-	@mkdir -p $(DOTFILES)/backup/$@ && cp -n /etc/slim.conf $(DOTFILES)/backup/$@/
-	sudo ln -fs $(DOTFILES)/desktop/slim/slim.conf /etc/slim.conf
+#	@printf "%s\n    %s -> %s\n" "$@" "$(DOTFILES)/desktop/slim/slim.conf" "/etc/slim.conf" || true
+#	@mkdir -p $(DOTFILES)/backup/$@ && cp -n /etc/slim.conf $(DOTFILES)/backup/$@/ || true
+#	sudo ln -fs $(DOTFILES)/desktop/slim/slim.conf /etc/slim.conf || true
 
 teamocil:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/teamocil ${HOME}/.teamocil
