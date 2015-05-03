@@ -38,7 +38,7 @@ TEXT
 #${color 888888}${font Droid Sans Mono:pixelsize=22}${hr 1}
 #${color EAEAEA}${font Droid Sans Mono:pixelsize=24}${font Droid Sans Mono:pixelsize=24}${exec cal}
 #${color 888888}${font Droid Sans Mono:pixelsize=22}${hr 1}
-${color orange}${font Droid Sans Mono:pixelsize=11}${alignc}CPU  $color${cpu}%    ${color orange}RAM  $color$mem   ${color orange}DOWN  $color${downspeed enp6s0}   ${color orange}UP  $color${upspeed enp6s0}
+${color orange}${font Droid Sans Mono:pixelsize=11}${alignc}CPU $color${cpu}%   ${color orange}RAM $color$mem   ${color orange}DOWN $color${downspeed enp6s0}   ${color orange}UP $color${upspeed enp6s0}
 ${color EAEAEA}${font Droid Sans Mono:pixelsize=32}${hr 1}
 ${color EAEAEA}${font Droid Sans:pixelsize=130}${alignc}${time %H}${voffset -10}:${voffset 10}${time %M}${font Droid Sans:pixelsize=32}
 ${voffset 20}${color EAEAEA}${font Droid Sans Mono:size=13}${execpi 60 DJS=$(date +%-d); cal | sed s/"\b$DJS\b"/'${color orange}'"$DJS"'$color'/ | sed s/^/'${alignc}'/ }
