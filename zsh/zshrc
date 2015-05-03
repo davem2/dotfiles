@@ -1,6 +1,3 @@
-HISTSIZE=10000
-SAVEHIST=10000
-
 #alias ls='ls -hF --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto'
 alias ls='ls -hF --group-directories-first --color=auto'
 alias ll='ls -l'
@@ -14,7 +11,13 @@ alias cp="cp -i"                    # confirm before overwriting something
 alias df='df -h'                    # human readable
 alias du='du -hc'                   # human readable
 alias free='free -m'                # show sizes in MB
-alias pm='sudo pacman'
-alias pk='packer --noconfirm --noedit'
-alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
+alias cal='cal -y'
 
+alias pm='sudo pacman'
+alias pmu='sudo pacman -Syu'
+alias pk='packer --noconfirm --noedit'
+alias pks='pk -Ss'
+alias pki='pk -S'
+
+alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
+alias top10='print -l ? ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
