@@ -70,6 +70,8 @@ xfce-terminal:
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/desktop/xfce/terminal/background1.jpg ${HOME}/.config/xfce4/terminal/background.jpg
 
 zsh:
-	@$(DOTFILES)/deploy $@ $(DOTFILES)/zsh/zshrc ${HOME}/.zshrc.local
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/zsh/zshrc.pre ${HOME}/.zshrc.pre
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/zsh/zshrc.local ${HOME}/.zshrc.local
 	@$(DOTFILES)/deploy $@ $(DOTFILES)/zsh/zshenv ${HOME}/.zshenv
+	@$(DOTFILES)/deploy $@ $(DOTFILES)/zsh/zfunctions ${HOME}/.zfunctions
 
