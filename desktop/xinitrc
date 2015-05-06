@@ -29,3 +29,6 @@ setxkbmap -option caps:escape
 # exec WM chosen from SLiM
 exec openbox-session
 
+# xscreensaver
+/usr/bin/xscreensaver -no-splash &
+
