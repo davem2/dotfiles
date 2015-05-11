@@ -1,0 +1,6 @@
+# Unzip all zip files in a directory
+unzip '*.zip'
+
+# Unzip to directory
+unzip file.zip -d outputdirectory/
+
