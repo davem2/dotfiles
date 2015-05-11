@@ -24,6 +24,7 @@
     <item label="qtFM" icon="/usr/share/pixmaps/qtfm.png"><action name="Execute"><execute>qtfm</execute></action></item>
     <item label="QTodo.txt" icon="/usr/share/pixmaps/qtodotxt.png"><action name="Execute"><execute>/usr/bin/qtodotxt</execute></action></item>
     <item label="Root Terminal" icon="/usr/share/pixmaps/gksu-root-terminal.png"><action name="Execute"><execute>gksu -l gnome-terminal</execute></action></item>
+    <item label="Sakura" icon=""><action name="Execute"><execute>sakura</execute></action></item>
     <item label="Synapse" icon=""><action name="Execute"><execute>synapse</execute></action></item>
     <item label="Terminal Emulator" icon=""><action name="Execute"><execute>exo-open --launch TerminalEmulator</execute></action></item>
     <item label="Thunar File Manager" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute>thunar</execute></action></item>
@@ -34,6 +35,7 @@
     <item label="Android Studio" icon="/usr/share/pixmaps/android-studio.png"><action name="Execute"><execute>android-studio</execute></action></item>
     <item label="Bluefish Editor" icon="/usr/share/pixmaps/bluefish.png"><action name="Execute"><execute>bluefish</execute></action></item>
     <item label="Brackets" icon="/usr/share/icons/hicolor/32x32/apps/brackets.png"><action name="Execute"><execute>/opt/brackets/brackets</execute></action></item>
+    <item label="CMake" icon="/usr/share/icons/hicolor/32x32/apps/CMakeSetup.png"><action name="Execute"><execute>cmake-gui</execute></action></item>
     <item label="Eclipse" icon="/usr/share/icons/hicolor/16x16/apps/eclipse.png"><action name="Execute"><execute>eclipse</execute></action></item>
     <item label="eric6" icon="/usr/share/pixmaps/eric.png"><action name="Execute"><execute>eric6</execute></action></item>
     <item label="FLUID" icon="/usr/share/icons/hicolor/16x16/apps/fluid.png"><action name="Execute"><execute>fluid</execute></action></item>
@@ -75,6 +77,7 @@
     <item label="Agave" icon="/usr/share/icons/hicolor/16x16/apps/agave.png"><action name="Execute"><execute>agave</execute></action></item>
     <item label="Alchemy" icon="/usr/share/pixmaps/alchemy.png"><action name="Execute"><execute>alchemy</execute></action></item>
     <item label="AOI (Art of Illusion)" icon="/usr/share/pixmaps/aoi.png"><action name="Execute"><execute>java -Xmx512m -jar /usr/share/java/aoi/ArtOfIllusion.jar</execute></action></item>
+    <item label="Aseprite" icon="/usr/share/pixmaps/aseprite.png"><action name="Execute"><execute>aseprite</execute></action></item>
     <item label="AzDrawing" icon="/usr/share/icons/hicolor/48x48/apps/azdrawing.png"><action name="Execute"><execute>azdrawing</execute></action></item>
     <item label="AzMiniPainter" icon=""><action name="Execute"><execute>azminipt</execute></action></item>
     <item label="Blender" icon="/usr/share/icons/hicolor/16x16/apps/blender.png"><action name="Execute"><execute>blender</execute></action></item>
@@ -143,6 +146,7 @@
     <item label="Schism Tracker Font Editor" icon="/usr/share/icons/hicolor/72x72/apps/schismtracker-itf.png"><action name="Execute"><execute>schismtracker --font-editor</execute></action></item>
     <item label="Schism Tracker" icon="/usr/share/icons/hicolor/72x72/apps/schismtracker.png"><action name="Execute"><execute>schismtracker</execute></action></item>
     <item label="Seq24" icon="/usr/share/pixmaps/seq24.png"><action name="Execute"><execute>seq24</execute></action></item>
+    <item label="sfxr" icon="/usr/share/icons/hicolor/48x48/apps/sfxr.png"><action name="Execute"><execute>sfxr</execute></action></item>
     <item label="SimpleScreenRecorder" icon="/usr/share/icons/hicolor/16x16/apps/simplescreenrecorder.png"><action name="Execute"><execute>simplescreenrecorder --logfile</execute></action></item>
     <item label="SMPlayer" icon="/usr/share/icons/hicolor/16x16/apps/smplayer.png"><action name="Execute"><execute>smplayer</execute></action></item>
     <item label="SunVox" icon="/usr/share/icons/sunvox/sunvox.png"><action name="Execute"><execute>sunvox</execute></action></item>
@@ -241,6 +245,7 @@
     <item label="Oracle VM VirtualBox" icon="/usr/share/icons/hicolor/16x16/mimetypes/virtualbox.png"><action name="Execute"><execute>VirtualBox</execute></action></item>
     <item label="paranoid" icon=""><action name="Execute"><execute>python2 /usr/bin/paranoid.py</execute></action></item>
     <item label="PeaZip" icon="/usr/share/pixmaps/peazip.png"><action name="Execute"><execute>peazip -style=cleanlooks</execute></action></item>
+    <item label="Sakura" icon=""><action name="Execute"><execute>sakura</execute></action></item>
     <item label="System Profiler and Benchmark" icon="/usr/share/hardinfo/pixmaps/logo.png"><action name="Execute"><execute>hardinfo</execute></action></item>
     <item label="Thunar File Manager" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute>thunar</execute></action></item>
     <item label="urxvt (client)" icon=""><action name="Execute"><execute>urxvtc</execute></action></item>

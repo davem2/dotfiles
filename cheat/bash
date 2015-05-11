@@ -14,20 +14,21 @@ fileCount=${#list1[@]}
 
 # Hotkeys
 -- Movement
-Ctrl + A    Go to the beginning of the line you are currently typing on
-Ctrl + E    Go to the end of the line you are currently typing on
-Alt  + B    Back one word
-Alt  + F    Forward one word
+Ctrl + a     Go to the beginning of the line you are currently typing on
+Ctrl + e     Go to the end of the line you are currently typing on
+Alt  + b     Back one word
+Alt  + f     Forward one word
 -- Editing
-Ctrl + L    Clears the Screen, similar to the clear command
-Ctrl + W    Clears the word before the cursor position.
-Ctrl + U    Clears the line before the cursor position. 
-Ctrl + K    Clear the line after the cursor
+Ctrl + l     Clears the Screen, similar to the clear command
+Ctrl + w     Clears the word before the cursor position.
+Ctrl + u     Clears the line before the cursor position. 
+Ctrl + k     Clear the line after the cursor
+Alt  + Bksp  Delete previous word
 -- Other
-Ctrl + R    Let’s you search through previously used commands
-Ctrl + C    Kill whatever you are running
-Ctrl + D    Exit the current shell
-Ctrl + Z    Puts whatever you are running into a suspended background process. fg restores it.
+Ctrl + r     Let’s you search through previously used commands
+Ctrl + c     Kill whatever you are running
+Ctrl + d     Exit the current shell
+Ctrl + z     Puts whatever you are running into a suspended background process. fg restores it.
 
 # Default arguments
 variable=${1:-defaultvalue}
