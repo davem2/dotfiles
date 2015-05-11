@@ -4,7 +4,9 @@
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && exec tmux
+
+# Always start in tmux session
+#[[ -z "$TMUX" ]] && exec tmux
 
 # Greeting
 fortune all | cowthink
@@ -44,7 +46,7 @@ export PROMPT_COMMAND='echo -ne "\033]0;$PWD\007"'
 shopt -s checkwinsize
 
 # avoid duplicates..
-export HISTCONTROL=ignoredups:erasedups  
+export HISTCONTROL=ignoredups:erasedups
 
 # remember a lot of history
 export HISTSIZE=100000                   # big big history
@@ -53,7 +55,7 @@ export HISTFILESIZE=100000               # big big history
 # append history entries..
 shopt -s histappend
 source ~/packer-completion.bash
-PROMPT_COMMAND="history -a" 
+PROMPT_COMMAND="history -a"
 
 # pretty colors
 eval $(dircolors -b $HOME/.dircolors)
