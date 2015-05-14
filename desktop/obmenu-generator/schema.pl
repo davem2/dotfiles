@@ -61,10 +61,10 @@ require '/home/david/.config/obmenu-generator/config.pl';
 our $SCHEMA = [
     #          COMMAND             LABEL                ICON
     {item => ['thunar',        'File Manager',      'file-manager']},
-    {item => ['xterm',         'Terminal',          'terminal']},
+    {item => ['sakura',        'Terminal',          'terminal']},
     {item => ['google-chrome', 'Web Browser',       'web-browser']},
     {item => ['gmrun',         'Run command',       'system-run']},
-    {item => ['pidgin',        'Instant messaging', 'system-users']},
+    {item => ['telegram',      'Instant messaging', 'system-users']},
 
     {sep => 'Applications'},
 
