@@ -15,7 +15,7 @@ alias cal='cal -y'
 
 alias pm='sudo pacman'
 alias pmu='sudo pacman -Syu'
-alias pk='packer --noconfirm --noedit'
+alias pk='pacaur --noconfirm --noedit'
 alias pks='pk -Ss'
 alias pki='pk -S'
 
