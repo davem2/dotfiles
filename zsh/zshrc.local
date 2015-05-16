@@ -15,9 +15,22 @@ alias cal='cal -y'
 
 alias pm='sudo pacman'
 alias pmu='sudo pacman -Syu'
+#alias pk='packer --noconfirm --noedit'
 alias pk='pacaur --noconfirm --noedit'
 alias pks='pk -Ss'
 alias pki='pk -S'
 
 alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
 alias top10='print -l ? ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
+
+# Set path
+typeset -U path
+path=($path $HOME/bin $HOME/.gem/ruby/2.1.0/bin $HOME/pp/tools)
+
+# Set environment
+export EDITOR="vim"
+export VISUAL="vim"
+export TMPDIR="$HOME/tmp"
+
+# Prevent tmux window names from changing dynamically based on active command
+DISABLE_AUTO_TITLE=true
