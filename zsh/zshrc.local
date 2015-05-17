@@ -33,4 +33,5 @@ export VISUAL="vim"
 export TMPDIR="$HOME/tmp"
 
 # Prevent tmux window names from changing dynamically based on active command
+# without this, tmux prepends "zsh:" to all window names
 DISABLE_AUTO_TITLE=true
