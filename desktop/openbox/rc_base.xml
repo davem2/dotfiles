@@ -244,31 +244,27 @@
         <to>4</to>
       </action>
     </keybind>
-    <keybind key="C-W-A-Left">
-      <keybind key="Up">
-        <keybind key="Down">
-          <keybind key="Left">
-            <keybind key="Right">
-              <keybind key="C-W-A-1">
-                <action name="Execute">
-                  <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_extended1.xml</command>
-                </action>
-              </keybind>
+    <keybind key="C-W-A-Up">
+      <keybind key="C-W-A-Down">
+        <keybind key="C-W-A-Left">
+          <keybind key="C-W-A-Right">
+            <keybind key="C-W-A-1">
+              <action name="Execute">
+                <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_extended1.xml</command>
+              </action>
             </keybind>
           </keybind>
         </keybind>
       </keybind>
     </keybind>
-    <keybind key="C-W-A-Left">
-      <keybind key="Up">
-        <keybind key="Down">
-          <keybind key="Left">
-            <keybind key="Right">
-              <keybind key="C-W-A-2">
-                <action name="Execute">
-                  <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_extended2.xml</command>
-                </action>
-              </keybind>
+    <keybind key="C-W-A-Up">
+      <keybind key="C-W-A-Down">
+        <keybind key="C-W-A-Left">
+          <keybind key="C-W-A-Right">
+            <keybind key="C-W-A-2">
+              <action name="Execute">
+                <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_extended2.xml</command>
+              </action>
             </keybind>
           </keybind>
         </keybind>
