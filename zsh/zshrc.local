@@ -24,8 +24,13 @@ alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
 alias top10='print -l ? ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 
 # Set path
-typeset -U path
-path=($path $HOME/bin $HOME/.gem/ruby/2.1.0/bin $HOME/pp/tools)
+#typeset -U path
+#path=($path ~/bin ~/.gem/ruby/2.1.0/bin ~/pp/tools)
+
+## Method above is recommended way to set $PATH in zsh, but..
+## it doesn't work, this does..
+PATH=$PATH:$HOME/bin:$HOME/.gem/ruby/2.1.0/bin:$HOME/pp/tools
+export PATH
 
 # Set environment
 export EDITOR="vim"
