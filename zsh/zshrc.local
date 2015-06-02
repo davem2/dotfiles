@@ -14,11 +14,14 @@ alias free='free -m'                # show sizes in MB
 alias cal='cal -y'
 
 alias pm='sudo pacman'
+alias pms='sudo pacman -Ss'
+alias pmi='sudo pacman -S'
 alias pmu='sudo pacman -Syu'
 #alias pk='packer --noconfirm --noedit'
 alias pk='pacaur --noconfirm --noedit'
 alias pks='pk -Ss'
 alias pki='pk -S'
+alias pku='pk -Syu'
 
 alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
 alias top10='print -l ? ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
