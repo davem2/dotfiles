@@ -13,6 +13,7 @@ fi
 
 # TODO: Best place for this?
 setxkbmap -option 'caps:ctrl_modifier'
+setxkbmap -option 'caps:escape'
 xcape -e 'Caps_Lock=Escape'
 
 #tint2 &
