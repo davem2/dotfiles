@@ -475,8 +475,8 @@
       <action name="MoveResizeTo">
         <x>center</x>
         <y>center</y>
-        <width>50%</width>
-        <height>50%</height>
+        <width>84%</width>
+        <height>84%</height>
       </action>
     </keybind>
     <keybind key="W-C-Left">
@@ -492,6 +492,15 @@
         <monitor>next</monitor>
       </action>
       <action name="Maximize"/>
+    </keybind>
+    <keybind key="W-A-d">
+      <action name="ToggleDecorations"/>
+    </keybind>
+    <keybind key="W-A-t">
+      <action name="ToggleAlwaysOnTop"/>
+    </keybind>
+    <keybind key="W-A-b">
+      <action name="ToggleAlwaysOnBottom"/>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
@@ -510,6 +519,20 @@
     </keybind>
     <keybind key="W-Right">
       <action name="NextWindow">
+        <dialog>icons</dialog>
+        <raise>yes</raise>
+        <bar>no</bar>
+      </action>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="PreviousWindow">
+        <dialog>icons</dialog>
+        <raise>yes</raise>
+        <bar>no</bar>
+      </action>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="NextWindow">
         <finalactions>
           <action name="Focus"/>
           <action name="Raise"/>
@@ -517,7 +540,7 @@
         </finalactions>
       </action>
     </keybind>
-    <keybind key="W-Left">
+    <keybind key="W-Up">
       <action name="PreviousWindow">
         <finalactions>
           <action name="Focus"/>
