@@ -515,7 +515,16 @@
           <enabled>true</enabled>
           <name>Thunar</name>
         </startupnotify>
-        <command>thunar</command>
+        <command>wlaunch thunar thunar</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-e">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Thunar</name>
+        </startupnotify>
+        <command>Thunar</command>
       </action>
     </keybind>
     <keybind key="W-w">
@@ -538,23 +547,33 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
+        <command>wlaunch xfce4-terminal xfce4-terminal</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-t">
+      <action name="Execute">
         <command>xfce4-terminal</command>
       </action>
     </keybind>
     <keybind key="W-b">
       <action name="Execute">
-        <command>~/bin/launchbrowser</command>
+        <command>wlaunch "firejail firefox" Navigator</command>
       </action>
     </keybind>
-    <keybind key="W-A-b">
+    <keybind key="W-S-b">
       <action name="Execute">
-        <command>chromium</command>
+        <command>firefox</command>
+      </action>
+    </keybind>
+    <keybind key="W-g">
+      <action name="Execute">
+        <command>wlaunch geany geany</command>
       </action>
     </keybind>
     <!-- Screenshots -->
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot</command>
+        <command>screenshot</command>
       </action>
     </keybind>
     <keybind key="A-Print">
@@ -609,8 +628,8 @@
       <action name="MoveResizeTo">
         <x>center</x>
         <y>center</y>
-        <width>50%</width>
-        <height>50%</height>
+        <width>84%</width>
+        <height>84%</height>
       </action>
     </keybind>
     <keybind key="W-C-Left">
@@ -627,6 +646,15 @@
       </action>
       <action name="Maximize"/>
     </keybind>
+    <keybind key="W-A-d">
+      <action name="ToggleDecorations"/>
+    </keybind>
+    <keybind key="W-A-t">
+      <action name="ToggleAlwaysOnTop"/>
+    </keybind>
+    <keybind key="W-A-b">
+      <action name="ToggleAlwaysOnBottom"/>
+    </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
         <command>amixer sset Master,0 5+</command>
@@ -639,10 +667,24 @@
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>amixer sset Master,0 toggle</command>
+        <command>togglemute</command>
       </action>
     </keybind>
     <keybind key="W-Right">
+      <action name="NextWindow">
+        <dialog>icons</dialog>
+        <raise>yes</raise>
+        <bar>no</bar>
+      </action>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="PreviousWindow">
+        <dialog>icons</dialog>
+        <raise>yes</raise>
+        <bar>no</bar>
+      </action>
+    </keybind>
+    <keybind key="W-Down">
       <action name="NextWindow">
         <finalactions>
           <action name="Focus"/>
@@ -651,7 +693,7 @@
         </finalactions>
       </action>
     </keybind>
-    <keybind key="W-Left">
+    <keybind key="W-Up">
       <action name="PreviousWindow">
         <finalactions>
           <action name="Focus"/>
@@ -1054,7 +1096,7 @@
   # order that they appear in this list
 
 
-    # each rule element can be left out or set to 'default' to specify to not 
+    # each rule element can be left out or set to 'default' to specify to not
     # change that attribute of the window
 
     <decor>yes</decor>
