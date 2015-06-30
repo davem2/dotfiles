@@ -1,0 +1,11 @@
+# Monitor midi input
+aseqdump -p 20
+
+# List midi input devices
+aconnect -i
+
+# List midi output devices
+aconnect -o
+
+# Connect midi keyboard(input) to qsynth(output). Client numbers are found through aconnect -i or aconnect -o
+aconnect 20 128
