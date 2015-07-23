@@ -43,3 +43,9 @@ export TMPDIR="$HOME/tmp"
 # Prevent tmux window names from changing dynamically based on active command
 # without this, tmux prepends "zsh:" to all window names
 DISABLE_AUTO_TITLE=true
+
+# Allow commands that use ^ like
+# git reset HEAD^
+# to work with extendedglob turned on
+setopt no_nomatch
+unsetopt nomatch
