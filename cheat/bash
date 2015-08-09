@@ -23,6 +23,7 @@ Ctrl + l     Clears the Screen, similar to the clear command
 Ctrl + w     Clears the word before the cursor position.
 Ctrl + u     Clears the line before the cursor position. 
 Ctrl + k     Clear the line after the cursor
+Ctrl + y     Paste text cleared by prior Ctrl + u/w/k..
 Alt  + Bksp  Delete previous word
 -- Other
 Ctrl + r     Let’s you search through previously used commands
