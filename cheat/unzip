@@ -4,3 +4,5 @@ unzip '*.zip'
 # Unzip to directory
 unzip file.zip -d outputdirectory/
 
+# List zip file contents
+unzip file.zip -v
