@@ -1,7 +1,7 @@
 #!/bin/sh
 #
-# Toggle mute/unmute sound using amixer.  Works around issue where amixer 
-# toggle will mute channels besides master but not unmute them on next 
+# Toggle mute/unmute sound using amixer.  Works around issue where amixer
+# toggle will mute channels besides master but not unmute them on next
 # toggle.
 #
 
@@ -10,11 +10,13 @@ unmuted_icon=stock_volume
 
 if amixer get Master | grep -q '\[on\]'; then
 	notify-send -t 2000 -i $muted_icon "Sound Muted"
+	amixer set Headphone mute
+	amixer set Speaker mute
 	amixer set Master mute
 else
 	notify-send -t 2000 -i $unmuted_icon "Sound Unmuted"
-	amixer set Headphones unmute 100%
-	amixer set Speaker unmute 100%
-	amixer set Master unmute 100%
+	amixer set Headphone unmute
+	amixer set Speaker unmute
+	amixer set Master unmute
 # TODO: make channel names dynamic based on `amixer scontents` output
 fi
