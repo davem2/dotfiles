@@ -409,7 +409,7 @@
     </keybind>
     <keybind key="W-S-b">
       <action name="Execute">
-        <command>firefox</command>
+        <command>wlaunch "firejail firefox --private-window" Navigator</command>
       </action>
     </keybind>
     <keybind key="W-g">
