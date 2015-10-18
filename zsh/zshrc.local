@@ -7,7 +7,7 @@ alias lx='ls -lBX'                  # sort by extension
 alias lz='ls -lrS'                  # sort by size
 
 alias grep='grep --color=auto -d skip'
-alias cp="cp -i"                    # confirm before overwriting something
+alias cp='cp -i'                    # confirm before overwriting something
 alias df='df -h'                    # human readable
 alias du='du -hc'                   # human readable
 alias free='free -m'                # show sizes in MB
@@ -27,15 +27,6 @@ alias github='hub'
 
 alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
 alias top10='print -l ? ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
-
-# Set path
-#typeset -U path
-#path=($path ~/bin ~/.gem/ruby/2.1.0/bin ~/pp/tools)
-
-## Method above is recommended way to set $PATH in zsh, but..
-## it doesn't work, this does..
-PATH=$PATH:$HOME/bin:$HOME/.gem/ruby/2.1.0/bin:$HOME/pp/tools
-export PATH
 
 # Set environment
 export EDITOR="vim"
