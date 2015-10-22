@@ -42,3 +42,11 @@ DISABLE_AUTO_TITLE=true
 # to work with extendedglob turned on
 setopt no_nomatch
 unsetopt nomatch
+
+# TODO: Look into completions more.. below works, but is most likely no optimal
+# completions
+compdef _gnu_generic dp2ppgen guiguts kppvh ppimg ppvimage dp2rst gutcheck ppcheckout ppsmq unitame comp_pp ppgen diffout epubmaker jeebies
+compdef _gnu_generic curl emacs emacsclient file head mv paste
+compdef _gnu_generic tail touch scrot shred watch wc zsh
+compdef _gnu_generic ffprobe
+#compdef _gnu_generic /usr/bin/*
