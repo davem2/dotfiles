@@ -30,3 +30,8 @@ lst.count(4)		# 3
 'o' in 'Bob'		# True
 5 in lst		# True
 
+# List comprehension
+squares = [x**2 for x in range(10)]
+noprimes = [j for i in range(2, 8) for j in range(i*2, 50, i)]
+primes = [x for x in range(2, 50) if x not in noprimes]
+
