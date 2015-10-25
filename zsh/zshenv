@@ -1,4 +1,4 @@
 # Set path
-#typeset -U path
-#path=($path ~/bin ~/.gem/ruby/2.1.0/bin ~/pp/tools)
+typeset -U path
+path=($path ~/bin ~/.gem/ruby/2.1.0/bin ~/pp/tools)
 
