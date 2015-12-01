@@ -6,15 +6,15 @@
 # wlaunch thunar thunar
 #
 # Behaves as follows:
-# 	application is not running -> launch new application window 
+# 	application is not running -> launch new application window
 # 	application is running and has focus -> launch new application window
-# 	application is running and does not have focus -> give application focus 
+# 	application is running and does not have focus -> give application focus
 #
-# Depends on wmctrl and xdotool. 
+# Depends on wmctrl and xdotool.
 #
-# To determine app_wm_class argument use the following command to list WM_CLASS 
+# To determine app_wm_class argument use the following command to list WM_CLASS
 # of each active window:
-# $	wmctrl -lx | awk '{print $3}' | cut -d '.' -f 1 
+# $	wmctrl -lx | awk '{print $3}' | cut -d '.' -f 1
 #
 # Based off https://github.com/urukrama/dotfiles_loka/blob/master/scripts/only_thunar
 #
@@ -30,30 +30,36 @@ fi
 
 app_exec=$1
 app_wm_class=$2
- 
+
 # If application is not started then start one
 if [ -z "`wmctrl -lx | awk '{print $3}' | grep $app_wm_class`" ]; then
 	$app_exec &
 else
 	current_desk=`wmctrl -d | grep '*' | cut -d ' ' -f 1`
 	app_on_this_desk=`wmctrl -lx | awk '{print $1," ",$2," ",$3}' | grep "$current_desk[ ]*$app_wm_class" | cut -d ' ' -f 1 | head -n 1`
-	
-	if [ -n "$app_on_this_desk" ]; then
-		# Application is running on active desktop
-		
-		app_with_focus=`printf "0x%x" $(xdotool getwindowfocus)`
-		app_to_focus=$app_on_this_desk
-		if [[ $app_to_focus -eq $app_with_focus ]]; then
-			# Application is running and currently has focus, launch new window
-			$app_exec &
-		else
+
+	# Application is running on active desktop
+	app_with_focus=`printf "0x%x" $(xdotool getwindowfocus)`
+	app_to_focus=$app_on_this_desk
+	if [[ $app_to_focus -eq $app_with_focus ]]; then
+		# Application is running and currently has focus, launch new window
+		$app_exec &
+	else
+		if [ -n "$app_on_this_desk" ]; then
 			# If application is running on active desktop then raise and give focus
 			wmctrl -i -a $app_on_this_desk
+		else
+			# Application is running on inactive desktop
+
+			# move it to active desktop, raise and give focus
+			#wmctrl -x -R $app_wm_class
+
+			# switch to desktop with application, raise and give focus
+			#wmctrl -x -a $app_wm_class
+
+			# launch new window on this desktop
+			$app_exec &
 		fi;
-		
-	else
-		# If application is running on inactive desktop then move it to active desktop, raise and give focus
-		wmctrl -x -R $app_wm_class
 	fi;
 fi;
 

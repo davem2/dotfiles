@@ -33,6 +33,16 @@ export EDITOR="vim"
 export VISUAL="vim"
 export TMPDIR="$HOME/tmp"
 
+# Should be set in .zshenv, but this causes path to not be set properly
+# within TMUX. Seems to be an Arch specific issue.
+#typeset -U path
+#path=(~/bin ~/.gem/ruby/2.1.0/bin ~/pp/tools $path[@])
+
+# Method above is recommended way to set $PATH in zsh, but..
+# it doesn't work, this does..
+PATH=$PATH:$HOME/bin:$HOME/.gem/ruby/2.1.0/bin:$HOME/pp/tools
+export PATH
+
 # Prevent tmux window names from changing dynamically based on active command
 # without this, tmux prepends "zsh:" to all window names
 DISABLE_AUTO_TITLE=true

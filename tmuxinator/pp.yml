@@ -8,13 +8,13 @@ windows:
       layout: even-vertical
       panes:
         - harpers:
-          - cd /mnt/marge/e/dp/PP/harpers-outdoor-book-for-boys
+          - cd /mnt/marge/e/dp/PP/ppv/harpers-outdoor-book-for-boys
           - clear
         - impending:
-          - cd /mnt/marge/e/dp/PP/the-impending-crisis
+          - cd /mnt/marge/e/dp/PP/ppv/the-impending-crisis
           - clear
         - saturday:
-          - cd /mnt/marge/e/dp/PP/the-saturday-magazine-66
+          - cd /mnt/marge/e/dp/PP/ppv/the-saturday-magazine-66
           - clear
         - passamaquoddy:
           - cd /mnt/marge/e/dp/PP/passamaquoddy-texts
