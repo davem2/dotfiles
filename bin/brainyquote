@@ -8,7 +8,7 @@ import requests
 import random
 
 htmldata = requests.get('http://www.brainyquote.com/quotes_of_the_day.html')
-soup = BeautifulSoup(htmldata.text)
+soup = BeautifulSoup(htmldata.text,"lxml")
 
 quote = soup.find_all("a", title="view quote")
 author = soup.find_all("a", title="view author")
