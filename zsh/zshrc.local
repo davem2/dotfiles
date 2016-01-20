@@ -32,6 +32,7 @@ alias top10='print -l ? ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 export EDITOR="vim"
 export VISUAL="vim"
 export TMPDIR="$HOME/tmp"
+export AURDEST="$HOME/tmp-aur"
 
 # Should be set in .zshenv, but this causes path to not be set properly
 # within TMUX. Seems to be an Arch specific issue.
