@@ -25,7 +25,10 @@ pacman -U <file name/file url>
 pacman -Ql <package name> | sed -n -e 's/.*\/bin\///p' | tail -n +2
 
 # To list explicitly installed packages
-pacman -Qe
+pacman -Qqe
+
+# List packages installed from AUR
+pacman -Qqm
 
 # To list orphan packages (installed as dependencies and not required anymore)
 pacman -Qdt
