@@ -1,0 +1,537 @@
+T 1437256436 18<ttt_fff18>	oh
+T 1437256444 18<ttt_fff18>	I like negative results too, explain your proof
+T 1437256453 18<benzrf18>	ttt_fff: i think it'd be feasible if monotyped though
+T 1437256461 18<ttt_fff18>	I know what depenent types are.
+T 1437256464 18<erisco18>	catgocat, no because Maybe has kind * -> * but you could do instance (Show a) => Maybe a 
+T 1437256464 18<ttt_fff18>	I don't know what monotypes are.
+T 1437256472 23*	louispan_ (~louispan@14-203-219-236.static.tpgi.com.au23) has joined
+T 1437256472 18<benzrf18>	ttt_fff: er, i just meant 'all cells are the same type'
+T 1437256475 18<ttt_fff18>	I learned Coq before I learned Haskell.
+T 1437256478 18<benzrf18>	ttt_fff: as opposed to allowing arbitrary expressions
+T 1437256480 18<ttt_fff18>	no, we do not want that.
+T 1437256485 18<erisco18>	er  instance (Show a) => Show (Maybe a)
+T 1437256486 18<benzrf18>	:(
+T 1437256487 18<erisco18>	whatever the notation is
+T 1437256491 18<ttt_fff18>	I want to have one fell taht is a Sring, another cell that is [Int]
+T 1437256498 18<mniip18>	erisco, tthat's right
+T 1437256500 23*	prkc (~prkc@catv-89-134-159-162.catv.broadband.hu23) has joined
+T 1437256504 18<ttt_fff18>	benzrf: what is your 'proof' behind 'we need dependent types' ?
+T 1437256506 24*	nrk- has quit (Quit: nrk-)
+T 1437256513 18<catgocat18>	erisco: so instance Show Bool
+T 1437256513 18<benzrf18>	i dont have a /proof/
+T 1437256515 23*	Deadhand (~deadf00t@CPE009027bcf235-CM602ad087f8f7.cpe.net.cable.rogers.com23) has joined
+T 1437256524 18<benzrf18>	i just spent a while thinking about it and ran up against a few type walls
+T 1437256528 18<ttt_fff18>	benzrf: what is your 'intuition' behind 'we need depenent types' for haskell-in-a-spreadsheet
+T 1437256535 18<geekosaur18>	catgocat, for the standard typeclasses such as Show, it's preferable to let ghc derive it because Show (and Read) are supposed to behave in specific ways and ghc will ensure that they do. also, it's often a bunch of boilerplate and why write it yourself when ghc can do it?
+T 1437256541 18<benzrf18>	ttt_fff: oh, well. we definitely do not
+T 1437256546 18<ttt_fff18>	benzrf: what are instances of spreadshets you would like to create that runs into the "damn it, I need dependent types" issue
+T 1437256549 24*	achylles has quit (Quit: Saindo)
+T 1437256564 24*	eazar_workhorse has quit (Quit: Connection closed for inactivity)
+T 1437256564 18<erisco18>	catgocat, sure though there already is one
+T 1437256565 18<benzrf18>	ttt_fff: i just meant for a nice hint-based implementation using FRP
+T 1437256569 18<ttt_fff18>	I feel like the Emacs Psychologist
+T 1437256579 18<catgocat18>	@erisco yes, I was just asking for learning purposes
+T 1437256579 18<lambdabot18>	Unknown command, try @list
+T 1437256584 18<zipper18>	We need to update the typeclassopedia.
+T 1437256586 24*	louispan has quit (Ping timeout: 250 seconds)
+T 1437256593 18<zipper18>	Who can I talk to about this?
+T 1437256595 18<erisco18>	do you have your learner's permit?
+T 1437256598 18<catgocat18>	what are the types you can derive from ?
+T 1437256604 18<catgocat18>	s/types/typeclasses
+T 1437256615 23*	Literphor (~alfred@209.237.92.13923) has joined
+T 1437256617 24*	__009__kk (~zzzz@S010624a2e1e735cf.cg.shawcable.net24) has left
+T 1437256617 18<catgocat18>	Eq, Ord, Show, Read..
+T 1437256619 18<benzrf18>	ttt_fff: you could certainly make a haskell spreadsheet in a non-dependently-typed language, you just couldnt do it in a way that can work with the values in it at the same level as native values
+T 1437256630 24*	hiptobecubic has quit (Ping timeout: 244 seconds)
+T 1437256649 18<benzrf18>	ttt_fff: you'd have to do a lot more legwork
+T 1437256650 23*	aarvar (~aaron@50-47-115-252.evrt.wa.frontiernet.net23) has joined
+T 1437256662 18<ttt_fff18>	I have no doubt it'll be lots of work
+T 1437256662 24*	marcus-aurelius has quit (Ping timeout: 246 seconds)
+T 1437256668 18<ttt_fff18>	which is why I'd love to have someone else do it
+T 1437256669 24*	aarvar (~aaron@50-47-115-252.evrt.wa.frontiernet.net24) has left
+T 1437256672 18<benzrf18>	:^)
+T 1437256697 24*	ShadySound has quit (Ping timeout: 264 seconds)
+T 1437256703 18<mniip18>	catgocat, Bounded and Enum
+T 1437256714 18<catgocat18>	that's it?
+T 1437256717 18<mniip18>	with some extensions you can derive Generic, Typeable and Functor
+T 1437256731 18<catgocat18>	how can I make a derivable typeclass?
+T 1437256736 24*	torpig has quit (Read error: Connection reset by peer)
+T 1437256738 18<mniip18>	and with another extension you can derive anything on newtype, such that the wrapped type supports it
+T 1437256741 18<catgocat18>	and how does it work
+T 1437256754 18<geekosaur18>	you can't make one yourself, unless you enable generics
+T 1437256762 18<catgocat18>	what are generics
+T 1437256778 18<geekosaur18>	Eq, Ord, Enum, Bounded, Show, and Read are the only classes for which automatic deriving normally exists
+T 1437256786 18<mniip18>	generics allow you to instantiate your typeclass on abstract data types
+T 1437256799 18<mniip18>	and then GHC will represent complex data types in terms of combinations of abstract ones
+T 1437256804 18<mniip18>	and compile an instance accordingly
+T 1437256808 18<catgocat18>	and how can I make generics
+T 1437256847 23*	killerswan (~killerswa@c-73-202-176-25.hsd1.ca.comcast.net23) has joined
+T 1437256864 18<mniip18>	well that is beyond me
+T 1437256872 24*	c_wraith has quit (Ping timeout: 246 seconds)
+T 1437256889 18<benzrf18>	ttt_fff: well, i'll get back to you
+T 1437256895 18<benzrf18>	maybe i will think of something :>
+T 1437256900 24*	vlatkoB has quit (Remote host closed the connection)
+T 1437256921 18<ttt_fff18>	benzrf: return with an implementation of haskell-in-a-spreadsheet or return on your shield! :-) // spartan haskellers
+T 1437256929 18<benzrf18>	eh
+T 1437256932 18<benzrf18>	bye
+T 1437256932 23*	prophile (~alynn@oftn/member/prophile23) has joined
+T 1437256946 18<ttt_fff18>	benzrf: I'm actually thinking that the easiest way is to just wrap around ghci
+T 1437256954 18<ttt_fff18>	benzrf: and have 'each cell = a named var in ghci'
+T 1437256967 18<ttt_fff18>	and whenenver something needs to be updated, just send stuff to ghci and get stuff bak
+T 1437256975 18<ttt_fff18>	and let ghci handle all the parsing / evaluating ahskell / etc ....
+T 1437256982 23*	aarvar (~quassel@50-47-115-252.evrt.wa.frontiernet.net23) has joined
+T 1437256995 18<ttt_fff18>	i.e. something like " threepenny-gui <-> haskell prog <-> SOME PIPE <-> ghci instance"
+T 1437256999 18<ttt_fff18>	benzrf: ^
+T 1437257002 24*	emirypi has quit (Ping timeout: 244 seconds)
+T 1437257008 23*	fabianvf (~fabianvf@c-98-244-85-231.hsd1.va.comcast.net23) has joined
+T 1437257120 24*	ens_ has quit (Read error: Connection reset by peer)
+T 1437257132 18<ttt_fff18>	when I have a expr with free + bound vars, and I convert it to an expr with only bound vars -- what is this process called?
+T 1437257136 23*	ens_ (~ens@host6-18.cust.ktab.fi23) has joined
+T 1437257143 18<ttt_fff18>	I am using the verb 'wrap', but I think there is a proper compiler term for exactly what this should be called
+T 1437257146 18<ttt_fff18>	mniip: ^
+T 1437257180 23*	ShadySound (~Zerky@173-18-89-83.client.mchsi.com23) has joined
+T 1437257213 18<mniip18>	binding?
+T 1437257217 23*	Oxyd (~oxyd@pdpc/supporter/student/oxyd23) has joined
+T 1437257230 18<cow_200118>	ghc-mod won't work well with stack :(
+T 1437257238 24*	CyberLard has quit (Ping timeout: 240 seconds)
+T 1437257258 23*	Luke (~Luke@unaffiliated/luke23) has joined
+T 1437257328 24*	jdfgjdgdfgjdfjgn has quit (Ping timeout: 246 seconds)
+T 1437257339 24*	netj has quit (Ping timeout: 246 seconds)
+T 1437257373 23*	junmin (~junmin@189-210-226-30.static.axtel.net23) has joined
+T 1437257376 24*	oOzzy` has quit (Ping timeout: 246 seconds)
+T 1437257391 24*	byorgey has quit (Ping timeout: 255 seconds)
+T 1437257407 18<ttt_fff18>	hmm
+T 1437257416 18<ttt_fff18>	well, it takes expr with free + bound, and outputs expr with only bound
+T 1437257420 18<ttt_fff18>	so I was going to name it "killFreedom"
+T 1437257425 18<ttt_fff18>	but that seeed like a bad function name
+T 1437257429 24*	PatrickRobotham has quit (Quit: Connection closed for inactivity)
+T 1437257433 24*	catgocat has quit (Ping timeout: 246 seconds)
+T 1437257457 24*	MultiPurposeHat has quit (Remote host closed the connection)
+T 1437257459 24*	28osa1_ is now known as 18osa1
+T 1437257465 24*	aarvar has quit (Quit: No Ping reply in 180 seconds.)
+T 1437257496 23*	MultiPurposeHat (~multipurp@S0106c8fb26420efd.vc.shawcable.net23) has joined
+T 1437257512 23*	netj (~netj@128.12.163.10923) has joined
+T 1437257560 24*	Elish has quit (Quit: Elish)
+T 1437257583 23*	Guest97386 (~quassel@50-47-115-252.evrt.wa.frontiernet.net23) has joined
+T 1437257588 23*	Chippie00 (~Chippie00@68-204-240-91.res.bhn.net23) has joined
+T 1437257591 24*	noteness has quit (Ping timeout: 244 seconds)
+T 1437257641 24*	erisco (~erisco@198-84-154-240.cpe.teksavvy.com24) has left ("Leaving")
+T 1437257643 24*	Chippie00 has quit (Client Quit)
+T 1437257694 23*	godel (~gonzalo@181-110-235-201.fibertel.com.ar23) has joined
+T 1437257742 24*	MultiPurposeHat has quit (Ping timeout: 244 seconds)
+T 1437257749 23*	noteness (noteness@unaffiliated/nessessary12923) has joined
+T 1437257750 23*	c_wraith (~c_wraith@6cb0ce0b8762.click-network.com23) has joined
+T 1437257808 24*	sivoais has quit (Ping timeout: 244 seconds)
+T 1437257839 24*	AleXoundOS has quit (Ping timeout: 244 seconds)
+T 1437257852 24*	thedodd has quit ()
+T 1437257880 24*	L8D has quit (Ping timeout: 246 seconds)
+T 1437257928 23*	Chippie00 (~Chippie00@68-204-240-91.res.bhn.net23) has joined
+T 1437257931 24*	Guest75051 has quit (Ping timeout: 255 seconds)
+T 1437257933 24*	28Guest97386 is now known as 18aarvar
+T 1437257946 23*	SeriousBug (~SeriousBu@95.211.190.20523) has joined
+T 1437258010 23*	prinsen (~fabian@217-208-233-226-no235.tbcn.telia.com23) has joined
+T 1437258033 23*	chrisdotcode (~quassel@unaffiliated/chrisdotcode23) has joined
+T 1437258110 23*	adlan (~AAFR@aafr.me23) has joined
+T 1437258116 24*	ralu has quit (Remote host closed the connection)
+T 1437258142 23*	fizbin (~Adium@pool-96-235-144-166.cmdnnj.east.verizon.net23) has joined
+T 1437258229 24*	ens_ has quit (Read error: Connection reset by peer)
+T 1437258246 23*	ens_ (~ens@host6-18.cust.ktab.fi23) has joined
+T 1437258270 18<ttt_fff18>	\(x, y, z) -> ... in debrujin, do we have "choice a: 0=x, 1=y, 2=z" or "choice b: 2=x, 1=y, 0=z" ?
+T 1437258286 24*	noteness has quit (Ping timeout: 248 seconds)
+T 1437258318 24*	j4cknewt has quit (Remote host closed the connection)
+T 1437258371 23*	noteness (noteness@unaffiliated/nessessary12923) has joined
+T 1437258499 24*	ens_ has quit (Read error: Connection reset by peer)
+T 1437258510 23*	Anon25502 (~Anon25502@p508AC184.dip0.t-ipconnect.de23) has joined
+T 1437258516 23*	ens_ (~ens@host6-18.cust.ktab.fi23) has joined
+T 1437258566 23*	schlicht_ (~fl@x55b43165.dyn.telefonica.de23) has joined
+T 1437258567 23*	sivoais (~zaki@unaffiliated/sivoais23) has joined
+T 1437258585 24*	erkin has quit (Quit: Ouch! Got SIGABRT, dying...)
+T 1437258588 23*	latro`a_ (~latro`a@2601:14a:4002:86bb:31e4:896c:b570:a66d23) has joined
+T 1437258672 24*	ShadySound has quit (Ping timeout: 244 seconds)
+T 1437258673 24*	pantsman- has quit (Ping timeout: 256 seconds)
+T 1437258710 24*	oish_ has quit (Ping timeout: 240 seconds)
+T 1437258711 23*	torpig (torpig@2600:3c00::f03c:91ff:fe98:beca23) has joined
+T 1437258783 23*	jiang42 (~jiang42@58.37.79.14423) has joined
+T 1437258789 24*	Fr4n has quit (Ping timeout: 252 seconds)
+T 1437258798 24*	icicled has quit (Ping timeout: 248 seconds)
+T 1437258804 24*	Luke has quit (Quit: part)
+T 1437258822 24*	BartAdv has quit (Quit: Connection closed for inactivity)
+T 1437258869 24*	Anon25502 has quit (Quit: WeeChat 1.2)
+T 1437258887 23*	doodlehaus (~doodlehau@97-83-255-237.dhcp.stpt.wi.charter.com23) has joined
+T 1437258893 24*	_ixti_ has quit (Ping timeout: 264 seconds)
+T 1437258903 24*	SrPx has quit (Ping timeout: 246 seconds)
+T 1437258913 24*	_davide has quit (Quit: leaving)
+T 1437258920 23*	hmrm (~hmrm@198.244.104.10923) has joined
+T 1437258927 23*	danthemyth (~danthemyt@c-73-132-137-77.hsd1.wv.comcast.net23) has joined
+T 1437258988 24*	Regulator9 has quit (Read error: Connection reset by peer)
+T 1437258993 23*	neuroserpens (~neuroserp@2804:7f3:8980:d8fb:5ec9:d3ff:fe14:286523) has joined
+T 1437259010 24*	Mike01y has quit (Ping timeout: 252 seconds)
+T 1437259039 24*	jiang42 has quit (Ping timeout: 246 seconds)
+T 1437259089 23*	aarvar_ (~quassel@50-47-115-252.evrt.wa.frontiernet.net23) has joined
+T 1437259105 23*	ShadySound (~Zerky@173-18-89-83.client.mchsi.com23) has joined
+T 1437259113 24*	28aarvar is now known as 18Guest11519
+T 1437259137 24*	28aarvar_ is now known as 18aarvar
+T 1437259161 24*	doodlehaus has quit (Ping timeout: 246 seconds)
+T 1437259200 24*	hmrm has quit (Ping timeout: 255 seconds)
+T 1437259203 24*	Shirakawasuna has quit (Ping timeout: 244 seconds)
+T 1437259210 24*	danthemyth has quit (Ping timeout: 256 seconds)
+T 1437259244 24*	Guest11519 has quit (Ping timeout: 256 seconds)
+T 1437259292 24*	prinsen has quit (Ping timeout: 244 seconds)
+T 1437259339 24*	ulfdoz has quit (Ping timeout: 252 seconds)
+T 1437259355 24*	joneshf-laptop has quit (Remote host closed the connection)
+T 1437259362 23*	Shirakawasuna (~Shirakawa@174-21-55-241.tukw.qwest.net23) has joined
+T 1437259368 23*	joneshf-laptop (~joneshf@adsl-76-245-108-54.dsl.scrm01.sbcglobal.net23) has joined
+T 1437259408 18<neuroserpens18>	I was going to ask a question but found the answer while writing the question.
+T 1437259410 18<neuroserpens18>	LoL.
+T 1437259411 18<neuroserpens18>	This made me laugh hard.
+T 1437259443 24*	vin-ivar has quit (Ping timeout: 255 seconds)
+T 1437259453 23*	danilo2 (5efe90e3@gateway/web/freenode/ip.94.254.144.22723) has joined
+T 1437259478 18<neuroserpens18>	I think I should become one of those devs who ask questions first to their stuffed animals or action figures.
+T 1437259480 24*	mgsloan has quit (Ping timeout: 246 seconds)
+T 1437259525 18<danilo218>	Hello! :) Are there any standard functions in haskell that allow me to convert Word64 -> [Word8]? I've been looking into Data.Bits etc but didn't found any function for this purpose. I know I can implement it by hand, but I don't want to duplicate libraries functionalities :)
+T 1437259564 23*	vin-ivar (~vinit@c42-144.i07-11.onvol.net23) has joined
+T 1437259576 24*	stultus has quit (Ping timeout: 250 seconds)
+T 1437259611 23*	plasticle (~plasticle@cpe-107-15-163-78.nc.res.rr.com23) has joined
+T 1437259621 23*	byorgey (~byorgey@haskell/developer/byorgey23) has joined
+T 1437259623 24*	Wizek__ has quit (Ping timeout: 246 seconds)
+T 1437259714 18<rowanblush18>	danilo2: Not that I know of. It would probably have type `Word64 -> (Word8, Word8, Word8, Word8, Word8, Word8, Word8, Word8)` though.
+T 1437259731 23*	prinsen (~fabian@217-208-233-226-no235.tbcn.telia.com23) has joined
+T 1437259771 24*	Icewing has quit (Remote host closed the connection)
+T 1437259772 23*	_ixti_ (~ixti@188.119.233.023) has joined
+T 1437259818 23*	L8D (~L8D@cpe-70-123-155-208.austin.res.rr.com23) has joined
+T 1437259847 24*	yrdz has quit (Ping timeout: 240 seconds)
+T 1437259880 24*	adam_hardkey_shi has quit (Ping timeout: 246 seconds)
+T 1437259887 23*	sinkensabe (~sinkensab@h236n4-lk-d1.ias.bredband.telia.com23) has joined
+T 1437259908 23*	flob_ (7cb4fa61@gateway/web/freenode/ip.124.180.250.9723) has joined
+T 1437259920 23*	MultiPurposeHat (~multipurp@S0106c8fb26420efd.vc.shawcable.net23) has joined
+T 1437259972 24*	flob_ has quit (Client Quit)
+T 1437260008 18<ttt_fff18>	do .... \n lst <- b \n foo lst \n   ... is there a way to combine the last two lines ?
+T 1437260099 18<Rembane18>	ttt_fff: fmap foo b
+T 1437260118 18<ttt_fff18>	Rembane: thanks
+T 1437260135 18<Rembane18>	ttt_fff: np
+T 1437260142 18<ttt_fff18>	Rembane++
+T 1437260148 18<ttt_fff18>	@karma Rembane
+T 1437260148 18<lambdabot18>	Rembane has a karma of 1
+T 1437260151 18<zipper18>	Why do we need monad transformers?
+T 1437260154 18<ttt_fff18>	hmm, you should help more people :-)
+T 1437260163 24*	danilo2 has quit (Ping timeout: 246 seconds)
+T 1437260167 18<Welkin18>	zipper: to use more than one monad at once
+T 1437260169 24*	sinkensabe has quit (Ping timeout: 246 seconds)
+T 1437260177 18<ttt_fff18>	yeah, like RWST
+T 1437260180 18<ttt_fff18>	reader + writer + state
+T 1437260181 18<ttt_fff18>	my favorite monad
+T 1437260237 23*	timbod7 (~textual@60-242-112-237.static.tpgi.com.au23) has joined
+T 1437260259 18<Rembane18>	ttt_fff: I'm generally too slow. :)
+T 1437260261 24*	razvanc87 has quit (Ping timeout: 264 seconds)
+T 1437260266 23*	yqt (~yqt@81.88.230.2823) has joined
+T 1437260290 24*	nkaretnikov has quit (Ping timeout: 240 seconds)
+T 1437260313 23*	h-core (~me@ool-18bd7b80.dyn.optonline.net23) has joined
+T 1437260331 23*	chreekat (~b@unaffiliated/chreekat23) has joined
+T 1437260354 24*	m0rphism has quit (Remote host closed the connection)
+T 1437260362 18<zipper18>	Do I need to use several monads at once?
+T 1437260369 23*	kaidelong (~kaidelong@c-73-11-13-223.hsd1.or.comcast.net23) has joined
+T 1437260377 18<byorgey18>	zipper: updating the typeclassopedia (e.g. for the AMP) is on my todo list.  Any help gratefully accepted.  I will see any edits you make so be bold and don't worry that you might make a mistake.
+T 1437260410 18<byorgey18>	zipper: if you want to combine the effects of several monads, e.g. you want to have some state and also do IO
+T 1437260410 24*	tempname11_ has quit (Quit: Connection closed for inactivity)
+T 1437260412 24*	FireFly has quit (Ping timeout: 244 seconds)
+T 1437260421 23*	m0rphism (~m0rphism@HSI-KBW-095-208-106-119.hsi5.kabel-badenwuerttemberg.de23) has joined
+T 1437260426 23*	icicled (~jonathan@cpe-97-99-28-109.tx.res.rr.com23) has joined
+T 1437260440 18<zipper18>	byorgey: Oh you wrote the typeclassopedia. I hope it's on github. I haven't actually checked.
+T 1437260448 18<Welkin18>	no
+T 1437260454 18<Welkin18>	@where typeclassopedia
+T 1437260454 18<lambdabot18>	http://www.haskell.org/haskellwiki/Typeclassopedia
+T 1437260474 18<zipper18>	Welkin: I mean to edit.
+T 1437260485 18<zipper18>	Then realised it's a wiki so I need an account.
+T 1437260493 18<zipper18>	Anyway I think I got it
+T 1437260520 23*	Beetny_ (~Beetny@14-202-48-200.tpgi.com.au23) has joined
+T 1437260568 24*	neuroserpens has quit (Quit: WeeChat 1.2)
+T 1437260579 24*	swgillespie has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+T 1437260597 24*	ShadySound has quit (Ping timeout: 240 seconds)
+T 1437260637 18<zipper18>	wiki.haskell.org has a log in page but no sign up page. What am I missing?
+T 1437260650 24*	bufferloss has quit (Quit: Leaving)
+T 1437260660 18<zipper18>	Oh "If you would like an account please email "wiki-account-request" (at the domain haskell dot org) or, if you find that unresponsive, on the haskell-cafe mailing list."
+T 1437260664 18<bernalex18>	zipper: you need to send an email to register. it's a PITA, but that's how they combat spam.
+T 1437260669 23*	danilo2 (5efe90e3@gateway/web/freenode/ip.94.254.144.22723) has joined
+T 1437260679 18<zipper18>	bernalex: PITA?
+T 1437260688 18<bernalex18>	zipper: pain in the arse.
+T 1437260700 18<danilo218>	rowan blush: Of course :) Hmm I've write it by myself then :)
+T 1437260708 23*	huckleberry78 (~huckleber@104-176-154-16.lightspeed.tukrga.sbcglobal.net23) has joined
+T 1437260713 18*	zipper procrastinates.
+T 1437260713 18<danilo218>	*I've got to 
+T 1437260715 18<danilo218>	:)
+T 1437260729 18<zipper18>	I'll sign up later when time is found.
+T 1437260808 23*	ropav (~ropav@c-73-15-23-212.hsd1.ca.comcast.net23) has joined
+T 1437260895 23*	fujimura (~fujimura@ngn8-ppp604.tokyo.sannet.ne.jp23) has joined
+T 1437260898 23*	FireFly (~firefly@firefly.xen.prgmr.com23) has joined
+T 1437260906 24*	SeriousBug has quit (Quit: Leaving)
+T 1437260937 23*	Fr4n (~Fr4n@unaffiliated/fr4n23) has joined
+T 1437260938 24*	alemaire has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1437260987 24*	huckleberry78 has quit (Ping timeout: 240 seconds)
+T 1437261032 23*	ShadySound (~Zerky@173-18-89-83.client.mchsi.com23) has joined
+T 1437261046 23*	mlrutherford (~mlrutherf@23-119-25-209.lightspeed.austtx.sbcglobal.net23) has joined
+T 1437261093 24*	junmin has quit (Remote host closed the connection)
+T 1437261134 24*	danald has quit (Read error: Connection reset by peer)
+T 1437261167 24*	aarvar has quit (Quit: No Ping reply in 180 seconds.)
+T 1437261168 24*	fujimura has quit (Ping timeout: 240 seconds)
+T 1437261169 24*	zipper has quit (Quit: Gone to pet the sleepy panda.)
+T 1437261182 24*	_sjs has quit (Ping timeout: 256 seconds)
+T 1437261191 23*	oOzzy` (~otzeloot@101.98.179.5223) has joined
+T 1437261216 23*	jocoU (~joco@dsl-hkibrasgw4-58c03a-80.dhcp.inet.fi23) has joined
+T 1437261220 23*	_sjs (~steven.sp@108-228-29-235.lightspeed.sntcca.sbcglobal.net23) has joined
+T 1437261243 24*	joco42_ has quit (Remote host closed the connection)
+T 1437261248 23*	zapatero (974d8ec5@gateway/web/freenode/ip.151.77.142.19723) has joined
+T 1437261250 23*	aarvar (~quassel@50-47-115-252.evrt.wa.frontiernet.net23) has joined
+T 1437261251 23*	joco42_ (~joco42@dsl-hkibrasgw4-58c03a-80.dhcp.inet.fi23) has joined
+T 1437261282 24*	zapatero has quit (Client Quit)
+T 1437261327 24*	wagle has quit (Read error: Connection reset by peer)
+T 1437261332 23*	wagle_ (~wagle@50.126.105.9723) has joined
+T 1437261335 23*	junmin (~junmin@189-210-226-30.static.axtel.net23) has joined
+T 1437261344 23*	Luke (~Luke@unaffiliated/luke23) has joined
+T 1437261369 23*	walter|r (~walter_r@c-24-63-59-46.hsd1.ma.comcast.net23) has joined
+T 1437261403 24*	gusto has quit (Quit: Leaving)
+T 1437261404 23*	predator117 (~predator1@p4FDC14D9.dip0.t-ipconnect.de23) has joined
+T 1437261420 24*	walter|r has quit (Read error: Connection reset by peer)
+T 1437261426 23*	walter|r_ (~walter_r@c-24-63-59-46.hsd1.ma.comcast.net23) has joined
+T 1437261465 18<jle`18>	the staff is pretty prompt though, registration is relatively painless. just not immediate :)
+T 1437261495 24*	descender has quit (Ping timeout: 252 seconds)
+T 1437261540 24*	JobiwanKanobi has quit (Quit: Leaving.)
+T 1437261546 23*	tiler (~tyler@host-69-145-56-101.bln-mt.client.bresnan.net23) has joined
+T 1437261564 23*	mike10y (~chatzilla@119.122.24.14223) has joined
+T 1437261581 24*	mike10y (~chatzilla@119.122.24.14224) has left
+T 1437261583 24*	wagle_ has quit (Read error: Connection reset by peer)
+T 1437261593 23*	wagle (~wagle@50.126.105.9723) has joined
+T 1437261614 24*	predator217 has quit (Ping timeout: 248 seconds)
+T 1437261617 23*	alemaire (~alemaire@ABordeaux-652-1-53-173.w92-146.abo.wanadoo.fr23) has joined
+T 1437261640 24*	verement has quit (Quit: verement)
+T 1437261652 24*	chreekat has quit (Ping timeout: 244 seconds)
+T 1437261660 24*	ceii has quit (Ping timeout: 246 seconds)
+T 1437261696 23*	indiagreen (~indiagree@95-28-92-54.broadband.corbina.ru23) has joined
+T 1437261706 23*	solrize (~solrize@2607:3f00:11:261::223) has joined
+T 1437261706 24*	solrize has quit (Changing host)
+T 1437261706 23*	solrize (~solrize@unaffiliated/solrize23) has joined
+T 1437261761 24*	indiagreen has quit (Remote host closed the connection)
+T 1437261776 23*	indiagreen (~indiagree@95-28-92-54.broadband.corbina.ru23) has joined
+T 1437261801 23*	verement (~anonymous@cpe-24-165-94-91.san.res.rr.com23) has joined
+T 1437261804 24*	m0rphism has quit (Remote host closed the connection)
+T 1437261829 23*	BlueRavenGT (~BlueRaven@8-22-13-219.utopiafiber.net23) has joined
+T 1437261864 24*	lspitzner has quit (Ping timeout: 264 seconds)
+T 1437261864 24*	exferenceBot has quit (Ping timeout: 264 seconds)
+T 1437261864 24*	hexagoxel has quit (Ping timeout: 264 seconds)
+T 1437261878 23*	exferenceBot (~exference@x4d0676f3.dyn.telefonica.de23) has joined
+T 1437261911 23*	hexagoxel (~hexagoxel@x4d0676f3.dyn.telefonica.de23) has joined
+T 1437261917 24*	wagle has quit (Ping timeout: 246 seconds)
+T 1437261941 23*	lspitzner (~lspitzner@x4d0676f3.dyn.telefonica.de23) has joined
+T 1437261950 23*	wagle (~wagle@50.126.105.9723) has joined
+T 1437261957 24*	L8D has quit (Ping timeout: 252 seconds)
+T 1437262025 24*	xahry has quit (Ping timeout: 264 seconds)
+T 1437262064 24*	cognominal has quit (Quit: This computer has gone to sleep)
+T 1437262087 23*	chreekat (~b@unaffiliated/chreekat23) has joined
+T 1437262123 23*	bufferloss (~timestamp@unaffiliated/bufferloss23) has joined
+T 1437262131 23*	catgocat (558a5452@gateway/web/freenode/ip.85.138.84.8223) has joined
+T 1437262141 18<catgocat18>	Can anyone explain me a thing about newtypes and undefined?
+T 1437262150 24*	aarvar has quit (Ping timeout: 240 seconds)
+T 1437262162 18<Welkin18>	newtype is just a wrapper around another data type
+T 1437262175 18<Welkin18>	it must have only one parameter and one constructor
+T 1437262176 18<geekosaur18>	you're going to have to actually ask the question, I think
+T 1437262209 18<catgocat18>	I am reading LYAH, and I don't understand the section about pattern matching undefined.
+T 1437262221 18<catgocat18>	See here: Search for "helloMe undefined" http://learnyouahaskell.com/functors-applicative-functors-and-monoids
+T 1437262229 23*	hiptobecubic (~john@unaffiliated/hiptobecubic23) has joined
+T 1437262242 18<catgocat18>	I read the paragraph over and over again and can't get it
+T 1437262253 24*	GeissT_ has quit (Ping timeout: 246 seconds)
+T 1437262256 18<catgocat18>	It doesn't make any sense for me? How doesn't undefined get evaluated?
+T 1437262260 18<Welkin18>	because undefined is an undefined value
+T 1437262275 18<Welkin18>	it is a placeholder
+T 1437262283 18<Welkin18>	if you try to evaluate it, you get an exception
+T 1437262288 18<catgocat18>	Yes, that's right.
+T 1437262291 18<quchen18>	It's used as a placeholder, but it's really just a program crash.
+T 1437262298 18<catgocat18>	But an exception doesn't happen when using newtype, see the code in LYAH.
+T 1437262315 18<mauke18>	catgocat: newtypes don't exist at runtime
+T 1437262331 18<catgocat18>	Saying those one-line sentences don't add nothing to me.
+T 1437262340 18<catgocat18>	It's like throwing random facts without forming a puzzle.
+T 1437262343 18<mauke18>	that's why "unwrapping the constructor" is a no-op at runtime
+T 1437262355 18<mauke18>	the function is effectively helloMe _ = "hello"
+T 1437262362 18<catgocat18>	Why ?
+T 1437262371 18<mauke18>	because newtypes don't exist at runtime
+T 1437262379 18<catgocat18>	What does that even mean?
+T 1437262384 18<geekosaur18>	...
+T 1437262384 24*	indiagreen has quit (Ping timeout: 250 seconds)
+T 1437262395 18<geekosaur18>	a newtype is a thing that only exists in ghc's typechecker's mind
+T 1437262397 18<Welkin18>	think of it as a search-and-replace
+T 1437262402 18<mauke18>	it means 'newtype' creates a new type as far as the type checker is concerned
+T 1437262413 18<geekosaur18>	there is no code generated for it, it does nothing except hide some detailsof the underlying type
+T 1437262414 24*	ShadySound has quit (Ping timeout: 248 seconds)
+T 1437262415 18<mauke18>	but it doesn't affect the underlying representation
+T 1437262420 18<ronh18>	isn't that true for every type due to type erasure?
+T 1437262426 18<mauke18>	ronh: no
+T 1437262430 23*	nrk- (~b@ppp121-45-202-210.lns20.cbr1.internode.on.net23) has joined
+T 1437262430 23*	jiang42 (~jiang42@58.37.79.14423) has joined
+T 1437262432 18<geekosaur18>	so matching a newtype's constructor doesn't actually do anything except "unhide" the underlying type to the typechecker
+T 1437262437 24*	byorgey has quit (Ping timeout: 246 seconds)
+T 1437262440 18<geekosaur18>	it does not *access* the hidden type, just exposes it
+T 1437262442 18<ronh18>	mauke what is the difference?
+T 1437262449 18<mauke18>	see this discussion
+T 1437262459 24*	Shirakawasuna has quit (Quit: Leaving)
+T 1437262459 18<mauke18>	also the example in LYAH
+T 1437262492 18<mauke18>	ronh: data Foo a = Foo a; now 'Foo undefined' is not undefined itself
+T 1437262499 23*	Latro__ (~latro`a@2601:14a:4002:86bb:ac22:7f8d:90b6:2f6e23) has joined
+T 1437262507 24*	chreekat has quit (Ping timeout: 252 seconds)
+T 1437262510 18<mauke18>	maybe I should use different names
+T 1437262521 24*	osa1 has quit (Ping timeout: 246 seconds)
+T 1437262524 18<quchen18>	ronh: Type erasure deletes the type information itself, e.g. you don't have any mentions of "Maybe Int" in your final program. But you'll still have some remnants of using Maybe: Nothing might be represented as a "0" in some register.
+T 1437262527 18<mauke18>	data Foo a = MkFoo a; now 'MkFoo undefined' is defined
+T 1437262549 18<mauke18>	that's because MkFoo is actually stored at runtime
+T 1437262554 18<catgocat18>	Ok, I get the idea that it hides the underlying type. But I don't understand what the hell is going on when I do (CoolBool _), CoolBool True and False will match for booleans, doesn't _ match every boolean? But undefined isn't a boolean
+T 1437262570 18<mauke18>	catgocat: why is undefined not a boolean?
+T 1437262574 24*	latro`a_ has quit (Ping timeout: 248 seconds)
+T 1437262578 18<mauke18>	undefined is in every type
+T 1437262578 24*	ompaul has quit (Ping timeout: 244 seconds)
+T 1437262586 23*	centrinia (~centrinia@2602:306:bd0d:a690:d02c:15fc:87bb:a0bb23) has joined
+T 1437262599 18<quchen18>	:t let x :: Bool; x = x in x
+T 1437262600 18<lambdabot18>	Bool
+T 1437262602 18<geekosaur18>	undefined is not a value in the usual sense
+T 1437262611 18<geekosaur18>	undefined is the possibility of not producing a value
+T 1437262613 24*	Luke has quit (Quit: part)
+T 1437262613 24*	rafaelcpalmeida has quit (Remote host closed the connection)
+T 1437262638 23*	ompaul (~ompaul@unaffiliated/ompaul23) has joined
+T 1437262645 18<catgocat18>	So a newtype, pattern matches for everything that is a type of the underlying type of that newtype?
+T 1437262652 18<geekosaur18>	> and $ repeat False
+T 1437262653 18<lambdabot18>	 False
+T 1437262655 24*	joco42_ has quit (Remote host closed the connection)
+T 1437262659 18<geekosaur18>	whoops, wromng one
+T 1437262663 18<mauke18>	catgocat: eh?
+T 1437262664 18<geekosaur18>	> and $ repeat True
+T 1437262668 18<lambdabot18>	 mueval-core: Time limit exceeded
+T 1437262671 18<geekosaur18>	^ undefined
+T 1437262682 23*	joco42_ (~joco42@dsl-hkibrasgw4-58c03a-80.dhcp.inet.fi23) has joined
+T 1437262690 24*	jiang42 has quit (Ping timeout: 240 seconds)
+T 1437262702 24*	joco42_ has quit (Read error: Connection reset by peer)
+T 1437262703 18<catgocat18>	If I pattern match against CoolBool True, does True also pass the test?
+T 1437262713 18<mauke18>	catgocat: depends on the value
+T 1437262725 23*	joco42_ (~joco42@dsl-hkibrasgw4-58c03a-80.dhcp.inet.fi23) has joined
+T 1437262729 24*	adeln has quit (Remote host closed the connection)
+T 1437262732 18<catgocat18>	And if so, do other newtypes that have True under the shadow also match?
+T 1437262738 23*	GeissT (~GeissT@CPE-121-214-199-24.lns6.fli.bigpond.net.au23) has joined
+T 1437262745 18<catgocat18>	mauke: which value ??
+T 1437262758 18<mauke18>	the value that you're matching on
+T 1437262765 18<catgocat18>	:(
+T 1437262766 24*	lifter has quit (Ping timeout: 248 seconds)
+T 1437262774 18<mauke18>	what
+T 1437262776 18<catgocat18>	I am matching for CoolBool True
+T 1437262784 18<mauke18>	what do you mean by "for"?
+T 1437262785 18<catgocat18>	CoolBool is a new type
+T 1437262794 18<catgocat18>	that hides a Bool
+T 1437262804 18<mauke18>	show code, not english
+T 1437262807 18<catgocat18>	myFunction (CoolBool True) = ...
+T 1437262809 18<jmcarthur18>	pattern matching on a newtype has no operational meaning. it's just a syntax for accessing the thing you wrapped in the newtype
+T 1437262848 24*	OmnipotentEntity has quit (Remote host closed the connection)
+T 1437262874 18<catgocat18>	jmcarthur: so why can't I do head $ ZipList [1,2,3]
+T 1437262888 18<jmcarthur18>	catgocat: where's the pattern matching there?
+T 1437262901 18<quchen18>	catgocat: Consider "data Foo a = Foo a". When you try matching in "let Foo x = undefined", we have to evaluate the "undefined" to check whether the "Foo" constructor matches. You might say "of course it matches, Foo has only one constructor", and you're right - but we'd like pattern matching on "data" types to behave independently of how that type might have been created. For example, we don't want the semantics of pattern matching elsewher
+T 1437262901 18<quchen18>	e to change when a user decides to add a "Bar" constructor to the "Foo" type. Action at a distance is spooky and bad. Sooo - we have to evaluate "undefined" to check whether it really matches a "Foo x", and evaluating "undefined" crashes.
+T 1437262904 24*	onthestairs has quit (Ping timeout: 246 seconds)
+T 1437262906 18<quchen18>	catgocat: Now consider "newtype Foo a = Foo a", trying to match "let Foo x = undefined" again. Newtype matching is special, since the compiler can remove all mentions of Foo after typechecking (but before evaluating) the code. So your pattern looks like "x = undefined", and to check whether that matches we do not have to look at the "undefined". (You will still get an error here if you try to evaluate the "x" of course.)
+T 1437262907 18<catgocat18>	there probably is within `head`
+T 1437262908 24*	thetallguy has quit (Ping timeout: 264 seconds)
+T 1437262919 18<jmcarthur18>	catgocat: but head matches on a list, not on a ZipList
+T 1437262942 24*	BlueRavenGT has quit (Read error: Connection reset by peer)
+T 1437262954 18<jmcarthur18>	catgocat: pattern matching on ZipList is how you access the list, and head doesn't know how to do that because it expects a list, not a ZipList
+T 1437262959 23*	ShadySound (~Zerky@173-18-89-83.client.mchsi.com23) has joined
+T 1437262960 23*	JobiwanKanobi (~Adium@207-38-198-16.c3-0.43d-ubr1.qens-43d.ny.cable.rcn.com23) has joined
+T 1437262973 23*	thetallguy (~beshers@c-73-51-188-220.hsd1.il.comcast.net23) has joined
+T 1437262989 23*	adeln (~adeln@95-24-33-75.broadband.corbina.ru23) has joined
+T 1437263016 24*	raichoo has quit (Ping timeout: 244 seconds)
+T 1437263025 18<jmcarthur18>	catgocat: the feature that newtypes give you is the ability to make a value for one type appear to the compiler to have a totally different type. the type mismatch with head is a consequence of that.
+T 1437263034 18<catgocat18>	quchen: I understood the last paragraph, can you explain the data thing again?
+T 1437263050 24*	marr has quit ()
+T 1437263184 18<quchen18>	catgocat: "newtype" is like a special kind of "data" when you have only one constructor on the right hand side, and that constructor has only one field. In this case, you can implement it in a way that makes the wrapper go away, but still give you type safety during compilation.
+T 1437263210 18<catgocat18>	and why is this useful
+T 1437263239 18<quchen18>	Since "newtype" guarantees you to have only one constructor with only one field, you can guarantee that the compiler can simply ignore that constructor. "newtype Foo = Foo Int" is *exactly* the same as "Int" in the compiled program.
+T 1437263244 18<jmcarthur18>	catgocat: if you know C... the difference between a list and ZipList in haskell is kind of like the difference between int and struct { int x; }. most c compilers won't represent the struct any differently than just an int. also, if i have a value of that type, foo, then foo.x isn't any different than just x.
+T 1437263245 18<catgocat18>	if when pattern matching against a newtype, the underlying type also matches, how can I make functions that take ONLY the newtype?
+T 1437263268 18<jmcarthur18>	catgocat: the underlying type doesn't match. head doesn't work on ZipLists
+T 1437263321 23*	tvh (~tvh@27-32-54-147.static.tpgi.com.au23) has joined
+T 1437263333 18<quchen18>	"head" for ZipList would be defined via "headZ (ZipList xs) = head xs". Note how you have to pattern match on the ZipList before you can have a go at the xs.
+T 1437263345 18<quchen18>	headZ (ZipList (x:_)) = x -- another way
+T 1437263353 24*	joco42_ has quit (Remote host closed the connection)
+T 1437263365 18<geekosaur18>	why newtypes are useful:
+T 1437263370 18<geekosaur18>	[18 22:09] <geekosaur> sometimes you want to have two different instances for a single type, which Haskell doesn't permit; so we put them on newtypes instead so they won't conflict
+T 1437263370 18<geekosaur18>	[18 22:09] <geekosaur> (example: there are two fundamental monoids on integer types, so we put one on a newtype Sum and the other on a newtype Product)
+T 1437263370 18<geekosaur18>	[18 22:10] <geekosaur> the other reason to do it is so the person using your monadic type doesn't need to care which order you stacked it in
+T 1437263379 18<geekosaur18>	(someone asked about that in #xmonad about an hour ago...)
+T 1437263380 23*	joco42_ (~joco42@dsl-hkibrasgw4-58c03a-80.dhcp.inet.fi23) has joined
+T 1437263401 18<quchen18>	catgocat: You have to clearly separate type-level representation of something and machine-level representation. On the type level, a newtype looks pretty much like a data type. On the compiled-program-level it looks like … well, it's entirely gone.
+T 1437263432 24*	nkartashov has quit (Remote host closed the connection)
+T 1437263436 23*	dot_Laptop (~chatzilla@114.4.83.17423) has joined
+T 1437263445 18<quchen18>	catgocat: Maybe this part of the FBUT also helps a bit (very short read): https://github.com/quchen/articles/blob/master/fbut.md#data-newtype-type
+T 1437263475 18<jmcarthur18>	catgocat: newtypes are useful for a few things. one is to make a new type to write an instance of a type class for. another is to help prevent from accidentally using a value in a context that it makes no sense in or to help you organize your thoughts and write clearer code (basically using them as type-checked labels). another is to use with the module system to completely hide the representation of
+T 1437263477 18<jmcarthur18>	something without any operational overhead.
+T 1437263492 24*	_ixti_ has quit (Ping timeout: 246 seconds)
+T 1437263541 18<catgocat18>	ok it's becoming more clear
+T 1437263550 23*	sinkensabe (~sinkensab@h236n4-lk-d1.ias.bredband.telia.com23) has joined
+T 1437263625 24*	adeln has quit (Remote host closed the connection)
+T 1437263664 24*	joco42_ has quit (Ping timeout: 264 seconds)
+T 1437263686 24*	mattp has quit (Disconnected by services)
+T 1437263703 18<mniip18>	so looking at Omega
+T 1437263708 23*	mattp_ (~mattp_@wopr.sciops.net23) has joined
+T 1437263721 18<mniip18>	how does it manage to conform to the associativity monad law
+T 1437263726 18<quchen18>	Omega?
+T 1437263739 18<mniip18>	the Omega monad
+T 1437263745 18<quchen18>	I only know Ω = λx. x x  which does not typecheck in STLC
+T 1437263769 18<mniip18>	https://hackage.haskell.org/package/control-monad-omega-0.2/docs/Control-Monad-Omega.html
+T 1437263826 23*	ohpesky (~ohpesky@DHCP-23105.iis.sinica.edu.tw23) has joined
+T 1437263827 24*	sinkensabe has quit (Ping timeout: 252 seconds)
+T 1437263838 18<bufferloss18>	haskell is fun!
+T 1437263839 18<jmcarthur18>	mniip: "Warning: Omega is only a monad when the results of runOmega are interpreted as a set; that is, a valid transformation according to the monad laws may change the order of the results."
+T 1437263843 23*	sailorswift (~sailorswi@96-42-144-160.dhcp.trcy.mi.charter.com23) has joined
+T 1437263845 18<jmcarthur18>	mniip: it's in the documentation
+T 1437263865 18<jmcarthur18>	mniip: so, in short, it doesn't satisfy the monad laws
+T 1437263878 18<mniip18>	mhm
+T 1437263895 24*	jaen has quit (Remote host closed the connection)
+T 1437263900 18<jmcarthur18>	at least not if satisfying them means up to structural equality
+T 1437263929 18<quchen18>	It's observable via the API so it's violated.
+T 1437263933 18<jmcarthur18>	yup
+T 1437263972 18<jmcarthur18>	mniip: also worth point out, from the same paragraph: " If you are using this as a monad, I recommendIded that you use the newer weighted-search package instead (it's also faster)."
+T 1437263994 24*	bufferloss has quit (Quit: Leaving)
+T 1437264000 18<jmcarthur18>	*pointing
+T 1437264034 23*	sinkensabe (~sinkensab@h236n4-lk-d1.ias.bredband.telia.com23) has joined
+T 1437264060 23*	j4cknewt (~j4cknewt@2601:480:8601:1fc0:e56d:f29:513:b3be23) has joined
+T 1437264060 24*	j4cknewt has quit (Remote host closed the connection)
+T 1437264090 24*	ttt_fff has quit (Ping timeout: 246 seconds)
+T 1437264091 23*	eigensheep (~eigenshee@c122-107-212-157.mckinn3.vic.optusnet.com.au23) has joined
+T 1437264117 24*	ohpesky has quit (Ping timeout: 246 seconds)
+T 1437264155 23*	joco42_ (~joco42@dsl-hkibrasgw4-58c03a-80.dhcp.inet.fi23) has joined
+T 1437264175 18<Pamelloes18>	accursedUnutterableIO is best IO.
+T 1437264190 18<jmcarthur18>	my favorite IO
+T 1437264233 24*	28dmilith is now known as 18dmilith2
+T 1437264249 18<Pamelloes18>	I think I should make a function to launch the proverbial missiles. And slip it into accursedUnuterrableIO. It would be amusing.
+T 1437264309 24*	fizbin has quit (Quit: Leaving.)
+T 1437264327 24*	rrbm823 has quit (Ping timeout: 246 seconds)
+T 1437264334 24*	sailorswift has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1437264357 24*	sinkensabe has quit (Ping timeout: 255 seconds)
+T 1437264384 24*	danilo2 has quit (Ping timeout: 246 seconds)
+T 1437264385 24*	ShadySound has quit (Ping timeout: 256 seconds)
+T 1437264434 23*	segf (~quassel@58-6-47-77.dyn.iinet.net.au23) has joined
+T 1437264446 23*	nyazdani (~nyazdani@75-175-107-32.ptld.qwest.net23) has joined
+T 1437264461 23*	saulzar (~oliver@202.150.101.12823) has joined
+T 1437264516 23*	emirypi (~emily@2601:681:4301:37c7:e93d:271c:1b44:4f2b23) has joined
+T 1437264518 24*	permagreen has quit (Read error: Connection reset by peer)
+T 1437264519 24*	emirypi has quit (Remote host closed the connection)
+T 1437264537 23*	emilypi (~emily@2601:681:4301:37c7:e93d:271c:1b44:4f2b23) has joined
+T 1437264559 23*	permagreen (~permagree@c-71-193-193-106.hsd1.or.comcast.net23) has joined
+T 1437264602 23*	fizbin (~Adium@pool-96-235-144-166.cmdnnj.east.verizon.net23) has joined
+T 1437264608 24*	clynamen has quit (Read error: Connection reset by peer)
+T 1437264615 23*	bufferloss (~bufferlos@unaffiliated/bufferloss23) has joined
+T 1437264659 24*	joco42_ has quit (Remote host closed the connection)
+T 1437264686 23*	joco42_ (~joco42@dsl-hkibrasgw4-58c03a-80.dhcp.inet.fi23) has joined
+T 1437264709 23*	sailorswift (~sailorswi@96-42-144-160.dhcp.trcy.mi.charter.com23) has joined
+T 1437264728 24*	fabianvf has quit (Read error: Connection reset by peer)
+T 1437264752 24*	RegEchse has quit (Quit: <3 WeeChat (v1.3-dev))
+T 1437264769 23*	fabianvf (~fabianvf@c-98-244-85-231.hsd1.va.comcast.net23) has joined
+T 1437264778 24*	timbod7 has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1437264814 24*	joneshf-laptop has quit (Ping timeout: 244 seconds)
+T 1437264841 24*	jlang0 has quit (Quit: Connection closed for inactivity)
+T 1437264882 23*	ShadySound (~Zerky@173-18-89-83.client.mchsi.com23) has joined
+T 1437264901 24*	howdoi has quit (Quit: Connection closed for inactivity)
+T 1437264920 23*	clynamen (~clynamen@93-50-191-217.ip153.fastwebnet.it23) has joined
+T 1437264924 24*	oOzzy` has quit (Ping timeout: 255 seconds)
+T 1437264941 24*	joco42_ has quit (Ping timeout: 246 seconds)

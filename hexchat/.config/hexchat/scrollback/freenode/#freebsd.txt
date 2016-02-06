@@ -1,0 +1,532 @@
+T 1454422276 18<_mjg18>	verify sizes of all files
+T 1454422310 18<mender2718>	I'm signing off, lords and ladies! Good luck with your BSD well-being! ;)
+T 1454422329 18<_mjg18>	one other option, although unclear if supported, is that you got sparse files
+T 1454422329 18<anna`18>	Bye mender27 :)
+T 1454422354 18<_mjg18>	i.e. files effectively with zeroes in them and maybe tmpfs dedups such pages
+T 1454422477 18<ploopkazoo18>	_mjg: oh, htop was showing active memory as free for some reason. when I use top there's no problem
+T 1454422618 18<ertyuio18>	hi
+T 1454422645 18<ertyuio18>	how to turn a freebsd system into peer system ?
+T 1454422851 18<ploopkazoo18>	ertyuio: what does that mean?
+T 1454422876 18<ertyuio18>	exploit peer to peer feature into freebsd
+T 1454423572 18<zacts18>	hi
+T 1454424106 18<ertyuio18>	hi
+T 1454424554 18<jamesaxl18>	What DE eats more Cpu, Mate or Xfce?
+T 1454424722 18<ninefathom18>	MATE, in my experience, by a small margin
+T 1454424765 18<ninefathom18>	Bear in mind that MATE is spun from the now-defunct Gnome 2.x series, which is not intended as a lightweight DE.  It's lightweight only in comparison with e.g. Gnome 3 or KDE.
+T 1454424808 18<ninefathom18>	Xfce is billed specifically as a lightweight DE, and has that as a design goal.
+T 1454424813 18<jamesaxl18>	ninefathom: thank fro you the info, then i should stuck with my xfce :D
+T 1454424896 18<hexabit18>	i use Mate and it use 2% cpu when idle. Mate on my Linux box uses around 40% cpu.
+T 1454424944 18<hexabit18>	Mate on freeBSD is awsome. :)
+T 1454425029 18*	ninefathom is on MATE at this very moment, so obviously it's a personal fave, but there *are* more lightweight options if that's what a particular deployment requires
+T 1454425304 18<engblom18>	Using the new pkg, how do I later show the installation messages for all installed packages?
+T 1454425572 18<mirco18>	Hi hi, I’ve got a vserver that has root on zfs. and there seems to be „no space left on device“ but there’s definitly more available
+T 1454425789 18<ninefathom18>	engblom: see the '-D' argument for `pkg info` (man 8 pkg-info)
+T 1454425826 18<mirco18>	Here’s a little status quo http://pastebin.com/wP3kR14a and it’s running: 10.1-RELEASE
+T 1454425958 18<mirco18>	specially the: „onezfs/root/var  28.8G      0  28.8G  /var“ compared to „du -h /var : 20M	/var“ are kind of  confusing to me!
+T 1454426094 18<feebsd918>	9 out of 10 times there is a pkg security issue, it seems to be related to curl.
+T 1454426098 18<feebsd918>	Why is curl so damn buggy?
+T 1454426147 18<mTeK18>	Need a little help with a dictionary for evolution on PCBSD 11, I installed aspell and en-aspell and restarted evolution and then the whole computer just to see. No dictionary's listed in evolution.
+T 1454426156 18<ninefathom18>	mirco: space available on a pool does not necessarily correspond to space available to filesytems, due to metadata overhead etc.  Your zfs list says there's none available; that's the end of it.
+T 1454426180 18<ninefathom18>	mirco: unless you have quotas in place, of course
+T 1454426198 18<mirco18>	ninefathom: OK, I didn’t set quotas
+T 1454426225 18<zleslie18>	swills: Thank you! I didn't get to IRC yesterday, but I saw the mail from bugs.
+T 1454426234 18<ninefathom18>	mirco: as far as the `zfs list` vs `df -h` discrepancies, things like compression and dedup can throw `df -h` for a loop but `zfs list` will report correctly in most cases
+T 1454426241 18<mirco18>	but how can 20M refer 28.8G? Or how can I free those ton’s of meta's
+T 1454426273 18<swills18>	zleslie: :) and thanks to you
+T 1454426343 18<zleslie18>	swills: So whats next in your mind? Get puppet4 to take replace puppet?
+T 1454426344 18<ninefathom18>	mirco: the only place I see 20M in your paste is for an md device, not zfs
+T 1454426369 18<swills18>	zleslie: heh, you read my mind
+T 1454426387 18<swills18>	zleslie: next issue for me is default ruby version. we have 2.1 as default now. want to bump it to 2.2 but worried it breaks puppet
+T 1454426390 18<ninefathom18>	mirco: nvm, I see what you're saying.  the answer there is that ZFS is one of the few filesystems that allows mounting over a non-empty directory
+T 1454426427 18<swills18>	zleslie: if it breaks 3 and not 4 then making 4 default (sysutils/puppet4 -> sysutils/puppet, sysutils/puppet -> sysutils/puppet3) becomes a higher priority
+T 1454426452 18<ninefathom18>	mirco: most likely you had /dev/md0 mounted first as /var, then imported a ZFS pool which mounted over it.  Both are still mounted, only the files in the most-recently-mounted one are visible.
+T 1454426531 18<zleslie18>	swills: Hmm, I'm seeing what you mean.
+T 1454426533 18<ninefathom18>	mirco: if you were to e.g. run a `zfs unmount onezfs/root/var` (not suggesting to do that, just using as an example) then you would see the original /dev/md0 contents of /var and that space would be available
+T 1454426552 18<zleslie18>	swills: fwiw, I've been using puppet4 on my home infra for a couple months.
+T 1454426571 18<swills18>	zleslie: oh, i'm not worried about puppet4 itself
+T 1454426590 18<zleslie18>	Yeah, but I see this one: PUP-3796
+T 1454426600 18<zleslie18>	https://tickets.puppetlabs.com/browse/PUP-3796
+T 1454426618 18<ninefathom18>	mirco: as far as "freeing those metas" goes, I'm not sure how else to phrase this- your filesystem is full.  Period.  Delete some stuff (files, snapshots, etc).
+T 1454426647 18<zacts18>	I'm so glad that BSD won the lawsuit back in the day against AT&T, sort of
+T 1454426650 18<mirco18>	ninefathom: thx for the hint about the double mount! I’ll check that…
+T 1454426698 18<swills18>	zleslie: looks like it was fixed a while ago tho
+T 1454426715 18<swills18>	zleslie: so maybe it's not an issue now
+T 1454426725 18<zleslie18>	swills: maybe.  That one was closed "wont fix"
+T 1454426729 18<mirco18>	ninefathom: as fstab is not the place for zfs mount’s where would I check on fBSD that?
+T 1454426732 18<swills18>	oh
+T 1454426743 18<swills18>	yikes.
+T 1454426753 18*	swills hits his head on the wall
+T 1454426760 18<zleslie18>	save the head!
+T 1454426764 18<mirco18>	Sorry, I’m kinda used to linux and just started to use more fBSD
+T 1454426770 24*	28VVelox_ is now known as 18VVelox
+T 1454426785 18<zleslie18>	So I see what you mean swills.  When are you looking to bump the ruby?
+T 1454426806 18<swills18>	zleslie: last month. :)
+T 1454426813 18<zleslie18>	I see.
+T 1454426823 18<swills18>	but seriously, i gotta get an exp-run done first
+T 1454426838 18<swills18>	tho i've done some testing on it previously, so there shouldn't be many issues
+T 1454426847 18<swills18>	not like the bad old days
+T 1454426878 18<zleslie18>	swills: Lets just promote puppet4 then.  I'm willing to offer what support I can to help the transition.
+T 1454426982 18<zleslie18>	I need to get ready for work.
+T 1454427001 18<swills18>	zleslie: ok. trying to think what needs to be done. sysutils/puppet is maintained by ruby@ at the moment
+T 1454427005 18<swills18>	zleslie: we can chat later
+T 1454427025 18<swills18>	someone will want sysutils/puppet38 to go with sysutils/puppet37 i suppose
+T 1454427073 18<ninefathom18>	mirco: zfs mount info is stored in the filesystem itself.  run a `zfs show mountpoint <filesystem>` to show the configured mountpoint, e.g. `zfs show mountpoint onezfs/root/var`
+T 1454427169 18<swills18>	tho i don't suppose either will work with ruby 2.2 so will be marked broken with that... and the only way to get it will be to build it yourself from ports or via poudriere with the default ruby changed.
+T 1454427172 18<mirco18>	ninefathom:  unrecognized command 'show' when trying to follow your hint… :-(
+T 1454427185 18<ninefathom18>	sry.  get
+T 1454427188 18<ninefathom18>	zfs get mountpoint
+T 1454427221 18<ninefathom18>	the syntax to change is similar... zfs set mountpoint=<mountpoint> <filesystem>
+T 1454427256 18<ninefathom18>	where mountpoint is a directory or 'none' (which disables mounting entirely) or 'legacy' which allows it to be managed with the `mount` command directly
+T 1454427295 18<ninefathom18>	mirco: just as a reminder, all of this is covered under the zfs man page, though I do realize it's a bit lengthy.
+T 1454427333 18<mirco18>	ninefathom THX
+T 1454427334 18<ninefathom18>	mirco: I'd suggest checking out the man page online, as it tends to be more readable and easy to search: https://www.freebsd.org/cgi/man.cgi?zfs(8)
+T 1454427360 18<mirco18>	yeap quite long
+T 1454427535 18<mirco18>	and where are the mount’s for /dev/md1 and /dev/md2 stored? „grep -r „/dev/md1“ /etc“ didn’t reveal it...
+T 1454427637 18<ninefathom18>	Typically they'd be under /etc/fstab just as you'd expect, *unless* your system was booted in some "weird" mode (e.g. with readonly root FS) in which case FreeBSD automatically creates RAM-backed md devices for var and tmp as those pretty much have to be r/w to boot
+T 1454427651 18<mirco18>	prob in /var seems to be: /var/spool/clientmqueue/ can’t even ‚ls’ the damn Dir
+T 1454427743 18<ninefathom18>	That sounds like some 'sendmail' foobar-ness
+T 1454427782 18<ninefathom18>	perhaps a whole bunch of system mail events that couldn't be delivered?  just a guess- that's outside my realm of experience.
+T 1454427891 18<mirco18>	ninefathom: THX, after clearing /tmp there’s some space now, I’ll try to flush sendmail’s queue next
+T 1454428468 18<feebsd918>	9 out of 10 times there is a pkg security issue, it seems to be related to curl. Why is curl apparently so damn buggy?
+T 1454428787 18<TheLostAdmin18>	I could guess.
+T 1454429039 18<feebsd918>	Guess?
+T 1454429107 18<TheLostAdmin18>	My guess as to why curl is so damn buggy, as you put it, is because it is trying to combine multiple tools into a single tool and it relies on a number of other libraries to do so.
+T 1454429136 18<feebsd918>	TheLostAdmin: Everything is separated on Unix, though?
+T 1454429143 18<feebsd918>	So it should not report that "curl" is the culprit.
+T 1454429149 18<feebsd918>	But instead some dependency library.
+T 1454429211 18<TheLostAdmin18>	feebsd9, that depends on how curl is built. If it was made to make use of shared libraries, then the library would get the report. If it was built to make use of statically linked libraries, then curl is the culprit.
+T 1454429282 18<TheLostAdmin18>	Since curl is a tool from the Linux world, and FreeBSD includes many libraries in "base" that are considered 3rd party in the Linux world (like OpenSSL), curl may be statically linked to avoid conflicts with differences in the default libraries of FreeBSD.
+T 1454429297 18<TheLostAdmin18>	It is also entirely possible that I'm wrong. This is, after all, a guess.
+T 1454429326 18<TheLostAdmin18>	I use fetch instead of curl. It's not as robust, but it's part of the FreeBSD base system.
+T 1454429328 18<koobs18>	It could also be that, being so popular, and being used in my vendor products and appliances, that many more bugs (and security) issues are found.
+T 1454429348 18<feebsd918>	TheLostAdmin: Hmm. I guess.
+T 1454429350 18<TheLostAdmin18>	That's at least as good a guess as mine, koobs.
+T 1454429358 18<koobs18>	The number of CVE's/Security issues a project publishes is not a good measure for how buggy it is
+T 1454429368 18<feebsd918>	"fetch" isn't so "fetch".
+T 1454429372 18<TheLostAdmin18>	That is definitely true, koobs.
+T 1454429372 18<koobs18>	It may be a function of how much code auditing gets done on it, and how transparent the project is
+T 1454429383 18<feebsd918>	I think I only use cURL because PHP had a module for it and not for fetch.
+T 1454429406 18<feebsd918>	I also suspect that fetch is far less capable.
+T 1454429447 18<TheLostAdmin18>	I know fetch is less capable than curl. But my needs don't require more than fetch is capable of. I also probably set things up differently.
+T 1454429769 18<SFJulie118>	hey BSD guys, how do you compile application binding on Tcl? do you have a tcl-dev package or should I get the source of Tcl by myself?
+T 1454429784 18*	SFJulie1 is dumb did not go into ports. Sorry I check first
+T 1454429808 18<koobs18>	SFJulie1: tcl comes with the includes/libraries, we dont have -dev packages (separating headers/libraries)
+T 1454429846 18<koobs18>	SFJulie1: if you see foo-devel in the ports tree or a package name, it almost always referes to a 'development version' of the "foo" port/package
+T 1454429847 18<mirco18>	ninefathom: THX for your support after cleaning /var/spool/clientmqueue/ it’s up and running again…
+T 1454429856 18<SFJulie118>	kss . Trying to make some frankenstein code, and to compile the tkhtml widget the ./configure is weired (asking for tclconfig)
+T 1454429879 18<koobs18>	SFJulie1: yep
+T 1454429887 18<ninefathom18>	mirco: welcome
+T 1454429910 18<SFJulie118>	koobs, thanks. I kind of don't like automake autoconf. I don't know why.
+T 1454429935 18<koobs18>	SFJulie1: well, they often come not written well :)
+T 1454429947 18<koobs18>	SFJulie1: where is it looking for tclconfig? (look in config.log
+T 1454429962 18<mirco18>	ninefathom: and yes after a reboot I can approve your theory, /dev/md*s were created because of the full ZFS…
+T 1454429987 18<SFJulie118>	I guess I have to find the cli options and the right dirs and point them koobs
+T 1454430000 18<SFJulie118>	like in the old days of linux
+T 1454430034 18<koobs18>	SFJulie1: probably not, but im interesting in where it slooking for it, is it looking for 'exactly 'tclconfig' ?
+T 1454430057 18<gongoputch18>	ususally in /usr/local/lib/tcl8.X/
+T 1454430064 18<SFJulie118>	koobs, it will take some minutes I look that :)
+T 1454430066 18<koobs18>	gongoputch: yeh im looking at the pkgplist
+T 1454430068 18<koobs18>	lib/tcl%%TCL_VER%%/tclConfig.sh
+T 1454430080 18<gongoputch18>	./configure --with-tcl= usually gets it
+T 1454430084 18<koobs18>	gongoputch: do you know if thats normally installed in localbase/bin or something?
+T 1454430099 18<koobs18>	yup
+T 1454430108 18<gongoputch18>	seems to me it's been there 'forever'
+T 1454430146 18<koobs18>	just wondering how these autoconf things are looking for it (extensionless filename in the path?)
+T 1454430148 18<gongoputch18>	I hate autoconf only because it usually expresses linux specific locations
+T 1454430154 18<koobs18>	might be worth a symlink to it or something
+T 1454430172 18<gongoputch18>	NO! symlink spamming is the road to regret
+T 1454430181 18<koobs18>	whoah, easy tiger :)
+T 1454430190 18<gongoputch18>	better to gsed the config/makefile
+T 1454430205 18<gongoputch18>	I am all about the histrionics
+T 1454430238 18<gongoputch18>	but it is always 'tongue in cheek'
+T 1454430242 18<koobs18>	gongoputch: seems ubuntu even has it in: /usr/lib/tcl8.5/tclConfig.sh
+T 1454430249 18<eyda|mon18>	the freebsd handbook talks about  /boot/GENERIC in section 23.2.2. Applying Security Patches
+T 1454430252 18<koobs18>	so, appears normal
+T 1454430254 18<eyda|mon18>	Is this horribly outdated?
+T 1454430261 18<eyda|mon18>	or do I just not have  a /boot/GENERIC ?
+T 1454430264 18<koobs18>	eyda|mon: link please?
+T 1454430271 18<eyda|mon18>	https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/updating-upgrading-freebsdupdate.html
+T 1454430275 18<gongoputch18>	but it IS a good ideal to keep ports to /usr/local/
+T 1454430296 18<koobs18>	hmmm
+T 1454430305 18<koobs18>	eyda|mon: could be a typo? :)
+T 1454430306 18<ertyuio18>	in which case we need to use the tap interface ?
+T 1454430325 18<koobs18>	eyda|mon: ill report it to our docs folks
+T 1454430393 18<koobs18>	eyda|mon: interesting, just under that it says "Always keep a copy of the GENERIC kernel in /boot/GENERIC."
+T 1454430395 18<koobs18>	o_O
+T 1454430404 18<ghoti18>	does freebsd include anything in base that can generate json? Trying to generate it from a shell script and I'd rather not have port dependencies if I can help it.
+T 1454430432 18<koobs18>	eyda|mon: ahh, it appears it may be a safety precaution
+T 1454430436 18<koobs18>	https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/updating-upgrading-freebsdupdate.html#freebsd-update-custom-kernel-9x
+T 1454430443 18<koobs18>	"Before using freebsd-update, ensure that a copy of the GENERIC kernel exists in /boot/GENERIC"
+T 1454430453 18<koobs18>	for when using custom kernels
+T 1454430484 18<koobs18>	"Rebooting into the GENERIC kernel is not required as freebsd-update only needs /boot/GENERIC to exist."
+T 1454430486 18<koobs18>	eyda|mon: ^
+T 1454430521 18<koobs18>	eyda|mon: so, summary: Keep a GENERIC kernel copy 'handy' at /boot/GENERIC, because freebsd-update looks for it
+T 1454430588 18<yrter18>	koobs: if not how do you get it?
+T 1454430599 18<koobs18>	yrter: how do you get what?
+T 1454430615 18<yrter18>	a /boot/GENERIC kernel
+T 1454430631 18<koobs18>	yrter: its described in the 'creating custom kernels in 9.x' section, so presumably, before you create your custom kernel, you backup/copy the GENERIC one
+T 1454430646 18<koobs18>	you can 'get it' by building it and installing it there
+T 1454430659 18<koobs18>	or building it, installing it somewhere, and them copying it
+T 1454430677 18<yrter18>	koobs: ok that was the question, so you have to build it thanks
+T 1454430726 18<gongoputch18>	ghoti: there is a really cool json tool in ports, the name was real short ... maybe js ???
+T 1454430733 18<SFJulie118>	koobs, I have /usr/local/lib/tcl8.6/tclConfig.sh but it seems the "--with-tcl is not set" and the ./configure seems to point me to read an m4 file. I am ... that doomed ? I will try the basics magic
+T 1454430741 18*	gongoputch is having a senior moment
+T 1454430782 18<gongoputch18>	it will auto indent and colorize the edit ... fold laundry, mix drinks .... answer the door ...
+T 1454430809 18<gongoputch18>	SFJulie1: might be a busted TEA config, try regenerating
+T 1454430827 18<SFJulie118>	gongoputch, it was done for linux + windows.
+T 1454430849 18<gongoputch18>	TEA should be pretty agnostic to those differences
+T 1454430873 18<gongoputch18>	are you seeomgany wornings about undefined macros?
+T 1454430887 18<gongoputch18>	I can type. really.
+T 1454430986 18<SFJulie118>	gongoputch, just have to set all with-tcl with-tk :)
+T 1454431004 18<SFJulie118>	I got the Tcl config working, now I have to find the other places one by one
+T 1454431005 18<gongoputch18>	what TCL package is this?
+T 1454431027 18<gongoputch18>	find -exec gsed .... is your friend
+T 1454431033 18<SFJulie118>	tkhtml. I want to use it with python-tk to make a browser that can have statefulconnection
+T 1454431056 18<SFJulie118>	and to make a point about web stack insanity
+T 1454431067 18<gongoputch18>	ah tkhtml ... great package. suffering from bitrot in recent years
+T 1454431085 18<SFJulie118>	I could use gtkhtml or khtml too
+T 1454431089 18<gongoputch18>	did you know TCL has a CURL extension?
+T 1454431135 18<SFJulie118>	I just want to make a frankenstein code where every languages are used for their best... and I would like to use Tk for improving the GUI part
+T 1454431137 18<gongoputch18>	not as integral as the native html package but SO much more capable
+T 1454431148 18<SFJulie118>	just a POC
+T 1454431173 18<gongoputch18>	there is a LUA embedded browser in ports too
+T 1454431223 18<SFJulie118>	gongoputch, I love to make troll in my code :) using tcl/tk is trolling. Especially to prove the "box model" of CSS is broken. That we can live without websockets
+T 1454431233 18<anexit_18>	Is there a reason why /dev/pf just vanishes?
+T 1454431248 18<gongoputch18>	tcl has a good websocket implementation, just fyi
+T 1454431265 18<anexit_18>	I cannot reproduce it, I rebooted and /dev/pf is gone.  kldload pf (no such file)
+T 1454431272 18<SFJulie118>	I love native statefull communication. I want to use expect :)
+T 1454431288 18<gongoputch18>	ah, expect
+T 1454431294 18<SFJulie118>	like for "HTMLizing" an interaction with a router
+T 1454431329 18<gongoputch18>	I been really likin the java JSR 223 scripting languages recently
+T 1454431332 18<SFJulie118>	like parsing the output putting them on the fly in a table and "hacking" the post/get into positionnal / named args
+T 1454431373 18<gongoputch18>	like write a GUI in netrexx, parse XML in groovy and hook the events with TCL/JACL
+T 1454431379 18<SFJulie118>	just trying to make a point web stack is insane. And that we don't leverage the system (auth/accounting)
+T 1454431407 18<gongoputch18>	have you considered writing selenium scripts?
+T 1454431428 18<gongoputch18>	I know there is a solid python interface for it
+T 1454431456 18<SFJulie118>	gongoputch, did it in the past :) I was working in ad industries I used it to make snapshots dynamically :)
+T 1454431493 18<gongoputch18>	it is a piece of work, a little hard to get started but once you do ... mwahahahahah
+T 1454431525 18<SFJulie118>	gongoputch, it is freaking easy to use selenium, and it helps stage/test pages with js enabled
+T 1454431552 18<SFJulie118>	no fun
+T 1454431560 18<gongoputch18>	it is the gold standard when it comes to compliance, I am in awe of the work they are doing
+T 1454431588 18<SFJulie118>	gongoputch, not exactly, 3D transformation are broken in CSS
+T 1454431618 18<SFJulie118>	and ff/ie/chrome/ff are so not having the same behaviour... it is a pain.
+T 1454431619 18<gongoputch18>	ah, I am no where near that kind of web app
+T 1454431642 18<SFJulie118>	they set the points in 3D at different places
+T 1454431645 18<gongoputch18>	but that is really the browser vendors and all their 'value added'
+T 1454431652 18<gongoputch18>	right?
+T 1454431660 18<SFJulie118>	it is all about the HW accelerations
+T 1454431707 18<krux018>	I removed a functional drive from a zfs pool while the machine was off. I placed a different drive in the same slot and booted the system. Logically zfs labeled the pool as degraded. I then rebooted with the original drive in it's original slot and it's still showing up as degraded.
+T 1454431708 18<gongoputch18>	I played with emscripten for a while, compiling posix C++ to browser js makes my eyes bug
+T 1454431730 18<SFJulie118>	it depends on their SOC for their mobile. And let's be honest except for ads 3D transformation are .... useless.
+T 1454431744 18<gongoputch18>	once they settle on standard libraries it could get interesting
+T 1454431747 18<krux018>	zpool replace; zpool offline; don't work. This is a zraid1
+T 1454431787 18<gongoputch18>	krux0: tried exporting and re importing it?
+T 1454431820 18<gongoputch18>	you might be pooched, with no redundancy
+T 1454431820 18<krux018>	yes
+T 1454431838 18<krux018>	i know that's why i want this drive back in there
+T 1454431865 18<SFJulie118>	gongoputch, js libraries? hu hu hu. chaining the loading of external js with $.getScript("lib1.js", function() { $.getScript("lib2.js"), ....)
+T 1454431901 18<SFJulie118>	or "relying on luck" to have library delivered in order
+T 1454431944 18<gongoputch18>	emscripten as a tech is still in it's'early days' but it shows some serious promise
+T 1454431994 18<gongoputch18>	and if the java guys cen jettison rhino, nashorn is waaaay faster. this could get interesting
+T 1454431999 18<SFJulie118>	koobs, so far it is grunt stupid but I progress : ./configure --with-tcl=/usr/local/lib/tcl8.6/ --with-tk=/usr/local/lib/tk8.6/
+T 1454432069 18<koobs18>	SFJulie1: oh good, this looks pretty standard to me
+T 1454432074 18<koobs18>	SFJulie1: what is the software?
+T 1454432088 18<SFJulie118>	koobs, and I have a gmake that works ...
+T 1454432102 18<SFJulie118>	koobs, tkhtml
+T 1454432127 18<rickardv_18>	Is there anything to look out for if I want to run a wifi nic on PCIe on 9.3, except to check that it is on the supported hardware list?
+T 1454432132 18<gongoputch18>	SFJulie1: is there any C++ in there?
+T 1454432141 18<SFJulie118>	I report successful compilation of tkhtml on current with ./configure --with-tcl=/usr/local/lib/tcl8.6/ --with-tk=/usr/local/lib/tk8.6/ --with-tkinclude=/usr/local/include/tk8.6/
+T 1454432152 18<gongoputch18>	rickardv_: slaughter a goat?
+T 1454432168 18<SFJulie118>	gongoputch, seems to be pure C
+T 1454432176 18<SFJulie118>	now let's test
+T 1454432192 18<SFJulie118>	core dump on the test
+T 1454432205 18<rickardv_18>	gongoputch: of course...
+T 1454432211 18<gongoputch18>	did you convince configure to use clang?
+T 1454432236 18<SFJulie118>	gongoputch, confiugure use $CC
+T 1454432240 18<gongoputch18>	like CC=cc
+T 1454432349 18<SFJulie118>	gongoputch, since it is a GNU tool I am gonna try using all the the GNU tools just in case
+T 1454432358 18<SFJulie118>	gmake, gcc, ...
+T 1454432394 18<gongoputch18>	most ports,including tcl use clang now, not a problem with C code tho
+T 1454432411 18<gongoputch18>	with c++ it is
+T 1454432595 18<SFJulie118>	gongoputch, am I stupid "export CC=gcc48" +  "gmake clean && gmake" uses clang ?
+T 1454432674 18<gongoputch18>	that shouldn't but the ports (tcl86, tk8.6, etc) are biased towards clang
+T 1454432691 18<SFJulie118>	yes I am ... I forgot that my configure was failing
+T 1454432696 18<gongoputch18>	there is a USE* switch in make.conf
+T 1454432717 18<gongoputch18>	but the direction is clang
+T 1454432733 18<SFJulie118>	make or gmake?
+T 1454432749 18<gongoputch18>	I use gmake when make fails
+T 1454432769 18<gongoputch18>	neither is a superset of the other
+T 1454433143 18<SFJulie118>	gongoputch, "dtrace gmake test" crashed freeBSD with a Integer Divide Fault O_o
+T 1454433310 18<SFJulie118>	I guess dtrace != strace
+T 1454433378 18<SFJulie118>	truss
+T 1454433431 18<ghoti18>	gongoputch: the really cool json tool in ports that you're talking about is probably textproc/jq. It will do everything I need, but .. it's a port, and I'm hoping to avoid depending on any ports.I don't mind jumping through some hoops to avoid a port dependency. Perhaps I'll just write a minimal text2json converter in awk. (I don't need full support, just basic formatting of a list.)
+T 1454433508 18<cathode18>	hi i have snapshots being taken on my zpool and i have a couple zvols, when i run things like gpart or gstat, all the snapshots show up as additional 'devices'
+T 1454433517 18<cathode18>	can i prevent this? is there a tunable that controls that behavior?
+T 1454433520 18<SFJulie118>	Okay, I don't know why I have a lot of stats with no such file or directory then a segfault. It is looking for /usr/share/nls/C/libc.cat
+T 1454433780 24*	28dirkx__ is now known as 18dirkx
+T 1454434151 18<SFJulie118>	gongoputch, I core dump when I try to pack the tkhtml widget
+T 1454434397 18<SFJulie118>	okay, selenium :/
+T 1454435802 18<nchambers18>	would tcsh questions be offtopic here?
+T 1454435828 18<nchambers18>	if not, what is a good resource for learning tcsh?
+T 1454435893 18<aicasn18>	you can ask, sure. tcsh is a very popular fbsd shell
+T 1454435923 18<aicasn18>	also there might be #shell, #shells, #csh, #tcsh.  not sure :)
+T 1454435924 18<nchambers18>	yeah. I just installed fbsd, and have used bash in the past, but would rather learn tcsh than install bash on this vm
+T 1454436037 18<SFJulie118>	nchambers, you don't have to go full fbsd at the begining : pkg install bash and you can switch to tcsh or pkdsh when you are more cumfy. Don't go to hard on you :)
+T 1454436063 18<nchambers18>	thanks!
+T 1454436083 18<nchambers18>	is pkg the package management system?
+T 1454436137 18<aicasn18>	nchambers: this isn't a canon method, but you might get a good crash course reading the various (t)csh files. eg. $HOME/.cshrc csh.*  /etc/csh*
+T 1454436141 18<serpn18>	yes
+T 1454436154 18<nchambers18>	thanks! will do
+T 1454436183 18<nchambers18>	how do I give my user super user rights?
+T 1454436198 18<SFJulie118>	nchambers, the different way of handling packaging are in the handbook https://www.freebsd.org/doc/handbook/pkgng-intro.html
+T 1454436212 18<nchambers18>	hmmm I should probably read through that
+T 1454436249 18<SFJulie118>	nchambers, it must also be in the handbook. A comprehensive guide for lost linux users could be nice :) Fled linux?
+T 1454436275 18<SFJulie118>	nchambers, *BSD are very good at having useful man pages
+T 1454436295 18<nchambers18>	well, I still use linux, but my company uses freebsd so I figure I should mess around with it
+T 1454436350 18<nonesuch18>	I was wondering if anyone can point me to the correct way to setup a mfs_root in loader.conf on 10-STABLE
+T 1454436383 18<nonesuch18>	I am not sure I this is a bug or not but I cant find a working way to pxeboot and load a mfsroot on 10-STABLE
+T 1454436383 18<SFJulie118>	nchambers, curiosity does not kill the cat
+T 1454436425 18<nchambers18>	indeed :D. figured a virtual machine is the best place to test freebsd and try installing DHCP and dns where I can't break anything
+T 1454436468 18<SFJulie118>	nchambers, I have a 6 boot on my computer : 2 windows, 2 linux, 2 BSD and half in UEFI :)
+T 1454436487 18<nchambers18>	I would probably do that if I have the resources
+T 1454436498 18<nchambers18>	I might but an ubuntu terminal vm on here as well just for testing
+T 1454436552 18<SFJulie118>	nchambers, as long as you don't want to access low level stuff of HW it is nice. I hate the "hypervirtualization" when it comes to troubleshooting perfs too
+T 1454436567 18<SFJulie118>	the hosting OS kind of make noises
+T 1454436627 18*	SFJulie1 used to boot linux from DOS with a FS in FAT32 file
+T 1454436640 18<nchambers18>	hehe nice
+T 1454436655 18<nchambers18>	yeah when I get back into osdevving I think I'll start using qemu gaain
+T 1454436818 18<SFJulie118>	nowadays HW is not device programming friendly I think (compare USB sprogramming vs RS232) we love bloatwarish abstractions
+T 1454437004 18<gongoputch18>	SFJulie1: firewire was nice, but alas!
+T 1454437025 18<SFJulie118>	gongoputch, GPIB too :)
+T 1454437039 18<gongoputch18>	yea!
+T 1454437058 18<SFJulie118>	and it was easy to make FGPA supporting GPIB protocol
+T 1454437064 18<gongoputch18>	sounds like you might do some micro hacking too?
+T 1454437087 18<SFJulie118>	no I have been a physicist trained in CAD of microchips
+T 1454437092 18<gongoputch18>	ah
+T 1454437103 18<SFJulie118>	but without the right diploma I have been "barred" from using my knowledge
+T 1454437121 18<SFJulie118>	enigneering is kind of a middle age corporation
+T 1454437127 18<SFJulie118>	protecting its job
+T 1454437128 18<gongoputch18>	I went to school in thr 80's when hardware was expensive buggy and nothing worked (together)
+T 1454437135 24*	28redlegion is now known as 18redass
+T 1454437141 18*	SFJulie1 fears to be off topic
+T 1454437177 18<gongoputch18>	about 6 years ago I saw an arduino in a radio shack, I was pleasently surprised
+T 1454437209 18<SFJulie118>	I made a driver for linux in 2000 it was a breeze
+T 1454437210 18<gongoputch18>	as long as the OT is not stopping people from getting help ... I used to be an op in here
+T 1454437240 18<gongoputch18>	driver mechanics quickly goes out of my depth
+T 1454437241 18<SFJulie118>	nowadays, no docs for the basics of making drivers nor docs from HW vendors.
+T 1454437259 18<gongoputch18>	HW vendors are satan's henchmen
+T 1454437294 24*	28redass is now known as 18redlegion
+T 1454437299 18<SFJulie118>	I was wishing to work for a company like matrox, but they have this Ingenier barrier, and I am sick of web stack
+T 1454437343 18<SFJulie118>	I trolled on hackernews about it recently ;) http://beauty-of-imagination.blogspot.ca/2016/01/tcltk-vs-web-we-should-abandon-web.html
+T 1454437346 24*	28bbbryson is now known as 18Bryson
+T 1454437347 18<feebsd918>	Any news on PHP 7?
+T 1454437358 18<SFJulie118>	that is the reason I wanted to use tkhtml with python-tk
+T 1454437472 18<gongoputch18>	I can see ...
+T 1454437481 18<SFJulie118>	but I might go for a GUI to edit / visualize and navigate and edit RST dynamically
+T 1454437512 18<vkarlsen18>	sfjulie1: (very off-topic) cool helmet!
+T 1454437689 18<cathode18>	have an environment variable question...
+T 1454437715 18<gongoputch18>	SFJulie1: btw, the non rentrant parser in TCL has ctually SHRUNK memory requirements (not the typical direction)
+T 1454437722 18<cathode18>	i'm trying to set "ZREP_R" to "-R" but when i type `setenv ZREP_R=-R` i get an error "setenv: Variable name must contain alphanumeric characters."
+T 1454437745 18<vkarlsen18>	cathode: which shell?
+T 1454437756 18<cathode18>	not sure
+T 1454437761 18<cathode18>	it's a default install of freebsd 10
+T 1454437763 18<cathode18>	10.2*
+T 1454437771 18<cathode18>	probably csh?
+T 1454437818 18<cathode18>	yep 'env | grep SHELL' shows /bin/csh
+T 1454437831 18<vkarlsen18>	ah
+T 1454437839 18<vkarlsen18>	setenv ZREP_R -R
+T 1454437849 18<SFJulie118>	gongoputch, I do think I explicitely said I was not hyper found of Tcl (excpet for some great ideas and the geometry/pack manager and the UI logic) :P I am a dreamer
+T 1454437866 18<cathode18>	ahhh thanks!! :)
+T 1454437882 18<cathode18>	that was a strange error considering it wanted me to not use '='
+T 1454437899 18<gongoputch18>	I am not evalgenizing (maybe a decade or 2 too late anyway :) )
+T 1454437937 18<gongoputch18>	I am finding great amusement from your troll
+T 1454437951 18<SFJulie118>	but I like a lot of things in Tcl: expect, dealing with everything is string without masking anything, binding.
+T 1454438001 18<SFJulie118>	and my 20yo cold still work :) (at the opposite of some C code that don't compile anymore because of clang narrowmindness)
+T 1454438011 18<SFJulie118>	*code
+T 1454438037 18<gongoputch18>	clang is a bit tight assed at times
+T 1454438101 18<Tectu18>	try to enable --pedantic at gcc :P
+T 1454438112 18<Tectu18>	in my opinion, GCC is way too loose in default settings
+T 1454438127 18<SFJulie118>	I back openBSD concern about LTS c compiler
+T 1454438191 18<SFJulie118>	and some stuff in IR? make itches me (the null value, I hate inbound signals in the plane of the values)
+T 1454439029 18<zacts18>	hi FreeBSD h4x0rs
+T 1454439042 18<zacts18>	I'm so l33t today with my slackware limited edition l33t t-shirt
+T 1454439057 18<zacts18>	and yes I wear slackware t-shirts, even though I'm using FreeBSD and love FreeBSD
+T 1454439063 18<zacts18>	I'm just a weird nerd
+T 1454439065 18<zacts18>	:-)
+T 1454440516 20*	Disconnected (20Connection reset by peer)
+T 1454440548 19*	Now talking on 22#freebsd
+T 1454440548 22*	Topic for 22#freebsd is: Welcome to #FreeBSD! | Have fun, Be civilized, Respect people, Stay on-topic else { #freebsd-social } | /join #freebsd-ops for channel assistance
+T 1454440548 22*	Topic for 22#freebsd set by 26koobs (24Sat Jan  9 12:10:06 2016)
+T 1454440548 -18ChanServ-	[#freebsd] Please check the FreeBSD Handbook and Manual Pages first: http://freebsd.org/handbook - http://freebsd.org/cgi/man.cgi | Use a pastebin for more than 4 lines: https://dpaste.de/ | Other FreeBSD IRC Channels: https://wiki.freebsd.org/IrcChannels
+T 1454440556 18<Latrina18>	I have a old laptop which doesn't offer usb booting
+T 1454440566 18<Dereckson18>	Latrina: it detects usb key with Linux, in addition to hard drive, yup
+T 1454440570 18<Latrina18>	and I have freebsd 10 on it
+T 1454440586 18<Latrina18>	Dereckson, how would I do it?
+T 1454440608 18<Latrina18>	I am looking through it's options but I cannot see anything related
+T 1454440666 18<Dereckson18>	Latrina: https://lists.freebsd.org/pipermail/freebsd-fs/2014-December/thread.html#20508 is the thread you want
+T 1454440684 18<Latrina18>	lovely, thanks
+T 1454440735 18<Dereckson18>	but if the USB key doesn't appear right now, boot0 won't be helpful, it has a capability of chaining between detected disks, calling the next drive boot loader
+T 1454440735 18<Latrina18>	lsdev btw dowsn't show the usb device connected .. It does however show up in the bios
+T 1454440737 18<Latrina18>	grr
+T 1454440748 18<Dereckson18>	but only when the bios recognizes it as a disk :/
+T 1454440933 18<Latrina18>	the bios does recognize it
+T 1454441046 24*	28duderonomy is now known as 1817WABPBLQ
+T 1454441115 22*	26tepper.freenode.net sets ban on 18$a:kyfho
+T 1454441115 22*	26tepper.freenode.net sets ban on 18$a:GadgetGeek
+T 1454441130 18<cathode18>	so it appears that ksh isn't recognizing normal environment variables. how do i specify env variables for ksh?
+T 1454441269 18<SFJulie118>	cathode, export?
+T 1454441286 24*	28Tectu_ is now known as 18Tectu
+T 1454441291 18<SFJulie118>	export CC=gcc48 or CC=gcc48 ./configure
+T 1454441295 18<SFJulie118>	?
+T 1454441407 18<_val_18>	SFJulie1: tias. setenv is [t]csh specific. export is used on other shells. On most of them at least
+T 1454441445 18<cathode18>	SFJulie1 that works for session
+T 1454441448 18<cathode18>	i want this to be permanent
+T 1454441492 18<cathode18>	basically the 'zrep' script for zfs dataset replication needs an environment variable to be set for recursive stuff. but it uses ksh
+T 1454441528 18<cathode18>	SFJulie1 - what does the ./configure do in that example?
+T 1454441542 18<cathode18>	oh you're assuming i'm compiling something, nvm
+T 1454441546 18<cathode18>	no, i'm not compiling
+T 1454441795 18<SFJulie118>	cathode, it was a classical example of setting env variable
+T 1454441818 18<SFJulie118>	I gave you the 2 ways : the one shot and the "session long" export
+T 1454441820 18<cathode18>	right and it works for the session
+T 1454441838 18<cathode18>	i want a permanent thing
+T 1454441853 18<cathode18>	because each time this script runs it's not going to pick up any session variables
+T 1454441989 18<_val_18>	cathode: you should export the variable permanently using the users' profile file on ksh e.g: ~/.zprofile
+T 1454442007 18<SFJulie118>	export is your friend then. you may need to source the file with the export
+T 1454442011 18<cathode18>	it's called .zprofile ?
+T 1454442018 18<_val_18>	it is a hidden file
+T 1454442022 18<cathode18>	see i could not find that anywhere
+T 1454442022 18<_val_18>	ls -la
+T 1454442026 18<cathode18>	SFJulie1 - it's not my script
+T 1454442040 18<cathode18>	_val_ the manpage for ksh says NOWHERE about .zprofile
+T 1454442078 18<cathode18>	_val_ that does not show a .zprofile
+T 1454442093 18<SFJulie118>	cathode, source toto.sh make the export last and you can define them in a script. If your put envs in your profile you will have to change your profile every time and relog (or source)
+T 1454442106 18<_val_18>	Well , it's either .profile or .zprofile.  I'm not a ksh fan though.
+T 1454442112 18<cathode18>	guys
+T 1454442124 18<cathode18>	i have a fucking script that needs to read an env variable. the script is being run by cron
+T 1454442133 18<cathode18>	i just need the env variable to be permanently set
+T 1454442138 18<cathode18>	i'm not running it manually
+T 1454442144 18<cathode18>	i dont know how much more clear i can make this
+T 1454442153 18<cathode18>	i've read through all the relevant manpages here
+T 1454442220 18<_val_18>	cathode: In the script you put the export ENVVARNAME="WHATEVERGOESHIER"
+T 1454442225 18<cathode18>	...no
+T 1454442230 18<cathode18>	ITS NOT MY SCRIPT
+T 1454442238 18<cathode18>	jesus
+T 1454442250 18<cathode18>	it's a freebsd pkg obtained from pkg repository
+T 1454442254 18<cathode18>	i'm not going to custom modify it
+T 1454442278 18<cathode18>	because that will be useless if someone else comes behind me to maintain this system and has no idea what is going on
+T 1454442289 18<Lazlo_Falconi18>	You should get mad about it. That will help.
+T 1454442297 18<cathode18>	i'm a human being
+T 1454442301 18<cathode18>	it's called frustration
+T 1454442312 18<cathode18>	this is frustrating
+T 1454442320 18<_-Slash-_18>	hi
+T 1454442353 18<_val_18>	So if you don't want to change the script use it in cron then.  */30 * * * . $HOME/.zprofile; /path/to/the/script
+T 1454442363 18<_val_18>	put the stuff in .zprofile and off you go
+T 1454442388 18<_val_18>	echo "export CC=gcc48" >> ~/.zprofile
+T 1454442441 24*	28vinnix_ is now known as 18vinnix
+T 1454442446 18<cathode18>	this is retarded.
+T 1454442472 18<showaz18>	 */30 * * * env CC=gcc48 /path/to/the/script
+T 1454442485 18<showaz18>	*/30 * * * env CC=gcc48 CXX=g++48 /path/to/the/script
+T 1454442488 18<SFJulie118>	cathode, try to change env vars on windows
+T 1454442497 18<cathode18>	SFJulie1 - takes 5 seconds
+T 1454442511 18<cathode18>	don't bullshit me
+T 1454442517 18<_val_18>	*plonk*
+T 1454442524 18*	Strog wonders why no one suggests .profile/.kshrc if they are really trying to help.
+T 1454442534 18<Strog18>	man ksh is pretty clear. ;-)
+T 1454442544 18<SFJulie118>	oki. now I understand why you don't understand
+T 1454442552 18<cathode18>	strog you must be reading a different manpage
+T 1454442559 18<cathode18>	https://www.freebsd.org/cgi/man.cgi?query=ksh&sektion=1&apropos=0&manpath=FreeBSD+10.2-RELEASE+and+Ports
+T 1454442575 18<cathode18>	searching that for ".kshrc" 0 results
+T 1454442594 18<cathode18>	SFJulie1 - because i'm also a windows admin?
+T 1454442602 18<cathode18>	good job being a fucking tool. thanks.
+T 1454442623 18<showaz18>	"man env", noobs.
+T 1454442660 18<Strog18>	cathode: sorry, I was reading the openbsd version but .profile is legit either way.
+T 1454442670 18<SFJulie118>	because you expect stuff to be one way. And they are not. And instead of being calm and learning, you get scared, and angry. We all do that. I don't blame you.
+T 1454442683 18<ploopkazoo18>	I was using a lot of ram, but now I'm not and all my ram is inactive and almost none of it is free. is this a concern?
+T 1454442686 18<cathode18>	SFJulie1 - /ignore'd
+T 1454442767 18<cathode18>	https://gist.github.com/cathode/85ed0ff1d4e2341ace41 that's my ~/.profile
+T 1454442777 18<cathode18>	the 'ZREP_R' is the env variable i'm trying to persist
+T 1454442811 18<cathode18>	so apparently my system doesn't have any of the magic pixie dust that makes it work for you, Strog
+T 1454442893 18<Strog18>	Did you just add those changes to the .profile? Have you sourced it since you made the changes?
+T 1454442949 18<cathode18>	no
+T 1454442955 18<cathode18>	the manpages make no mention of that
+T 1454442983 18<vkarlsen18>	cathode: do what showaz said
+T 1454442985 18<cathode18>	if you wanna play the 'stick to manpages, you noob' game, i'll play. they're useless
+T 1454443008 18<vkarlsen18>	cathode: or if you want to be really blunt, just make the script set the env var itself
+T 1454443015 18*	SFJulie1 talked about sourcing ... 
+T 1454443023 18<cathode18>	i already said
+T 1454443027 18<cathode18>	i can't edit it
+T 1454443052 18<Lazlo_Falconi18>	cathode that's bogus. Of course you can. So what if someone comes after you? If you properly document it, it won't be a problem.
+T 1454443060 18<cathode18>	it is
+T 1454443072 18<vkarlsen18>	the script or the cron entry?
+T 1454443097 18<cathode18>	or maybe you can skype with my coworkers who are windows admins that can't even use the WINDOWS command line, and *YOU* can explain to them how to make the changes
+T 1454443115 18<c2n218>	Hi4all
+T 1454443136 18<cathode18>	if i `source ~/.profile`, that applies the env changes .... *TO THE SESSION*
+T 1454443144 18<cathode18>	that's not usable at all
+T 1454443166 18<vkarlsen18>	that's not what showaz told you to do
+T 1454443177 18<vkarlsen18>	he told you to set the env var in the cron entry
+T 1454443198 18<cathode18>	retarded.
+T 1454443215 18<vkarlsen18>	you should spend less time being angry and more time looking at solutions
+T 1454443221 18<gci_admin18>	Setting environment variables in cron is perfectly reasonable.
+T 1454443240 18<gci_admin18>	It also works.
+T 1454443245 18<cathode18>	there's a difference between anger and frustration
+T 1454443262 18<cathode18>	but i wouldn't expect a bunch of neckbeards to know anything about human emotions
+T 1454443273 18<cathode18>	unless they have a cheeto dusting on them
+T 1454443276 18<showaz18>	vkarlsen: his hatred eclipsed sanity.
+T 1454443287 18<gci_admin18>	Dude, my neckbeard is innocent. Keep it out of this. :p
+T 1454443308 18<Strog18>	Name calling /ignoring etc. seem angry
+T 1454443312 18<SFJulie118>	cathode, you are right, we are all sociopath venusians gold fish. You got us.
+T 1454443321 18<SFJulie118>	plop. plot.
+T 1454443361 18<fam18>	if I add an arp entry via 'arp -s', will that survive a reboot?
+T 1454443373 18<fam18>	if so, where are these entries stored?
+T 1454443425 18<fam18>	the man page says it's 'permanent'...
+T 1454443445 18<vkarlsen18>	cathode: sure, I could hold your hand and make you a cup of hot chocolate. it would maybe make you feel better, but it wouldn't fix your problem. however, setting the env var in the cron entry would.
+T 1454443490 18<gci_admin18>	fam, AFAIK if you want arp tables to survive reboot you have to put them in a file then use 'arp -f (file)' to read that.
+T 1454443512 18<fam18>	gci_admin, gotcha thanks for the answer
+T 1454443522 18<gci_admin18>	Sure, glad to help.
+T 1454443537 18<showaz18>	gci_admin: /etc/rc.local
+T 1454443563 18<gci_admin18>	showaz, huh?
+T 1454443621 18<gci_admin18>	showaz, ah, you mean where one can load arp stuff I think. Yep.
+T 1454443695 18<showaz18>	but need background running, "nohup arp -f … &" non-block
+T 1454443721 18<gci_admin18>	fam, ^^^
+T 1454443733 24*	28Kurlon_ is now known as 18Kurlon
+T 1454444148 24*	28dw_ is now known as 18dw
+T 1454445810 24*	28plonk_ is now known as 18plonk
+T 1454446003 24*	28dirkx_ is now known as 18dirkx
+T 1454446165 24*	28noresult_ is now known as 18noresult
+T 1454446275 18<kerio18>	is there a way to create a tap or a bridge with a specific name?
+T 1454446459 18<peikk018>	from man ifconfig I would guess: ifconfig tap0 create name foo0
+T 1454446507 18<kerio18>	peikk0: that has tragic consequences if tap0 exists already
+T 1454446513 18<kerio18>	and ifconfig tap create name foo0 doesn't work
+T 1454446564 18<peikk018>	yeah tap0 was an example, pick one that doesn't exist :)
+T 1454446617 18<kerio18>	does freebsd do some autodetection to decide which address to assign?
+T 1454446627 18<kerio18>	i created a tap and it was given my public ipv4 address
+T 1454446630 18<kerio18>	without me doing anything about it
+T 1454446690 18<gongoputch18>	maybe you got DHCP going on?
+T 1454446722 18<kerio18>	i'm positive there's no dhcp server around these parts
+T 1454446741 18<kerio18>	oh actually maybe there is
+T 1454446745 18<gongoputch18>	have you run a packet trace to confirm?
+T 1454447776 18<Albright18>	When in an iocage jail, is there a way to get the tag (or UUID) of the jail?
+T 1454448689 18<DarkUranium18>	Albright, first line of /etc/rc.conf has the UUID by default
+T 1454448697 18<DarkUranium18>	(the hostname="..." line)
+T 1454448705 18<DarkUranium18>	that holds even if you change the hostname
+T 1454448740 18<Albright18>	DarkUranium: Ah, I see.
+T 1454448757 18<DarkUranium18>	there might be other ways, not sure
+T 1454448887 24*	28grog_z is now known as 18Grogdor
+T 1454449015 18<Tectu18>	I am trying to figure out which package I need to get the ft2build.h header (freetype2 stuff). Can anyone help? I installed the freetype2 package but it seems like that doesn´t include the development headers
+T 1454449388 24*	28nik0 is now known as 18niko
+T 1454449654 18<vkarlsen18>	tectu: do you have the latest version of freetype2?
+T 1454449706 18<zeroschism18>	$ pkg which /usr/local/include/freetype2/ft2build.h
+T 1454449706 18<zeroschism18>	/usr/local/include/freetype2/ft2build.h was installed by package freetype2-2.5.5
+T 1454449707 18<bankai_18>	print/freetype2
+T 1454449873 18<risc18>	bankai_: http://mirobot.io/ - you can buy 1 now, turns out you can program it in java...
+T 1454449875 24*	28Trystam is now known as 18Tristam
+T 1454449893 18<Tectu18>	vkarlsen, yes, I think so. I just installed it.
+T 1454449929 18<Tectu18>	vkarlsen, when compiling I still get the error that ft2build.h was not found. I include it using    #include <ft2build.h>   (C++ programm)
+T 1454449943 18<bankai_18>	is there an upper age limit, risc ? am i too old?
+T 1454449957 18<Tectu18>	vkarlsen, I don´t know much about FreeBSD yet as I am just moving to it. I assume that once I install the corresponding package it will also put the file into the search path of the compiler?
+T 1454449960 18<risc18>	109 I think bankai_
+T 1454449998 18<vkarlsen18>	tectu: did you install it from ports or a package?
+T 1454450014 18<Tectu18>	vkarlsen, from package. I did    pkg install freetype2
+T 1454450044 18<Tectu18>	vkarlsen,    pkg info freetype2    tells me that it was actually installed
+T 1454450049 18<vkarlsen18>	tectu: do you have this file? /usr/local/include/freetype2/ft2build.h
+T 1454450065 18<Tectu18>	vkarlsen, yes

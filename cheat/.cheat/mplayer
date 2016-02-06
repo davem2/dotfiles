@@ -1,0 +1,2 @@
+# Display video metadata
+mplayer -vo null -ao null -identify -frames 0 input.mp4 

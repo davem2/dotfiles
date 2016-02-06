@@ -1,0 +1,590 @@
+T 1433700750 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433700770 23*	cri-ce-sensasi (~androirc@112.215.63.4023) has joined
+T 1433700796 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433700821 23*	cri-ce-sensasi (~androirc@112.215.63.4023) has joined
+T 1433700839 24*	Arse_ has quit (Read error: Connection reset by peer)
+T 1433700839 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433700861 23*	cri-ce-sensasi (~androirc@112.215.63.4023) has joined
+T 1433700888 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433700906 23*	cri-ce-sensasi (~androirc@112.215.63.4023) has joined
+T 1433700936 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433701007 23*	alexgman123 (49b7a1c6@gateway/web/cgi-irc/kiwiirc.com/ip.73.183.161.19823) has joined
+T 1433701046 23*	Haudegen (~quassel@85.124.51.5723) has joined
+T 1433701063 23*	cri-ce-sensasi (~androirc@112.215.63.3823) has joined
+T 1433701087 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433701115 23*	cri-ce-sensasi (~androirc@112.215.63.3823) has joined
+T 1433701132 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433701152 23*	cri-ce-sensasi (~androirc@112.215.63.3823) has joined
+T 1433701183 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433701220 24*	28ItsLuke is now known as 18Eclipse
+T 1433701225 23*	AngelVOC (~Ekki@x5f72d5e8.dyn.telefonica.de23) has joined
+T 1433701309 23*	cri-ce-sensasi (~androirc@112.215.64.22023) has joined
+T 1433701331 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433701336 23*	JoaoLx45 (~JoaoLx45@a95-92-69-147.cpe.netcabo.pt23) has joined
+T 1433701357 23*	cri-ce-sensasi (~androirc@112.215.64.22023) has joined
+T 1433701371 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433701394 23*	cri-ce-sensasi (~androirc@112.215.64.22023) has joined
+T 1433701416 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433701426 23*	mhernandez1 (~mhernande@207-237-2-36.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com23) has joined
+T 1433701439 23*	cri-ce-sensasi (~androirc@112.215.64.22023) has joined
+T 1433701467 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433701592 24*	JoaoLx45 has quit (Client Quit)
+T 1433701653 23*	tinajohnson (uid25907@gateway/web/irccloud.com/x-yljtjliafrenpqqm23) has joined
+T 1433701675 23*	alex_berlin87 (5f7169f3@gateway/web/cgi-irc/kiwiirc.com/ip.95.113.105.24323) has joined
+T 1433701703 23*	cri-ce-sensasi (~androirc@112.215.64.10623) has joined
+T 1433701733 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433701746 24*	alex_berlin87 has quit (Client Quit)
+T 1433701765 23*	cri-ce-sensasi (~androirc@112.215.64.10623) has joined
+T 1433701775 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433701990 23*	cri-ce-sensasi (~androirc@112.215.63.14123) has joined
+T 1433702006 23*	iPhooey (~iPhooey@99-12-193-58.lightspeed.austtx.sbcglobal.net23) has joined
+T 1433702007 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433702029 23*	Oskar (6eaf9c07@gateway/web/freenode/ip.110.175.156.723) has joined
+T 1433702046 23*	cri-ce-sensasi (~androirc@112.215.63.14123) has joined
+T 1433702104 24*	Oskar has quit (Client Quit)
+T 1433702120 24*	cri-ce-sensasi has quit (Read error: Connection reset by peer)
+T 1433702251 23*	jonasthomas (~chatzilla@adsl-99-172-54-127.dsl.emhril.sbcglobal.net23) has joined
+T 1433702261 24*	jonasthomas (~chatzilla@adsl-99-172-54-127.dsl.emhril.sbcglobal.net24) has left
+T 1433702277 23*	kecharitomene (~lukys@host-92-9-237-130.as43234.net23) has joined
+T 1433702288 24*	kecharitomene (~lukys@host-92-9-237-130.as43234.net24) has left
+T 1433702381 24*	HairAndBeardGuy has quit (Read error: Connection reset by peer)
+T 1433702480 23*	cri-ce-sensasi (~androirc@112.215.64.4523) has joined
+T 1433702480 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433702498 24*	Hubbbbot has quit (Remote host closed the connection)
+T 1433702513 23*	Hubbbbot (~nodebot@ec2-54-144-193-80.compute-1.amazonaws.com23) has joined
+T 1433702519 23*	cri-ce-sensasi (~androirc@112.215.64.4523) has joined
+T 1433702529 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433702569 23*	cri-ce-sensasi (~androirc@112.215.64.4523) has joined
+T 1433702572 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433702590 23*	AndChat-489600 (~AndChat48@c-71-229-143-176.hsd1.co.comcast.net23) has joined
+T 1433702596 23*	stickybit (~Basri@unaffiliated/stickybit23) has joined
+T 1433702607 23*	cri-ce-sensasi (~androirc@112.215.64.4523) has joined
+T 1433702619 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433702641 23*	cri-ce-sensasi (~androirc@112.215.64.4523) has joined
+T 1433702676 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433702699 23*	cri-ce-sensasi (~androirc@112.215.64.4523) has joined
+T 1433702719 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433702738 23*	cri-ce-sensasi (~androirc@112.215.64.4523) has joined
+T 1433702751 24*	stickybit1 has quit (Ping timeout: 250 seconds)
+T 1433702751 23*	HairAndBeardGuy (~HairAndBe@cpc2-ruth7-2-0-cust665.14-1.cable.virginm.net23) has joined
+T 1433702823 24*	stickybit has quit (Client Quit)
+T 1433702960 24*	Haudegen has quit (Ping timeout: 265 seconds)
+T 1433702965 23*	wanderer_ (50478725@gateway/web/freenode/ip.80.71.135.3723) has joined
+T 1433702994 23*	microniko (~nicolas@chlore.microniko.net23) has joined
+T 1433702997 24*	wanderer_ has quit (Client Quit)
+T 1433703062 23*	ashar4 (~ashar@39.50.197.7823) has joined
+T 1433703152 23*	Banks (~Banks@89-168-142-63.dynamic.dsl.as9105.com23) has joined
+T 1433703177 23*	mdolezel (~mdolezel@80-90-135-76.static.oxid.cz23) has joined
+T 1433703239 24*	Banks_ has quit (Ping timeout: 245 seconds)
+T 1433703354 23*	Kush (~Max@205.185.223.10023) has joined
+T 1433703656 23*	GeHa (~GeHa@u152-34.static.grapesc.cz23) has joined
+T 1433703840 24*	alexgman123 has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+T 1433703848 23*	superusr (~usr@cm56-159-73.liwest.at23) has joined
+T 1433703890 24*	cri-ce-sensasi has quit (Ping timeout: 256 seconds)
+T 1433703908 23*	cri-ce-sensasi (~androirc@112.215.64.23023) has joined
+T 1433703931 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433703948 23*	cri-ce-sensasi (~androirc@112.215.64.23023) has joined
+T 1433703976 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433703993 23*	cri-ce-sensasi (~androirc@112.215.64.23023) has joined
+T 1433704021 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433704024 23*	lorddaedra (~lorddaedr@95-24-163-175.broadband.corbina.ru23) has joined
+T 1433704042 23*	cri-ce-sensasi (~androirc@112.215.64.23023) has joined
+T 1433704058 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433704076 23*	cri-ce-sensasi (~androirc@112.215.64.23023) has joined
+T 1433704097 23*	Zakzo (6eaf9c07@gateway/web/freenode/ip.110.175.156.723) has joined
+T 1433704103 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433704114 24*	Zakzo has quit (Client Quit)
+T 1433704125 23*	cri-ce-sensasi (~androirc@112.215.64.23023) has joined
+T 1433704147 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433704170 23*	cri-ce-sensasi (~androirc@112.215.64.23023) has joined
+T 1433704180 24*	mhernandez1 has quit (Remote host closed the connection)
+T 1433704185 23*	HmpfCBR (~hmpf@ipb2194ada.dynamic.kabel-deutschland.de23) has joined
+T 1433704192 24*	HmpfCBR (~hmpf@ipb2194ada.dynamic.kabel-deutschland.de24) has left
+T 1433704193 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433704209 23*	HmpfCBR (~hmpf@ipb2194ada.dynamic.kabel-deutschland.de23) has joined
+T 1433704228 23*	cri-ce-sensasi (~androirc@112.215.64.23023) has joined
+T 1433704380 23*	StillFrankie (971a7a4c@gateway/web/cgi-irc/kiwiirc.com/ip.151.26.122.7623) has joined
+T 1433704394 24*	StillFrankie (971a7a4c@gateway/web/cgi-irc/kiwiirc.com/ip.151.26.122.7624) has left
+T 1433704401 23*	Haudegen (~quassel@85.124.51.5723) has joined
+T 1433704550 23*	HairAndBeardGuy_ (~HairAndBe@cpc2-ruth7-2-0-cust665.14-1.cable.virginm.net23) has joined
+T 1433704552 24*	cri-ce-sensasi has quit (Read error: Connection reset by peer)
+T 1433704565 23*	soul (~soulsynap@ip98-176-2-66.sd.sd.cox.net23) has joined
+T 1433704602 23*	cri-ce-sensasi (~androirc@112.215.64.8823) has joined
+T 1433704677 24*	cri-ce-sensasi has quit (Read error: Connection reset by peer)
+T 1433704749 24*	HairAndBeardGuy has quit (Ping timeout: 256 seconds)
+T 1433704751 23*	cri-ce-sensasi (~androirc@112.215.63.13923) has joined
+T 1433704768 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433704790 23*	cri-ce-sensasi (~androirc@112.215.63.13923) has joined
+T 1433704813 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433704833 23*	cri-ce-sensasi (~androirc@112.215.63.13923) has joined
+T 1433704846 23*	HairAndBeardGuy (~HairAndBe@cpc2-ruth7-2-0-cust665.14-1.cable.virginm.net23) has joined
+T 1433704925 23*	r24y (32b15075@gateway/web/freenode/ip.50.177.80.11723) has joined
+T 1433704931 24*	r24y (32b15075@gateway/web/freenode/ip.50.177.80.11724) has left
+T 1433704940 23*	Aedx (~Aedx@82.219.32.15723) has joined
+T 1433704952 24*	ashar4 has quit (Ping timeout: 258 seconds)
+T 1433704955 24*	Aedx (~Aedx@82.219.32.15724) has left
+T 1433704968 23*	alexgman123 (49b7a1c6@gateway/web/cgi-irc/kiwiirc.com/ip.73.183.161.19823) has joined
+T 1433704976 24*	HairAndBeardGuy_ has quit (Ping timeout: 252 seconds)
+T 1433705202 23*	zeffii (~zeffii@53509268.cm-6-1c.dynamic.ziggo.nl23) has joined
+T 1433705215 24*	zeffii (~zeffii@53509268.cm-6-1c.dynamic.ziggo.nl24) has left
+T 1433705425 23*	AndChat|489600 (~AndChat48@172.56.8.2023) has joined
+T 1433705433 24*	AndChat|489600 has quit (Client Quit)
+T 1433705435 24*	AndChat-489600 has quit (Read error: Connection reset by peer)
+T 1433705455 23*	AndChat|489600 (~AndChat48@c-71-229-143-176.hsd1.co.comcast.net23) has joined
+T 1433705481 23*	HairAndBeardGuy_ (~HairAndBe@cpc2-ruth7-2-0-cust665.14-1.cable.virginm.net23) has joined
+T 1433705659 23*	AndChat-489600 (~AndChat48@c-71-229-143-176.hsd1.co.comcast.net23) has joined
+T 1433705659 24*	AndChat|489600 has quit (Read error: Connection reset by peer)
+T 1433705680 24*	HairAndBeardGuy has quit (Ping timeout: 252 seconds)
+T 1433705746 23*	AndChat|489600 (~AndChat48@172.56.8.2023) has joined
+T 1433705795 23*	dtribble (~dtribble@2602:306:c496:4e10:8443:e299:f255:be1923) has joined
+T 1433705915 23*	remstw (~RobyRemzy@dau94-4-82-229-167-44.fbx.proxad.net23) has joined
+T 1433705918 24*	remstw (~RobyRemzy@dau94-4-82-229-167-44.fbx.proxad.net24) has left
+T 1433705943 24*	AndChat-489600 has quit (Ping timeout: 265 seconds)
+T 1433706101 23*	DTG3D_2 (~DTG3D@d47-69-210-163.try.wideopenwest.com23) has joined
+T 1433706150 24*	DTG3D has quit (Ping timeout: 265 seconds)
+T 1433706259 23*	Loweren (~Loweren@broadband-178-140-2-15.nationalcablenetworks.ru23) has joined
+T 1433706338 24*	Loweren (~Loweren@broadband-178-140-2-15.nationalcablenetworks.ru24) has left
+T 1433706542 24*	chandoo_ (~chandoo@ool-4a59659f.dyn.optonline.net24) has left
+T 1433706596 23*	Disorganized (~Disorgani@ec2-52-26-88-11.us-west-2.compute.amazonaws.com23) has joined
+T 1433706623 24*	Disorganized (~Disorgani@ec2-52-26-88-11.us-west-2.compute.amazonaws.com24) has left
+T 1433706728 24*	morganq (~morganq@unaffiliated/morganq24) has left
+T 1433707168 24*	28DTG3D_2 is now known as 18DTG3D
+T 1433707205 24*	pi_ has quit (Ping timeout: 258 seconds)
+T 1433707333 24*	cocoadaemon has quit (Quit: Quitte)
+T 1433707440 24*	Banks has quit (Quit: irc gets thrown in the bin)
+T 1433707460 23*	mafia_- (~mafia@c213-89-147-29.bredband.comhem.se23) has joined
+T 1433707521 23*	hitmannumber86 (~hitmannum@73.219.245.023) has joined
+T 1433707588 23*	cberndt (~cberndt@222-154-226-60.adsl.xtra.co.nz23) has joined
+T 1433707659 23*	Headbomb (~Headbomb@Wikipedia/Headbomb23) has joined
+T 1433707698 23*	squeakytoy (~squeakyto@h87-96-232-231.dynamic.se.alltele.net23) has joined
+T 1433707756 23*	Blueman (~BillyKona@2606:6000:a381:d100:3888:3b24:d060:9d9223) has joined
+T 1433707766 24*	cri-ce-sensasi has quit (Read error: Connection reset by peer)
+T 1433707774 24*	Blueman (~BillyKona@2606:6000:a381:d100:3888:3b24:d060:9d9224) has left
+T 1433707920 23*	cri-ce-sensasi (~androirc@112.215.63.15423) has joined
+T 1433707945 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433707957 24*	cberndt has quit (Quit: Leaving)
+T 1433707965 23*	cri-ce-sensasi (~androirc@112.215.63.15423) has joined
+T 1433707978 23*	cberndt (~cberndt@222-154-226-60.adsl.xtra.co.nz23) has joined
+T 1433707990 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433708010 23*	cri-ce-sensasi (~androirc@112.215.63.15423) has joined
+T 1433708035 24*	cri-ce-sensasi has quit (Remote host closed the connection)
+T 1433708255 23*	ashar4 (~ashar@182.178.23.13223) has joined
+T 1433708289 24*	AndChat|489600 has quit (Ping timeout: 250 seconds)
+T 1433708582 24*	microniko has quit (Ping timeout: 265 seconds)
+T 1433708931 24*	imcleod has quit (Ping timeout: 256 seconds)
+T 1433708960 24*	AngelVOC has quit (Ping timeout: 272 seconds)
+T 1433708967 23*	Wade (~Wade@unaffiliated/wade23) has joined
+T 1433708986 23*	AngelVOC (~Ekki@x5f72d5e8.dyn.telefonica.de23) has joined
+T 1433709046 24*	Cerise has quit (Ping timeout: 265 seconds)
+T 1433709106 24*	Kevinsweijen has quit (Ping timeout: 255 seconds)
+T 1433709196 24*	SkyRocknRoll has quit (Remote host closed the connection)
+T 1433709249 24*	ashar4 has quit (Ping timeout: 265 seconds)
+T 1433709294 23*	Cerise (znc@devzero.info23) has joined
+T 1433709294 24*	Cerise has quit (Changing host)
+T 1433709294 23*	Cerise (znc@unaffiliated/cerise23) has joined
+T 1433709422 23*	cri-ce-sensasi (~androirc@112.215.64.19323) has joined
+T 1433709440 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433709469 23*	cri-ce-sensasi (~androirc@112.215.64.19323) has joined
+T 1433709483 24*	stoysho has quit (Read error: Connection reset by peer)
+T 1433709483 24*	Jackneill has quit (Read error: Connection reset by peer)
+T 1433709486 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433709489 23*	stoyshoo (~stoyshooo@176.106.120.6523) has joined
+T 1433709547 23*	cri-ce-sensasi (~androirc@112.215.63.8423) has joined
+T 1433709553 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433709592 23*	cri-ce-sensasi (~androirc@112.215.63.8423) has joined
+T 1433709598 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433709633 24*	MrAristo has quit (Quit: Congratulations On The Enormity Of Your Success...)
+T 1433709637 23*	cri-ce-sensasi (~androirc@112.215.63.8423) has joined
+T 1433709641 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433709675 23*	cri-ce-sensasi (~androirc@112.215.63.8423) has joined
+T 1433709687 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433709726 23*	cri-ce-sensasi (~androirc@112.215.63.8423) has joined
+T 1433709731 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433710033 23*	stickybit (~Basri@unaffiliated/stickybit23) has joined
+T 1433710061 24*	mdolezel has quit (Ping timeout: 246 seconds)
+T 1433710239 24*	Chrussell has quit (Read error: Connection reset by peer)
+T 1433710266 23*	HairAndBeardGuy (~HairAndBe@cpc2-ruth7-2-0-cust665.14-1.cable.virginm.net23) has joined
+T 1433710269 23*	Chrussell (~Chrussell@24.108.145.16423) has joined
+T 1433710280 24*	mafia_- has quit (Quit: WeeChat 0.4.2)
+T 1433710422 24*	HairAndBeardGuy_ has quit (Ping timeout: 264 seconds)
+T 1433710777 23*	Sebsebsebb (4d629a2a@gateway/web/freenode/ip.77.98.154.4223) has joined
+T 1433710803 23*	rj11 (~rj11@46.194.17.11523) has joined
+T 1433710841 24*	rj11 (~rj11@46.194.17.11524) has left
+T 1433710940 24*	Wade (~Wade@unaffiliated/wade24) has left
+T 1433711184 23*	IHaveTheAnswer (~The@121-81-93-114f1.hyg2.eonet.ne.jp23) has joined
+T 1433711189 24*	IHaveTheAnswer (~The@121-81-93-114f1.hyg2.eonet.ne.jp24) has left
+T 1433711205 23*	sjg1 (~AndChat48@172.56.9.5623) has joined
+T 1433711215 24*	sjg1 has quit (Client Quit)
+T 1433711252 23*	Max__ (~Max@c-98-203-190-105.hsd1.wa.comcast.net23) has joined
+T 1433711400 24*	Kush has quit (Ping timeout: 252 seconds)
+T 1433711489 24*	dismist has quit (Read error: Connection reset by peer)
+T 1433711499 23*	dismist (~cssfx@pool-71-120-216-210.nrflva.fios.verizon.net23) has joined
+T 1433711618 23*	HairAndBeardGuy_ (~HairAndBe@cpc2-ruth7-2-0-cust665.14-1.cable.virginm.net23) has joined
+T 1433711730 24*	GeHa has quit (Quit: Leaving)
+T 1433711736 24*	HairAndBeardGuy has quit (Ping timeout: 258 seconds)
+T 1433712243 24*	collison has quit (Quit: Leaving)
+T 1433712706 24*	tinajohnson has quit (Quit: Connection closed for inactivity)
+T 1433712798 24*	Linuts has quit (Ping timeout: 256 seconds)
+T 1433713017 23*	Tiger_88_ (~tiger_88@179.56.178.13423) has joined
+T 1433713088 23*	cgutman_ (~cgutman@daredevil.STUDENT.CWRU.Edu23) has joined
+T 1433713108 24*	cgutman_ (~cgutman@daredevil.STUDENT.CWRU.Edu24) has left
+T 1433713117 24*	Tiger_88_ (~tiger_88@179.56.178.13424) has left
+T 1433713241 24*	Sebsebsebb has quit (Quit: Page closed)
+T 1433713370 24*	sami_wfh__ has quit (Ping timeout: 258 seconds)
+T 1433713511 23*	SeanSill2 (~nightrune@2600:1010:b012:400f:5c7:2b7:fa6a:7ff123) has joined
+T 1433713531 23*	ABDU1989 (~LINUX8@105.107.208.5523) has joined
+T 1433714033 24*	ziddey|NIP has quit (Read error: Connection reset by peer)
+T 1433714090 24*	hamul has quit (Ping timeout: 256 seconds)
+T 1433714099 23*	hamul (~hamul@cpc14-blac8-2-0-cust136.18-3.cable.virginm.net23) has joined
+T 1433714151 24*	28Nickman is now known as 18zz_Nickman
+T 1433714323 23*	tgehrke (~toddie@c-24-18-235-93.hsd1.wa.comcast.net23) has joined
+T 1433714567 24*	ABDU1989 has quit (Quit: Leaving)
+T 1433714658 23*	mesko (~meszko@254C3023.nat.pool.telekom.hu23) has joined
+T 1433714849 24*	28Bozza_ is now known as 18Bozza
+T 1433714888 23*	Maser (~JuttyMire@cpe-74-77-135-118.buffalo.res.rr.com23) has joined
+T 1433714889 24*	Maser has quit (Changing host)
+T 1433714889 23*	Maser (~JuttyMire@unaffiliated/maser23) has joined
+T 1433715439 24*	Zupoman has quit (Read error: Connection reset by peer)
+T 1433715613 23*	jorj (~jorj@162.220.240.21623) has joined
+T 1433715751 24*	stoyshoo has quit (Quit: Leaving)
+T 1433715765 23*	stoysho (~stoyshooo@176.106.120.6523) has joined
+T 1433716200 23*	picoss (~picoss@roa76-5-82-234-254-217.fbx.proxad.net23) has joined
+T 1433716873 24*	nocturn has quit (Ping timeout: 264 seconds)
+T 1433717062 23*	mikeg3 (~mikeg3@68-191-58-53.dhcp.nwtn.ct.charter.com23) has joined
+T 1433717082 24*	tgehrke has quit (Ping timeout: 244 seconds)
+T 1433717115 23*	cri-ce-sensasi (~androirc@112.215.64.3723) has joined
+T 1433717116 24*	cri-ce-sensasi has quit (Read error: Connection reset by peer)
+T 1433717125 24*	picoss has quit (Ping timeout: 256 seconds)
+T 1433717156 23*	cri-ce-sensasi (~androirc@112.215.64.3723) has joined
+T 1433717160 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433717209 23*	cri-ce-sensasi (~androirc@112.215.64.3723) has joined
+T 1433717225 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433717259 23*	cri-ce-sensasi (~androirc@112.215.64.3723) has joined
+T 1433717262 23*	Kadigan (55dd87d0@gateway/web/freenode/ip.85.221.135.20823) has joined
+T 1433717264 23*	Javier1 (~canaima@200.84.254.9723) has joined
+T 1433717281 24*	mikeg3 has quit (Quit: Leaving)
+T 1433717289 24*	Kadigan (55dd87d0@gateway/web/freenode/ip.85.221.135.20824) has left
+T 1433717291 23*	nocturn (~nocturn@unaffiliated/nocturn23) has joined
+T 1433717350 24*	Javier1 (~canaima@200.84.254.9724) has left
+T 1433717514 24*	cri-ce-sensasi has quit (Read error: Connection reset by peer)
+T 1433717614 23*	cri-ce-sensasi (~androirc@112.215.64.5223) has joined
+T 1433717629 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433717653 23*	cri-ce-sensasi (~androirc@112.215.64.5223) has joined
+T 1433717669 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433717689 23*	cri-ce-sensasi (~androirc@112.215.64.5223) has joined
+T 1433717714 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433717754 23*	cri-ce-sensasi (~androirc@112.215.64.5223) has joined
+T 1433717758 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433717933 23*	cri-ce-sensasi (~androirc@112.215.64.5223) has joined
+T 1433717938 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433717978 23*	cri-ce-sensasi (~androirc@112.215.64.5223) has joined
+T 1433717986 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433718027 23*	cri-ce-sensasi (~androirc@112.215.64.5223) has joined
+T 1433718043 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433718064 23*	cri-ce-sensasi (~androirc@112.215.64.5223) has joined
+T 1433718086 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433718108 23*	cri-ce-sensasi (~androirc@112.215.64.5223) has joined
+T 1433718201 24*	Neobenedict has quit (Ping timeout: 276 seconds)
+T 1433718710 24*	SPF|Cloud has quit (Quit: Connection closed for inactivity)
+T 1433718836 24*	whee has quit (Quit: ZNC - http://znc.in)
+T 1433719005 23*	whee (whee@2600:3c03::f03c:91ff:fe93:8a1323) has joined
+T 1433719090 24*	28Guest68410 is now known as 18Fraj
+T 1433719097 24*	Fraj has quit (Changing host)
+T 1433719097 23*	Fraj (Elite14184@unaffiliated/becauseyoucan23) has joined
+T 1433719097 24*	Fraj has quit (Changing host)
+T 1433719097 23*	Fraj (Elite14184@gateway/shell/elitebnc/x-liyoqznexesksqgc23) has joined
+T 1433719272 24*	blight has quit (Quit: Konversation terminated!)
+T 1433719317 24*	cri-ce-sensasi has quit (Read error: Connection reset by peer)
+T 1433719342 23*	cri-ce-sensasi (~androirc@112.215.63.23923) has joined
+T 1433719366 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433719385 23*	cri-ce-sensasi (~androirc@112.215.63.23923) has joined
+T 1433719411 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433719447 23*	cri-ce-sensasi (~androirc@112.215.63.23923) has joined
+T 1433719689 24*	dtribble has quit (Ping timeout: 265 seconds)
+T 1433719784 24*	stickybit has quit (Quit: Leaving)
+T 1433720302 24*	cri-ce-sensasi has quit (Read error: Connection reset by peer)
+T 1433720797 23*	gothicUQL (~astrayEPO@aa045118.ppp.asahi-net.or.jp23) has joined
+T 1433720801 24*	gothicUQL (~astrayEPO@aa045118.ppp.asahi-net.or.jp24) has left
+T 1433720804 24*	stoysho has quit (Quit: Leaving)
+T 1433720896 23*	gothicUQL (~astrayEPO@aa045118.ppp.asahi-net.or.jp23) has joined
+T 1433720902 24*	gothicUQL (~astrayEPO@aa045118.ppp.asahi-net.or.jp24) has left
+T 1433720926 23*	gothicUQL (~astrayEPO@aa045118.ppp.asahi-net.or.jp23) has joined
+T 1433720928 24*	gothicUQL has quit (Client Quit)
+T 1433721347 23*	cri-ce-sensasi (~androirc@112.215.63.5923) has joined
+T 1433721347 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433721628 23*	fstd_ (~fstd@unaffiliated/fisted23) has joined
+T 1433721688 23*	cri-ce-sensasi (~androirc@112.215.63.14523) has joined
+T 1433721698 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433721842 24*	fstd has quit (Ping timeout: 272 seconds)
+T 1433721842 24*	28fstd_ is now known as 18fstd
+T 1433722003 24*	AngelVOC has quit (Quit: Leaving)
+T 1433722009 23*	imsexy003 (~precipice@75-162-16-161.desm.qwest.net23) has joined
+T 1433722022 24*	imsexy003 (~precipice@75-162-16-161.desm.qwest.net24) has left
+T 1433722109 23*	imsexy003 (~precipice@75-162-16-161.desm.qwest.net23) has joined
+T 1433722161 24*	imsexy003 (~precipice@75-162-16-161.desm.qwest.net24) has left
+T 1433722210 23*	Guest94876 (~delphi@2601:1:8b80:e83:4a5b:39ff:feb3:bdce23) has joined
+T 1433722239 24*	Guest94876 (~delphi@2601:1:8b80:e83:4a5b:39ff:feb3:bdce24) has left
+T 1433722552 24*	surfdue has quit (Ping timeout: 255 seconds)
+T 1433722575 24*	SeanSill2 (~nightrune@2600:1010:b012:400f:5c7:2b7:fa6a:7ff124) has left
+T 1433722660 24*	kakashi_ has quit (Ping timeout: 255 seconds)
+T 1433722742 23*	surfdue (surfdue@unaffiliated/surfdue23) has joined
+T 1433722985 23*	kakashi_ (~kakashi_@nltk/kakashi23) has joined
+T 1433723037 23*	cri-ce-sensasi (~androirc@112.215.63.21723) has joined
+T 1433723063 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723084 23*	cri-ce-sensasi (~androirc@112.215.63.21723) has joined
+T 1433723118 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723144 24*	codetorex has quit (Ping timeout: 258 seconds)
+T 1433723169 23*	cri-ce-sensasi (~androirc@112.215.63.21723) has joined
+T 1433723178 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723206 23*	cri-ce-sensasi (~androirc@112.215.63.21723) has joined
+T 1433723236 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723274 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433723300 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723320 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433723345 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723367 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433723390 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723409 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433723435 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723455 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433723474 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723493 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433723518 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723541 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433723565 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723677 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433723700 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723832 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433723848 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433723904 24*	injigo has quit (Ping timeout: 258 seconds)
+T 1433724100 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433724126 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433724180 23*	injigo (~injigo@unaffiliated/injigo23) has joined
+T 1433724206 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433724235 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433724290 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433724309 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433724447 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433724452 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433724743 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433724749 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433724997 23*	cri-ce-sensasi (~androirc@112.215.64.23123) has joined
+T 1433724998 23*	Jangeth (~JangFett@unaffiliated/jangfett23) has joined
+T 1433725000 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433725003 24*	Jangeth has quit (Client Quit)
+T 1433725039 23*	maruti1 (~maruti@g248.124-45-19.ppp.wakwak.ne.jp23) has joined
+T 1433725239 23*	Escorpio (Escorpio@40.138.205.21523) has joined
+T 1433725249 23*	kira3724 (~kira3724@179.52.175.24923) has joined
+T 1433725271 24*	Escorpio has quit (Client Quit)
+T 1433725279 23*	Escorpio (Escorpio@40.138.205.21523) has joined
+T 1433725316 23*	Lexyon (uid61825@gateway/web/irccloud.com/x-kacxjmcainpvvysk23) has joined
+T 1433725522 24*	Escorpio has quit (Client Quit)
+T 1433725529 23*	Escorpio (Escorpio@40.138.205.21523) has joined
+T 1433725544 24*	Escorpio has quit (Client Quit)
+T 1433725569 24*	AlexPortable has quit (Quit: Connection closed for inactivity)
+T 1433725582 24*	kira3724 has quit (Quit: Leaving)
+T 1433725674 24*	_AnK has quit (Quit: _AnK)
+T 1433725693 23*	gadget7222 (~gadget@199.190.61.20823) has joined
+T 1433725711 23*	Neobenedict (~ident@unaffiliated/neobenedict23) has joined
+T 1433725744 24*	gadget7222 has quit (Client Quit)
+T 1433725854 24*	LauraCottontail has quit (Quit: Connection closed for inactivity)
+T 1433726034 23*	vicky (~wuxiaohui@119.254.120.6823) has joined
+T 1433726097 23*	u53j (~u53j@cpe-75-83-173-243.socal.res.rr.com23) has joined
+T 1433726127 24*	u53j (~u53j@cpe-75-83-173-243.socal.res.rr.com24) has left
+T 1433726307 23*	SeanSill2 (~nightrune@2600:1010:b04b:48d5:1184:c01a:16f4:a3f223) has joined
+T 1433726328 23*	_AnK (~AnK@pool-98-110-32-203.cmdnnj.fios.verizon.net23) has joined
+T 1433726943 24*	fgleich has quit (Ping timeout: 265 seconds)
+T 1433727353 24*	_AnK has quit (Quit: _AnK)
+T 1433727429 23*	PandorasFox (~arcvulpes@rrcs-24-213-242-99.nys.biz.rr.com23) has joined
+T 1433727452 24*	PandorasFox (~arcvulpes@rrcs-24-213-242-99.nys.biz.rr.com24) has left
+T 1433727716 23*	PandorasFox (~arcvulpes@rrcs-24-213-242-99.nys.biz.rr.com23) has joined
+T 1433727726 23*	fgleich (~fgleich@cpe-24-170-55-47.stx.res.rr.com23) has joined
+T 1433727867 23*	Wadecouch (~Wade@unaffiliated/wade23) has joined
+T 1433728087 23*	kreiGT (~kreig@181.209.173.8023) has joined
+T 1433728118 23*	Weavilebot (~Josea.438@c-73-157-50-114.hsd1.wa.comcast.net23) has joined
+T 1433728118 24*	Weavilebot (~Josea.438@c-73-157-50-114.hsd1.wa.comcast.net24) has left
+T 1433728159 24*	lorddaedra has quit (Remote host closed the connection)
+T 1433728234 23*	_AnK (~AnK@pool-98-110-32-203.cmdnnj.fios.verizon.net23) has joined
+T 1433728314 24*	PandorasFox has quit (Ping timeout: 264 seconds)
+T 1433728456 23*	limecd (b15e34ba@gateway/web/freenode/ip.177.94.52.18623) has joined
+T 1433728476 24*	Wadecouch (~Wade@unaffiliated/wade24) has left
+T 1433729220 24*	pmorie (~pmorie@cpe-71-76-24-13.sc.res.rr.com24) has left
+T 1433729666 24*	limecd has quit (Ping timeout: 246 seconds)
+T 1433730091 23*	WizJin (~WizJinAFK@43.249.228.9123) has joined
+T 1433730102 23*	codeman (~codeman@187.57.240.16623) has joined
+T 1433730140 23*	mhernandez1 (~mhernande@207-237-2-36.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com23) has joined
+T 1433730180 24*	codeman has quit (Max SendQ exceeded)
+T 1433730390 23*	codeman (~codeman@187.57.240.16623) has joined
+T 1433730390 24*	codeman has quit (Max SendQ exceeded)
+T 1433730524 24*	Guest27039 has quit (Quit: Don't flap your BGP at me sonny)
+T 1433730565 23*	Olipr| (~Olipro@2605:e000:5fc0:9e:6402:5e9a:fa68:3f1b23) has joined
+T 1433730665 24*	Olipr| has quit (Remote host closed the connection)
+T 1433730690 23*	Olipr| (~Olipro@2605:e000:5fc0:9e:6402:5e9a:fa68:3f1b23) has joined
+T 1433730730 24*	Olipr| has quit (Remote host closed the connection)
+T 1433731001 23*	codeman_ (~codeman@187.57.240.16623) has joined
+T 1433731011 24*	codeman_ has quit (Client Quit)
+T 1433731036 23*	codeman (~codeman@187.57.240.16623) has joined
+T 1433731289 24*	sbryzak has quit (Ping timeout: 265 seconds)
+T 1433731333 24*	mhernandez1 has quit (Remote host closed the connection)
+T 1433731584 23*	crymore (uid32977@gateway/web/irccloud.com/x-ezomjunxhdpkqvuy23) has joined
+T 1433731800 23*	lorddaedra (~lorddaedr@95-24-163-175.broadband.corbina.ru23) has joined
+T 1433731940 23*	liuxg_ (~liuxg@116.213.191.7423) has joined
+T 1433732108 23*	suolkeeper (~Thunderbi@112.206.100.15423) has joined
+T 1433732130 24*	lorddaedra has quit (Ping timeout: 265 seconds)
+T 1433733077 24*	Lexyon has quit (Quit: Connection closed for inactivity)
+T 1433733110 23*	delphiactual (~delphi@2601:1:8b80:e83:4a5b:39ff:feb3:bdce23) has joined
+T 1433733140 24*	delphiactual (~delphi@2601:1:8b80:e83:4a5b:39ff:feb3:bdce24) has left
+T 1433733217 23*	morganq (~morganq@unaffiliated/morganq23) has joined
+T 1433733309 23*	Zoot (~Zoot@176.106.40.9023) has joined
+T 1433733461 23*	delphiactual (~delphi@2601:1:8b80:e83:4a5b:39ff:feb3:bdce23) has joined
+T 1433733467 24*	delphiactual (~delphi@2601:1:8b80:e83:4a5b:39ff:feb3:bdce24) has left
+T 1433733597 24*	Zoot (~Zoot@176.106.40.9024) has left
+T 1433733765 23*	MonkehParade (MonkehPara@gateway/shell/bnc4free/x-weixtyrnflednyqo23) has joined
+T 1433733776 24*	MonkehParade (MonkehPara@gateway/shell/bnc4free/x-weixtyrnflednyqo24) has left
+T 1433734062 24*	joikast has quit (*.net *.split)
+T 1433734062 24*	rwg has quit (*.net *.split)
+T 1433734062 24*	MrSommBodey has quit (*.net *.split)
+T 1433734062 24*	zug1 has quit (*.net *.split)
+T 1433734062 24*	mic_e has quit (*.net *.split)
+T 1433734062 24*	dooglus has quit (*.net *.split)
+T 1433734062 24*	Steven- has quit (*.net *.split)
+T 1433734062 24*	kloeri has quit (*.net *.split)
+T 1433734068 23*	rwg (adam@lessthanthree.me.uk23) has joined
+T 1433734068 24*	rwg has quit (Changing host)
+T 1433734068 23*	rwg (adam@awos/tester/rwg23) has joined
+T 1433734069 23*	joikast (joikast@skalman.tech.dreamhack.se23) has joined
+T 1433734071 24*	Pingo5 has quit (Quit: Leaving)
+T 1433734072 24*	code_ has quit (*.net *.split)
+T 1433734072 24*	morrigan has quit (*.net *.split)
+T 1433734074 24*	YasigiWalter has quit (*.net *.split)
+T 1433734074 24*	Xyle has quit (*.net *.split)
+T 1433734074 24*	spossiba_ has quit (*.net *.split)
+T 1433734078 23*	YasigiWalter (~walter@yasigi.org23) has joined
+T 1433734079 23*	dooglus (~biufter@ec2-54-247-189-77.eu-west-1.compute.amazonaws.com23) has joined
+T 1433734080 24*	dooglus has quit (Changing host)
+T 1433734080 23*	dooglus (~biufter@unaffiliated/dooglus23) has joined
+T 1433734086 23*	morrigan (~morrigan@tos-klotho.theolymp.net23) has joined
+T 1433734092 23*	kloeri (~kloeri@freenode/staff/exherbo.kloeri23) has joined
+T 1433734100 23*	spossiba (~spossiba@unaffiliated/stryx/x-387177623) has joined
+T 1433734107 23*	MrSommBodey (~Mr@43.232.251.212.customer.cdi.no23) has joined
+T 1433734125 23*	clsl01 (~Thunderbi@200.29.237.24223) has joined
+T 1433734129 23*	mic_e (~quassel@ipbcc182e2.dynamic.kabel-deutschland.de23) has joined
+T 1433734131 24*	clsl01 has quit (Client Quit)
+T 1433734135 23*	code_ (code_@ipv4.epickitty.uk23) has joined
+T 1433734143 23*	Xyle (~quassel@beepbeep.serverpit.com23) has joined
+T 1433734157 23*	Cory (~Cory@unaffiliated/cory23) has joined
+T 1433734186 24*	alexgman123 has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+T 1433734231 24*	Cory (~Cory@unaffiliated/cory24) has left
+T 1433734305 23*	llama052 (~llama052@cpe-75-185-214-173.cinci.res.rr.com23) has joined
+T 1433734317 23*	alexgman123 (49b7a1c6@gateway/web/cgi-irc/kiwiirc.com/ip.73.183.161.19823) has joined
+T 1433734494 23*	MonkehParade (MonkehPara@gateway/shell/bnc4free/x-weixtyrnflednyqo23) has joined
+T 1433734583 23*	Choobs (~GrandChoo@184.21.151.15023) has joined
+T 1433734605 23*	Steven- (~Steven-@68-202-129-215.res.bhn.net23) has joined
+T 1433734626 24*	MonkehParade (MonkehPara@gateway/shell/bnc4free/x-weixtyrnflednyqo24) has left
+T 1433734652 24*	Choobs (~GrandChoo@184.21.151.15024) has left
+T 1433734757 24*	Max__ has quit (Ping timeout: 246 seconds)
+T 1433735510 23*	Blueman (~BillyKona@2606:6000:a381:d100:f4df:8f2e:3779:5d323) has joined
+T 1433735554 23*	lorddaedra (~lorddaedr@95-24-163-175.broadband.corbina.ru23) has joined
+T 1433735636 24*	Blueman (~BillyKona@2606:6000:a381:d100:f4df:8f2e:3779:5d324) has left
+T 1433735846 24*	lorddaedra has quit (Ping timeout: 265 seconds)
+T 1433736038 23*	VandroiyIII (~FD@unaffiliated/vandroiy23) has joined
+T 1433736258 24*	Vandroiy has quit (Ping timeout: 256 seconds)
+T 1433737009 23*	kreig (~kreig@190.149.76.2223) has joined
+T 1433737118 24*	kreiGT has quit (Ping timeout: 265 seconds)
+T 1433737510 24*	Maser has quit (Ping timeout: 255 seconds)
+T 1433738238 23*	Blueman (~BillyKona@2606:6000:a381:d100:f59c:c57b:c007:260523) has joinT 1433739123 24*	t0ken_ has quit (Client Quit)
+T 1433739876 24*	JacobEdelman has quit (Quit: Connection closed for inactivity)
+T 1433739948 23*	zeffii (~zeffii@53509268.cm-6-1c.dynamic.ziggo.nl23) has joined
+T 1433739986 24*	zeffii (~zeffii@53509268.cm-6-1c.dynamic.ziggo.nl24) has left
+T 1433740370 24*	Chrussell has quit (Ping timeout: 265 seconds)
+T 1433740603 23*	Banks (~Banks@89-168-142-63.dynamic.dsl.as9105.com23) has joined
+T 1433740704 24*	fling has quit (Ping timeout: 244 seconds)
+T 1433740791 23*	jorge1 (~canaima@201.243.136.11523) has joined
+T 1433740880 24*	DTG3D has quit (Ping timeout: 272 seconds)
+T 1433740894 24*	jorge1 (~canaima@201.243.136.11524) has left
+T 1433740933 23*	jorge1 (~canaima@201.243.136.11523) has joined
+T 1433741061 23*	AlexPortable (uid7568@gateway/web/irccloud.com/x-wbkcykhxphokorlb23) has joined
+T 1433741158 24*	jorge1 has quit (Quit: Leaving.)
+T 1433741173 23*	jorge (~canaima@201.243.136.11523) has joined
+T 1433741258 24*	jorge has quit (Read error: Connection reset by peer)
+T 1433741283 24*	crymore has quit (Quit: Connection closed for inactivity)
+T 1433741386 24*	mesko has quit (Ping timeout: 244 seconds)
+T 1433741499 24*	superusr has quit (Quit: Verlassend)
+T 1433741504 23*	mesko (~meszko@254C3023.nat.pool.telekom.hu23) has joined
+T 1433741548 23*	emma_ (~em@unaffiliated/emma23) has joined
+T 1433741631 23*	nlevinki (nlevinki@nat/redhat/x-jgofysptyfmvnjvw23) has joined
+T 1433741671 23*	GeHa (~GeHa@u152-34.static.grapesc.cz23) has joined
+T 1433741792 24*	mesko has quit (Ping timeout: 272 seconds)
+T 1433741853 23*	saurabh_ (saurabh@nat/redhat/x-iuzsewykszpdsljr23) has joined
+T 1433741855 24*	suolkeeper has quit (Quit: suolkeeper)
+T 1433741872 23*	suolkeeper (~Thunderbi@112.206.100.15423) has joined
+T 1433741882 23*	cri-ce-sensasi (~androirc@112.215.64.13623) has joined
+T 1433741910 24*	suolkeeper has quit (Remote host closed the connection)
+T 1433741911 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433741932 23*	cri-ce-sensasi (~androirc@112.215.64.13623) has joined
+T 1433741944 24*	_Vi has quit (Ping timeout: 244 seconds)
+T 1433741956 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433741978 23*	cri-ce-sensasi (~androirc@112.215.64.13623) has joined
+T 1433742001 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433742002 24*	kreig has quit (Remote host closed the connection)
+T 1433742034 23*	cri-ce-sensasi (~androirc@112.215.64.13623) has joined
+T 1433742046 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433742064 23*	cri-ce-sensasi (~androirc@112.215.64.13623) has joined
+T 1433742092 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433742148 23*	suolkeeper (~Thunderbi@112.206.100.15423) has joined
+T 1433742151 23*	cri-ce-sensasi (~androirc@112.215.64.13623) has joined
+T 1433742267 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433742304 23*	cri-ce-sensasi (~androirc@112.215.64.13623) has joined
+T 1433742308 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433742319 23*	fling (~fling@fsf/member/fling23) has joined
+T 1433742341 24*	fgleich has quit (Remote host closed the connection)
+T 1433742495 23*	mesko (~meszko@254C3023.nat.pool.telekom.hu23) has joined
+T 1433742495 23*	Chrussell (~Chrussell@24.108.145.16423) has joined
+T 1433742638 23*	cri-ce-sensasi (~androirc@112.215.63.3523) has joined
+T 1433742661 24*	cri-ce-sensasi has quit (Client Quit)
+T 1433742716 23*	gonluffynaruto (~yaaic@117.202.240.11023) has joined
+T 1433742767 24*	gonluffynaruto has quit (Client Quit)
+T 1433742820 23*	lorddaedra (~lorddaedr@95-24-163-175.broadband.corbina.ru23) has joined
+T 1433742874 23*	cri-ce-sensasi (~androirc@112.215.64.10623) has joined
+T 1433743121 24*	lorddaedra has quit (Ping timeout: 265 seconds)
+T 1433743160 24*	cri-ce-sensasi has quit (Ping timeout: 272 seconds)
+T 1433743224 23*	anke (~anke@mail.de02.searchtrends.eu23) has joined
+T 1433743289 23*	Linuts (~linus@c0-170.i07-1.onvol.net23) has joined
+T 1433743438 23*	Bartek (~Thunderbi@static-81-219-117-188.devs.futuro.pl23) has joined
+T 1433743646 24*	squeakytoy has quit (Quit: Leaving)
+T 1433743806 23*	codetorex (~codetorex@176.40.194.25523) has joined
+T 1433743817 23*	snobby (~snobby@unaffiliated/snubby23) has joined
+T 1433743931 23*	SkyRocknRoll (~SkyRocknR@unaffiliated/skyrocknroll23) has joined
+T 1433744057 23*	EricBlackstone (4643ec5b@gateway/web/cgi-irc/kiwiirc.com/ip.70.67.236.9123) has joined
+T 1433744065 24*	EricBlackstone (4643ec5b@gateway/web/cgi-irc/kiwiirc.com/ip.70.67.236.9124) has left
+T 1433744114 24*	Bartek has quit (Quit: Bartek)
+T 1433744134 23*	Bozza_ (~Bozza@unaffiliated/bozza23) has joined
+T 1433744174 24*	snobby (~snobby@unaffiliated/snubby24) has left
+T 1433744298 24*	Bozza has quit (Ping timeout: 264 seconds)
+T 1433744674 24*	yitz_ has quit (Remote host closed the connection)
+T 1433744688 23*	yitz_ (~yitz_@unaffiliated/yitz-/x-673856823) has joined
+T 1433744718 24*	Linuts has quit (Ping timeout: 272 seconds)
+T 1433745044 24*	yitz_ has quit (Ping timeout: 244 seconds)
+T 1433745154 24*	Banks has quit (Quit: irc gets thrown in the bin)
+T 1433745299 24*	liuxg_ has quit (Quit: Ex-Chat)
+T 1433745313 23*	yitz_ (~yitz_@unaffiliated/yitz-/x-673856823) has joined
+T 1433745516 24*	SkyRocknRoll has quit (Ping timeout: 272 seconds)
+T 1433745529 23*	rhmtaufik (~androirc@120.164.44.7523) has joined
+T 1433745590 24*	rhmtaufik has quit (Client Quit)
+T 1433745593 23*	minotaure (uid69300@gateway/web/irccloud.com/x-yvpejfacayypzsbi23) has joined
+T 1433745634 24*	minotaure (uid69300@gateway/web/irccloud.com/x-yvpejfacayypzsbi24) has left
+T 1433745719 23*	Almtesh (~Almtesh@unaffiliated/almtesh23) has joined
+T 1433746314 24*	Haudegen has quit (Ping timeout: 272 seconds)
+T 1433746320 23*	SkyRocknRoll_ (~SkyRocknR@106.51.133.4023) has joined
+T 1433746355 23*	SkyRocknRoll (~SkyRocknR@unaffiliated/skyrocknroll23) has joined
+T 1433746523 23*	lorddaedra (~lorddaedr@95-24-163-175.broadband.corbina.ru23) has joined
+T 1433746666 23*	liluklugjljulgh (dfadanello@2.237.1.023) has joined
+T 1433746680 24*	liluklugjljulgh has quit (Client Quit)
+T 1433746705 24*	sime has quit (Ping timeout: 256 seconds)
+T 1433746854 24*	lorddaedra has quit (Ping timeout: 264 seconds)
+T 1433747076 23*	zzzADC (~zzzADC@107.155.70.22623) has joined
+T 1433747164 23*	LauraCottontail (uid62174@gateway/web/irccloud.com/x-fmxyzycvlbqfehur23) has joined
+T 1433747247 23*	sime (~sime@cpe-31-15-210-253.cable.telemach.net23) has joined
+T 1433747485 23*	badguyXAK (~impaleOMM@105.231.112.2723) has joined
+T 1433747602 23*	sh0lla (~sh0lla@unaffiliated/sh0lla23) has joined
+T 1433747612 23*	Kevinsweijen (~Kevin@46.44.150.1723) has joined

@@ -1,0 +1,47 @@
+T 1389247841 20<Unidentified31530>30	!mumble
+T 1399581809 20<donkeybox>30	!help
+T 1399581810 18<JBot>	!next - When's the next live show?
+T 1399581810 18<JBot>	!schedule - What shows are being recorded live in the next seven days?
+T 1399581810 18<JBot>	!suggest - Be heard. Suggest a title for the live show.
+T 1399581810 18<JBot>	!link - Know the link for that? Suggest it and make the show better.
+T 1399581810 18<JBot>	!current - What's playing on jupiterbroadcasting.com/live? I've got you covered.
+T 1399581810 18<JBot>	!last_status - The last tweet by @ChrisLAS, @Angerz, @howtolinux delievered to you in IRC. Sweet.
+T 1399581810 18<JBot>	!bittick - Meta-command for the bitcoin commands
+T 1399581810 18<JBot>	!bitavg - Bitcoin averages from bitcoinaveages.com
+T 1399581811 18<JBot>	!goxtick - Bitcoin Ticker (MtGox)
+T 1399581812 18<JBot>	!btcetick - Bitcoin Ticker (BTC-E)
+T 1399581813 18<JBot>	!litetick - Litecoin Ticker (BTC-E)
+T 1399581814 18<JBot>	!dogetick - Dogecoin Ticker (BTer)
+T 1399581816 18<JBot>	!mumble - Mumble Info
+T 1399581818 18<JBot>	!bacon - Delicious bacon
+T 1399581820 18<JBot>	!about - Was JBot coded or did it spontaniously come into existence?
+T 1399581822 18<JBot>	!help - Uh, this.
+T 1399582004 18<JBot>	Added link suggestion https://www.youtube.com/watch?v=NAxMyTwmu_M
+T 1399627920 24*	JBot has quit (Ping timeout)
+T 1399633099 24*	JBot has quit (Ping timeout)
+T 1403719317 18<JBot>	Added title suggestion "Girls Gone Google"
+T 1403812015 24*	JBot has quit (Client exited)
+T 1407372869 18<JBot>	Added title suggestion "Beyond the scope of reason"
+T 1428544990 18<JBot>	Added title suggestion "Snowden for Dummies"
+T 1430850166 20<donkeybox>30	!lebowski
+T 1430850181 20<donkeybox>30	!help
+T 1430850182 18<JBot>	!help - Uh, this.
+T 1430850182 18<JBot>	!about - Was JBot coded or did it spontaniously come into existence?
+T 1430850182 18<JBot>	!uptime - How long has JBot been continuously running?
+T 1430850182 18<JBot>	!bacon - Delicious bacon.
+T 1430850182 18<JBot>	!litetick - Litecoin Ticker (BTC-E)
+T 1430850182 18<JBot>	!goxtick - Bitcoin Ticker (MtGox)
+T 1430850182 18<JBot>	!bitavg - Bitcoin averages from bitcoinaveages.com
+T 1430850182 18<JBot>	!btcetick - Bitcoin Ticker (BTC-E)
+T 1430850182 18<JBot>	!dogetick - Dogecoin Ticker (BTer)
+T 1430850182 18<JBot>	!link - Know the link for that? Suggest it and make the show better.
+T 1430850184 18<JBot>	!next - When's the next live show?
+T 1430850185 18<JBot>	!schedule - What shows are being recorded live in the next seven days?
+T 1430850187 18<JBot>	!suggest - Be heard. Suggest a title for the live show.
+T 1430850189 18<JBot>	!current - What's playing on jupiterbroadcasting.com/live? I've got you covered.
+T 1430850191 18<JBot>	!last_status - The last tweets by @Angerz, @ChrisLAS, @heywtr delievered to you in IRC. Sweet.
+T 1430850193 18<JBot>	!server - Meta-command for server info.
+T 1430850195 18<JBot>	!irc - IRC server info.
+T 1430850197 18<JBot>	!mumble - Mumble server info.
+T 1443651635 20<donkeybox>30	!next
+T 1443651637 18<JBot>	Next show is Linux Action Show in 1 day 23 hours 39 minutes 24 seconds (10:00pm UTC on Friday, 10/2/2015)

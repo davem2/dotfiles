@@ -1,0 +1,535 @@
+T 1404984203 24*	Chase has quit (Quit: My Mac Pro has gone to sleep. ZZZzzz…)
+T 1404989692 24*	joedemaxMacBook has quit (Client exited)
+T 1404989701 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1404991099 24*	joedemaxMacBook has quit (Client exited)
+T 1404991126 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1404991282 24*	JoshStrobl has quit (Quit: leaving)
+T 1404991447 24*	joedemaxMacBook has quit (Connection reset by peer)
+T 1404991448 23*	joedemax_ (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1404991968 23*	FaiT (~fait@protectedhost-DA2DC4A4.spkn.qwest.net23) has joined
+T 1404992131 24*	joedemax_ has quit (Client exited)
+T 1404992157 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1404992343 24*	FaiT has quit (Ping timeout)
+T 1404993132 24*	joedemaxMacBook has quit (Ping timeout)
+T 1405010534 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405010771 23*	JayTee84 (~s4vdout@188A553B.C1510194.EF5B1F45.IP23) has joined
+T 1405010790 24*	JayTee84 (~s4vdout@188A553B.C1510194.EF5B1F45.IP24) has left
+T 1405013625 24*	iamikon (~iamikon@8E18D860.2C07E39D.99B201D4.IP24) has left
+T 1405014023 24*	joedemaxMacBook has quit (Client exited)
+T 1405014049 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405014320 23*	joedemax_ (~joedemaxM@3E1F52FB.1B6DE53F.91A98454.IP23) has joined
+T 1405014351 24*	joedemaxMacBook has quit (Connection reset by peer)
+T 1405017783 23*	Chase (~SirChaos@protectedhost-E98836EC.evrt.wa.frontiernet.net23) has joined
+T 1405017783 22*	26RoboCop sets mode 24+q on 22#GGTV Chase
+T 1405017783 22*	26RoboCop gives channel operator status to 18Chase
+T 1405019719 24*	joedemax_ has quit (Client exited)
+T 1405019747 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405020715 24*	joedemaxMacBook has quit (Ping timeout: 962 seconds)
+T 1405021306 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405021637 24*	Techman has quit (Ping timeout)
+T 1405021823 23*	Techman (sid11863@www.techmansworld.com23) has joined
+T 1405022715 24*	joedemaxMacBook has quit (Client exited)
+T 1405022741 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405023719 24*	joedemaxMacBook has quit (Ping timeout)
+T 1405024304 23*	GGTV_Viewe|47527 (GGTV_Viewe@protectedhost-7429CEC7.nycap.res.rr.com23) has joined
+T 1405024306 24*	GGTV_Viewe|47527 has quit (Quit: GGTV_Viewe|47527)
+T 1405024377 23*	RottNKorpse (~quassel@protectedhost-5BF5B0C3.dhcp.mntv.al.charter.com23) has joined
+T 1405025357 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405028654 24*	RottNKorpse has quit (Client exited)
+T 1405029789 18<Twitter18>	geekgamertv: Simple #Minecraft Sorting System!  The fallout from #Mineorama and Much More!  http://t.co/wEVZ6GqjiS http://t.co/WgRV2uqGr1
+T 1405030089 23*	Sarahice (~Sarahice@97E44554.FFC2FB50.AC42D58B.IP23) has joined
+T 1405030192 24*	Sarahice has quit (Client exited)
+T 1405033507 23*	douglas1989r (~dramsey@protectedhost-E854D1D7.hsd1.pa.comcast.net23) has joined
+T 1405033507 22*	26RoboCop gives voice to 18douglas1989r
+T 1405034257 24*	joedemaxMacBook has quit (Client exited)
+T 1405034284 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405034376 24*	joedemaxMacBook has quit (Connection reset by peer)
+T 1405034391 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405035352 24*	joedemaxMacBook has quit (Ping timeout: 960 seconds)
+T 1405037931 24*	EricAndr_ has quit (Operation timed out)
+T 1405037938 23*	EricAndrews (~EricAndre@protectedhost-B9AC2279.dsl.bell.ca23) has joined
+T 1405037941 22*	26RoboCop gives voice to 18EricAndrews
+T 1405038395 24*	Chase has quit (Quit: My Mac Pro has gone to sleep. ZZZzzz…)
+T 1405040926 23*	Hammy (~HAMMY@irc.addict.vhost23) has joined
+T 1405040926 22*	26RoboCop gives voice to 18Hammy
+T 1405043157 23*	Chase (~SirChaos@protectedhost-E98836EC.evrt.wa.frontiernet.net23) has joined
+T 1405043158 22*	26RoboCop sets mode 24+q on 22#GGTV Chase
+T 1405043158 22*	26RoboCop gives channel operator status to 18Chase
+T 1405043748 23*	luke13047 (luke13047@protectedhost-400B05E4.zoominternet.net23) has joined
+T 1405043771 18<luke1304718>	When will the pre show start?
+T 1405044361 24*	luke13047 has quit (Quit: luke13047)
+T 1405044421 18<Chase18>	Show was yesterday
+T 1405044438 18<Chase18>	Episode was posted earlier today
+T 1405044798 24*	Dasme has quit (Quit: Linkinus - http://linkinus.com)
+T 1405044878 23*	dasme (~dasme@protectedhost-B7B95D00.wp.shawcable.net23) has joined
+T 1405044879 22*	26RoboCop gives channel half-operator status to 18dasme
+T 1405047247 23*	ErichEickmeyer (~quassel@protectedhost-5822DF9C.hsd1.wa.comcast.net23) has joined
+T 1405047247 22*	26RoboCop gives channel half-operator status to 18ErichEickmeyer
+T 1405047380 24*	cinch- has quit (No route to host)
+T 1405047624 23*	cinch (~cinch@protectedhost-CFEF7738.com23) has joined
+T 1405047624 22*	26RoboCop gives voice to 18cinch
+T 1405047952 24*	Erich has quit (Ping timeout: 964 seconds)
+T 1405048070 23*	MartyGraw76 (MartyGraw7@protectedhost-1DC6A11A.oc.oc.cox.net23) has joined
+T 1405049512 24*	MartyGraw76 has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+T 1405049781 24*	28ErichEickmeyer is now known as 18Erich
+T 1405049866 24*	Erich has quit (Quit: Either this is a ragequit or I pressed the wrong button. Either way, expect stuff to explode.)
+T 1405049884 23*	ErichEickmeyer (~quassel@protectedhost-5822DF9C.hsd1.wa.comcast.net23) has joined
+T 1405049884 22*	26RoboCop gives channel half-operator status to 18ErichEickmeyer
+T 1405050282 23*	Aractor (~Aractor@protectedhost-4279DE49.hsd1.or.comcast.net23) has joined
+T 1405050282 22*	26RoboCop gives voice to 18Aractor
+T 1405053456 18<TwitchChat18>	<bl968> Hey Chase :) I can actually watchyou now (got a bandwidth upgrade)
+T 1405053496 18<TwitchChat18>	<bl968> looks good
+T 1405053511 18<TwitchChat18>	<bl968> ISP upgraded me from 10mpbs (websites, and my streaming etc)
+T 1405053514 18<TwitchChat18>	<bl968> to 25mpbs
+T 1405053527 18<TwitchChat18>	<bl968> I would max out the 10 and get buffering all the time so hated trying to watch
+T 1405053538 18<TwitchChat18>	<craft12345> Hay Chase
+T 1405053557 18<TwitchChat18>	<bl968> I stream 1080 and if I can you can :)
+T 1405053567 18<TwitchChat18>	<bl968> You have a better pc :)
+T 1405053572 18<TwitchChat18>	<profcookie> Hi there
+T 1405053587 18<TwitchChat18>	<craft12345> hya Chase is this world public so join ?
+T 1405053595 18<TwitchChat18>	<bl968> and I don't have a streaming pc
+T 1405053595 18<TwitchChat18>	<craft12345> or not
+T 1405053633 18<TwitchChat18>	<craft12345> Im on your freinds so i may be able to join
+T 1405053638 18<TwitchChat18>	<craft12345> List
+T 1405054538 18<TwitchChat18>	<bl968> *comfort*
+T 1405054546 18<TwitchChat18>	<craft12345> D:
+T 1405054550 18<TwitchChat18>	<craft12345> runnn
+T 1405054574 18<TwitchChat18>	<bl968> he was hungry
+T 1405054662 18<TwitchChat18>	<drop_the_bass23> hey chase! whats up?
+T 1405054766 18<TwitchChat18>	<drop_the_bass23> how is this game?
+T 1405054834 18<TwitchChat18>	<drop_the_bass23> oh yea chase tomorrow is national slurpee day at 7 eleven
+T 1405054961 18<TwitchChat18>	<drop_the_bass23> chase when will you play gta 5 on the xbox 360?
+T 1405055021 18<TwitchChat18>	<craft12345> i have also have Gta 5 for xbox 360 chase :D :D :D
+T 1405055131 18<TwitchChat18>	<drop_the_bass23> :o this song is awesome
+T 1405055261 18<TwitchChat18>	<hailstone_clash> Merp
+T 1405055276 18<TwitchChat18>	<mrgibbyproductionshd> This song thi
+T 1405055280 18<TwitchChat18>	<mrgibbyproductionshd> Tho
+T 1405055292 18<TwitchChat18>	<hailstone_clash> U
+T 1405055304 18<TwitchChat18>	<hailstone_clash> R
+T 1405055314 18<TwitchChat18>	<hailstone_clash> ->
+T 1405055360 18<TwitchChat18>	<drop_the_bass23> isnt this lenny kravitz?
+T 1405055370 18<TwitchChat18>	<hailstone_clash> I play the saxophone
+T 1405055386 18<TwitchChat18>	<hailstone_clash> And guitar
+T 1405055397 18<TwitchChat18>	<drop_the_bass23> im going to learn the alto sax this year..
+T 1405055416 18<TwitchChat18>	<hailstone_clash> And am learning chello
+T 1405055439 18<TwitchChat18>	<hailstone_clash> Alto sax is best
+T 1405055466 18<TwitchChat18>	<hailstone_clash> After soprano
+T 1405055534 18<TwitchChat18>	<hailstone_clash> Not sure what to watch
+T 1405055545 18<TwitchChat18>	<hailstone_clash> For movie tomorrow
+T 1405055558 18<TwitchChat18>	<hailstone_clash> Or today I guess
+T 1405055564 18<TwitchChat18>	<xtkxinf3ctedx> U watch a lot of nba chase.
+T 1405055597 18<TwitchChat18>	<drop_the_bass23> im going to be in alto sax and im going to do cymbal line in drumline
+T 1405055600 18<TwitchChat18>	<hailstone_clash> Anybody watch doctor who?
+T 1405055604 18<TwitchChat18>	<drop_the_bass23> \
+T 1405055617 18<TwitchChat18>	<hailstone_clash> Cool
+T 1405055772 18<TwitchChat18>	<hailstone_clash> The walking dead?
+T 1405055811 18<TwitchChat18>	<hailstone_clash> Mlp?
+T 1405055847 18<TwitchChat18>	<cavevenom23> hey i just joined what are u doin
+T 1405055884 18<TwitchChat18>	<hailstone_clash> Talking about instruments and tv shows
+T 1405055905 18<TwitchChat18>	<hailstone_clash> What can you play an what do you watch
+T 1405055930 18<TwitchChat18>	<hailstone_clash> WinWakerDogFace
+T 1405055958 18<TwitchChat18>	<hailstone_clash> What instrument
+T 1405055963 18<TwitchChat18>	<cavevenom23> Hey What are power system are u ralying on
+T 1405055966 18<TwitchChat18>	<hailstone_clash> If any
+T 1405056025 18<TwitchChat18>	<xtkxinf3ctedx> Favorite iPhone/android app?
+T 1405056026 18<TwitchChat18>	<hailstone_clash> Have you ever watched mlp?
+T 1405056058 18<TwitchChat18>	<xtkxinf3ctedx> Cave look in his bio it might be there
+T 1405056062 18<TwitchChat18>	<hailstone_clash> Duh...
+T 1405056069 18<TwitchChat18>	<hailstone_clash> Twitch
+T 1405056094 18<TwitchChat18>	<cavevenom23> power supplies
+T 1405056108 18<TwitchChat18>	<cavevenom23> like solar  wind nuclear
+T 1405056172 18<TwitchChat18>	<cavevenom23> can i see all the rest of ure city just a quick look
+T 1405056187 18<TwitchChat18>	<hailstone_clash> Favorite app is twitch
+T 1405056209 18<TwitchChat18>	<cavevenom23> Hey its my bday
+T 1405056212 18<TwitchChat18>	<jsolid110> hey guys
+T 1405056221 18<TwitchChat18>	<cavevenom23> July 10 2001
+T 1405056227 18<TwitchChat18>	<hailstone_clash> Happy bday
+T 1405056238 18<TwitchChat18>	<hailstone_clash> And hey jail if
+T 1405056245 18<TwitchChat18>	<hailstone_clash> J solid
+T 1405056258 18<TwitchChat18>	<jsolid110> completely off topic...
+T 1405056260 18<TwitchChat18>	<cavevenom23> im going on  a famaly go out tomorow
+T 1405056273 18<TwitchChat18>	<jsolid110> did they change schedule on minecraft me?
+T 1405056303 18<TwitchChat18>	<jsolid110> ah dang
+T 1405056313 18<TwitchChat18>	<jsolid110> yeah wasn't sure if you were reading chat
+T 1405056330 18<TwitchChat18>	<jsolid110> I was rushing home from work to try and watch it live lol
+T 1405056350 18<TwitchChat18>	<jsolid110> I checked the schedule a few days ago, I must have missed it that it was yesterday and not today lol
+T 1405056358 18<TwitchChat18>	<hailstone_clash> Well, I donated blood today
+T 1405056382 18<TwitchChat18>	<jsolid110> is it on regular schedule next week?
+T 1405056387 18<TwitchChat18>	<hailstone_clash> What are the votes for me to stay awake against go to sleep
+T 1405056411 18<TwitchChat18>	<jsolid110> cool stuff Hailstone
+T 1405056419 18<TwitchChat18>	<hailstone_clash> All vote please
+T 1405056431 18<TwitchChat18>	<jsolid110> I haven't been to the blood drives in a awhile
+T 1405056450 18<TwitchChat18>	<hailstone_clash> I'm wide awake
+T 1405056462 18<TwitchChat18>	<jsolid110> haha you may need to go to sleep if you are weak from donating blood today lol
+T 1405056487 18<TwitchChat18>	<hailstone_clash> I did jumping jacks after I got off the table
+T 1405056492 18<TwitchChat18>	<jsolid110> lol
+T 1405056498 18<TwitchChat18>	<shadowdemonx> lol
+T 1405056501 18<TwitchChat18>	<hailstone_clash> I'm awake
+T 1405056512 18<TwitchChat18>	<jsolid110> I used to lov playing sim city
+T 1405056518 18<TwitchChat18>	<hailstone_clash> But I don't know if I should
+T 1405056519 18<TwitchChat18>	<jsolid110> I haven't played it in a very long time
+T 1405056524 18<TwitchChat18>	<jsolid110> love*
+T 1405056556 18<TwitchChat18>	<jsolid110> I have definitely not played this new one
+T 1405056570 18<TwitchChat18>	<jsolid110> I only played the one around 2000
+T 1405056581 18<TwitchChat18>	<hailstone_clash> Blured lines
+T 1405056583 18<TwitchChat18>	<jsolid110> traffic jam lol
+T 1405056608 18<TwitchChat18>	<hailstone_clash> Wow
+T 1405056660 18<TwitchChat18>	<hailstone_clash> Who here thinks I should stay on here
+T 1405056748 18<TwitchChat18>	<hailstone_clash> Well
+T 1405056763 18<TwitchChat18>	<hailstone_clash> Nightbot just voted
+T 1405056776 18<TwitchChat18>	<hailstone_clash> Lol
+T 1405056780 18<TwitchChat18>	<jsolid110> lol
+T 1405056809 18<TwitchChat18>	<hailstone_clash> I guess it's decided
+T 1405056814 18<TwitchChat18>	<hailstone_clash> I'm staying
+T 1405056821 18<TwitchChat18>	<jsolid110> what is this, Chicago?
+T 1405056823 18<TwitchChat18>	<jsolid110> lol
+T 1405056836 18<TwitchChat18>	<hailstone_clash> No
+T 1405056843 18<TwitchChat18>	<hailstone_clash> That flows better
+T 1405056846 18<TwitchChat18>	<hailstone_clash> Lol
+T 1405056920 18<TwitchChat18>	<jsolid110> you should make a skyway from the one main road down "south" ti the one "north"
+T 1405056924 18<TwitchChat18>	<jsolid110> based on teh way your camera is
+T 1405056962 18<TwitchChat18>	<jsolid110> oh I see it
+T 1405056979 18<TwitchChat18>	<jsolid110> yeah, it's the only entrance to the higway
+T 1405056984 18<TwitchChat18>	<jsolid110> so it's going ot jam up
+T 1405057044 18<TwitchChat18>	<jsolid110> did they implement any kind of multiplayer to this yet?
+T 1405057058 18<TwitchChat18>	<jsolid110> besides like leaderboards
+T 1405057061 18<TwitchChat18>	<hailstone_clash> HAHAHAHAHAHAHAHAHAHA
+T 1405057071 18<TwitchChat18>	<jsolid110> ah ok cool
+T 1405057078 18<TwitchChat18>	<jsolid110> I may just pick it up soon
+T 1405057197 18<TwitchChat18>	<annihilatorg> how's it going chase?
+T 1405057216 18<TwitchChat18>	<jsolid110> you know those clover shaped on/off ramps?
+T 1405057231 18<TwitchChat18>	<jsolid110> can you make those on here?
+T 1405057260 18<TwitchChat18>	<hailstone_clash> Hi
+T 1405057278 18<TwitchChat18>	<hailstone_clash> Like maplewood?
+T 1405057279 18<TwitchChat18>	<jsolid110> yeah that would help with the flow of traffic, and hello Anni
+T 1405057318 18<TwitchChat18>	<hailstone_clash> I've been here
+T 1405057355 18<TwitchChat18>	<hailstone_clash> I was saying hi to annihilatorg
+T 1405057396 18<TwitchChat18>	<bricktown88> how are u doing that wih the roads
+T 1405057406 18<TwitchChat18>	<bricktown88> i just bought the xpac and havent played it yet
+T 1405057411 18<TwitchChat18>	<hailstone_clash> "Fixing"
+T 1405057416 18<TwitchChat18>	<bricktown88> making overpasses that is
+T 1405057476 18<TwitchChat18>	<bricktown88> wowwww sick
+T 1405057495 18<TwitchChat18>	<jsolid110> lol
+T 1405057510 18<TwitchChat18>	<hailstone_clash> I think I'm gonna go finish the first walking dead season
+T 1405057533 18<TwitchChat18>	<annihilatorg> every time I watch simcity I get annoyed at the interface.
+T 1405057558 18<TwitchChat18>	<annihilatorg> better street planning than mercer st in seattle, amirite
+T 1405057581 18<TwitchChat18>	<jsolid110> I should be working on my challenge submission for Minecraft lol but I don't want to have to think redstone right now
+T 1405057608 18<TwitchChat18>	<jsolid110> I much rather watch Chase break his head getting his traffic flow right lol
+T 1405057650 18<TwitchChat18>	<jsolid110> wow
+T 1405057673 18<TwitchChat18>	<jsolid110> what's in that area/
+T 1405057675 18<TwitchChat18>	<jsolid110> ?
+T 1405057678 18<TwitchChat18>	<hailstone_clash> Ok
+T 1405057681 18<TwitchChat18>	<jsolid110> that is creating so much traffic
+T 1405057694 18<TwitchChat18>	<hailstone_clash> I hate netflix
+T 1405057704 18<TwitchChat18>	<jsolid110> ah, yeah that will do it
+T 1405057708 18<TwitchChat18>	<hailstone_clash> I'm staying here
+T 1405057770 18<TwitchChat18>	<jsolid110> lol
+T 1405057804 18<TwitchChat18>	<jsolid110> oh wow
+T 1405057811 18<TwitchChat18>	<unreal_froggy> Sup Chase
+T 1405057811 18<TwitchChat18>	<annihilatorg> 'choke points'
+T 1405057824 18<TwitchChat18>	<hailstone_clash> HAHAHAHAHAHAHAHAHAHA
+T 1405057828 18<TwitchChat18>	<jsolid110> hello Unreal_froggy
+T 1405057851 18<TwitchChat18>	<jsolid110> talk about MASSIVE bottle neck
+T 1405057860 18<TwitchChat18>	<hailstone_clash> They look like giant turds
+T 1405057875 18<TwitchChat18>	<craft12345> hhaha
+T 1405057881 18<TwitchChat18>	<jsolid110> hahaha
+T 1405057902 18<TwitchChat18>	<drop_the_bass23> i am back chase...what did i miss
+T 1405057903 18<TwitchChat18>	<jsolid110> rush hour about to hit
+T 1405057921 18<TwitchChat18>	<jsolid110> lmao!
+T 1405057943 18<TwitchChat18>	<annihilatorg> and chase made china's freeway system
+T 1405057946 18<TwitchChat18>	<jsolid110> you should make an off ramp right there
+T 1405057991 18<TwitchChat18>	<jsolid110> that is insane
+T 1405057997 18<TwitchChat18>	<jsolid110> I would have walked home by now
+T 1405058028 18<TwitchChat18>	<jsolid110> hahahaha
+T 1405058045 24*	douglas1989r has quit (Input/output error)
+T 1405058046 18<TwitchChat18>	<jsolid110> that is very heavy traffic for 11pm
+T 1405058074 18<TwitchChat18>	<drop_the_bass23> its like leaving a concert
+T 1405058087 18<TwitchChat18>	<craft12345> Chase do you have a link to your muisc your playing
+T 1405058105 18<TwitchChat18>	<jsolid110> yeah but it's 1am now lol
+T 1405058120 18<TwitchChat18>	<jsolid110> in game that is
+T 1405058127 18<TwitchChat18>	<hailstone_clash> Await the morning
+T 1405058131 18<TwitchChat18>	<jsolid110> oh and real life here in chicago is 1am lol
+T 1405058149 18<TwitchChat18>	<jsolid110> LMAO!
+T 1405058158 18<TwitchChat18>	<craft12345> i have it chase
+T 1405058167 18<TwitchChat18>	<hailstone_clash> Nooooo
+T 1405058169 18<TwitchChat18>	<annihilatorg> at least it'll hold more cars per light cycle
+T 1405058171 18<TwitchChat18>	<hailstone_clash> HAHAHAHAHAHAHAHAHAHA
+T 1405058183 18<TwitchChat18>	<jsolid110> yeah that's true Annihilator
+T 1405058235 18<TwitchChat18>	<jsolid110> look at that midlle bit
+T 1405058270 18<TwitchChat18>	<jsolid110> here comes morning rush
+T 1405058331 18<TwitchChat18>	<drop_the_bass23> alot of kids will be late for school
+T 1405058345 18<TwitchChat18>	<jsolid110> if they even make it
+T 1405058347 18<TwitchChat18>	<jsolid110> lol
+T 1405058354 18<TwitchChat18>	<drop_the_bass23> haha
+T 1405058413 18<TwitchChat18>	<drop_the_bass23> make the road to where it drives across the whole town
+T 1405058414 18<TwitchChat18>	<craft12345> Chase i can have  the muisc list i have to go to bed
+T 1405058426 18<TwitchChat18>	<geekgamertv> spotify:user:geekgamertv:playlist:1tuGCjA2GPzHmMv3WYlSB4
+T 1405058438 18<TwitchChat18>	<geekgamertv> http://open.spotify.com/user/geekgamertv/playlist/1tuGCjA2GPzHmMv3WYlSB4
+T 1405058472 18<TwitchChat18>	<jsolid110> how much delay is on twitch?
+T 1405058475 18<TwitchChat18>	<jsolid110> from your stream?
+T 1405058479 18<TwitchChat18>	<muzza3212> Hi
+T 1405058487 18<TwitchChat18>	<jsolid110> hello Myzza
+T 1405058493 18<TwitchChat18>	<jsolid110> Muzza*
+T 1405058507 18<TwitchChat18>	<craft12345> Thanks Chase Im going to bed and have good time messing with the roads :P  :P
+T 1405058513 18<TwitchChat18>	<jsolid110> ah ok
+T 1405058532 18<TwitchChat18>	<annihilatorg> i love how it's going in at an angle so it's an intersection
+T 1405058544 18<TwitchChat18>	<hailstone_clash> Can you put in stop signs?
+T 1405058556 18<TwitchChat18>	<hailstone_clash> Lots of them?
+T 1405058568 18<TwitchChat18>	<drop_the_bass23> i gotta go chase...good night
+T 1405058587 18<TwitchChat18>	<jsolid110> good night to you guys leaving
+T 1405058612 18<TwitchChat18>	<muzza3212> Good morning to every one in the UK
+T 1405058620 18<TwitchChat18>	<crazyhappy1011> Hey chase
+T 1405058629 18<TwitchChat18>	<jsolid110> lol Chase
+T 1405058649 18<TwitchChat18>	<hailstone_clash> No
+T 1405058654 18<TwitchChat18>	<drop_the_bass23> cya chase and chat
+T 1405058658 18<TwitchChat18>	<hailstone_clash> Not enough
+T 1405058685 18<TwitchChat18>	<jsolid110> not enough umlauts
+T 1405058703 18<TwitchChat18>	<hailstone_clash> NOT ENOUGH LLAMAS
+T 1405058710 18<TwitchChat18>	<jsolid110> in the angle you have now
+T 1405058726 18<TwitchChat18>	<jsolid110> if you go to the left you have a highway you should connect it once you start making real roads lol
+T 1405058738 18<TwitchChat18>	<hailstone_clash> That is my new saying
+T 1405058748 18<TwitchChat18>	<hailstone_clash> Not enough llamas
+T 1405058756 18<TwitchChat18>	<crazyhappy1011> That's just cruel
+T 1405058775 18<TwitchChat18>	<hailstone_clash> And unusual
+T 1405058786 18<TwitchChat18>	<hailstone_clash> And just fine with me
+T 1405058800 18<TwitchChat18>	<jsolid110> that's so wrong Chase
+T 1405058807 18<TwitchChat18>	<jsolid110> poor sims
+T 1405058830 18<TwitchChat18>	<jsolid110> you'r like the ant bully
+T 1405058841 18<TwitchChat18>	<jsolid110> you just need a magnifying glass lol
+T 1405058844 18<TwitchChat18>	<jsolid110> you're*
+T 1405058853 18<TwitchChat18>	<hailstone_clash> Sign your name
+T 1405058887 18<TwitchChat18>	<crazyhappy1011> Wow
+T 1405058910 18<TwitchChat18>	<hailstone_clash> In road
+T 1405058942 18<TwitchChat18>	<jsolid110> are you limited to the city size?
+T 1405058961 18<TwitchChat18>	<jsolid110> it seems like a very small city over all
+T 1405059015 18<TwitchChat18>	<jsolid110> yeah surprisingly enough
+T 1405059020 18<TwitchChat18>	<jsolid110> they seem to be "happy"
+T 1405059050 18<TwitchChat18>	<jsolid110> hehe
+T 1405059089 23*	Aractor-Work1 (~Aractor@protectedhost-FC6B785F.baby-guts.com23) has joined
+T 1405059089 24*	Aractor-Work has quit (Connection reset by peer)
+T 1405059102 18<TwitchChat18>	<jsolid110> there IS another possible inlet for traffic off the main highway that would help you
+T 1405059111 18<TwitchChat18>	<jsolid110> I saw it a couple of times when you pan over to the othe rcity
+T 1405059117 18<TwitchChat18>	<jsolid110> panned*
+T 1405059123 18<TwitchChat18>	<hailstone_clash> HAHAHAHAHAHAHAHAHAHA
+T 1405059127 18<TwitchChat18>	<hailstone_clash> On fire
+T 1405059147 18<TwitchChat18>	<jsolid110> oh, that REALLY sucks
+T 1405059152 18<TwitchChat18>	<vartras89> Where did you get this game?
+T 1405059197 18<TwitchChat18>	<jsolid110> can you pause it and removed those busses on fire?
+T 1405059244 18<TwitchChat18>	<jsolid110> so form this point
+T 1405059248 18<TwitchChat18>	<jsolid110> if you pan left
+T 1405059262 18<TwitchChat18>	<jsolid110> you can't connect to the main highway?
+T 1405059270 18<TwitchChat18>	<jsolid110> on that other main road you have?
+T 1405059364 18<TwitchChat18>	<hailstone_clash> Sever their connection to the out side world
+T 1405059421 18<TwitchChat18>	<hailstone_clash> Wait till they are all in
+T 1405059427 18<TwitchChat18>	<jsolid110> yeah that limit to only ONE entrance to town is hurting you
+T 1405059437 18<TwitchChat18>	<hailstone_clash> Make them sleep in their car
+T 1405059469 18<TwitchChat18>	<jsolid110> because right on the corner of your map would be the perfect pot for anothe rinlet
+T 1405059475 18<TwitchChat18>	<jsolid110> spot*
+T 1405059528 18<TwitchChat18>	<jsolid110> what simcity is this?
+T 1405059534 18<TwitchChat18>	<jsolid110> now I want to play mine lol
+T 1405059543 18<TwitchChat18>	<jsolid110> I'm ging to look for my install disk
+T 1405059621 18<TwitchChat18>	<jsolid110> well the one I have, IF I have it anymore is the old version of it, not sure if the hay a DL
+T 1405059625 18<TwitchChat18>	<hailstone_clash> I wish there was a hack to let you build outside the lines
+T 1405059629 18<TwitchChat18>	<jsolid110> and don't feel like buying a new one lol
+T 1405059695 18<TwitchChat18>	<hailstone_clash> Would any of them work for that?
+T 1405059738 18<TwitchChat18>	<jsolid110> you have a murderer on the loose
+T 1405059791 18<TwitchChat18>	<strudeln> An option of a second highway entrance would be nice. so you can build on left and one on the right. But this traffic is really bad.
+T 1405059905 18<TwitchChat18>	<jsolid110> yeah we were just talking about that Strudeln
+T 1405059905 18<TwitchChat18>	<annihilatorg> the taxi drivers are henchmen... it all makes sense now
+T 1405059940 18<TwitchChat18>	<jsolid110> lol
+T 1405060019 18<TwitchChat18>	<jsolid110> yeah I don't have my game any more :(
+T 1405060025 18<TwitchChat18>	<jsolid110> ging to have to buy a new copy
+T 1405060130 18<TwitchChat18>	<jsolid110> this is just a re-release of the original Chase or are you playing 4?
+T 1405060204 18<TwitchChat18>	<jsolid110> but wasn't Simcity released back in the late 90's early 2000?
+T 1405060227 18<TwitchChat18>	<jsolid110> I know I had one back then
+T 1405060233 18<TwitchChat18>	<annihilatorg> original sim city was released in 1989
+T 1405060261 18<TwitchChat18>	<jsolid110> so it was late 80s, wow I thought it was later
+T 1405060285 18<TwitchChat18>	<jsolid110> I didn't get my first PC until around 98 so...
+T 1405060293 18<TwitchChat18>	<jsolid110> I was introduced to PC gaming late
+T 1405060474 18<TwitchChat18>	<jsolid110> ok guys well I think I'm going to call it a night
+T 1405060500 18<TwitchChat18>	<jsolid110> good luck Chase
+T 1405060798 18<TwitchChat18>	<annihilatorg> makin the big bucks
+T 1405061033 18<TwitchChat18>	<annihilatorg> now pie our square! that was my favorite place to get cake
+T 1405061042 18<TwitchChat18>	<annihilatorg> not*
+T 1405061309 18<TwitchChat18>	<annihilatorg> thanks for the stream chase
+T 1405063040 24*	Chase has quit (Quit: Thank you for joining the community! http://geekgamer.tv)
+T 1405063680 24*	28ErichEickmeyer is now known as 18Erich
+T 1405064072 24*	28Erich is now known as 18Erich|LandOfNod
+T 1405073911 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405075863 24*	joedemaxMacBook has quit (Client exited)
+T 1405075888 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405076361 23*	joedemax_ (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405076409 24*	joedemaxMacBook has quit (Connection reset by peer)
+T 1405082375 24*	joedemax_ has quit (Client exited)
+T 1405082400 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405083372 24*	joedemaxMacBook has quit (Ping timeout)
+T 1405083868 23*	Hammy2 (~HAMMY@protectedhost-B0920795.cpe.pppoe.ca23) has joined
+T 1405084735 24*	Hammy has quit (Ping timeout)
+T 1405100175 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405103781 24*	Aractor-Work1 has quit (ScaleEngine.GeekShed.net Komma.GeekShed.net)
+T 1405104154 23*	Aractor-Work1 (~Aractor@protectedhost-FC6B785F.baby-guts.com23) has joined
+T 1405104797 23*	Aractor-Work (~Aractor@protectedhost-FC6B785F.baby-guts.com23) has joined
+T 1405104797 22*	26RoboCop gives voice to 18Aractor-Work
+T 1405105538 24*	Techman` has quit (Input/output error)
+T 1405105562 24*	joedemaxMacBook has quit (Client exited)
+T 1405105563 24*	Aractor-Work1 has quit (Ping timeout: 962 seconds)
+T 1405105588 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405106280 23*	Techman` (~Techman@www.techmansworld.com23) has joined
+T 1405106564 24*	joedemaxMacBook has quit (Ping timeout)
+T 1405109659 24*	28Erich|LandOfNod is now known as 18Erich
+T 1405115943 24*	28Erich is now known as 18Erich|Away
+T 1405121248 24*	28Erich|Away is now known as 18Erich|Mobile
+T 1405136021 23*	ghostshadow (~ghostshad@protectedhost-525222C7.lightspeed.iplsin.sbcglobal.net23) has joined
+T 1405136023 22*	26RoboCop gives voice to 18ghostshadow
+T 1405136090 24*	28Erich|Mobile is now known as 18Erich
+T 1405146189 18<TwitchChat18>	<dhalamar> farts on a stick
+T 1405146238 18<TwitchChat18>	<dhalamar> does my RPG analogy still fit with this game?
+T 1405146276 18<TwitchChat18>	<sr20deep_04> CHASE!!!
+T 1405146308 18<TwitchChat18>	<sr20deep_04> Dude, i was asleep, but i saw the highlights
+T 1405146315 18<Twitter18>	geekgamertv: Now live playing some @mlb14theshow - Come say hello!  http://t.co/oSwA9RVCa4
+T 1405146327 18<TwitchChat18>	<dhalamar> haha that was kinda neat. the guy dropping the bat.
+T 1405146412 18<TwitchChat18>	<dhalamar> laggy as hell for me, had to load it up on medium.
+T 1405146435 18<TwitchChat18>	<sr20deep_04> Twitch is being twitchy again i think
+T 1405146484 24*	ghostshadow (~ghostshad@protectedhost-525222C7.lightspeed.iplsin.sbcglobal.net24) has left (Textual IRC Client: www.textualapp.com)
+T 1405146592 18<TwitchChat18>	<sr20deep_04> Source = Insta Boner, lol
+T 1405146628 18<TwitchChat18>	<americandragon924> The White Sox have a pretty nice ballpark.
+T 1405146637 18<TwitchChat18>	<dhalamar> i'm gonna go shoot people in the face. kthx
+T 1405146675 18<TwitchChat18>	<sr20deep_04> It happens bro, takes time to get those people back
+T 1405146676 18<TwitchChat18>	<dhalamar> baseball is uber exciting. ;)
+T 1405146688 18<TwitchChat18>	<unadvisedcow> Hey dude been awhile!
+T 1405146765 18<TwitchChat18>	<dhalamar> ah in the server... would rather have a ping of 20 than 300. kthx
+T 1405146785 18<TwitchChat18>	<unadvisedcow> I like this. This stream convinced me to get a ps4. For the show
+T 1405146811 18<TwitchChat18>	<eltigrechin09> What swing settings do you use?
+T 1405146897 18<TwitchChat18>	<eltigrechin09> Sorry clicked off by accident, not sure if you answered
+T 1405146965 18<TwitchChat18>	<eltigrechin09> He's afraid of you
+T 1405146990 18<TwitchChat18>	<sr20deep_04> And this needs to be fixed so bad
+T 1405146996 18<TwitchChat18>	<eltigrechin09> So realllll
+T 1405147008 18<TwitchChat18>	<sr20deep_04> Ahahahahahahah
+T 1405147052 18<TwitchChat18>	<eltigrechin09> Those slides blow. Their left hand usually hangs back instead of reaching so annoying
+T 1405147210 18<Techman18>	I wonder what happened to that temple of doom
+T 1405147233 18<Techman18>	After that last MinecraftMe episode on it, it hasn't been shown anymore in any future episodes
+T 1405147415 18<TwitchChat18>	<americandragon924> I wonder where my Rays are in the standings...
+T 1405147422 18<TwitchChat18>	<americandragon924> Haven't looked in a while.
+T 1405147449 18<TwitchChat18>	<christopherbenge1507> Hello all and hello chase.
+T 1405147451 18<TwitchChat18>	<americandragon924> Ah, 10.5 back agan.
+T 1405147454 18<TwitchChat18>	<americandragon924> again*
+T 1405147517 18<TwitchChat18>	<sr20deep_04> brb
+T 1405147534 18<TwitchChat18>	<americandragon924> I only have 2K, but I mostly like going the other way with swings.
+T 1405147556 18<TwitchChat18>	<mlbsuperstar> What's your favorite baseball team
+T 1405147601 18<TwitchChat18>	<mlbsuperstar> Mine the phillies
+T 1405147611 18<TwitchChat18>	<americandragon924> :(
+T 1405147621 18<TwitchChat18>	<mlbsuperstar> Lol
+T 1405147629 18<TwitchChat18>	<christopherbenge1507> Bbl
+T 1405147671 18<TwitchChat18>	<americandragon924> Lol man all I wanted was one World Series for the Rays, and the Phillies ruined everything.
+T 1405147679 18<TwitchChat18>	<oaklandathleticschamps> Wooooo
+T 1405147722 18<TwitchChat18>	<oaklandathleticschamps> Sup man and nope
+T 1405147755 18<TwitchChat18>	<oaklandathleticschamps> Its alright tho they didnt lose fair
+T 1405147764 18<TwitchChat18>	<americandragon924> lol
+T 1405147791 18<TwitchChat18>	<americandragon924> They really don't trust you.
+T 1405147810 18<TwitchChat18>	<cdcugaming> Check out our channel sometime when you aren't broadcasting for your viewers
+T 1405147819 18<TwitchChat18>	<americandragon924> LOL
+T 1405147899 18<TwitchChat18>	<oaklandathleticschamps> Very tall player
+T 1405148011 18<TwitchChat18>	<americandragon924> Nunes or Bust
+T 1405148181 18<TwitchChat18>	<oaklandathleticschamps> You should use pat nesheks pitching wind up
+T 1405148188 18<TwitchChat18>	<americandragon924> Lol would be funny if they told you to aim the knuckleball.
+T 1405148279 18<TwitchChat18>	<turianspectrekenshin> Hi chase :D
+T 1405148310 18<TwitchChat18>	<americandragon924> Lets see if he can pitch a...
+T 1405148316 18<TwitchChat18>	<turianspectrekenshin> im just relaxin :3
+T 1405148343 18<TwitchChat18>	<willthrill13> geek can you play diamond dynasty
+T 1405148372 18<TwitchChat18>	<vp_snipezzz> Hello
+T 1405148389 18<TwitchChat18>	<willthrill13> dd?
+T 1405148418 18<TwitchChat18>	<willthrill13> can you add me on psn willthrill13
+T 1405148431 18<TwitchChat18>	<americandragon924> Strasburg and Harvey have nothing on Nunes.
+T 1405148556 18<TwitchChat18>	<americandragon924> It's as if the game processed it as a double, but it had to wait for Ortiz.
+T 1405148585 18<TwitchChat18>	<willthrill13> so true american
+T 1405148605 18<TwitchChat18>	<americandragon924> Ventura for the Royals was throwing 100 the other day.
+T 1405148624 18<TwitchChat18>	<willthrill13> yeh he always does
+T 1405148654 18<TwitchChat18>	<americandragon924> I miss Shieldsey. :/
+T 1405148677 18<TwitchChat18>	<americandragon924> If they have to get rid of Price, send him to Kansas City.  I want Shields back. lol
+T 1405148703 18<TwitchChat18>	<willthrill13> shields is not going back
+T 1405148715 18<TwitchChat18>	<americandragon924> In my fantasy world...
+T 1405148723 18<TwitchChat18>	<willthrill13> lol
+T 1405148746 18<TwitchChat18>	<willthrill13> your poppin that mitt
+T 1405148752 18<TwitchChat18>	<americandragon924> The infield can play D, but the outfield can't apparently.
+T 1405148759 18<TwitchChat18>	<willthrill13> true
+T 1405148788 18<TwitchChat18>	<willthrill13> you need to get more break on your 12 6
+T 1405148824 18<TwitchChat18>	<americandragon924> You get traded to the Padres. lol
+T 1405148832 18<TwitchChat18>	<americandragon924> "Wrong California team!"
+T 1405148946 18<TwitchChat18>	<original_gamester> geek hey man you ogsMVP
+T 1405148948 18<TwitchChat18>	<americandragon924> Everytime he says too low, I think of Tulowitzki. lol
+T 1405148999 18<TwitchChat18>	<original_gamester> hows it going man.
+T 1405149037 18<TwitchChat18>	<frankisabro> Would u follow back in twitter
+T 1405149048 18<TwitchChat18>	<ricoleskies> Say my name
+T 1405149075 18<TwitchChat18>	<americandragon924> At least Jonny is crappy against righties.
+T 1405149087 18<TwitchChat18>	<original_gamester> yeah i am getting a lot of subs. It has been insane so many donations lately lots of ogsGolasso
+T 1405149098 18<TwitchChat18>	<ricoleskies> Bcuz u feel famous
+T 1405149100 18<TwitchChat18>	<americandragon924> Only non celebrities I follow are friends.
+T 1405149122 18<TwitchChat18>	<ricoleskies> What has been your fav mlb game ever
+T 1405149181 18<TwitchChat18>	<ricoleskies> Have u played mlb 2k11
+T 1405149185 18<TwitchChat18>	<americandragon924> I liked The Show for the PS2.
+T 1405149185 18<TwitchChat18>	<original_gamester> thanks man it means a lot to me. Thank you for finding my stream when you did and helping
+T 1405149214 18<TwitchChat18>	<americandragon924> All Star Baseball for the N64 as well.
+T 1405149248 18<TwitchChat18>	<americandragon924> Outfield can't field, but they can throw. lol
+T 1405149272 18<TwitchChat18>	<ricoleskies> Say hi to michael Lucey
+T 1405149283 18<TwitchChat18>	<original_gamester> wii baseball Kreygasm i almost went pro
+T 1405149294 18<TwitchChat18>	<original_gamester> jk
+T 1405149315 18<TwitchChat18>	<gorecheck> hello
+T 1405149326 18<TwitchChat18>	<americandragon924> Your guy is like a right handed Jake McGee.  Like, if he threw knucklers or something.
+T 1405149336 18<TwitchChat18>	<ricoleskies> Thnx it's his bday means a lot
+T 1405149337 18<TwitchChat18>	<americandragon924> Same build.
+T 1405149354 18<TwitchChat18>	<gorecheck> im great. yourself?
+T 1405149380 18<TwitchChat18>	<original_gamester> later man. just wanted to stop by and see how your stream was going. Thanks again you ogsMVP
+T 1405149409 18<TwitchChat18>	<ricoleskies> Hahahahaha
+T 1405149430 18<TwitchChat18>	<americandragon924> "Outfield sucks, but we have to get their morale up to think it's you to hopefully gets some runs in." - Your manager.
+T 1405149439 18<TwitchChat18>	<americandragon924> 1 run hype!
+T 1405149443 18<TwitchChat18>	<ricoleskies> U gonna play another game
+T 1405149448 18<TwitchChat18>	<gorecheck> gg. I can tell your lineup is stacked. and of course big papi is the player of the game.
+T 1405149511 18<TwitchChat18>	<americandragon924> Uh oh.  Abreu. lol
+T 1405149521 18<TwitchChat18>	<gorecheck> hitting .231
+T 1405149524 18<TwitchChat18>	<gorecheck> sure...
+T 1405149538 18<TwitchChat18>	<gorecheck> whats his irl avg?
+T 1405149605 18<TwitchChat18>	<gorecheck> he's hitting .287 with 28 home runs.
+T 1405149610 18<TwitchChat18>	<americandragon924> Oh hey, Conor Gillaspie.  The Rays drafted his bro.
+T 1405149624 18<TwitchChat18>	<gorecheck> I hope nelly cruz takes the hr title this year. he's one of my top 3 fave players.
+T 1405149648 18<TwitchChat18>	<americandragon924> I've liked what I've seen from Casey.
+T 1405149681 18<TwitchChat18>	<ricoleskies> Nice spot
+T 1405149698 18<TwitchChat18>	<gorecheck> attawaytamakeapitch
+T 1405149782 18<TwitchChat18>	<americandragon924> Black Mesa.  If he were a Half-Life fan, he'd appreciate the nickname.
+T 1405149798 18<TwitchChat18>	<americandragon924> Juuuuuust a bit outside.
+T 1405149806 18<TwitchChat18>	<ricoleskies> I've never played this game but y u only playing field
+T 1405149815 18<TwitchChat18>	<gorecheck> hes an American league pitcher.
+T 1405149838 18<TwitchChat18>	<gorecheck> I think kc is al right? im the worst baseball fan ever if not.
+T 1405149843 18<TwitchChat18>	<americandragon924> Yeah
+T 1405149852 18<TwitchChat18>	<americandragon924> AL Central
+T 1405149856 18<TwitchChat18>	<ricoleskies> K
+T 1405149860 18<TwitchChat18>	<gorecheck> ok. I thought so.
+T 1405149890 18<TwitchChat18>	<gorecheck> nice try, wheels.
+T 1405149895 18<TwitchChat18>	<gorecheck> xD
+T 1405149924 24*	28Erich is now known as 18Erich|LandOfNod
+T 1405150002 18<TwitchChat18>	<gorecheck> gassed him up
+T 1405150118 18<TwitchChat18>	<americandragon924> Aoki sure is a scrub. lol
+T 1405150147 18<TwitchChat18>	<gorecheck> dirty
+T 1405150198 18<TwitchChat18>	<americandragon924> Knuckleballs can ruin guys.  Wil Myers went on a slump after facing Dickey.
+T 1405150344 18<TwitchChat18>	<americandragon924> Lol seems like you're going to be one of those pitchers with losses higher than your ERA.
+T 1405150765 18<TwitchChat18>	<ricoleskies> Both side now
+T 1405151037 18<TwitchChat18>	<drop_the_bass23> Hey chase what's up!
+T 1405151111 18<TwitchChat18>	<drop_the_bass23> I'm good I got a turtle beach x42 headset earlier how was your day
+T 1405151234 18<TwitchChat18>	<ricoleskies> U could be a good sports announcer
+T 1405151239 18<TwitchChat18>	<drop_the_bass23> I really want in n out now...
+T 1405151277 18<TwitchChat18>	<ricoleskies> I would on youtube?
+T 1405151524 18<TwitchChat18>	<drop_the_bass23> Hey chase I gotta go now I'm
+T 1405151543 18<TwitchChat18>	<drop_the_bass23> I'm tired...too tired to type haha
+T 1405151797 18<TwitchChat18>	<turianspectrekenshin> lurkin and drinkin a budweiser
+T 1405151967 18<TwitchChat18>	<assassin248> Hi chase long time no see :D
+T 1405152011 18<TwitchChat18>	<assassin248> Good how about you
+T 1405152160 18<TwitchChat18>	<assassin248> Do you still play bf4?
+T 1405152329 18<TwitchChat18>	<eagle3star> Hi
+T 1405152342 18<TwitchChat18>	<eagle3star> 😄
+T 1405152355 18<TwitchChat18>	<eagle3star> Hey
+T 1405152377 18<TwitchChat18>	<eagle3star> I'm doing good
+T 1405152386 18<TwitchChat18>	<eagle3star> How are you?
+T 1405162959 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405167807 24*	joedemaxMacBook has quit (Client exited)
+T 1405167834 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined
+T 1405168811 24*	joedemaxMacBook has quit (Ping timeout: 963 seconds)
+T 1405170703 23*	joedemaxMacBook (~joedemaxM@protectedhost-53B99DEE.cable.virginm.net23) has joined

@@ -1,0 +1,251 @@
+T 1399997321 -18NickServ-	Password accepted - you are now recognized.
+T 1399997323 19*	Now talking on 22#jupiterbroadcasting
+T 1399997323 22*	Topic for 22#jupiterbroadcasting is: JB Live Stream http://jblive.tv | G+: http://bit.ly/16PjytZ FB: http://bit.ly/PN652 | All Times PDT | Mon Coder Radio 12pm | Tue LINUX Unplugged 2pm | Tue SciByte 7:30pm | Wed Unfilter 6pm | Sun LAS 10am | Sun FauxShow 12pm | http://jbtitles.com
+T 1399997323 22*	Topic for 22#jupiterbroadcasting set by 26Angela (24Sun May 11 12:35:01 2014)
+T 1399997371 23*	Saucy_Fox (~dix@protectedhost-A53DAFC0.client.mchsi.com23) has joined
+T 1399997450 24*	SagaciousZed has quit (Ping timeout)
+T 1399997454 24*	Crabby has quit (Ping timeout)
+T 1399997483 23*	shammancer (~shammance@protectedhost-389E0AB3.abhsia.telus.net23) has joined
+T 1400004705 20*	Disconnected (20Connection reset by peer)
+T 1400004722 24*	Received a CTCP 24VERSION from 18IRC
+T 1400004722 22*	26donkeybox sets mode 24+i on 22donkeybox
+T 1400004722 22*	26donkeybox sets mode 24+R on 22donkeybox
+T 1400004722 22*	26donkeybox sets mode 24+x on 22donkeybox
+T 1400004722 22*	26donkeybox sets mode 24+z on 22donkeybox
+T 1400004722 -18NickServ-	This nickname is registered and protected.  If it is your
+T 1400004722 -18NickServ-	nick, type /msg NickServ IDENTIFY password.  Otherwise,
+T 1400004722 -18NickServ-	please choose a different nick.
+T 1400004722 -18NickServ-	If you do not change within one minute, I will change your nick.
+T 1400004725 22*	26Services.GeekShed.net sets mode 24+r on 22donkeybox
+T 1400004725 -18NickServ-	Password accepted - you are now recognized.
+T 1400004727 19*	Now talking on 22#jupiterbroadcasting
+T 1400004727 22*	Topic for 22#jupiterbroadcasting is: JB Live Stream http://jblive.tv | G+: http://bit.ly/16PjytZ FB: http://bit.ly/PN652 | All Times PDT | Mon Coder Radio 12pm | Tue LINUX Unplugged 2pm | Tue SciByte 7:30pm | Wed Unfilter 6pm | Sun LAS 10am | Sun FauxShow 12pm | http://jbtitles.com
+T 1400004727 22*	Topic for 22#jupiterbroadcasting set by 26Angela (24Sun May 11 12:35:01 2014)
+T 1400004770 24*	darkpixel has quit (Ping timeout)
+T 1400004841 23*	louisdk (~louis@protectedhost-6438B9F7.seas-nve.net23) has joined
+T 1400004880 23*	darkpixel (~aaron@protectedhost-CE4EFD17.pnecorp.com23) has joined
+T 1400004942 23*	sean-m (~sean-m@protectedhost-78E90CB5.ptld.qwest.net23) has joined
+T 1400005076 24*	Kostic has quit (Quit: Leaving)
+T 1400005112 18<paddyIBM18>	chz|bacon: you here
+T 1400005142 18<paddyIBM18>	??
+T 1400005189 24*	pankid has quit (Client exited)
+T 1400005212 18<paddyIBM18>	chz|bacon: I have a bargain for you
+T 1400005261 18<paddyIBM18>	where is that man when you need him?
+T 1400005370 18<Twitter18>	allanjude: RT @sevanjaniyan: In Toronto, on a train waiting to depar for Ottawa! *sqwee* #bsdcan
+T 1400005391 18<GreenLantern18>	paddyIBM: nobody is ever around when you need them..
+T 1400005441 18<GreenLantern18>	yeah..
+T 1400005444 18<GreenLantern18>	http://www.techrooster.com/post/google-to-replace-nexus-phones-with-premium-android-silver
+T 1400005446 18<JBot18>	^ Google to replace Nexus Phones with Premium Android Silver | TechRooster
+T 1400005528 18<Twitter18>	allanjude: @michaeldexter @bsdcan @mwlauthor @bsdevents @RoyalOakPubs @Keltounet The event isn't until tonight. You should be here in time for it
+T 1400005626 24*	Macuser has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+T 1400005740 23*	SKB (~SKB@protectedhost-8E564570.static.zebra.lt23) has joined
+T 1400005872 18<JBot18>	@ChrisLAS: RT @PodcatchDeluxe: Kirk's #podcast suggestion: TechSNAP with @allanjude and @ChrisLAS, new in the #Podcatcher Deluxe apps http://t.co/AKu1… (28 seconds ago)
+T 1400005905 18<brian204018>	nogal|mobile, was that guy's beard similar to mine when I try? Can grow everywhere except for that patch under the chin?
+T 1400005927 18<nogal|mobile18>	brian2040, no, his beard was with hair
+T 1400005934 18<brian204018>	<censored> you, lol
+T 1400005939 23*	TheAncient (~Adium@protectedhost-17A9EF56.hfc.comcastbusiness.net23) has joined
+T 1400005954 18<nogal|mobile18>	brian2040, lol like richard's fullness, but a purposely shaven chin
+T 1400005959 24*	darkpixel has quit (Ping timeout)
+T 1400005959 18<brian204018>	Wow.
+T 1400005969 18<brian204018>	So it's not even genetic, just intentional?
+T 1400005979 18<nogal|mobile18>	i think so
+T 1400005980 18<brian204018>	Eeeew.
+T 1400005994 18<nogal|mobile18>	yeah, it really is an awful beard.
+T 1400006002 18<brian204018>	That's really bad.
+T 1400006031 18<nogal|mobile18>	he talks to greg a lot
+T 1400006036 18<GreenLantern18>	brian2040: yeah, under-chin patches duck..
+T 1400006057 18<Twitter18>	allanjude: RT @iamdevloper: A diagram to help you decide whether or not you should deploy on a Friday at 5pm http://t.co/ipaiMHTqbm
+T 1400006059 18<JBot18>	^ Twitter / iamdevloper : A diagram to help you decide ...
+T 1400006084 18<nogal|mobile18>	brian2040, btw have you gotten anything done with the lfs image?
+T 1400006095 18<frostfire18>	Sideways-Sanae, ?
+T 1400006111 18<brian204018>	! thanks for reminding me.
+T 1400006143 18<Helio18>	god, exchange failover is such crap
+T 1400006155 18<nogal|mobile18>	helio yup.
+T 1400006165 18<brian204018>	Yes, it is.
+T 1400006222 18<nogal|mobile18>	helio i had issues with an exchange handler the other day. I asked him to allow our server to send email and to set up a relay, he told me it couldnt be done... so i sent him a one-line powershell command as to how to set it up correctly lol
+T 1400006237 18<arch3y18>	nogal|mobile: that I found for you 
+T 1400006249 18<nogal|mobile18>	arch3y yessir
+T 1400006264 18<arch3y18>	nogal|mobile: lol trying to sound smart again huh jk
+T 1400006267 18*	nogal|mobile bows to the Windows God known as arch3y
+T 1400006282 18<arch3y18>	nogal|mobile: I take that as an insult
+T 1400006283 18<frostfire18>	sigh
+T 1400006284 18<brian204018>	yes, arch3y is now known as the windows god.
+T 1400006293 18<nogal|mobile18>	arch3y that the NetOps people found for you* :P
+T 1400006293 18<brian204018>	Go to him for all your Windows issues :P
+T 1400006307 18<arch3y18>	brian2040: you plan on finishing descentos sometime this year
+T 1400006314 18<brian204018>	Yeah.
+T 1400006343 18<arch3y18>	nogal|mobile: true technically netOPs are windows gods
+T 1400006371 18<Helio18>	nogal|mobile: yea, I'm dealing with cross site database failover...
+T 1400006374 18<brian204018>	arch3y, do you know who the guy with the really bad beard is? nogal|mobile and I are curious.
+T 1400006396 18<arch3y18>	guy with really bad beard hmm let me check 
+T 1400006407 18<Helio18>	kinda want to shoot myself
+T 1400006410 18<nogal|mobile18>	arch3y i learned today that ther "Services" section on a windows box, if you click "restart service" it doesnt always restart the service, it just greys out for a few seconds..
+T 1400006421 18<nogal|mobile18>	arch3y full beard, shaved chin.
+T 1400006422 23*	darkpixel (~aaron@protectedhost-CE4EFD17.pnecorp.com23) has joined
+T 1400006427 18<arch3y18>	wtf
+T 1400006432 18<arch3y18>	too both
+T 1400006455 18<arch3y18>	burly dude 
+T 1400006457 18<nogal|mobile18>	arch3y you have to use CMD to restart nfs correctly on windows
+T 1400006458 18<nsGuajiro18>	quick question, in C arrays, if I write: " if (arrayA[3] == arrayB[3]) ", and index [3] doesn't exist in either, will that evaluate to "true" or will it be an error?
+T 1400006463 18<sikory18>	very beard
+T 1400006470 18<sikory18>	nsGuajiro: error
+T 1400006479 18<nogal|mobile18>	nsguajiro error
+T 1400006486 18<nsGuajiro18>	sikory: Fuuuuu... thanks
+T 1400006496 18<sikory18>	as you get a problem with arrayA[3], before it even tries to equate
+T 1400006506 18<nogal|mobile18>	nsguajiro you can nest it, ifarray[3] != nil
+T 1400006509 18<brian204018>	reddish brown hair, apparently.
+T 1400006522 18<sikory18>	(it has no idea that it's nonsense)
+T 1400006552 18<nsGuajiro18>	nogal|mobile: yeah, I know more than one way to write this. The problem is that this is make-up homework, and I'm not allowed to use anything not covered in class or the book at the time of the assignment.
+T 1400006574 18<nogal|mobile18>	ah, coursework yay
+T 1400006586 18<nsGuajiro18>	anyway, got to go. I'll be around later.
+T 1400006589 18<sikory18>	nogal|mobile: huh? He will get an error as soon as the program tries to evaluate array[3] (more precisely: you get undefined behavior)
+T 1400006603 24*	darkpixel has quit (Ping timeout)
+T 1400006616 18<nogal|mobile18>	nsguajiro then initialize array[3]
+T 1400006631 18<nogal|mobile18>	sikory C doesnt have that type of sanity checking?
+T 1400006637 18<Twitter18>	allanjude: RT @pbeyssac: From ca-root-nss.crt, most frequent algorithm: sha1WithRSAEncryption (124 instances), most frequent key size : 2048 (106 inst…
+T 1400006638 18<sikory18>	C has no checking
+T 1400006684 18<sikory18>	it will simply segfault because you try to access a non-accessible memory location
+T 1400006686 18<nogal|mobile18>	sikory ah, most languages have an undefined array index as nil/null
+T 1400006719 23*	jkrx (~jkrx@protectedhost-7E64211C.ias.bredband.telia.com23) has joined
+T 1400006720 18<sikory18>	well, this depends on whether your array is at least 4 elements long or not
+T 1400006742 18*	Helio is going to probably have to create a 'fake' cas array, then try to get the rpcclientaccesserver pointing to it, then try to change it to a cname and see if outlook works properly if I manually change it over
+T 1400006757 18<sikory18>	so it's either an invalid memory location or an uninitialized variable
+T 1400006772 18<sikory18>	though both give undefined behavior
+T 1400006775 24*	nsGuajiro has quit (Ping timeout)
+T 1400006797 18<sikory18>	but the latter mmight be initialized to 0 by the OS
+T 1400006801 18<nogal|mobile18>	sikory so if you initialize an array with a length of 5 then you would have array[0..4] all equal nil? or simply throw an error?
+T 1400006812 18<sikory18>	nogal|mobile: they have undefined contents
+T 1400006828 18<nogal|mobile18>	and undefinid in C is not nil?
+T 1400006834 18<sikory18>	no
+T 1400006834 18<nogal|mobile18>	undefined*
+T 1400006839 18<sikory18>	undefined == garbage
+T 1400006842 18<nogal|mobile18>	i learned something, yay
+T 1400006858 18<sikory18>	and reading it leads to undefined behavior
+T 1400006872 18<sikory18>	the only thing you can do with it, at first, is assigning values
+T 1400006885 18<nogal|mobile18>	so no different than an undefinid variable
+T 1400006891 18<nogal|mobile18>	gotcha
+T 1400006900 18<nogal|mobile18>	wow i cant type on a touchscreen
+T 1400006919 18<sikory18>	well, technically "undefined behavior" might lead to your program drawing ascii boobs on your terminal
+T 1400006929 18<sikory18>	but normal OSes don't do that
+T 1400006951 18<nogal|mobile18>	i'd use that OS
+T 1400006961 18<nogal|mobile18>	boobs are better than a segfault message.
+T 1400006967 18<Helio18>	actually, the undefined behaviour is that you'll get whatever happens to be in that portion of memor
+T 1400006971 18<F41L18>	https://i.imgur.com/rvpo3Ye.jpg
+T 1400006981 18<sikory18>	Helio: that would mean that it's defined behavior
+T 1400006983 18<Helio18>	which if you use malloc() to make the array, could be damn near anything
+T 1400007038 18<nogal|mobile18>	f41l i smiled at that image.
+T 1400007041 18<Helio18>	sikory: it's defined, just undesirable... if it's an array declared statically it's different then an array using malloc or mmap or sbrk
+T 1400007083 24*	arlette96 has quit (Connection reset by peer)
+T 1400007110 18<Helio18>	as an array is quite precisely just a shorthand notation for doing pointer arithmetic, arraypointer + (index * sizeof(type))
+T 1400007191 18<nogal|mobile18>	helio, whats the difference between a function and a method?
+T 1400007217 18<Helio18>	a virtual table entry in the object manager
+T 1400007223 18<Helio18>	for the latter
+T 1400007295 18<nogal|mobile18>	so a method is a function for an object?
+T 1400007327 18<sikory18>	actually, this article says that undefined behavior might very well format your hard drive: http://blog.regehr.org/archives/213
+T 1400007329 18<JBot18>	^ Embedded in Academia : A Guide to Undefined Behavior in C and C++, Part 1
+T 1400007380 18<sikory18>	not that that's something any C implementation would do
+T 1400007462 23*	tehshining (~poltovi@5E2BE9EE.782182E7.A5B27605.IP23) has joined
+T 1400007468 24*	Hokitojas has quit (Quit: Skynet shutting down...)
+T 1400007478 18<nogal|mobile18>	back to work...
+T 1400007498 18<brian204018>	yay, more pushes.
+T 1400007566 18<Helio18>	sikory: for dos
+T 1400007575 18<Helio18>	sikory: or any environment without an mmu
+T 1400007600 18<Helio18>	as I said, if you read, you get whatever is in that portion of memroy
+T 1400007610 18<Helio18>	if you write, you overwrite whatever is in that portion of memory
+T 1400007615 18<sikory18>	of course any sane OS will do that, as it has no performance impact
+T 1400007622 18<Helio18>	could be anything
+T 1400007622 18<nogal|mobile18>	brian2040 not only pushes, i built so many packages today
+T 1400007624 18<Helio18>	so don't do that
+T 1400007643 23*	darkpixel (~aaron@95D394F7.617B741A.E268D15A.IP23) has joined
+T 1400007654 18<sikory18>	I hope nobody uses undefined behaviour intentionally
+T 1400007658 18<Helio18>	nogal|mobile: effectively, yes, they are usually more complicated and internally function calls with a bunch of extra 'junk', as well as a signature table for overriding purposes
+T 1400007678 18<Helio18>	nogal|mobile: there are usually 3 or 4 extra pointers passed to every method, that you never see
+T 1400007709 18<Helio18>	basically, you are forcing the compiler to hide a bunch of pointer work, to make oop 'magic'
+T 1400007734 18<looksfamiliar18>	!next
+T 1400007739 18<sikory18>	darn, something beeps on the hallway
+T 1400007739 18<JBot18>	Next show is LIVE: LINUX Unplugged in 1 hour 57 minutes 40 seconds (5:00pm EST on Tuesday, 5/13/2014)
+T 1400007748 18<sikory18>	probably the fire alarm
+T 1400007960 24*	28k5tux is now known as 18k5tux_afk
+T 1400007963 18<Helio18>	sikory: in os development, treating arrays like that is very normal
+T 1400007970 18<Helio18>	sikory: makes the code easier to read and all
+T 1400008003 18<nogal|mobile18>	helio gotcha
+T 1400008009 18<VRMac18>	looksfamiliar: I'm gonna miss LUP. :c
+T 1400008024 18<VRMac18>	You will not hear my squeaks of awesomeness.
+T 1400008068 18<Helio18>	sikory: but, you are (normally) very careful, and you also have to do things that make no sense
+T 1400008115 18<paddyIBM18>	chz|bacon: ANSWER ME!!!!!!!!!!!!!!
+T 1400008125 18<Helio18>	sikory: for example, you have to use a special malloc, try to grab x bytes of contiguous memory, if there isn't one yet, yield and spin until you win the race, because you can't do a normal kmalloc while holding a lock
+T 1400008180 18<Helio18>	actually, can't do anything that sleeps while you hold a lock, and sometime the lock is put in place before your function is called, so, you just have to deal
+T 1400008184 18<GreenLantern18>	http://www.independent.co.uk/news/world/europe/silvio-and-the-cosa-nostra-berlusconis-links-with-italian-organised-crime-confirmed-9358790.html
+T 1400008185 18<JBot18>	^ Silvio Berlusconi's links with Italian organised crime confirmed - Europe - World - The Independent
+T 1400008193 18<GreenLantern18>	:/
+T 1400008206 18<sikory18>	GreenLantern: he uses links?
+T 1400008225 24*	fatbotgw has quit (Ping timeout)
+T 1400008231 18<GreenLantern18>	sikory: may be :P
+T 1400008259 18<VRMac18>	sikory: No, see the 's? That means he makes links.
+T 1400008283 18<sikory18>	VRMac: or it's about his copy
+T 1400008345 24*	28k5tux_afk is now known as 18k5tux
+T 1400008359 18<sikory18>	Helio: I don't really follow why that would require out of bounds access (if that was what you meant)
+T 1400008366 18<chz|bacon18>	sup paddyIBM 
+T 1400008377 18<paddyIBM18>	ah there you are!!
+T 1400008381 18<paddyIBM18>	did you see that PM?
+T 1400008392 18<Helio18>	sikory: because the array has no bounds at all, it's just assigned with a pointer
+T 1400008398 18<chz|bacon18>	yeah, i don't get paid until friday though
+T 1400008403 18<Helio18>	sikory: then you use the index to walk the array
+T 1400008419 18<Helio18>	arrays in c by definition have no bounds
+T 1400008429 23*	Hokitojas (~Hokitojas@protectedhost-E5EE6429.catv.broadband.hu23) has joined
+T 1400008441 18<paddyIBM18>	chz|bacon: he has more the 20, and of course it is up to you...but if you are interested... it is the bargain of the decade 
+T 1400008447 18<paddyIBM18>	then*
+T 1400008457 18<sikory18>	but they do have a size, which you have to keep track of manually
+T 1400008461 18<Helio18>	nope
+T 1400008470 18<Helio18>	arrays in C are a pointer
+T 1400008470 18<chz|bacon18>	yeah, a great price
+T 1400008483 18<Helio18>	the notation of [0], [1] is synatic sugar
+T 1400008499 18<paddyIBM18>	chz|bacon: and I have used these keys.... they are very sturdy, simple and ideal for beginners
+T 1400008506 18<sikory18>	I know, A[1] -> *(A+1) really early
+T 1400008511 18<paddyIBM18>	chz|bacon: just thought you'd want to know
+T 1400008519 18<Helio18>	now, the memory you or the c compiler have allocated, yes, that has a size, which is the index which is safe to use
+T 1400008528 18<Helio18>	but, it doesn't have any real size of any meaning
+T 1400008529 18<chz|bacon18>	paddyIBM: yeah, thanks man. i'm just so damn busy here at work this week.
+T 1400008546 18<sikory18>	well, that's what I meant
+T 1400008564 18<paddyIBM18>	chz|bacon: no worries.... gave me the opportunity to shout
+T 1400008568 18<paddyIBM18>	that is always good
+T 1400008575 24*	phutchins has quit (Ping timeout)
+T 1400008584 18<sikory18>	but nvm, I have homework to correct
+T 1400008587 18<chz|bacon18>	lol
+T 1400008614 18<GreenLantern18>	https://24.media.tumblr.com/tumblr_m81oi5alrs1r3gi71o1_500.gif
+T 1400008614 18<Helio18>	sikory: you use it in kernel because it's much easier to read, but, it also allows you to slice ring buffers
+T 1400008631 18<Helio18>	sikory: if the buffer needs to be in a special format..
+T 1400008698 18<frostfire18>	gezzuz
+T 1400008710 18<frostfire18>	what the heck is up with this healthy living fasion now
+T 1400008716 18<frostfire18>	pepole running around motivated
+T 1400008720 18<frostfire18>	gaining succeses
+T 1400008725 18<frostfire18>	this is highly annoying
+T 1400008728 23*	pankid (~pankid@protectedhost-6F0706AC.hsd1.mi.comcast.net23) has joined
+T 1400008752 18<frostfire18>	GreenLantern, that's tumblr for you
+T 1400008756 18<GreenLantern18>	I know..
+T 1400008771 18<GreenLantern18>	how do I kill it?
+T 1400008823 18<sikory18>	frostfire: you should go raw food
+T 1400008845 18<sikory18>	any food heated above body temperature loses all the important stuff!
+T 1400008848 23*	Macuser (~Macuser@Macuser.vhost23) has joined
+T 1400008854 18<frostfire18>	GreenLantern, don't kill it there are some pretty girls there
+T 1400008863 18<frostfire18>	on the other hand they are crazy
+T 1400008869 18<frostfire18>	keeel it with firah
+T 1400008870 18<GreenLantern18>	frostfire: good point
+T 1400008885 18*	GreenLantern brings a flame thrower
+T 1400008885 18*	frostfire looks for his flamethrower
+T 1400008890 18<frostfire18>	oh yeah!
+T 1400008918 18<frostfire18>	sigh... am i actually the only one who ever fantasised of burning the world down >.>
+T 1400008919 18<GreenLantern18>	this is some bruce willis sh*t right here..
+T 1400008924 23*	Blastyr|Kudu (~blastyr@protectedhost-1CFE3A.hfc.comcastbusiness.net23) has joined
+T 1400008924 22*	26ChanServ gives channel operator status to 18Blastyr|Kudu
+T 1400008925 24*	joren has quit (Ping timeout)
+T 1400008929 18<GreenLantern18>	frostfire: world domination?
+T 1400008946 18<frostfire18>	GreenLantern, naa... destruction of everything
+T 1400008952 18<GreenLantern18>	++
+T 1400008960 18*	frostfire is not crazy
+T 1400008962 18<GreenLantern18>	not worth the effort imho
+T 1400008964 18<frostfire18>	softrof ;p
+T 1400008977 18<frostfire18>	GreenLantern, fair enough
+T 1400009030 18<frostfire18>	sikory, <censored> this... i will die anyways ;p fat induced hear attack, car accident, old age who cares in the long run
+T 1400009123 18<sikory18>	nothing
+T 1400009138 18<Macuser18>	Nothin better than sittin' outside on a nice day with your laptop

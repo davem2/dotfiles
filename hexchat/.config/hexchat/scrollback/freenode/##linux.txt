@@ -1,0 +1,93 @@
+T 1432221634 19*	Now talking on 22##linux
+T 1432221634 22*	Topic for 22##linux is: Forums is back in testing http://forums.linuxassist.net | Channel website: http://www.linuxassist.net | Pastebin: http://paste.linuxassist.net | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay
+T 1432221634 22*	Topic for 22##linux set by 26WildPikachu (24Sat Dec 28 10:22:52 2013)
+T 1432221635 -18ChanServ-	[##linux] Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+T 1432221635 22*	Channel 22##linux url: 24http://www.linuxassist.net
+T 1432221640 24*	Freman has quit (Ping timeout: 272 seconds)
+T 1432221645 18<cyclick18>	Psi-Jack: ok, but the main reason that I think something is wrong is that it takes alot longer since I updated to kubuntu 15.04
+T 1432221654 24*	txp has quit (Quit: Leaving)
+T 1432221661 23*	filenox (~filenox@95.130.40.18823) has joined
+T 1432221675 18<Dominian18>	Psi-Jack: bah.. Even though I got the backup to work.. Found an article that backing up a backup is ignored by default hehe.. so need to find another alternative
+T 1432221676 23*	lasserix (~bithole@ip98-164-252-242.oc.oc.cox.net23) has joined
+T 1432221694 18<Psi-Jack18>	cyclick: So a distribution upgrade, and you suddenly point random fingers? Yeah, stop wasting my time. :p
+T 1432221698 23*	gareppa (~gareppa@ppp-118-103.31-151.libero.it23) has joined
+T 1432221705 24*	Dragooon has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1432221709 18<Psi-Jack18>	Dominian: I did think I pointed that out to you. :)
+T 1432221736 18<Psi-Jack18>	hehe
+T 1432221759 18<Psi-Jack18>	Kinda their way of preventing doing exactly what you were trying to do, except with more than just your scenario, but you being a backup server for your household, friends, family, etc.
+T 1432221779 18<Dominian18>	Psi-Jack: there's a way around it
+T 1432221783 18<Dominian18>	Psi-Jack: but not one that is clean
+T 1432221784 18<Psi-Jack18>	While you could be a backup server for them, you can't use their online storage. :)
+T 1432221785 24*	Jesterboxboy has quit (Quit: Jesterboxboy)
+T 1432221788 18<Psi-Jack18>	hehe yeah.
+T 1432221800 24*	u7654dec has quit (Ping timeout: 272 seconds)
+T 1432221801 18<Dominian18>	Psi-Jack: I have to 'rename' the folders or copy them to another folder name.. then they'll backup
+T 1432221802 23*	deadmund (~ed@th136-2.cs.wm.edu23) has joined
+T 1432221803 23*	Jesterboxboy (~Thunderbi@93-82-61-128.adsl.highway.telekom.at23) has joined
+T 1432221807 18<Psi-Jack18>	Wow.
+T 1432221809 23*	Freman (~twitsrus@2a00:1768:1004::1e7a:74e923) has joined
+T 1432221813 24*	BOKALDO has quit (Quit: Leaving)
+T 1432221813 18<Psi-Jack18>	Yeah, dirty as hell. heh
+T 1432221828 18<Psi-Jack18>	Dominian: It's a pitty you can't do hardlinks on directories. :D
+T 1432221840 18<Psi-Jack18>	But..... You could union mount. :D
+T 1432221840 24*	te_x has quit (Quit: te_x)
+T 1432221841 23*	DerisiveLogic (~smuxi@cpe-74-72-21-199.nyc.res.rr.com23) has joined
+T 1432221843 18<Dominian18>	So, probably going to use rsync+ssh for the VPS then my laptop already backs up the owncloud stuff
+T 1432221843 23*	stupid-1 (~dannyleeb@96-58-56-117.res.bhn.net23) has joined
+T 1432221845 18<Psi-Jack18>	Or bind mount anyway.
+T 1432221848 24*	stupid-1 (~dannyleeb@96-58-56-117.res.bhn.net24) has left
+T 1432221849 23*	stupid-1 (~dannyleeb@96-58-56-117.res.bhn.net23) has joined
+T 1432221858 24*	LauraCottonTail has quit (Quit: Connection closed for inactivity)
+T 1432221866 24*	DerisiveLogic has quit (Remote host closed the connection)
+T 1432221887 24*	wilkim (32f35496@gateway/web/freenode/ip.50.243.84.15024) has left
+T 1432221889 23*	DerisiveLogic (~smuxi@cpe-74-72-21-199.nyc.res.rr.com23) has joined
+T 1432221894 24*	rxerrorhell has quit (Quit: Page closed)
+T 1432221926 24*	sshaaf has quit (Ping timeout: 265 seconds)
+T 1432221942 23*	MonkehParade (~Fishy@175.157.244.123) has joined
+T 1432221969 24*	iamfrankenstein has quit (Ping timeout: 240 seconds)
+T 1432221970 23*	JDAIII (~jd@wsip-98-189-37-90.oc.oc.cox.net23) has joined
+T 1432221971 24*	MonkehParade (~Fishy@175.157.244.124) has left
+T 1432222001 23*	Malsasa_ (~Malsasa@36.73.229.17123) has joined
+T 1432222001 24*	28Malsasa_ is now known as 18Malsasa
+T 1432222013 24*	Happy_Nihilist has quit (Ping timeout: 265 seconds)
+T 1432222017 24*	ByteCrunch has quit (Ping timeout: 240 seconds)
+T 1432222025 23*	sabajo (~sabajo@c-68-35-157-247.hsd1.al.comcast.net23) has joined
+T 1432222067 23*	x91 (~x91@78.165.219.8423) has joined
+T 1432222072 18<JDAIII18>	I have a 4k monitor and a 1080 monitor. I am using ubuntu gnome and I have it set to scale x2. But this morning I opened chrome and the resolution is low on it. The tabs and webpages are huge. I've used these settings for 6 months and an update yesterday must have caused this. Not sure how to resolve it. I tried starting chrome with this: 'google-chrome --force-device-scale-factor=1' But doesn't help
+T 1432222075 18<JDAIII18>	frustrated
+T 1432222111 18<reisio18>	review update log
+T 1432222126 24*	cyclick has quit (Remote host closed the connection)
+T 1432222137 24*	rgr has quit (Ping timeout: 240 seconds)
+T 1432222141 24*	api984 has quit (Quit: api984)
+T 1432222150 23*	ByteCrunch (~bitecrunc@bytecrunch.de23) has joined
+T 1432222162 18<[Ex0r]18>	JDAIII- try #ubuntu you might have more luck
+T 1432222191 24*	stupid-1 (~dannyleeb@96-58-56-117.res.bhn.net24) has left
+T 1432222213 18<JDAIII18>	I think that I will, I just hate cross posting
+T 1432222219 18<peetaur218>	JDAIII: use firefox, or mv away your config and generate new stuff (the generic update-killed-my-... solution)
+T 1432222230 18<JDAIII18>	I checked, no updates yestedday that would cause this. only two kernel updates
+T 1432222240 18<peetaur218>	I think nobody has luck in #ubuntu ... too much noise
+T 1432222248 24*	Freman has quit (Ping timeout: 272 seconds)
+T 1432222280 24*	GolemOfFire has quit (Ping timeout: 258 seconds)
+T 1432222320 23*	Freman (~twitsrus@2a00:1768:1004::1e7a:74e923) has joined
+T 1432222332 18<JDAIII18>	no updates to cause this now that I have checked and chrome is killing me. Firefox is not an option, have my settings in chrome only for working
+T 1432222349 24*	StathisA has quit (Ping timeout: 256 seconds)
+T 1432222356 24*	DeRoSvOs has quit (Quit: Page closed)
+T 1432222371 23*	t-ask (~t-ask@46.38.48.4123) has joined
+T 1432222383 23*	qlixed (~QliXed@201.94.151.10323) has joined
+T 1432222387 18<JDAIII18>	I see it now. Damn chrome updated itself: google-chrome-stable:amd64 (42.0.2311.152-1, 43.0.2357.65-1)
+T 1432222405 18<Psi-Jack18>	Heh
+T 1432222418 18<t-ask18>	Which tool can I use to trace DNS with cli
+T 1432222419 18<Psi-Jack18>	The distro broke my 3rd party software not packaged in it!
+T 1432222434 18<Psi-Jack18>	t-ask: Define "trace?"
+T 1432222434 23*	eeelvis (~elvis@0207101382.0.fullrate.dk23) has joined
+T 1432222434 18<[Ex0r]18>	tracert ?
+T 1432222438 24*	dan2k3k4k5 has quit (Ping timeout: 272 seconds)
+T 1432222452 23*	sassafrassfrass (~sassafras@pool-173-62-0-226.pghkny.fios.verizon.net23) has joined
+T 1432222461 24*	adminxor has quit (Quit: Leaving)
+T 1432222462 18<Psi-Jack18>	Better yet, simplest answer: host, getent hosts, dig
+T 1432222463 24*	whonow has quit (Quit: Page closed)
+T 1432222463 18<Psi-Jack18>	Done.
+T 1432222508 23*	jontxu (~jon@unaffiliated/jontxu23) has joined
+T 1432222510 24*	AMERICAN_PSYCHO has quit (Ping timeout: 244 seconds)
+T 1432222530 24*	te_x_ has quit (Quit: Page closed)
+T 1432222563 23*	webbyz (uid48091@gateway/web/irccloud.com/x-sinmvtoeibyljadd23) has joined

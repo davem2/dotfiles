@@ -1,0 +1,611 @@
+T 1431368435 23*	SpinTensor (~SpinTenso@i53877a55.versanet.de23) has joined
+T 1431368778 24*	akersof has quit (Ping timeout: 244 seconds)
+T 1431368778 24*	bodie_ has quit (Ping timeout: 244 seconds)
+T 1431368778 24*	idecv has quit (Ping timeout: 244 seconds)
+T 1431368778 24*	alekzanther has quit (Ping timeout: 244 seconds)
+T 1431368779 24*	_0x5eb_ has quit (Ping timeout: 244 seconds)
+T 1431368779 24*	velner has quit (Ping timeout: 244 seconds)
+T 1431368806 23*	decv (~axp@84.93.109.17323) has joined
+T 1431368807 24*	Parnic has quit (*.net *.split)
+T 1431368807 24*	op9 has quit (*.net *.split)
+T 1431368807 24*	FireFly has quit (*.net *.split)
+T 1431368807 24*	dustinm` has quit (*.net *.split)
+T 1431368807 24*	SpinTensor has quit (*.net *.split)
+T 1431368807 24*	Tashi has quit (*.net *.split)
+T 1431368807 24*	Raziel has quit (*.net *.split)
+T 1431368807 24*	Smirftsch3 has quit (*.net *.split)
+T 1431368808 24*	Elmoe has quit (*.net *.split)
+T 1431368808 24*	masterm has quit (*.net *.split)
+T 1431368808 24*	flurick has quit (*.net *.split)
+T 1431368809 24*	kline has quit (*.net *.split)
+T 1431368809 24*	decv has quit (*.net *.split)
+T 1431368809 24*	mxttie has quit (*.net *.split)
+T 1431368809 24*	CapsAdmin has quit (*.net *.split)
+T 1431368809 24*	alobeejay has quit (*.net *.split)
+T 1431368809 24*	tsumetai has quit (*.net *.split)
+T 1431368809 24*	DaemonLee has quit (*.net *.split)
+T 1431368809 24*	turtlehat has quit (*.net *.split)
+T 1431368809 24*	ngladitz has quit (*.net *.split)
+T 1431368809 24*	Xeek has quit (*.net *.split)
+T 1431368810 24*	Mercury has quit (*.net *.split)
+T 1431368810 24*	irrenhaus3 has quit (*.net *.split)
+T 1431368810 24*	phao has quit (*.net *.split)
+T 1431368810 24*	Lemml has quit (*.net *.split)
+T 1431368810 24*	mat^2 has quit (*.net *.split)
+T 1431368810 24*	liesard has quit (*.net *.split)
+T 1431368810 24*	Alam_Squeeze has quit (*.net *.split)
+T 1431368811 24*	TomyLobo has quit (*.net *.split)
+T 1431368811 24*	TuTizz has quit (*.net *.split)
+T 1431368811 24*	LiraNuna has quit (*.net *.split)
+T 1431368811 24*	Overkill has quit (*.net *.split)
+T 1431368811 24*	caedes__ has quit (*.net *.split)
+T 1431368811 24*	Orphis has quit (*.net *.split)
+T 1431368812 24*	curfont has quit (*.net *.split)
+T 1431368812 24*	Zupoman has quit (*.net *.split)
+T 1431368812 24*	Zammalad has quit (*.net *.split)
+T 1431368812 24*	ruzu has quit (*.net *.split)
+T 1431368813 24*	bigpet has quit (*.net *.split)
+T 1431368813 24*	qua-non has quit (*.net *.split)
+T 1431368813 24*	fzzy has quit (*.net *.split)
+T 1431368813 24*	ovf has quit (*.net *.split)
+T 1431368813 24*	gustav___ has quit (*.net *.split)
+T 1431368813 24*	zu has quit (*.net *.split)
+T 1431368815 24*	jdolan has quit (*.net *.split)
+T 1431368815 24*	desy has quit (*.net *.split)
+T 1431368815 24*	Lightkey has quit (*.net *.split)
+T 1431368815 24*	x414e54 has quit (*.net *.split)
+T 1431368815 24*	Ensiform has quit (*.net *.split)
+T 1431368815 24*	akawaka has quit (*.net *.split)
+T 1431368815 24*	Amadiro has quit (*.net *.split)
+T 1431368815 24*	jhenke has quit (*.net *.split)
+T 1431368815 24*	frostsnow has quit (*.net *.split)
+T 1431368815 24*	The_Pacifist has quit (*.net *.split)
+T 1431368815 24*	shakesoda has quit (*.net *.split)
+T 1431368815 24*	Midiman has quit (*.net *.split)
+T 1431368816 24*	AbigailBuccaneer has quit (*.net *.split)
+T 1431368816 24*	eam has quit (*.net *.split)
+T 1431368816 24*	Marqin has quit (*.net *.split)
+T 1431368816 24*	o11c has quit (*.net *.split)
+T 1431368816 24*	Djstey has quit (*.net *.split)
+T 1431368816 24*	demonicmaniac has quit (*.net *.split)
+T 1431368816 24*	Lucretia has quit (*.net *.split)
+T 1431368816 24*	salamanderrake has quit (*.net *.split)
+T 1431368817 24*	nilspin has quit (*.net *.split)
+T 1431368817 24*	elias has quit (*.net *.split)
+T 1431368817 24*	aranasaurus has quit (*.net *.split)
+T 1431368817 24*	wheybags has quit (*.net *.split)
+T 1431368817 24*	tmatth has quit (*.net *.split)
+T 1431368817 24*	slvn has quit (*.net *.split)
+T 1431368817 24*	JeZxLee has quit (*.net *.split)
+T 1431368817 24*	demonicmaniac3 has quit (*.net *.split)
+T 1431368817 24*	Ericthebeast has quit (*.net *.split)
+T 1431368817 24*	bitcraft_ has quit (*.net *.split)
+T 1431368818 24*	LordHavoc has quit (*.net *.split)
+T 1431368818 24*	ir2ivps7 has quit (*.net *.split)
+T 1431368818 24*	mtj__ has quit (*.net *.split)
+T 1431368818 24*	hagabaka has quit (*.net *.split)
+T 1431368818 24*	stefkos has quit (*.net *.split)
+T 1431368818 24*	Nickeeh has quit (*.net *.split)
+T 1431368818 24*	Defaultti has quit (*.net *.split)
+T 1431368818 24*	yin_nadie has quit (*.net *.split)
+T 1431368819 24*	RushPL has quit (*.net *.split)
+T 1431368819 24*	jophish has quit (*.net *.split)
+T 1431368819 24*	Cerise has quit (*.net *.split)
+T 1431368820 24*	jorgenpt has quit (*.net *.split)
+T 1431368820 24*	fhd________ has quit (*.net *.split)
+T 1431368820 24*	icedev has quit (*.net *.split)
+T 1431368820 24*	dpetersen_ has quit (*.net *.split)
+T 1431368820 24*	Trieste has quit (*.net *.split)
+T 1431368820 24*	proppy has quit (*.net *.split)
+T 1431368821 24*	neoman has quit (*.net *.split)
+T 1431368821 24*	bschaefer has quit (*.net *.split)
+T 1431368821 24*	premedios has quit (*.net *.split)
+T 1431368821 24*	[Relic] has quit (*.net *.split)
+T 1431368821 24*	{41444d494e} has quit (*.net *.split)
+T 1431368821 24*	SugarCube has quit (*.net *.split)
+T 1431368821 24*	krnlyng has quit (*.net *.split)
+T 1431368821 24*	elanc has quit (*.net *.split)
+T 1431368822 24*	Cheery has quit (*.net *.split)
+T 1431368822 24*	Sponji has quit (*.net *.split)
+T 1431368823 24*	dryatu has quit (*.net *.split)
+T 1431368823 24*	ludkiller has quit (*.net *.split)
+T 1431368823 24*	prophile has quit (*.net *.split)
+T 1431368823 24*	Tritania_ has quit (*.net *.split)
+T 1431368824 24*	SianaGearz has quit (*.net *.split)
+T 1431368824 24*	Sonny_Jim has quit (*.net *.split)
+T 1431368824 24*	sparetire has quit (*.net *.split)
+T 1431368824 24*	MetaPhaze has quit (*.net *.split)
+T 1431368824 24*	diginet has quit (*.net *.split)
+T 1431368824 24*	mrknife has quit (*.net *.split)
+T 1431368825 24*	bentglasstube has quit (*.net *.split)
+T 1431368825 24*	ImQ009 has quit (*.net *.split)
+T 1431368825 24*	Vladimir2 has quit (*.net *.split)
+T 1431368825 24*	dormito has quit (*.net *.split)
+T 1431368825 24*	mjrosenb_ has quit (*.net *.split)
+T 1431368825 24*	Kvisle has quit (*.net *.split)
+T 1431368826 24*	Bombo has quit (*.net *.split)
+T 1431368826 24*	wareya has quit (*.net *.split)
+T 1431368826 24*	adrian_broher has quit (*.net *.split)
+T 1431368826 24*	MrJones has quit (*.net *.split)
+T 1431368826 24*	q66 has quit (*.net *.split)
+T 1431368826 24*	meklu has quit (*.net *.split)
+T 1431368827 24*	profan has quit (*.net *.split)
+T 1431368827 24*	dca has quit (*.net *.split)
+T 1431368827 24*	vitimiti has quit (*.net *.split)
+T 1431368827 24*	OxDB has quit (*.net *.split)
+T 1431368827 24*	dv_ has quit (*.net *.split)
+T 1431368827 24*	graphitemaster has quit (*.net *.split)
+T 1431368827 24*	X-Scale has quit (*.net *.split)
+T 1431368827 24*	Harekiet has quit (*.net *.split)
+T 1431368827 24*	akaWolf has quit (*.net *.split)
+T 1431368828 24*	xiqy has quit (*.net *.split)
+T 1431368828 24*	Miklas has quit (*.net *.split)
+T 1431368893 23*	bodie_ (~bodie_@unaffiliated/bodie/x-647988523) has joined
+T 1431368893 23*	x5eb (~seb@seb-hpws2.w1.tele.crt1.net23) has joined
+T 1431368893 23*	alekzanther (~alekz@rymdklubben.com23) has joined
+T 1431368893 23*	decv (~axp@84.93.109.17323) has joined
+T 1431368893 23*	SpinTensor (~SpinTenso@i53877a55.versanet.de23) has joined
+T 1431368893 23*	stefkos (~stefkos@pc11-226.chomiczowka.waw.pl23) has joined
+T 1431368893 23*	Tashi (~Tashi@p54B763EB.dip0.t-ipconnect.de23) has joined
+T 1431368893 23*	mxttie (~mattie@94-225-166-248.access.telenet.be23) has joined
+T 1431368893 23*	ImQ009 (~ImQ009@unaffiliated/imq00923) has joined
+T 1431368893 23*	irrenhaus3 (~xenon@hms2227.wh-hms.uni-ulm.de23) has joined
+T 1431368893 23*	bschaefer (~bschaefer@174-21-114-94.tukw.qwest.net23) has joined
+T 1431368893 23*	premedios (~premedios@2001:8a0:6f0a:8b01:6540:22ff:5a98:288323) has joined
+T 1431368893 23*	[Relic] (~Relic]@2602:306:33a3:6d30:e0dd:a122:e41c:e39e23) has joined
+T 1431368893 23*	vitimiti (~vitimiti@unaffiliated/vitimiti23) has joined
+T 1431368893 23*	Zupoman (~mistrzmag@unaffiliated/zupoman23) has joined
+T 1431368893 23*	{41444d494e} (~kvirc@46.56.79.3223) has joined
+T 1431368893 23*	tmatth (~tristan@96.127.204.16523) has joined
+T 1431368893 23*	CapsAdmin (~CapsAdmin@109.199.217.2323) has joined
+T 1431368893 23*	Zammalad (~Zammalad@cpc3-stkn13-2-0-cust83.11-2.cable.virginm.net23) has joined
+T 1431368893 23*	jdolan (~jdolan@2601:3:8200:11a7:5453:2b7d:d6a5:2d1323) has joined
+T 1431368893 23*	caedes__ (~caedes@ip1f129dd5.dynamic.kabel-deutschland.de23) has joined
+T 1431368893 23*	phao (~phao@189-48-55-226.user.veloxzone.com.br23) has joined
+T 1431368893 23*	ludkiller (lud@gateway/shell/elitebnc/x-ffylwxbsripckkya23) has joined
+T 1431368893 23*	desy (~desy@s18324098.onlinehome-server.info23) has joined
+T 1431368893 23*	OxDB (~dennis@allegro/user/Dennis23) has joined
+T 1431368893 23*	Nickeeh (~quassel@foo.kassala.de23) has joined
+T 1431368893 23*	Raziel (~Raziel@cpc16-broo8-2-0-cust158.14-2.cable.virginm.net23) has joined
+T 1431368893 23*	alobeejay (~Miranda@pD9559BCA.dip0.t-ipconnect.de23) has joined
+T 1431368893 23*	slvn (~slvn@c2s31-2-83-152-89-124.fbx.proxad.net23) has joined
+T 1431368893 23*	tsumetai (x@unaffiliated/tsumetai23) has joined
+T 1431368893 23*	Vladimir2 (~nn@static-213-198-240-182.adsl.eunet.rs23) has joined
+T 1431368893 23*	TomyLobo (~TomyLobo@ip5b4173e5.dynamic.kabel-deutschland.de23) has joined
+T 1431368893 23*	TuTizz (~TuTizz@unaffiliated/tutizz23) has joined
+T 1431368893 23*	Lemml (~andreas@p4FEEA899.dip0.t-ipconnect.de23) has joined
+T 1431368893 23*	SugarCube (~servus@2605:e000:850e:e00:8d85:3613:20d8:1fda23) has joined
+T 1431368893 23*	Lightkey (~jonas@p200300764F16D08022CF30FFFE083718.dip0.t-ipconnect.de23) has joined
+T 1431368893 23*	mat^2 (~Mathias@emdrupborg.dk23) has joined
+T 1431368893 23*	Smirftsch3 (~Smirftsch@p57A5C8D5.dip0.t-ipconnect.de23) has joined
+T 1431368893 23*	demonicmaniac (~bugger@p5B112A7F.dip0.t-ipconnect.de23) has joined
+T 1431368893 23*	x414e54 (~x414e54@fsf/member/x414e5423) has joined
+T 1431368893 23*	krnlyng (~liar@83.175.90.2423) has joined
+T 1431368893 23*	DaemonLee (~DaemonLee@S01061859339e868e.vs.shawcable.net23) has joined
+T 1431368893 23*	dv_ (~quassel@chello062178118086.5.14.vie.surfer.at23) has joined
+T 1431368893 23*	Sonny_Jim (~pi@host5-81-57-49.range5-81.btcentralplus.com23) has joined
+T 1431368893 23*	JeZxLee (~JeZxLee@ool-18bcc0e8.dyn.optonline.net23) has joined
+T 1431368893 23*	dustinm` (~dustinm@105.ip-167-114-152.net23) has joined
+T 1431368893 23*	elanc (~elanc@staff.elanc.ru23) has joined
+T 1431368893 23*	demonicmaniac3 (~bugger@ipbcc20d6b.dynamic.kabel-deutschland.de23) has joined
+T 1431368893 23*	mrknife (mrknife@gateway/shell/yourbnc/x-jrobpufwvyrqbevt23) has joined
+T 1431368893 23*	LiraNuna (~LiraNuna@c-98-210-197-113.hsd1.ca.comcast.net23) has joined
+T 1431368893 23*	turtlehat (~semulje@home.b3nny.eu23) has joined
+T 1431368893 23*	graphitemaster (~graphitem@unaffiliated/graphitemaster23) has joined
+T 1431368893 23*	Ericthebeast (Eric@rymdklubben.com23) has joined
+T 1431368893 23*	Ensiform (~ensiform@2601:2:5c00:7da:1535:22ee:bb98:6bc923) has joined
+T 1431368893 23*	sparetire (~sparetire@unaffiliated/sparetire23) has joined
+T 1431368893 23*	dormito (~quassel@cpe-67-11-57-85.satx.res.rr.com23) has joined
+T 1431368893 23*	Lucretia (~laguest@pdpc/supporter/active/lucretia23) has joined
+T 1431368893 23*	X-Scale (~gbabios@2001:0:c38c:c38c:0:dddc:fad4:c70523) has joined
+T 1431368893 23*	akawaka (~akawaka@99-117-42-5.lightspeed.irvnca.sbcglobal.net23) has joined
+T 1431368893 23*	bitcraft_ (~bitcraft_@50-80-174-245.client.mchsi.com23) has joined
+T 1431368893 23*	Defaultti (defaultti@lakka.kapsi.fi23) has joined
+T 1431368893 23*	Amadiro (jonathri@dalvik.ping.uio.no23) has joined
+T 1431368893 23*	yin_nadie (~nadie@85.136.155.93.dyn.user.ono.com23) has joined
+T 1431368893 23*	mjrosenb_ (~mjrosenb@pool-72-89-72-213.nycmny.fios.verizon.net23) has joined
+T 1431368893 23*	ruzu (~ruzu@unaffiliated/ruzu23) has joined
+T 1431368893 23*	ngladitz (~ngladitz@unaffiliated/ngladitz23) has joined
+T 1431368893 23*	MetaPhaze (~MetaPhaze@96-42-232-201.dhcp.roch.mn.charter.com23) has joined
+T 1431368893 23*	prophile (~alynn@oftn/member/prophile23) has joined
+T 1431368893 23*	Orphis (~orphis@adam.orphis.net23) has joined
+T 1431368893 23*	profan (~profan@odin.prfn.se23) has joined
+T 1431368893 23*	neoman (neoman@falloutshelter.de23) has joined
+T 1431368893 23*	dca (~dca@146.185.164.18823) has joined
+T 1431368893 23*	meklu (~meklu@holmes.meklu.org23) has joined
+T 1431368893 23*	dryatu (~dryatu@213-243-185-101.bb.dnainternet.fi23) has joined
+T 1431368893 23*	proppy (sid1692@gateway/web/irccloud.com/x-aejkyvapuespelos23) has joined
+T 1431368893 23*	eam (~eam@nitre.bayhost.net23) has joined
+T 1431368893 23*	Marqin (~marqin@unaffiliated/marqin23) has joined
+T 1431368893 23*	o11c (~ben@unaffiliated/o11c23) has joined
+T 1431368893 23*	Djstey (~Djstey-Pr@djstey.com23) has joined
+T 1431368893 23*	FireFly (~firefly@oftn/member/FireFly23) has joined
+T 1431368893 23*	flurick (~flurick@banan.fulafisken.com23) has joined
+T 1431368893 23*	kline (~kline@unaffiliated/kline23) has joined
+T 1431368893 23*	SianaGearz (~siana@unaffiliated/sianagearz23) has joined
+T 1431368893 23*	Trieste (~Trieste@unaffiliated/trieste23) has joined
+T 1431368893 23*	dpetersen_ (sid70273@gateway/web/irccloud.com/x-rxjkhkrewuwcieho23) has joined
+T 1431368893 23*	AbigailBuccaneer (~AbigailBu@unaffiliated/jetbeard23) has joined
+T 1431368893 23*	wheybags (wheybags@spoon.netsoc.tcd.ie23) has joined
+T 1431368893 23*	aranasaurus (~ryan@ryanarana.com23) has joined
+T 1431368893 23*	icedev (~icedev@0x62.de23) has joined
+T 1431368893 23*	op9 (syphter@192.3.30.24623) has joined
+T 1431368893 23*	Parnic (user@distribution.xbins.org23) has joined
+T 1431368893 23*	q66 (~quaker66@enlightenment/developer/q6623) has joined
+T 1431368893 23*	fhd________ (sid2508@gateway/web/irccloud.com/x-htztetwrkqnrdnhk23) has joined
+T 1431368893 23*	jorgenpt (sid57194@gateway/web/irccloud.com/x-enaoapmhzsmiaeup23) has joined
+T 1431368893 22*	26weber.freenode.net gives channel operator status to 18akawaka
+T 1431368893 23*	MrJones (~yarca@unaffiliated/mrjones23) has joined
+T 1431368893 23*	Sponji (sponji@kapsi.fi23) has joined
+T 1431368893 23*	adrian_broher (~adrian@adrian-broher.net23) has joined
+T 1431368893 23*	zu (~zu@ks387228.kimsufi.com23) has joined
+T 1431368893 23*	Cheery (~cheery@boxbase.org23) has joined
+T 1431368893 23*	Tritania_ (~Tritania@magnorum.com23) has joined
+T 1431368893 23*	elias (~allefant@allegro/developer/allefant23) has joined
+T 1431368893 23*	Midiman (Miqote@excessive.moe23) has joined
+T 1431368893 23*	curfont (~gt@modularaviation.com23) has joined
+T 1431368893 23*	gustav___ (gustav@gustav.me.ke23) has joined
+T 1431368893 23*	ovf (sid19068@gateway/web/irccloud.com/x-jyyxigmtcnpcdomb23) has joined
+T 1431368893 23*	Cerise (znc@unaffiliated/cerise23) has joined
+T 1431368893 23*	wareya (~wareya@cpe-67-248-123-61.nycap.res.rr.com23) has joined
+T 1431368893 23*	jophish (~quassel@2a00-5300-0-2-0-0-0-1fe.ipv6ptr.net23) has joined
+T 1431368893 23*	Miklas (~Miklas@2001:41d0:52:300::c1923) has joined
+T 1431368893 23*	RushPL (~quassel@dragon.rushbase.net23) has joined
+T 1431368893 23*	fzzy (~fzzy@melkinpaasi.cs.helsinki.fi23) has joined
+T 1431368893 23*	The_Pacifist (~The_Pacif@li474-93.members.linode.com23) has joined
+T 1431368893 23*	hagabaka (~hagabaka@unaffiliated/hagabaka23) has joined
+T 1431368893 23*	nilspin (~nilspin@81.4.104.14023) has joined
+T 1431368893 23*	shakesoda (shake@celestiaradio/shark/soda23) has joined
+T 1431368893 23*	mtj__ (~mtj@gw1.kohaaloha.com23) has joined
+T 1431368894 23*	salamanderrake (~quassel@v-72-5-195-78.unman-vds.internap-chicago.nfoservers.com23) has joined
+T 1431368894 23*	Bombo (bombo@p57A1CF4E.dip0.t-ipconnect.de23) has joined
+T 1431368894 23*	masterm (masterm@siejak.pl23) has joined
+T 1431368894 23*	bentglasstube (~alan@unaffiliated/bentglasstube23) has joined
+T 1431368894 23*	diginet (~diginet@107.170.146.2923) has joined
+T 1431368894 23*	frostsnow (~frostsnow@50.45.235.18223) has joined
+T 1431368894 23*	ir2ivps7 (~ir2ivps7@158.85.162.249-static.reverse.softlayer.com23) has joined
+T 1431368894 23*	Elmoe (~Elmoe@c-67-185-160-99.hsd1.wa.comcast.net23) has joined
+T 1431368894 23*	qua-non (Elite8450@gateway/shell/elitebnc/x-uyaopwgknkuwfeeu23) has joined
+T 1431368894 23*	bigpet (uid25664@gateway/web/irccloud.com/x-pazghrnhivdmycsq23) has joined
+T 1431368894 23*	xiqy (~xiqsjvfy@fsf/member/xiqsjvfy23) has joined
+T 1431368894 23*	LordHavoc (~havoc@50-193-192-106-static.hfc.comcastbusiness.net23) has joined
+T 1431368894 23*	akaWolf (~akaWolf@unaffiliated/akawolf23) has joined
+T 1431368894 23*	jhenke (~jhe@loadmaster.taujhe.de23) has joined
+T 1431368894 23*	Alam_Squeeze (~alam@pool-98-118-103-34.bstnma.fios.verizon.net23) has joined
+T 1431368894 23*	Harekiet (~harekiet@kittens.harekiet.com23) has joined
+T 1431368894 23*	Overkill (~overkill9@24-212-247-108.cable.teksavvy.com23) has joined
+T 1431368894 23*	liesard (~liesard@7.134.0.85.dynamic.wline.res.cust.swisscom.ch23) has joined
+T 1431368894 23*	Kvisle (~tv@tv.users.bitbit.net23) has joined
+T 1431368894 23*	Xeek (~xeek@unaffiliated/xeek23) has joined
+T 1431368894 23*	Mercury (~warp@99-64-160-233.lightspeed.rcsntx.sbcglobal.net23) has joined
+T 1431368916 23*	zuoytairov (akersof@nor75-3-82-226-36-138.fbx.proxad.net23) has joined
+T 1431368917 24*	zuoytairov has quit (Client Quit)
+T 1431368917 23*	akersof (akersof@nor75-3-82-226-36-138.fbx.proxad.net23) has joined
+T 1431368921 24*	28x5eb is now known as 18_0x5eb_
+T 1431370057 23*	DB^ (~dennis@allegro/user/Dennis23) has joined
+T 1431370161 24*	OxDB has quit (Ping timeout: 252 seconds)
+T 1431370476 23*	sparetire_ (~sparetire@unaffiliated/sparetire23) has joined
+T 1431371919 23*	LIM (~jcatki@184.18.129.19923) has joined
+T 1431371919 22*	26ChanServ gives channel operator status to 18LIM
+T 1431372152 23*	dv__ (~quassel@chello062178118086.5.14.vie.surfer.at23) has joined
+T 1431372185 24*	dv_ has quit (Ping timeout: 252 seconds)
+T 1431372977 24*	SpinTensor has quit (Remote host closed the connection)
+T 1431373416 23*	jophish_ (~jophish@user-5af41e63.broadband.tesco.net23) has joined
+T 1431373518 24*	Zupoman has quit (Quit: Plan B failed, time for Plan 9!)
+T 1431373913 23*	Zupoman (~mistrzmag@unaffiliated/zupoman23) has joined
+T 1431374273 23*	Textmode (~boneidle@adsl-1-au-2-174.ozonline.com.au23) has joined
+T 1431374407 24*	alobeejay has quit (Read error: Connection reset by peer)
+T 1431374632 24*	ImQ009 has quit (Quit: Leaving)
+T 1431374673 23*	bitcraft (~bitcraft@66.254.199.12523) has joined
+T 1431375326 23*	gnidmoo (~gnidmoo@ip-140.net-82-216-139.issy4.rev.numericable.fr23) has joined
+T 1431375524 24*	slvn has quit (Quit: Leaving)
+T 1431376433 24*	DB^ has quit (Ping timeout: 264 seconds)
+T 1431376526 23*	OxDB (~dennis@allegro/user/Dennis23) has joined
+T 1431377276 24*	OxDB has quit (Ping timeout: 240 seconds)
+T 1431377296 23*	OxDB (~dennis@allegro/user/Dennis23) has joined
+T 1431377808 24*	OxDB has quit (Quit: client quit)
+T 1431377815 23*	OxDB (~dennis@allegro/user/Dennis23) has joined
+T 1431378696 24*	jophish_ has quit (Remote host closed the connection)
+T 1431379206 23*	YarnFive8 (YarnFive8@unaffiliated/yarnfive823) has joined
+T 1431379210 23*	theweirdn8 (~TheNathan@c-73-50-104-88.hsd1.il.comcast.net23) has joined
+T 1431379493 24*	theweirdn8 has quit (Client Quit)
+T 1431379768 24*	Textmode has quit (Quit: "It was one dev, naked in a room with a carton of cigarettes, a thermos full of coffee and bourbon, and all his summoned angels.")
+T 1431381406 24*	28mjrosenb_ is now known as 18mjrosenb
+T 1431391291 18<theweirdn818>	is this a bad idea to load a file into a list/vector of strings and parse from their instead of the file "directly"?
+T 1431391453 18<caedes__18>	from their what?
+T 1431391469 18<MrJones18>	that depends
+T 1431391493 18<theweirdn818>	its a project file
+T 1431391493 18<MrJones18>	if you're not ensuring arbitrary large files will not cause an arbitrary large list, yes
+T 1431391497 18<caedes__18>	if the file is huge it's probably not such a great idea, otherwise it should be fine
+T 1431391507 18<MrJones18>	well you should have a check tho
+T 1431391515 18<MrJones18>	preferrably before allocating your list/vector :D
+T 1431391517 18<theweirdn818>	so in theory it can be up to about hundreds of lines
+T 1431391523 18<MrJones18>	or while filling it, at least not afterwards
+T 1431391538 18<MrJones18>	theweirdn8: hundreds of lines is nothing. think in megabyte
+T 1431391567 18<caedes__18>	.. unless one  line contains hundred thousands of chars :D
+T 1431391590 18<caedes__18>	(ok, probably ten thousands would be bad enough, but whatever)
+T 1431391608 18<theweirdn818>	http://pastebin.com/VEC9QYCG is an example small project
+T 1431392619 18<MrJones18>	theweirdn8: no need to show example files, you should just consider such things beforehand and make sure to add a sensible limit :D
+T 1431392687 18<theweirdn818>	Well, the main thing i am looking into is adding super nested folders for this
+T 1431392707 18<caedes__18>	that almost looks like xml with all the <bla></bla> things
+T 1431392714 18<caedes__18>	maybe just use real XML and a XML parser?
+T 1431392732 18<theweirdn818>	real xml, does super nesting by default?
+T 1431392745 18<caedes__18>	it's up to you how much you nest
+T 1431392754 18<caedes__18>	but I personally prefer json anyway, it sucks less as a format
+T 1431392773 18<caedes__18>	especially arrays in XML are no fun
+T 1431392934 18<theweirdn818>	Yea, i was trying to only do nesting folders
+T 1431392944 18<theweirdn818>	everything else i can handle via commas
+T 1431392952 18<theweirdn818>	so its why i kinda dont want to use some external parser...
+T 1431392984 18<MrJones18>	strict json is super annoying
+T 1431392997 18<MrJones18>	like, why is [1,2,3,] not allowed
+T 1431393032 18<MrJones18>	can't be bothered to do exact commas for the last list element in a config
+T 1431393043 18<MrJones18>	well I guess for things you don't need to manually edit it's ok :D
+T 1431393068 18<MrJones18>	sorry for spontaneous rant, saw json in a config recently and that annoyed me
+T 1431393099 18<caedes__18>	I never thought about putting a comma at the end of a list
+T 1431393150 18<MrJones18>	caedes__: it is very useful if you got large list elements
+T 1431393213 18<MrJones18>	caedes__: http://fpaste.org/220851/13931891/ you don't want not to have that last comma, because if you ever copy things around you bet you'll forget to fix it
+T 1431393219 18<MrJones18>	so best thing is to have each element exactly the same
+T 1431393235 18<MrJones18>	all modern programming languages allow that in lists, even including older stuff like C
+T 1431393238 18<MrJones18>	.. but json doesn't
+T 1431393242 18<MrJones18>	at least with the python json parser
+T 1431393255 18<MrJones18>	bites me every time I write something non-trivial in json
+T 1431393844 18<theweirdn818>	idk
+T 1431394501 18<caedes__18>	MrJones: well ok it can be useful and I'm also kinda surprised that json (or at least pythons parser) doesn't allow it, but it's still a lot less painful than XML
+T 1431394553 18<caedes__18>	and both options are usually better than writing your own parser :D
+T 1431398107 18<fzzy18>	do SDL_Textures reside in GPU memory?
+T 1431400875 18<MrJones18>	fzzy: depends on the SDL_Renderer, but if you got a 3d accelerated one then yes
+T 1431400899 18<MrJones18>	so usually yes, unless you force the software renderer
+T 1431405271 18<fzzy18>	what happens when there's too many SDL_Textures to fit into the GPU memory? Should I try to cache them somehow?
+T 1431428917 18<filli18>	Why dpes SDL automatically make my sprite come back from the left if I move it to the edge of the screen on the right, and vice versa. Here's what it looks like http://i.imgur.com/8ixOUFM.png
+T 1431429033 18<filli18>	https://github.com/redabs/SDLGame/blob/master/main.c#L66 This is my render function
+T 1431429118 18<Harekiet18>	besides that seeming to be horrible ineffecient, you're not doing any viewport clipping so it just wraps around
+T 1431429198 18<filli18>	Harekiet: How can I make it more efficient?
+T 1431429232 18<Harekiet18>	filli: sdl has routines to copy rectangles from one surface to another to draw sprites
+T 1431429285 18<filli18>	SDL_BlitSurface?
+T 1431429331 18<Harekiet18>	yeh and if you use the newer sdl 2.0 render interface you should get hardware acceleration
+T 1431429371 18<Harekiet18>	The days of software rendering to a buffer should be over :)
+T 1431429517 18<filli18>	Rendering pixels individually is more fun :P
+T 1431429628 18<Harekiet18>	well I'd recommend handwriting assembly then for more speed!
+T 1431446592 20*	Disconnected (20Connection timed out)
+T 1431446625 19*	Now talking on 22#SDL
+T 1431446625 22*	Topic for 22#SDL is: Official SDL Channel http://www.libsdl.org/ | SDL 2.0.3 has been released! Rejoice! | Migration Guide: http://wiki.libsdl.org/moin.fcg/MigrationGuide
+T 1431446625 22*	Topic for 22#SDL set by 26Briareos!~michael@pdpc/supporter/professional/briareos (24Sun Mar 16 07:19:46 2014)
+T 1431446625 29*	[freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+T 1431446626 -18ChanServ-	[#SDL] Welcome to #sdl - The Offical Simple DirectMedia Layer Channel
+T 1431446626 22*	Channel 22#SDL url: 24http://www.libsdl.org/
+T 1431458758 24*	28bitcraft is now known as 18bitcraft_work
+T 1431461958 18<phao18>	Hi.
+T 1431461970 18<phao18>	Is there any reason for in an keyup event, the repeat field be other than 0?
+T 1431462717 18<yin_nadie18>	I don't think so, but i've not read the actual code so I may be missing something
+T 1431463178 18<Xeek18>	hmm
+T 1431463202 18<Xeek18>	There is a reason
+T 1431463207 18<Xeek18>	docs say :-)
+T 1431463223 18<yin_nadie18>	All right. Letus be enlightened by Xeek
+T 1431463229 18<yin_nadie18>	or by the docs
+T 1431463250 18<Xeek18>	mechanics aside though :-D
+T 1431463259 18<Xeek18>	"non-zero if this is a key repeat"
+T 1431463312 18<Xeek18>	but anyways.. considering the mechanics of keyboards why ask the question?
+T 1431463324 18<phao18>	Just curious.
+T 1431463346 18<phao18>	I can't think of any reason why repeat would be non-0 in a keyup tbh though.
+T 1431463401 18<Xeek18>	I suppose yo could come up with some crazy ideas on possibilities
+T 1431463407 18*	yin_nadie is still waiting for enlightenment
+T 1431463444 18<Xeek18>	Consider your app gains focus, loses focus, and gains focus again, mean while the key was down at certain times but only released when the app had focus
+T 1431463463 18<Xeek18>	then maybe under that (exceptional) circumstance it could happen
+T 1431463469 18<yin_nadie18>	hm
+T 1431463471 18<yin_nadie18>	I don't see it
+T 1431463485 18<yin_nadie18>	why would that be considered a key repeat?
+T 1431463572 18<Xeek18>	It was just what could be a possibility, more of a theory. It is the same key with the same consecutive up event, whence repeated
+T 1431463672 18<yin_nadie18>	i don't think that is what key repeat means. using the repeat variable to represent that case seems wrong to me
+T 1431464713 18<Xeek18>	yin_nadie: what's your definition of key repeat
+T 1431464873 18<yin_nadie18>	a "virtual" key press event/signal that propagates after keeping a key pressed for an arbitrary time, very useful for text edition and bad for almost everything else
+T 1431464911 18<yin_nadie18>	well, actual it is a sequence of such events/signals, but I think my explanation is mostly clear
+T 1431465063 18<Xeek18>	So if teh description of "repeat" in the SDL_KeyboardEvent documetnation is to be more acurate it should say "non-zero if a key press is repeated"
+T 1431477358 24*	28bitcraft__ is now known as 18bitcraf
+T 1431477361 24*	28bitcraf is now known as 18bitcraft
+T 1431512891 24*	28Overkilll is now known as 18Overkill
+T 1431527150 18<jacres18>	hey guys - has anyone used SDL2 with android, but as an Activity within the flow of a larger application?
+T 1431527187 18<jacres18>	so you may navigate through a bunch of standard UI views/activities and then end up at an SDL2 activity, but be able to exit out of it by hitting the back button and continue with the app
+T 1431527470 18<jacres18>	or on iOS for that matter :)
+T 1431528770 18<Xeek18>	I suppose there isn' any mobile devs around thsi morning :-(
+T 1431529118 18<page18>	I only tried sdl as the single activity
+T 1431539110 18<foreverska18>	Hi,  I'm having an issue where the Accelerated renderer is taking waaay too long to surfacetotexture but the sofware renderer is golden at it.  Trouble is SW renderer has poor performance while running.  Is there a way to use SW for loading and HW for running or something?
+T 1431539182 18<Xeek18>	foreverska: going from software to software is faster because, it's all in the same memory... when you go to a texture in an accelerated renderer it's in a different kind of memory (video memory) so the transfer will be slower
+T 1431539187 18<yin_nadie18>	I'm afraid not. The HW rendered performance comes at the cost of the textures being managed by the GPU, but loading textures to the GPU tales time
+T 1431539191 18<yin_nadie18>	argh. Imp'd
+T 1431539210 18<yin_nadie18>	also: hello, Xeek 
+T 1431539214 18<Xeek18>	foreverska: So, you're experiencing expected behavior
+T 1431539217 18<Xeek18>	hi yinyin
+T 1431539243 18<foreverska18>	:/ It's unworkable one way or another.  10 sec load time for a menu is absurd but 50% CPU usage is also unworkable.
+T 1431539270 18<yin_nadie18>	10 sec load time?
+T 1431539277 18<yin_nadie18>	what size are those textures?
+T 1431539279 18<yin_nadie18>	>:O
+T 1431539280 18<Xeek18>	foreverska: You should be doing this all when the app starts not later, 10 seconds is accdptable and so is 50% cpu
+T 1431539307 18<foreverska18>	10 seconds... It's TTF rendering.
+T 1431539309 18<Xeek18>	yin_nadie: 10 sec is a bit extreme eh, but he sounds like he's doing this on demand
+T 1431539325 18<Xeek18>	you should be prerendering.. SDL_TTF is notoriously slow
+T 1431539330 18<yin_nadie18>	ahh. Those bad fonts >:/
+T 1431539387 18<foreverska18>	Trouble is the options menu is it's own deal.  I guess I could try and bring it into the fold with the rest of the software but that would slow down initial boot.
+T 1431539432 18<Xeek18>	foreverska: That's the nature of "games", initial boot has to take care of a lot of stuff so that nothing is just rendered on demand that doesnt' need to be - after initial load, it's all about that bass, I mean framerate
+T 1431539462 18<Xeek18>	foreverska: but 10 secondsd for a menu... I have to wonder who you managed to get it to be that slow
+T 1431539513 18<Xeek18>	who = how
+T 1431539516 18<foreverska18>	I partially blame Ubuntu.  I think their drivers blow because in debian it was fine.  But then they wan't KODI and not XBMC debian.
+T 1431539553 18<Xeek18>	foreverska: also take note, debug builds are a lot slower than release ones :-)
+T 1431539690 18<foreverska18>	Maybe I can lessen the load on the software renderer and drop the CPU usage.
+T 1431539727 18<Xeek18>	Why are you using a software renderer?
+T 1431539742 18<foreverska18>	Because they HW one has a 10 sec load.
+T 1431539754 18<Xeek18>	Are you sacrificing frame rate and rendering performance for load times?
+T 1431539779 18<Xeek18>	Just how much text does you rmenu have?
+T 1431539791 18<foreverska18>	Only if I can't find ways to optimize my rendering to increase FPS.
+T 1431539821 18<foreverska18>	30 or so strings
+T 1431539827 18<foreverska18>	All rendered from TTF
+T 1431539849 18<Xeek18>	and why are you not prerendering this?
+T 1431539879 18<Xeek18>	and I've used SDL_TTF to generate and render more than 30 lines of text and all in less than a second
+T 1431539903 18<foreverska18>	Well... in a previous life it used a JSON library for languages.
+T 1431539904 18<yin_nadie18>	Indeed. still can't see where those ten seconds have gone
+T 1431539951 18<Xeek18>	foreverska: I think you have a problem that needs to be solved an dI dont think going to a software renderer is a fix worth going into production with
+T 1431540016 18<foreverska18>	I don't know where it goes either though.  On my development machine it loads in Miliseconds (i5-4, Twin GTX660s) but on the embedded system it's molasses.
+T 1431540055 18<Xeek18>	It's like Ford saying, it takes 10 seconds to startup the engine, so for now we'll just put 2 cyl engines in the cars :-)
+T 1431540065 18<yin_nadie18>	some profiling is recommended
+T 1431540072 18<Xeek18>	wait
+T 1431540075 18<Xeek18>	embedded?
+T 1431540087 18<Xeek18>	What systems are you having this 10 sec load time on?
+T 1431540105 18<foreverska18>	This is what the profiling revealed.  SDL_SufacetoTexture is taking 10 seconds.
+T 1431540146 18<foreverska18>	It's a Atom type x86 processor with embedded intel graphics.  I say embedded but it's a little fat to be truly embedded.
+T 1431540166 18<Xeek18>	foreverska: So why do you want to support such hardware?
+T 1431540218 18<foreverska18>	Because that's the production unit.  This isn't generalized software.  It's an "OS" (if I may use that term loosely).
+T 1431540233 18<Xeek18>	foreverska: The graphics capability with this hardware and software combination seems to be ... well ... shitty hehhe
+T 1431540243 18<Xeek18>	hmm
+T 1431540255 18<Xeek18>	foreverska: an OS on an OS?
+T 1431540273 18<Xeek18>	foreverska: Is your software only goin gto be for this hardware only?
+T 1431540291 18<foreverska18>	A graphical overlay for comfortable use in a livingroom setting over Linux.
+T 1431540293 18<foreverska18>	Yes.
+T 1431540346 18<Xeek18>	Well maybe framerate isn't something you care about for something like this
+T 1431540385 18<foreverska18>	No, but responsiveness is.  It's visibly sluggish with SW rendering.  Well... I feel it.  I may be hypersensitve.
+T 1431540405 18<Xeek18>	foreverska: well in any case you really really need to be prerendinger your text, don't do it on the fly
+T 1431540441 18<Xeek18>	prerendering ... I'm missing keys when I type too fast
+T 1431540463 18<foreverska18>	How do you mean prerendering?  Is there a way to compile the texture into the executable?
+T 1431540493 18<foreverska18>	Or render it to a jpg or somesuch and display that?
+T 1431540515 18<stefkos18>	render it into texture and play with texture
+T 1431540518 18<stefkos18>	hey Xeek 
+T 1431540528 18<Xeek18>	foreverska: no... when the app starts you go ahead and generate your text an dconvert them to textures so the textures are ready LATER whe you need them
+T 1431540561 18<foreverska18>	Well yea, that's what it's doing.  When you click Options, the menu starts and sits on a black screen for 10 seconds while the textures are loading.
+T 1431540625 18<Xeek18>	foreverska: I dont know what your program is or how it works but that does not sound like app start
+T 1431540685 18<Xeek18>	hi stefkos
+T 1431540709 18<foreverska18>	The settings menu is it's own animal because it can modify the main menu's settings.  To allow it to do that without a reboot of the whole system it kills the main menu while you're in settings and reloads on exit.
+T 1431540762 18<Xeek18>	so the options menu is it's own entity, it's own program
+T 1431540768 18*	Xeek face palms
+T 1431540791 18<foreverska18>	Yes, for the aforementioned reasons.
+T 1431540814 18<Xeek18>	Maybe a good design if the systems were expected to be reasonable when it comes to performance
+T 1431540826 18<Xeek18>	but for what hardware it's on, this just doesn' tsound like a good design at all
+T 1431540898 18<Xeek18>	foreverska: can you some how run this program in the background and bring it to the front as needed so that it's resources ar eloaded and ready?
+T 1431540921 18<foreverska18>	It _should_ be reasonable.  At any rate putting the menu load time on the boot of the system isn't a stellar option either.  I don't want an extra 10 seconds on boot time either.
+T 1431540971 18<Xeek18>	with my knolledge with direct3d, SDL, and atom processors .... I did nto come to the same conclusion
+T 1431541025 18<foreverska18>	They've gotten better.  The frame rate when it does get running is BEAUTIFUL.  It's just this load issue.
+T 1431541035 18<Xeek18>	i any case... what should have been is not proving itself as "what is" :-) 
+T 1431541064 18<Xeek18>	foreverska: whats the storage device on this system?
+T 1431541068 18<foreverska18>	SSD
+T 1431541125 18<foreverska18>	Profiling revealed it was SDL_SurfacetoTexture() taking the 10 seconds
+T 1431541150 18<Xeek18>	from system memory to video memory ... although I have to wonder if its one in the same with such a system
+T 1431541202 18<Xeek18>	So did you say software rendering takes care of your problem?
+T 1431541224 18<foreverska18>	Surface to texture takes ms under SW
+T 1431541251 18<Xeek18>	hehe.. well it's probalby because it's almost equivalent to surface to surface 
+T 1431541269 18<Xeek18>	foreverska: Are you  happy with just software then? We can just leave it there
+T 1431541296 18<foreverska18>	If I could make it more responsive under SW I would be fine with it
+T 1431541329 18<Xeek18>	in what way is it not responsive
+T 1431541379 18<foreverska18>	when you press a button on the keyboard there is a slight lag.
+T 1431541430 18<Xeek18>	And that's not the case when it's a hardware renderer?
+T 1431541437 18<foreverska18>	No
+T 1431541453 18<foreverska18>	You can hold down the button and the cursor moves faster than you can see
+T 1431541493 18<Xeek18>	what a pickle
+T 1431541531 18<foreverska18>	Yup,  If I could have one of each I'd be golden.  SW to load TTF and HW for everything else.
+T 1431541548 18<Xeek18>	So what was the hardware budget for this project? $50? :-(
+T 1431541598 18<foreverska18>	Lol the pricepoint is about $300 to the user.  So you have to bake some profit into there...
+T 1431541771 18<Xeek18>	hm
+T 1431541783 18<foreverska18>	One thing that might help it... I've never really gotten the whole Vsync thing down.  Right now I use a rudimentary sleep cycle.
+T 1431541825 18<Xeek18>	What goes on in my head though is, shouldn't have multiple hardware and OS configurations been tested before one was decided on? Perhaps the worst case scenario was picked because it was just... picked without knolledge of how the software was going to work on it.
+T 1431541844 18<Xeek18>	foreverska: You're not using SDL's vsync and you're tyring to do your own?
+T 1431541875 18<foreverska18>	NOt really... let me ask you this, how do you sleep in your while loop?
+T 1431541904 18<Xeek18>	I don't
+T 1431541914 18<Xeek18>	I want the best framerate possible, that is my goal
+T 1431541927 18<Xeek18>	Granted, I do have the option for Vsync, but I dont sleep for that
+T 1431541935 18<foreverska18>	Won't that drain every bit of your CPU?
+T 1431541954 18<foreverska18>	Oh... SDL's Vsync automatically sleeps?
+T 1431541987 18<Xeek18>	foreverska: Well not really since I'm almost always on a quad core system, but I dont care - I'm making a game and it's not there to be happy with multitasking users, it's there to be a game that uses every bit of performance it can for the end-users pleasure
+T 1431542003 18<Xeek18>	foreverska: You do know that vsync isn't exactly just a sleep?
+T 1431542029 18<foreverska18>	Well yea, you have to calc how long the frame took to render and then sleep for the rest of they sync cycle
+T 1431542047 18<Xeek18>	foreverska: but how do you know when the monitor is ready?
+T 1431542061 18<foreverska18>	Err... yea
+T 1431542068 18<Xeek18>	yeah ?
+T 1431542073 18<Xeek18>	How do you know?
+T 1431542096 18<Xeek18>	So you're just sleeping for some oddly calculated amount of time and calling it vsync? *scratches head*
+T 1431542105 18<foreverska18>	It's down in hardware somewhere.  The examples I have seen just did as I described.
+T 1431542122 18<Xeek18>	foreverska: but if SDL supports doing this for you, why do you attempt to do it on your own?
+T 1431542125 18<foreverska18>	Well no my sleep cycle isn't vsync.  It's just a way to keep it from eating itself
+T 1431542147 18<Xeek18>	if your app is the only app intended to run on an "embedded system" why would you care if it used a good chucnk of CPU?
+T 1431542154 18<foreverska18>	I didn't know SDL would slow down my while loop based on it's vsyn setings
+T 1431542167 18<Xeek18>	what did you think SDL's vsync flag did?
+T 1431542181 18<foreverska18>	It does need to run other stuff at times,  Browser, KODI, etc
+T 1431542197 18<foreverska18>	*shrugs* ignore render except on monitor cycles?
+T 1431542206 18<Xeek18>	So you think SDL's Vsync isn't Vsync... why did you think they called it Vsync
+T 1431542216 18*	Xeek is so lost on how this is not leading to a logical conclusion :-(
+T 1431542246 18<Xeek18>	SDL_RENDERER_PRESENTVSYNC
+T 1431542248 18<Xeek18>	present is synchronized with the refresh rate
+T 1431542260 18<Xeek18>	So dont try to make your own vsync.. use what SDL has, just set the flag and go with it
+T 1431542306 18<foreverska18>	Hmmm it seems to break the renderer
+T 1431542311 18<Xeek18>	in what awy
+T 1431542332 18<foreverska18>	Haven't figured that out yet.  It just crashes without saying anything.
+T 1431542359 18<Xeek18>	do you check that the renderer successfully created or does your app just go on regardless?
+T 1431542385 18<Xeek18>	it's possible SDL_RENDERER_PRESENTVSYNC isn't possible and the renderer doesn t'get created but then maybe you go right ahead and use it causing it to crash
+T 1431542387 18<foreverska18>	It checks and exits if the renderer fails.  In hindsite a popup with an error might have helped
+T 1431542621 18<foreverska18>	Couldn't find matching renderer driver
+T 1431542673 18<Xeek18>	so your software renderer just doesnt' support vsync
+T 1431542696 18<foreverska18>	Nope, hardware does in a cruel joke
+T 1431542726 18<Xeek18>	You can still reduce yoru framerate if you have a good reason too. Just banging the CPU isn't a reason though, becaue why do you not want to bang the CPU?
+T 1431542749 18<Xeek18>	foreverska: well it's easy to know why the hardware renderer can do it :-) it's using an underlying api that has that capability
+T 1431542819 18<foreverska18>	The rendering is beautiful though.  I may use it on the main menu where Hardware load times are alright.
+T 1431542957 18<Xeek18>	foreverska: maybe if you tested other platforms that runs on that hardware aybe you could get a better outcome with hardware acceleartion
+T 1431542989 18<Xeek18>	foreverska: then again I probalby wouldnt' have picked out any hardware until after I had some software ready to test on it - may the best performing hardware win kind of scenario
+T 1431543062 18<foreverska18>	Yea... the software really is fine.  Runs beautifully on my dev machine.  Even runs better on this HW in other less fat OSes.  But Ubuntu was chosen for some other considerations.
+T 1431543246 18<Xeek18>	So why not the Intel Core M?
+T 1431543247 18<Xeek18>	:-)
+T 1431543261 18<foreverska18>	Which I find weird.  You'd think Debian would have worse performance because of their no-proprietary bins deal.  Or Ubuntu would atleast bring in Debian's drivers.
+T 1431543324 18<Xeek18>	well typically if you design what could be called an appliance you really strip down and customize the distro for your needs
+T 1431543357 18<Xeek18>	We use gentoo where I work, it's a good base for a lot of cusotmization I've been told.
+T 1431543382 18<foreverska18>	We've entered dependency hell with the loadscreen (can't let the user see ANY scary text).
+T 1431543399 18<foreverska18>	So now I have to run fat old GDB and all that crap.
+T 1431543410 18<Xeek18>	do you even use x11 or ubuntu's desktop?
+T 1431543457 18<foreverska18>	It's not unity.  The base distro is LXDE but it's still fatter than my original Debian/Openbox combo.
+T 1431543474 18<Xeek18>	Do you really need a desktop at all?
+T 1431543501 18<foreverska18>	The OS loadscreen depends on GDB.
+T 1431543552 18<foreverska18>	If we had a much bigger budget maybe a custom loadscreen could be written to match up with zero desktop or Openbox
+T 1431543553 18<Xeek18>	Why did you say that, is GDB a desktop?
+T 1431543608 18<foreverska18>	*GDM is a display manager.
+T 1431543622 18<foreverska18>	(GDB is on the brain because C)
+T 1431543662 18<Xeek18>	Well, I am better with windows than linux
+T 1431543677 18<Xeek18>	I still know my around in linux, job depends on it 
+T 1431543680 18<yin_nadie18>	It's been a long time since I last used gdm, but want's it a little of a hog?
+T 1431543688 18<yin_nadie18>	*wasn't it
+T 1431543752 18<foreverska18>	It's a massive hog, atleast of HDD space if nothing else.  Once you've started it the only seamless thing you can do is start a desktop.  We're using stripped down LXDE.
+T 1431543837 18<yin_nadie18>	have you tried xdm?
+T 1431543865 18<yin_nadie18>	it looks retro, but it's bare bones
+T 1431543903 18<foreverska18>	I tried xdm and slim when it was debian.  Trouble is Plymouth only has hooks for GDM
+T 1431543916 18<foreverska18>	You get scary text flashes with anything else.
+T 1431543969 18<yin_nadie18>	an other splash screens?
+T 1431543976 18<foreverska18>	We don't even show the DM is the most annoying part of GDM.  It autologins and you never see it.
+T 1431543989 18<foreverska18>	None as good as plymouth if they are even supported anymore.
+T 1431544004 18<yin_nadie18>	pity
+T 1431544037 18<yin_nadie18>	hmm
+T 1431544047 18<yin_nadie18>	and do you actually require a splash screen for this?
+T 1431544047 18<foreverska18>	It's a beautiful boot process in Plymouth but Ubuntu practically owns it's production so you get stuck with their bloat.
+T 1431544059 18<foreverska18>	For the casuals... yea.
+T 1431544063 18<yin_nadie18>	what about directly going into the desktop, bypassing authentication?
+T 1431544082 18<yin_nadie18>	casuals tend to prefer that
+T 1431544177 18<foreverska18>	The other reason we are using Ubuntu is debian forked Kodi to avoid their bin blobs.  Casuals like KODI and not XBMC for Debian.
+T 1431544237 18<foreverska18>	It's possible to bring KODI into debian but by the time you factor in the cleaness of the Plymouth boot under 'buntu I quit fighting.
+T 1431544275 18<yin_nadie18>	I wasn't aware of that. I'm a mplayer2 user myself >:þ
+T 1431544324 18<foreverska18>	Yea.  KODI is nice because you get lots of plugins and stuff... personally I just use VLC but... casuals
+T 1431544371 18<yin_nadie18>	indeed. casuals 
+T 1431544512 18<foreverska18>	If I let the software rendering go at full speed it's not TOO bad...  I'm going to focus group this version I think.
+T 1431544658 18<yin_nadie18>	oh, Eris. focus groups >:þ
+T 1431544923 18<foreverska18>	It must be worse for game devs
+T 1431544978 18<foreverska18>	I luckily don't have a ton to be critiqued on.
+T 1431544989 18<foreverska18>	Just "this load time is absurd"
+T 1431545002 18<yin_nadie18>	focus groups are horrible for most. Comparing between different dev types is like comparing having an arm or a leg cut
+T 1431545012 18<yin_nadie18>	well. that's something
+T 1431545027 18<Xeek18>	I will not be writing games for atom processors :-P
+T 1431545059 18<foreverska18>	lol.  They want this ported for an ARM processor.  I have more hope for that machine.  Big 8 core guy.
+T 1431545087 18<Xeek18>	It seems that ARM CPUs have evolved a lot more than Atoms.. really the atom is a failure in the marketplace IMO
+T 1431545093 18<Xeek18>	Consumers didnt' buy it
+T 1431545100 18<Xeek18>	The ones that did were sorry
+T 1431545144 18<foreverska18>	Didn't the Eee have an Atom?  I liked that little laptop
+T 1431545165 18<Xeek18>	you liked it for what?
+T 1431545174 18<foreverska18>	Word processing mostly. lol
+T 1431545182 18<foreverska18>	Light programming.
+T 1431545188 18<Xeek18>	I can't tell you how many complaints I got from customers that bought that piece of junk, back when I was in retail
+T 1431545201 18<Xeek18>	it BARELY ran office anad really didn't meant the minimum requirements
+T 1431545215 18<Xeek18>	meet*
+T 1431545288 18<Xeek18>	The problem with that is... if typing is all you do all day then fine, but who only does typing?
+T 1431545311 18<Xeek18>	For anyone that does anything else, why would you buy a machin ejust for word processing when if you spent some real money it could do just about anything you needed it to do
+T 1431545327 18<foreverska18>	Yea, it was never GREAT but it got me through Air Force tech school.
+T 1431546018 18<Xeek18>	Oh the memories, of customers walking in with them with broken screens and then they ask, "So how much will it cost to fix the screen?"
+T 1431546054 18<Xeek18>	I ask, how much did the laptop cost? They say "$150". I say, the screen replacement with labor is triple that

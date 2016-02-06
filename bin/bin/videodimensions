@@ -1,0 +1,8 @@
+#!/bin/sh
+
+for f in "$@"; do
+    NAME=$(basename "$f")
+    WIDTH=$(ffprobe -v quiet -print_format json -show_format -show_streams "$f" | ack '"width": (\d+)' --output='$1')
+    HEIGHT=$(ffprobe -v quiet -print_format json -show_format -show_streams "$f" | ack '"height": (\d+)' --output='$1')
+    printf "%s\t%s\t%s\n" "$NAME" "$WIDTH" "$HEIGHT"
+done

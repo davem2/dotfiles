@@ -1,0 +1,14 @@
+T 1405745882 19*	Now talking on 22#empty
+T 1405745882 22*	26Eldar.GeekShed.net sets mode 24+n on 22#empty
+T 1405745882 22*	26Eldar.GeekShed.net sets mode 24+t on 22#empty
+T 1405745882 22*	26Eldar.GeekShed.net sets mode 24+S on 22#empty
+T 1405745919 20<donkeybox>30	 HexChat: 2.10.0 ** OS: Linux 3.15.4-1-ARCH i686 ** Distro: ArchLinux ** CPU: 2 x Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz (GenuineIntel) @ 800MHz ** RAM: Physical: 3.0GiB, 52.8% free ** Disk: Total: 291.9GiB, 0.5% free ** VGA: NVIDIA Corporation G96M [GeForce 9600M GS] ** Sound: HDA-Intel - HDA Intel ** Ethernet: Realtek Semiconductor Co., Ltd. CIe Gigabit Ethernet ** Uptime: 4d 1h 15m 
+T 1405745919 20<donkeybox>30	52s **
+T 1405758893 23*	Akankshafr (~Akankshaf@A7F01704.EC53CE75.AC42D58B.IP23) has joined
+T 1405758984 24*	Akankshafr has quit (Client exited)
+T 1447200737 19*	Now talking on 22#empty
+T 1447200737 22*	26Ticonderoga.GeekShed.net sets mode 24+n on 22#empty
+T 1447200737 22*	26Ticonderoga.GeekShed.net sets mode 24+t on 22#empty
+T 1447200737 22*	26Ticonderoga.GeekShed.net sets mode 24+S on 22#empty
+T 1447200743 20<donkeybox>30	 HexChat: 2.10.2 ** OS: Linux 4.2.3-1-ARCH i686 ** Distro: ArchLinux ** CPU: 2 x Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz (GenuineIntel) @ 2.27GHz ** RAM: Physical: 3.0GiB, 29.6% free ** Disk: Total: 306.7GiB, 6.7% free ** VGA: NVIDIA Corporation G96M [GeForce 9600M GS] ** Sound: HDA-Intel - HDA Intel ** Ethernet: Realtek Semiconductor Co., Ltd. CIe Gigabit Ethernet ** Uptime: 2w 1d 8h 21m 
+T 1447200743 20<donkeybox>30	54s **

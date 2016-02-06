@@ -1,0 +1,518 @@
+T 1437255120 18<bronytail18>	that's as far as it finds practical use
+T 1437255172 18<bronytail18>	try a linear feedback shift register
+T 1437255182 18<_abc_18>	Ad0: CD4017 Johnson counter
+T 1437255183 23*	Celerity (~Celerity@unaffiliated/celerity23) has joined
+T 1437255199 23*	Spank42 (~Spank42@166.170.37.22423) has joined
+T 1437255219 18<_abc_18>	Ad0: also you describe a classic shift register. ...
+T 1437255230 23*	bhlh (~bhlh@unaffiliated/bhlh23) has joined
+T 1437255252 18<Ad018>	_abc_: kinda wrong question from me but I basically want to use one slave select for multiple slaves
+T 1437255260 18<Ad018>	so 1 select pulse for the next slave
+T 1437255265 18<Ad018>	in SPI
+T 1437255276 18<Ad018>	thanks for the johnson counter
+T 1437255288 18<bronytail18>	_abc_ are we on the same topic
+T 1437255294 18<_abc_18>	Ad0: you are making no sense. Daisy chain the shift registers.
+T 1437255295 18<bronytail18>	or are we complaining about different things
+T 1437255311 24*	dreamon_ has quit (Ping timeout: 260 seconds)
+T 1437255329 23*	uyru (~uyru@105.154.66.17223) has joined
+T 1437255338 24*	uyru has quit (Excess Flood)
+T 1437255345 18<_abc_18>	bronytail: I have moved on. Sorry.
+T 1437255390 24*	password2 has quit (Ping timeout: 244 seconds)
+T 1437255414 18<bronytail18>	:
+T 1437255416 24*	Brisance has quit (Ping timeout: 250 seconds)
+T 1437255423 18<bronytail18>	:( I need someone to rant to
+T 1437255426 18<Loshki18>	bronytail: I don't think it's as straightforward as you'd like it to be. Technological research isn't a monolith. Certain areas stagnate while others forge ahead. In some areas, advances seem to be on an upward curve so steep that people are talking about singularities.
+T 1437255444 23*	Ordog_by (~ordog@178.121.236.22323) has joined
+T 1437255451 18<_abc_18>	bronytail: your bathroom mirror can take it
+T 1437255470 18<Loshki18>	 /join ##rant
+T 1437255473 18<bronytail18>	singularities? think we're there with semiconductor tech?
+T 1437255486 24*	Macuser has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+T 1437255502 23*	netw0rk (~netw0rk@unaffiliated/netw0rkbug23) has joined
+T 1437255510 24*	_abc_ has quit (Quit: reboot)
+T 1437255535 24*	penguin1263 has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1437255549 18<Hyratel118>	so, a friend wants to make a centaur cosplay, and they're eyeballing the ride-on strandbeest shown here as inspiration - https://www.youtube.com/watch?v=mGOled86Sjo ; anyone have any useful insights to the idea?
+T 1437255597 18<smeding18>	just find someone on craigslist to cosplay as the horse butt
+T 1437255602 18<Loshki18>	No, but medical/biotech and machine intelligence seem to be on an upswing right now.
+T 1437255638 18<smeding18>	semiconductor tech is slowing down, isn't it
+T 1437255660 18<Hyratel118>	it's approaching asymptote
+T 1437255672 18<smeding18>	but yeah, what Loshki said. in biotech there seems to be a lot of success with e.g. that one cancer antibody
+T 1437255674 23*	studentt (d05c116c@gateway/web/freenode/ip.208.92.17.10823) has joined
+T 1437255674 23*	jackson (~jackson@dynamic-acs-24-154-52-67.zoominternet.net23) has joined
+T 1437255681 23*	AkashicLegend (~maxprower@unaffiliated/akashiclegend23) has joined
+T 1437255687 23*	baldengineer (~cmiyc@unaffiliated/cmiyc23) has joined
+T 1437255688 18<smeding18>	and in machine learning we're getting huge successes with things like convolutional neural networks
+T 1437255693 18<Hyratel118>	while semiconductor process is shrinking (down to 10nm i think), the trace widths have a finite minimum for conventional electrologic
+T 1437255701 24*	Lausi has quit (Quit: Lingo: www.lingoirc.com)
+T 1437255702 18<bronytail18>	smeding: you read that from the ieee article didn't you
+T 1437255702 18<AkashicLegend18>	vertical position doesn't work properly on one of my scopes what could be causing the problem?
+T 1437255708 18<smeding18>	bronytail: no...?
+T 1437255713 18<bronytail18>	machine learning is at a standstill
+T 1437255717 18<bronytail18>	no one wants to admit it
+T 1437255728 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437255737 18<smeding18>	i'm just going by how it seems to be
+T 1437255739 18<smeding18>	to me
+T 1437255742 18<smeding18>	admittedly as an outsider
+T 1437255742 18<Hyratel118>	[citation needed] all of you
+T 1437255743 23*	rabbidrabbit (~rabbidrab@unaffiliated/rabbidrabbit23) has joined
+T 1437255746 18<bronytail18>	smeding: there was a huge article recently that talks about it, everyone was blogging is why I was asking
+T 1437255762 18<smeding18>	why would i read articles
+T 1437255788 18<bronytail18>	smeding: t'was a magazine article
+T 1437255789 18<AkashicLegend18>	I'm trying to figure out how to troubleshoot this
+T 1437255792 18<AkashicLegend18>	everything else appears to work
+T 1437255800 18<joze18>	I was hoping that that deepdream api would you gain access to the google image search neuralnetworks
+T 1437255807 18<AkashicLegend18>	on the scope there is a stickey left by the previous owners saying the vertical position doesn't work
+T 1437255811 18<joze18>	but it didn't ;_;
+T 1437255822 23*	emulator_ (~emulator_@ip68-231-87-167.ph.ph.cox.net23) has joined
+T 1437255822 18<Loshki18>	bronytail: I disagree, but have no citations to back up my claim.
+T 1437255824 18<smeding18>	joze: those aren't the GIS neural networks anyway
+T 1437255840 18<smeding18>	they're uh, that inception thing. there's a paper about it
+T 1437255863 18<joze18>	yes just from one image indexing page
+T 1437255867 18<tawr18>	Loshki: !
+T 1437255895 18<smeding18>	http://arxiv.org/pdf/1409.4842.pdf
+T 1437255902 18<bronytail18>	http://spectrum.ieee.org/automaton/robotics/artificial-intelligence/facebook-ai-director-yann-lecun-on-deep-learning
+T 1437255907 23*	Macuser (~textual@unaffiliated/macuser23) has joined
+T 1437255908 18<Loshki18>	Yo tawr! How's it hangin'
+T 1437255912 18<bronytail18>	:D
+T 1437255943 18<smeding18>	i thought deep learning was distinct from convolutional neural networks
+T 1437255960 23*	h0rsep0wer (~h0rsep0we@unaffiliated/h0rsep0wer23) has joined
+T 1437255966 18<AkashicLegend18>	I guess none of you have ever serviced tektronix scopes
+T 1437255970 18<smeding18>	ok, wikipedia tells me it's just a vague term
+T 1437256070 24*	s00pcan has quit (Ping timeout: 240 seconds)
+T 1437256088 24*	Spank42 has quit (Read error: Connection reset by peer)
+T 1437256090 23*	mtali (~mtali@cac94-8-82-245-27-76.fbx.proxad.net23) has joined
+T 1437256100 23*	Anaphaxeton (~georgios@athedsl-4409413.home.otenet.gr23) has joined
+T 1437256107 24*	mtali has quit (Max SendQ exceeded)
+T 1437256124 24*	Anaphaxeton has quit (Changing host)
+T 1437256124 23*	Anaphaxeton (~georgios@unaffiliated/anaphaxeton23) has joined
+T 1437256186 23*	HardWall (~HardWall@188.24.41.4123) has joined
+T 1437256188 23*	s00pcan (~chris@108-208-65-111.lightspeed.livnmi.sbcglobal.net23) has joined
+T 1437256199 23*	dreamon_ (~dreamon@ppp-188-174-34-125.dynamic.mnet-online.de23) has joined
+T 1437256205 23*	pepsi_ (~pepsi@unaffiliated/pepsi23) has joined
+T 1437256326 18<Ad018>	hm,
+T 1437256370 24*	pepsi has quit (Ping timeout: 240 seconds)
+T 1437256471 18<bronytail18>	smeding: did you read this
+T 1437256486 23*	ougr (~ougr@cac94-8-82-245-27-76.fbx.proxad.net23) has joined
+T 1437256490 18<smeding18>	no, but i am
+T 1437256494 24*	ougr has quit (Excess Flood)
+T 1437256508 18<smeding18>	i gotta leave though. bbl
+T 1437256510 24*	password2 has quit (Ping timeout: 240 seconds)
+T 1437256536 18*	bronytail stands at the window, wagging his tail patiently for smeding's return
+T 1437256546 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437256631 23*	Aich (~Aich@cac94-8-82-245-27-76.fbx.proxad.net23) has joined
+T 1437256634 24*	Aich has quit (Excess Flood)
+T 1437256670 18<Loshki18>	I thought the google dream stuff was really interesting. By making a neural net "hallucinate", you can actually see what it's learned. Before that, all you got out of them was a huge parameter list. I think it's a major advance, disguised as an art toy.
+T 1437256693 18<bronytail18>	link it
+T 1437256713 18<tawr18>	bronytail: or, you know, google
+T 1437256723 24*	nofxx has quit (Ping timeout: 244 seconds)
+T 1437256727 18<tawr18>	$google  neural net art
+T 1437256736 24*	torpig has quit (Read error: Connection reset by peer)
+T 1437256736 18<tawr18>	doh, forgot i lobotomized it
+T 1437256758 18<tawr18>	http://www.gizmag.com/googles-neural-networks-create-bizarre-inceptionism-art/38113/
+T 1437256774 23*	nofxx (~nofxx@unaffiliated/nofxx23) has joined
+T 1437256850 24*	decoponio has quit (Read error: Connection reset by peer)
+T 1437256864 23*	dzle (~dzle@cac94-8-82-245-27-76.fbx.proxad.net23) has joined
+T 1437256878 24*	dzle has quit (Excess Flood)
+T 1437256887 23*	decoponio (~decoponio@pon059-128.kcn.ne.jp23) has joined
+T 1437256966 23*	Fiuh (~Fiuh@105.154.66.17223) has joined
+T 1437256992 24*	Fiuh has quit (Excess Flood)
+T 1437256996 24*	password2 has quit (Ping timeout: 265 seconds)
+T 1437257004 24*	dreamon_ has quit (Ping timeout: 264 seconds)
+T 1437257025 18<bronytail18>	whoa, blotchy
+T 1437257063 23*	vcif (~vcif@cac94-8-82-245-27-76.fbx.proxad.net23) has joined
+T 1437257093 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437257097 24*	vcif has quit (Excess Flood)
+T 1437257129 24*	zzattack has quit (Ping timeout: 264 seconds)
+T 1437257145 18<bronytail18>	brb
+T 1437257148 24*	bronytail has quit (Quit: Page closed)
+T 1437257222 24*	Lysandros has quit (Quit: zzz)
+T 1437257268 23*	fvew (~fvew@105.154.66.17223) has joined
+T 1437257287 24*	mimer has quit (Quit: Lämnar)
+T 1437257300 24*	fvew has quit (Excess Flood)
+T 1437257432 23*	bknc (~bknc@cac94-8-82-245-27-76.fbx.proxad.net23) has joined
+T 1437257439 24*	bknc has quit (Max SendQ exceeded)
+T 1437257454 24*	GentileBen has quit ()
+T 1437257459 23*	gnostikoi (~user@c-67-180-2-131.hsd1.ca.comcast.net23) has joined
+T 1437257473 23*	Baktun (~Baktun@unaffiliated/baktun23) has joined
+T 1437257502 24*	28Baktun is now known as 18pentaquark
+T 1437257515 23*	AirForce590 (616a4268@gateway/web/cgi-irc/kiwiirc.com/ip.97.106.66.10423) has joined
+T 1437257516 23*	kmux (~kmux@105.154.66.17223) has joined
+T 1437257518 18<AirForce59018>	Is FallingElectrons a good name for a kit business?
+T 1437257533 18<smeding18>	it's a name
+T 1437257537 24*	kmux has quit (Excess Flood)
+T 1437257554 18<AirForce59018>	smeding:  Is it a GOOD name?
+T 1437257560 24*	Elish has quit (Quit: Elish)
+T 1437257570 18<superlou18>	AirForce590, um, why not a rising name?
+T 1437257573 18<smeding18>	that's subjective
+T 1437257577 18<superlou18>	Falling sounds negative
+T 1437257581 18<smeding18>	i don't like it, but who cares
+T 1437257588 18<superlou18>	Rising Electrons
+T 1437257597 18<AirForce59018>	RisingElectrons.. hmm
+T 1437257600 23*	kuf (~kuf@cac94-8-82-245-27-76.fbx.proxad.net23) has joined
+T 1437257603 18<superlou18>	if it's negative, make it a joke, like HerdingElectrons
+T 1437257605 18<AirForce59018>	what are some other good names
+T 1437257609 24*	kuf has quit (Excess Flood)
+T 1437257620 18<superlou18>	Sally
+T 1437257650 18<AirForce59018>	SolderJockeysFTW-MLG
+T 1437257659 18<smeding18>	i'm a fan of Hank
+T 1437257666 18<AirForce59018>	what about PlasmaBean
+T 1437257667 24*	password2 has quit (Ping timeout: 252 seconds)
+T 1437257672 18<superlou18>	Bean?
+T 1437257687 18<AirForce59018>	Yeah, like coffee
+T 1437257731 18<AirForce59018>	whatcha think
+T 1437257733 18<smeding18>	why are they all two words
+T 1437257738 18<smeding18>	that don't really normally occur together
+T 1437257750 18<smeding18>	and don't really have much to do with what you do
+T 1437257765 18<superlou18>	ElectricBidet
+T 1437257771 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437257772 18<superlou18>	ooooh.  dibs on band name
+T 1437257808 24*	netw0rk has quit (Ping timeout: 240 seconds)
+T 1437257818 18<smeding18>	i feel big company names are either something made up that sounds alright, an existing word that isn't (or is only vaguely) related to what you do, or a few words that are related
+T 1437257837 24*	snthsnth has quit (Ping timeout: 240 seconds)
+T 1437257843 18<AirForce59018>	smeding:example plz
+T 1437257849 23*	Pazooza (~Pazooza@cpe-198-255-180-145.maine.res.rr.com23) has joined
+T 1437257849 18<smeding18>	google is somewhere between A and B, Amazon is B, IBM is C
+T 1437257854 23*	Spank42 (~Spank42@166.170.37.22423) has joined
+T 1437257865 18<AirForce59018>	ok
+T 1437257878 23*	otyf (~otyf@AClermont-Ferrand-652-1-359-250.w90-4.abo.wanadoo.fr23) has joined
+T 1437257881 23*	boosure (~Boosure@unaffiliated/Boosure23) has joined
+T 1437257882 24*	otyf has quit (Excess Flood)
+T 1437257886 24*	mrdata has quit (Ping timeout: 258 seconds)
+T 1437257889 18<smeding18>	microsoft is somewhere between A and C, facebook is probably C
+T 1437257903 18<smeding18>	it's not clear-cut, but it's definitely not two random words!
+T 1437257944 18<smeding18>	just go through a dictionary, name your company, like
+T 1437257945 18<smeding18>	Balloon
+T 1437257952 18<smeding18>	or Tectonic
+T 1437257959 23*	Yxe (~Yxe@cac94-8-82-245-27-76.fbx.proxad.net23) has joined
+T 1437257962 23*	mrdata (~mrdata@unaffiliated/mrdata23) has joined
+T 1437257969 24*	Yxe has quit (Excess Flood)
+T 1437257983 18<superlou18>	what do you want people to associate your company with?
+T 1437258001 18<Loshki18>	tawr: I loved Yann Lecun (facebook's ai director) on Ray Kurzweil: Q) What do you think Kurzweil is going to accomplish in his job at Google? LeCun: Not much has come out so far.
+T 1437258009 18<AirForce59018>	Beginners, kits, electronics
+T 1437258036 23*	RealityVoid (~HardWall@188.24.108.5123) has joined
+T 1437258041 24*	password2 has quit (Ping timeout: 252 seconds)
+T 1437258042 23*	jmky (~jmky@105.154.66.17223) has joined
+T 1437258042 23*	Ouroboros (18040a8d@gateway/web/freenode/ip.24.4.10.14123) has joined
+T 1437258051 24*	Ouroboros (18040a8d@gateway/web/freenode/ip.24.4.10.14124) has left
+T 1437258056 24*	jmky has quit (Excess Flood)
+T 1437258081 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437258095 23*	netw0rk (~netw0rk@87.116.162.25423) has joined
+T 1437258095 24*	netw0rk has quit (Changing host)
+T 1437258095 23*	netw0rk (~netw0rk@unaffiliated/netw0rkbug23) has joined
+T 1437258098 23*	Thorn (~Thorn@unaffiliated/thorn23) has joined
+T 1437258110 23*	snthsnth (~snthsnth@c-98-207-208-241.hsd1.ca.comcast.net23) has joined
+T 1437258144 24*	liesma has quit (Quit: Client got too excited)
+T 1437258169 18<RealityVoid18>	HerdingElectrons, I like that...
+T 1437258176 18<Loshki18>	FallingBidet
+T 1437258180 18<AirForce59018>	HerdingElectrons... hmmm
+T 1437258205 18<AirForce59018>	I call dibs
+T 1437258212 24*	Haxxa has quit (Ping timeout: 272 seconds)
+T 1437258215 18<RealityVoid18>	For what is electricity if not the arranged movement ov electrons... it's kinda like herding them...
+T 1437258225 18<AirForce59018>	yeah
+T 1437258234 18<AirForce59018>	Herding... yeah
+T 1437258238 24*	HardWall has quit (Ping timeout: 244 seconds)
+T 1437258239 18<RealityVoid18>	superlou has the credit.. :)
+T 1437258243 18<AirForce59018>	yeah
+T 1437258256 18<superlou18>	wooh
+T 1437258262 18<Loshki18>	You'll all be reet jealous when I sell falling bidets from MeMeMeCo
+T 1437258270 18<AirForce59018>	or I could name it SolderJockeysFTW-MLG LLC
+T 1437258275 24*	bluenemo has quit (Quit: Verlassend)
+T 1437258280 18<superlou18>	not SoccerDreamyXxX13?
+T 1437258281 24*	RealityVoid has quit (Client Quit)
+T 1437258285 23*	Hhrr (~Hhrr@AClermont-Ferrand-652-1-359-250.w90-4.abo.wanadoo.fr23) has joined
+T 1437258289 24*	Hhrr has quit (Excess Flood)
+T 1437258289 18<superlou18>	I miss AIM
+T 1437258298 23*	bronson (~bronson@50-1-50-242.dsl.dynamic.fusionbroadband.com23) has joined
+T 1437258301 24*	whitesn has quit (Ping timeout: 265 seconds)
+T 1437258303 18<tawr18>	Xx_Grandiose-Bidets_xX69693
+T 1437258303 18<AirForce59018>	I'm going to start a kit business!
+T 1437258310 18<superlou18>	HerdingElectrons is pretty long name though
+T 1437258321 23*	HardWall (~HardWall@188.24.108.5123) has joined
+T 1437258331 23*	Haxxa (~Harrison@CPE-58-161-28-143.ebcz1.win.bigpond.net.au23) has joined
+T 1437258361 18<AirForce59018>	Well, what else
+T 1437258367 18<superlou18>	thinking
+T 1437258388 18<AirForce59018>	k, going to take a shower, just ping me
+T 1437258392 23*	Rainb (~rainb@181.50.148.22423) has joined
+T 1437258394 18<AirForce59018>	k
+T 1437258406 18<AirForce59018>	!lag
+T 1437258409 23*	whitesn (whitesn@shell.xshellz.com23) has joined
+T 1437258410 24*	whitesn has quit (Changing host)
+T 1437258410 23*	whitesn (whitesn@unaffiliated/whitesn23) has joined
+T 1437258423 24*	netw0rk has quit (Quit: Leaving)
+T 1437258498 18<pentaquark18>	MEGABIDET
+T 1437258506 24*	28SCROTUS is now known as 18DUNS_SCROTUS
+T 1437258562 24*	bronson has quit (Ping timeout: 250 seconds)
+T 1437258633 23*	Ghimwald (~Xavier@2601:244:4d00:c860:bd33:9efd:c80d:341b23) has joined
+T 1437258652 24*	xtalmath has quit (Quit: Leaving.)
+T 1437258660 24*	Rainb has quit (Ping timeout: 255 seconds)
+T 1437258702 23*	mcurran (~mcurran@unaffiliated/mcurran23) has joined
+T 1437258711 23*	torpig (torpig@2600:3c00::f03c:91ff:fe98:beca23) has joined
+T 1437258738 24*	^peter^ has quit ()
+T 1437258855 18<AirForce59018>	back
+T 1437258877 24*	r0b- has quit (Ping timeout: 256 seconds)
+T 1437258880 18<Loshki18>	Since we already have a Toto toilet, I guess we need a Dorothy bidet. "Hey, Honey, what do you think about an Oz theme for the bathroom?" "Oh, great. I love Christopher Meloni".
+T 1437258890 24*	AR_ has quit (Read error: Connection reset by peer)
+T 1437258917 23*	AR_ (~AR@24.238.81.234.res-cmts.sth2.ptd.net23) has joined
+T 1437258964 23*	iex (~iex@105.154.66.17223) has joined
+T 1437258971 24*	iex has quit (Max SendQ exceeded)
+T 1437258981 18<niston18>	call it "Harding Electric"
+T 1437259003 18<AirForce59018>	why
+T 1437259009 24*	emulator_ has quit (Ping timeout: 252 seconds)
+T 1437259026 18<niston18>	no particular reason :D
+T 1437259044 23*	Qece (~Qece@AClermont-Ferrand-652-1-359-250.w90-4.abo.wanadoo.fr23) has joined
+T 1437259046 24*	Qece has quit (Excess Flood)
+T 1437259097 23*	Vert (~Vertel@mrg1735120.lnk.telstra.net23) has joined
+T 1437259099 18<pentaquark18>	Have you guys seen the printed, distance-dependent magnets yet? https://www.youtube.com/watch?v=drD416THU7Y
+T 1437259118 18<AirForce59018>	no
+T 1437259211 23*	Ouau (~Ouau@105.154.66.17223) has joined
+T 1437259228 18<AirForce59018>	anyone else have names for my business?
+T 1437259243 24*	Ouau has quit (Excess Flood)
+T 1437259311 23*	Zxepa (~Zxepa@cac94-8-82-245-27-76.fbx.proxad.net23) has joined
+T 1437259312 24*	password2 has quit (Ping timeout: 256 seconds)
+T 1437259318 24*	Zxepa has quit (Excess Flood)
+T 1437259382 18<AirForce59018>	SuperExtraMemeDreamTeam2015
+T 1437259392 23*	uvcp (~uvcp@105.154.66.17223) has joined
+T 1437259393 24*	AirForce590 has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+T 1437259447 24*	uvcp has quit (Excess Flood)
+T 1437259506 18<Loshki18>	HerdingElectrons is the best so far by a mile
+T 1437259507 23*	zzattack (~zzattack@unaffiliated/zzattack23) has joined
+T 1437259514 24*	Macuser has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+T 1437259564 24*	drgone has quit (Remote host closed the connection)
+T 1437259655 23*	OneChainz (uid34777@gateway/web/irccloud.com/x-ojmipbffofpaatgf23) has joined
+T 1437259739 23*	Inri_Cristo (~h0rsep0we@unaffiliated/h0rsep0wer23) has joined
+T 1437259801 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437259826 24*	Inri_Cristo has quit (Client Quit)
+T 1437259856 23*	Inri_Cristo (~h0rsep0we@unaffiliated/h0rsep0wer23) has joined
+T 1437259869 24*	h0rsep0wer has quit (Killed (leguin.freenode.net (Nickname regained by services)))
+T 1437259870 24*	28Inri_Cristo is now known as 18h0rsep0wer
+T 1437259875 24*	TechIsCool has quit (Ping timeout: 246 seconds)
+T 1437259880 23*	drgone (~drgone@tapch.at23) has joined
+T 1437259884 23*	jacobdel (~jacoblle@host-72-174-112-189.bln-mt.client.bresnan.net23) has joined
+T 1437259922 24*	Haxxa has quit (Ping timeout: 272 seconds)
+T 1437259924 24*	morgan64 has quit (Quit: morgan64)
+T 1437259956 18<linuxthefish18>	should capacitors in a filtering ciruit have resistors across them?
+T 1437259971 23*	Iueox (~Iueox@ARennes-656-1-232-102.w2-14.abo.wanadoo.fr23) has joined
+T 1437259979 18<linuxthefish18>	else the capacitor will always be fully charged and the thing attached will draw power from the supply not the capacitor?
+T 1437259990 24*	Iueox has quit (Excess Flood)
+T 1437259995 23*	Haxxa (~Harrison@cpe-58-161-28-143.ebcz1.win.bigpond.net.au23) has joined
+T 1437260000 24*	gnostikoi has quit (Quit: ☮Peace!✌Free Gaia!⊕)
+T 1437260012 24*	Earlo has quit (Read error: Connection reset by peer)
+T 1437260153 18<catphish18>	linuxthefish: i don't understand, why would an attached device not draw power from a fully charged capacitor?
+T 1437260213 18<linuxthefish18>	like even after adding a silly ammount of capacitors i still see noise on the output :/
+T 1437260238 18<linuxthefish18>	but when i turn off the mains it runs great for a few seconds off the capacitor's stored charge
+T 1437260283 18<catphish18>	linuxthefish: did you add different sized capacitors?
+T 1437260289 18<linuxthefish18>	yeah
+T 1437260301 18<linuxthefish18>	super large to super small :(
+T 1437260304 23*	zeitue (~z@137.119.92.15123) has joined
+T 1437260325 18<catphish18>	noise is a huge annoyance, but what you're doing should be the solution really
+T 1437260335 18<superlou18>	do you have a cricuit image?
+T 1437260340 18<catphish18>	there's no such thing as "fully charged"
+T 1437260358 18<apo_18>	catphish: there's only 'still working' and 'went boom'?
+T 1437260371 23*	Awrk (~Awrk@105.154.66.17223) has joined
+T 1437260388 18<catphish18>	a capacitor will charge to the supply voltage, but then will charge more as voltage spikes, and discharge when voltage troughs, thats the point :)
+T 1437260408 24*	password2 has quit (Ping timeout: 244 seconds)
+T 1437260418 18<catphish18>	i did actually blow up an electrolytic capacitor today :( that was nasty
+T 1437260426 18<catphish18>	lots of smoke
+T 1437260430 24*	Awrk has quit (Max SendQ exceeded)
+T 1437260473 24*	Pazooza has quit (Quit: Leaving There just ain't enough time in a life.)
+T 1437260491 24*	h0rsep0wer (~h0rsep0we@unaffiliated/h0rsep0wer24) has left ("Leaving")
+T 1437260585 18<linuxthefish18>	the one in my alarm panel blew up before lol
+T 1437260601 18<linuxthefish18>	like some popcorn smell thing
+T 1437260604 23*	foop (~foop@ARennes-656-1-232-102.w2-14.abo.wanadoo.fr23) has joined
+T 1437260616 24*	foop has quit (Excess Flood)
+T 1437260640 23*	h0rsep0wer (~h0rsep0we@unaffiliated/h0rsep0wer23) has joined
+T 1437260693 18<linuxthefish18>	no sorry superlou, it's just one of those audio amplifier chips with pins for power/input/output
+T 1437260714 18<superlou18>	if your source impedance is really low, adding capacitance won't do a lot for you
+T 1437260745 18<superlou18>	if you can tolerate a bit of high frequency roll-of, you can put in a really small resistance to make the caps more effective
+T 1437260755 18<linuxthefish18>	batteries work great without any noise :(
+T 1437260757 18<superlou18>	is the noise high frequency?
+T 1437260761 18<linuxthefish18>	yeah
+T 1437260764 18<superlou18>	how high?
+T 1437260768 18<linuxthefish18>	um hold on
+T 1437260806 18<linuxthefish18>	like a 10khz buzzing
+T 1437260996 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437261061 23*	Iikc (~Iikc@105.154.66.17223) has joined
+T 1437261063 24*	tpiXvas has quit (Ping timeout: 244 seconds)
+T 1437261076 24*	Iikc has quit (Excess Flood)
+T 1437261081 18<superlou18>	linuxthefish, definitely a buzz? not a tone
+T 1437261088 18<superlou18>	just making sure you don't have instability
+T 1437261100 18<superlou18>	is audio amplification the goal?
+T 1437261151 24*	Phosie has quit (Quit: Lost terminal)
+T 1437261162 24*	Astaelan has quit (Ping timeout: 250 seconds)
+T 1437261184 18<linuxthefish18>	yeah, it's a buzz and for audio amplification
+T 1437261194 23*	daemon (daemon@2001:470:1f09:17e:a1ca:1c0e:ac3:c39423) has joined
+T 1437261207 23*	Astaelan (na@S0106602ad08fd70a.es.shawcable.net23) has joined
+T 1437261223 18<daemon18>	hey all, I am having trouble locating a device so was hoping for some tips ... I need to step up 12V to 48V (80Amp)
+T 1437261233 18<daemon18>	I can find lots of 10Amp models but nothing near 80
+T 1437261242 18<daemon18>	am I going to need to wire 8 in series?
+T 1437261265 23*	Icvya (~Icvya@105.154.66.17223) has joined
+T 1437261270 24*	Icvya has quit (Max SendQ exceeded)
+T 1437261338 18<superlou18>	linuxthefish, if it's audio freq. noise, you're in a bad place, since filtering it will effect your desired signal.  We want to trace it back to it's origin.
+T 1437261359 18<superlou18>	Without a schematic, I can't help much, but do you see the noise on the power supply to the amp as well?
+T 1437261366 18<superlou18>	and are you using a switching supply?
+T 1437261390 18<ace401618>	unf https://www.youtube.com/watch?v=UEhHRXDFkeU
+T 1437261413 23*	Brua (~Brua@ARennes-656-1-232-102.w2-14.abo.wanadoo.fr23) has joined
+T 1437261415 24*	Brua has quit (Excess Flood)
+T 1437261456 18<linuxthefish18>	yep switching superlou, with transformers or battery the noise is gone
+T 1437261497 24*	password2 has quit (Ping timeout: 244 seconds)
+T 1437261530 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437261559 24*	elfets has quit (Quit: Leaving)
+T 1437261611 18<superlou18>	in the switching supply datasheet, what's the swtiching supply frequency?
+T 1437261620 24*	HardWall has quit (Read error: Connection reset by peer)
+T 1437261640 24*	bhlh has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1437261657 24*	28swordsmanz is now known as 18swordsindrag
+T 1437261665 24*	ColdKeyboard has quit (Ping timeout: 264 seconds)
+T 1437261691 24*	Venemo has quit (Remote host closed the connection)
+T 1437261691 24*	28swordsindrag is now known as 18dogeindrag
+T 1437261715 23*	ColdKeyboard (~ColdKeybo@cable-188-2-2-166.dynamic.sbb.rs23) has joined
+T 1437261722 18<linuxthefish18>	it's just an off the shelf switching supply, like a "wallwart"
+T 1437261738 18<superlou18>	rats, so no info
+T 1437261743 18<superlou18>	they are notoriosly noisy
+T 1437261755 18<linuxthefish18>	16v 5 amp transformer would be perfect, but they are so heavy :(
+T 1437261756 18<superlou18>	you are putting caps on the output of the wallwart?
+T 1437261763 18<Loshki18>	superlou: can't linuxthefish just filter the crap out of the power supply?
+T 1437261774 24*	bertrik has quit (Remote host closed the connection)
+T 1437261782 18<superlou18>	Loshki, sure, but if the output is really low impedance, adding caps doesn't get you much
+T 1437261783 18<linuxthefish18>	superlou, i've tried a few different caps with no luck
+T 1437261793 18<superlou18>	do you have any indcutors?
+T 1437261799 18<superlou18>	make an LC filter
+T 1437261824 18<superlou18>	http://www.ti.com/lit/an/sbva012/sbva012.pdf
+T 1437261846 24*	password2 has quit (Ping timeout: 255 seconds)
+T 1437261908 18<linuxthefish18>	thanks, i'll try that!
+T 1437261913 18<superlou18>	what size capacitors are you using?
+T 1437261917 18<Tachyon`18>	LC filter? what's the L?
+T 1437261925 18<superlou18>	L is Inductor
+T 1437261929 18<Tachyon`18>	oh right
+T 1437261932 18<blockh34d18>	superlou: fyi OpenRave looks like an API based around robot kinematics similar to what you're trying to do (more general purpose tho, you define the assemblage and it solves it etc)
+T 1437261936 18<Tachyon`18>	thankyou -.o
+T 1437261969 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437261974 18<linuxthefish18>	around 1000 uf 16v superlou
+T 1437261982 18<superlou18>	blockh34d, that looks slick.
+T 1437261984 18<superlou18>	thanks
+T 1437261994 18<blockh34d18>	np i will probably be doing something similar soon
+T 1437262001 18<blockh34d18>	i want to put a 3d printer on a hexapod
+T 1437262006 18<superlou18>	linuxthefish, woh.  at 1000 uf even with some really low output impedance on the supply, i'd expect "some" effect
+T 1437262029 18<superlou18>	blockh34d, do you want robot takeover, because that's how you get robot takeover
+T 1437262035 18<linuxthefish18>	oh i need bigger or smaller?
+T 1437262046 18<superlou18>	those should be big enough to matter, i think
+T 1437262060 18<superlou18>	linuxthefish, https://en.wikipedia.org/wiki/Low-pass_filter
+T 1437262071 18<blockh34d18>	superlou: man kind needs united somehow, if its against a robotic plague thats as good as anything
+T 1437262081 18<superlou18>	the cutoff frequency for a low pass filter (LPF) is 1/(2*pi*R*C)
+T 1437262098 18<superlou18>	at the cutoff frequency, the signal is reduced by half
+T 1437262107 18<linuxthefish18>	ah, hmm
+T 1437262132 24*	28dogeindrag is now known as 18swordsmanz
+T 1437262144 18<linuxthefish18>	thanks! i will try this later
+T 1437262146 18<superlou18>	if your C is 1000uF, and R is 0.1 ohm (back of the napkin guess), your cutoff frequency is around 1.6 kHz, so you should definitely see some reduction putting it in parallel
+T 1437262156 18<blockh34d18>	i'd love to see bots kinda like taht except they eat seaplastic trash and use solar energy to create filament from it they use to make more of themselves
+T 1437262159 18<superlou18>	really crude math, but means something more interesting might be going on
+T 1437262181 18<blockh34d18>	so we release it into the ocean, let it recycle all that trash into a robot army and then hope it doesnt take over, probably wont
+T 1437262192 23*	elfets_ (~stefan@aftr-88-153-6-122.unity-media.net23) has joined
+T 1437262198 18<superlou18>	blockh34d, it can't unless you give it a silicon foundry
+T 1437262204 18<superlou18>	...or will you?
+T 1437262217 18<blockh34d18>	could it scavenge old cell phones?
+T 1437262235 18<blockh34d18>	i bet there are many of them in the ocean
+T 1437262248 18<blockh34d18>	i mean if it runs on unicorn dust anyways why not right
+T 1437262263 23*	krabador (~krabador@unaffiliated/krabador23) has joined
+T 1437262293 18<superlou18>	good point
+T 1437262293 18<blockh34d18>	various flavors of doped conductive filament may soon be able to print functional transistors in a way we can use for digital circuits effectively
+T 1437262296 18<blockh34d18>	its not that far off
+T 1437262305 18<superlou18>	that sounds pretty far off
+T 1437262316 18<superlou18>	if you don't want eniac sized computers
+T 1437262324 24*	28swordsmanz is now known as 18swordsdoge
+T 1437262337 18<blockh34d18>	its the price you pay for security
+T 1437262366 23*	jsoft_ (~jsoft@unaffiliated/jsoft23) has joined
+T 1437262398 23*	GPF_1 (~Jamie@68-118-186-113.dhcp.asfd.ct.charter.com23) has joined
+T 1437262405 18<Slade-18>	anyone know of an opensource/free cfd package?  was going to grab fusion360 but it doesnt seem to include the cfd
+T 1437262419 24*	password2 has quit (Ping timeout: 265 seconds)
+T 1437262419 18<superlou18>	Slade-, OpenFOAM
+T 1437262425 18<Slade-18>	ah
+T 1437262427 18<superlou18>	but it's got a heck of learning curve
+T 1437262428 18<Slade-18>	any good?
+T 1437262436 18<superlou18>	I got the tutorials to run :)
+T 1437262437 18<superlou18>	that's about it
+T 1437262458 18<superlou18>	seemed generalized and very powerful, but definitely a research project you need to dedicate some time to
+T 1437262478 24*	jsoft has quit (Ping timeout: 248 seconds)
+T 1437262518 23*	TechIsCool (~chatzilla@209.166.87.18823) has joined
+T 1437262577 24*	ruffel has quit (Read error: Connection reset by peer)
+T 1437262663 23*	RoBo_V3 (~RoBo@117.197.179.15323) has joined
+T 1437262683 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437262702 24*	RoBo_V2 has quit (Ping timeout: 248 seconds)
+T 1437262728 23*	jayke_ (~jayke@78-21-121-66.access.telenet.be23) has joined
+T 1437262733 18<AkashicLegend18>	my scope's vertical position seems to be a bit broken
+T 1437262737 18<AkashicLegend18>	is that an easy repair?
+T 1437262814 24*	jayke_ has quit (Client Quit)
+T 1437262857 24*	jsoft_ has quit (Ping timeout: 244 seconds)
+T 1437262913 18<daemon18>	How difficult is it to change the output of a standard alternator to a higher voltage
+T 1437262980 24*	Spank42 has quit (Read error: Connection reset by peer)
+T 1437262988 18<ace401618>	iirc...a step-up transformer :P
+T 1437263006 18<daemon18>	ace4016, I am having a problem finding one
+T 1437263021 18<daemon18>	the alternator outputs 100A@12V I need 25A@48V
+T 1437263029 18<daemon18>	no step up seems to be able to handle that higher ampage
+T 1437263067 18<daemon18>	I cannot even find one that is ridiculosuyl expensive or heavy
+T 1437263069 18<daemon18>	I cannot find one at all
+T 1437263112 18<ace401618>	hrm, that seems odd
+T 1437263119 18<ace401618>	you can technically make your own
+T 1437263146 24*	28swordsdoge is now known as 18swordsmanz
+T 1437263150 18<daemon18>	indeed but I thought adjusting the actual voltage of the alternator its self may be a tad easier
+T 1437263171 18<daemon18>	I can actually find alternators at 16V and 24V
+T 1437263176 18<daemon18>	which is closer ofc to the 48V
+T 1437263182 18<daemon18>	just not one at 48 :)
+T 1437263191 18<daemon18>	and no step up will do 16 or 24 to 48 either
+T 1437263192 18<daemon18>	at that ampage
+T 1437263195 18<AkashicLegend18>	I'd open it up and check the fuse
+T 1437263203 24*	28swordsmanz is now known as 18swordsmanztalent
+T 1437263211 24*	28swordsmanztalent is now known as 18swordsmanz
+T 1437263215 18<AkashicLegend18>	but the damn thing says servicing to qualified personnel only
+T 1437263221 18<AkashicLegend18>	and has this big shock warning
+T 1437263240 23*	bugzc (~1@unaffiliated/bugzc23) has joined
+T 1437263311 18<ace401618>	it'll only shock you if it's spinning :P
+T 1437263430 18<daemon18>	ace4016, skip that, the thought just occured, instead of having a 12 or 48V battery and a step up transformer to the driver(48v)
+T 1437263443 18<daemon18>	I can use 4 12v batteries, charge directly to them from the 12v alternator
+T 1437263450 18<daemon18>	and use them together to power the 48v motor :)
+T 1437263454 18<daemon18>	sod the ste up
+T 1437263470 24*	password2 has quit (Ping timeout: 240 seconds)
+T 1437263503 18<HTT-Bird18>	daemon: that's the idea :D
+T 1437263544 18<daemon18>	^_^
+T 1437263774 18<daemon18>	mhmm
+T 1437263797 18<daemon18>	if I have a series circuit combining 4 12V cells, can I still wire an alternator to the 4 cells in paralel to charge it?
+T 1437263825 18<daemon18>	or would I need two banks of 4
+T 1437263831 18<daemon18>	charge one while one depletes
+T 1437263833 18<daemon18>	and swap back and forth
+T 1437263886 23*	emulator_ (~emulator_@ip68-231-87-167.ph.ph.cox.net23) has joined
+T 1437263906 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437263950 24*	Haxxa has quit (Ping timeout: 272 seconds)
+T 1437264050 23*	Brisance (~brisance@89-91-235-80.dyn.estpak.ee23) has joined
+T 1437264078 23*	Haxxa (~Harrison@CPE-58-161-28-143.ebcz1.win.bigpond.net.au23) has joined
+T 1437264113 24*	_0bitcount has quit (Quit: Leaving)
+T 1437264146 24*	zzattack has quit (Remote host closed the connection)
+T 1437264211 23*	mumptai (~calle@x5d80059c.dyn.telefonica.de23) has joined
+T 1437264243 24*	Binky has quit (Ping timeout: 246 seconds)
+T 1437264325 23*	zzattack (~zzattack@54271845.ftth.concepts.nl23) has joined
+T 1437264325 24*	zzattack has quit (Changing host)
+T 1437264325 23*	zzattack (~zzattack@unaffiliated/zzattack23) has joined
+T 1437264362 24*	Ordog_by has quit (Read error: Connection reset by peer)
+T 1437264379 23*	Macuser (~textual@unaffiliated/macuser23) has joined
+T 1437264411 24*	password2 has quit (Ping timeout: 244 seconds)
+T 1437264443 23*	password2 (~AndChat73@197.76.143.14623) has joined
+T 1437264514 23*	chipsMonstret[bu (~textual@c-0e69e555.04-317-6e6b701.cust.bredbandsbolaget.se23) has joined
+T 1437264568 24*	Brisance has quit (Ping timeout: 250 seconds)
+T 1437264727 18*	daemon looks about
+T 1437264733 18<daemon18>	am I asking something really dumb ... or ?
+T 1437264748 24*	Haxxa has quit (Ping timeout: 272 seconds)
+T 1437264797 24*	krabador has quit (Quit: Take The Time)
+T 1437264803 23*	Haxxa (~Harrison@cpe-58-161-28-143.ebcz1.win.bigpond.net.au23) has joined
+T 1437264849 24*	28Tachyon` is now known as 18Tach[Zzz]
+T 1437264852 24*	Dante_ has quit (Ping timeout: 264 seconds)
+T 1437264854 18<superlou18>	daemon, um, what voltage does the alternator put out?
+T 1437264866 18<daemon18>	superlou, 12V@100A
+T 1437264878 18<superlou18>	12V AC?
+T 1437264882 18<daemon18>	Dc
+T 1437264886 18<superlou18>	alternator?
+T 1437264892 18<daemon18>	class it as dynamo
+T 1437264903 18<superlou18>	oh, ok
+T 1437264922 18<superlou18>	if you put 12 V across a 48 V battery pack, best case is no charging of battery
+T 1437264928 18<daemon18>	I have a power source (alternator,dynamo,....) outputting 100A@12V DC
+T 1437264929 18<superlou18>	worst case is charging of dynamo
+T 1437264944 18<daemon18>	I have a driver/motor that is 48V
+T 1437264958 18<daemon18>	my plan was to shove 12V into 4 12V batteries in paralel keeping them charged
+T 1437264965 18<superlou18>	oh, in parallel
+T 1437264966 18<daemon18>	but wiring those batteries in serial to give 48B to the driver
+T 1437264970 18<daemon18>	48V*

@@ -1,0 +1,4 @@
+T 1432221410 19*	Now talking on 22##apple
+T 1432221410 22*	Topic for 22##apple is: MacBook Pro 2011 Video repair program http://www.apple.com/support/macbookpro-videoissues/ | Welcome! | Ask your question, please be patient | Breaking NDA, warez, hackintoss, unsupported VMs = kickban | Yosemite 10.10.3 | Mavericks 10.9.5 | iOS 8.3 | Development: #swift-lang #macdev #iphonedev
+T 1432221410 22*	Topic for 22##apple set by 26Branes!~Branes@60-241-114-101.static.tpgi.com.au (24Sat Apr 11 09:19:31 2015)
+T 1432221498 24*	sandlst has quit (Quit: Textual IRC Client: www.textualapp.com)

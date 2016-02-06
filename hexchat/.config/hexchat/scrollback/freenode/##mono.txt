@@ -1,0 +1,6 @@
+T 1430349475 19*	Now talking on 22##mono
+T 1430349475 22*	Topic for 22##mono is: Welcome to #mono - official channel is @ irc.gnome.org - latest release is Mono 2.10. For C# questions, you may try ##csharp
+T 1430349475 22*	Topic for 22##mono set by 26mhutch!~mhutch@opensuse/member/MJHutchinson (24Thu Sep  8 18:30:08 2011)
+T 1430349475 22*	Channel 22##mono url: 24http://www.mono-project.com
+T 1430355500 24*	dtrainor has quit (Ping timeout: 250 seconds)
+T 1430361196 24*	comando has quit (Remote host closed the connection)

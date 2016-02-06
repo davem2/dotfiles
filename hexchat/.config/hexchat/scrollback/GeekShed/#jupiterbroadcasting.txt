@@ -1,0 +1,664 @@
+T 1454397372 18<TheLive118>	but, at the end of the day.. its entertainment
+T 1454397377 18<xman18>	haha, trying to figure out a time to start GOT(maybe when I'm old), enjoyed Mr robot, have seen the others..
+T 1454397379 18<TheLive118>	time passing excersize
+T 1454397450 18<TheLive118>	GOT will take a lot time.
+T 1454397456 18<xman18>	When it's good you can really see life from a different perspective. When it bad you wish you had those hours of you life back.
+T 1454397459 18<TheLive118>	but its enjoyed best at a slow pace
+T 1454397477 18<xman18>	I know, that why I can't start it lol
+T 1454397500 18<TheLive118>	i'll try to move on to something else if it feels like im wasting my time
+T 1454397504 18*	TheAnime watches anime
+T 1454397537 18<TheLive118>	i skipped the whole anime thing
+T 1454397579 18<xman18>	Yeah, I love cartoon, akira, robottech, coboy bebop, afrosamari, but I haven't gotten into many others
+T 1454397594 18<xman18>	There's just too many
+T 1454397713 18<akik18>	appleseed
+T 1454397803 18<xman18>	I think I did a little appleseed too, a few ghot in the machine as well.
+T 1454397884 18<xman18>	Alright folk, thank you all for a really good time of chatting. I'll see yah next time.
+T 1454397909 18<TheLive118>	see ya xman . been good talk
+T 1454397919 18<archlinuxrussian18>	o.o
+T 1454399063 18<archlinuxrussian18>	gnite!
+T 1454399071 18<parrghty18>	 later, arch
+T 1454399079 18<parrghty18>	ack, nm.
+T 1454399179 18<parrghty18>	All right, folks. I believe I will call it a night, as well.
+T 1454399188 18<parrghty18>	Keep it classy.
+T 1454399410 24*	28Unidentified56668 is now known as 18rawzone
+T 1454400516 22*	26ChanServ sets mode 24+a on 22#jupiterbroadcasting Angela
+T 1454400516 22*	26ChanServ gives channel operator status to 18Angela
+T 1454401194 18<TheAnime18>	gap closing again, 3 pts between clinton and sanders
+T 1454401232 18<TheAnime18>	oh. and now 5
+T 1454401233 18<TheAnime18>	:|
+T 1454401665 18<kalzu18>	how is leading?
+T 1454401690 18<kalzu18>	s/how/who
+T 1454402414 18<TheAnime18>	bernie
+T 1454402418 18<TheAnime18>	is in 2nd
+T 1454402418 18<TheAnime18>	:D
+T 1454402461 18<Q18>	hmm
+T 1454402479 18<Q18>	would be way more interesting should Sanders win
+T 1454402644 18<TheAnime18>	i dont think he can win iowa at this point
+T 1454402655 18<TheAnime18>	unless like 10000 uncounted votes materialize
+T 1454402701 18<TheAnime18>	there's only one precinct not accounted for though
+T 1454402739 18<TheAnime18>	neighborhood*
+T 1454402761 18<TheAnime18>	precinct?
+T 1454402765 18<TheAnime18>	idk
+T 1454402794 18<Q18>	I have no idea how big Iowa is anyway
+T 1454402801 18<TheAnime18>	one for dems, des moines 42 in polk county
+T 1454402804 18<TheLive118>	corn
+T 1454402839 18<TheAnime18>	and one for reps, coralville 03 in Johnson county
+T 1454402849 18<TheAnime18>	yeah iowa has more corn than people
+T 1454402879 18<TheAnime18>	they practically have more windmills than people
+T 1454402902 18<TheAnime18>	more windmills than walmarts probably
+T 1454402942 18<Q18>	so, did I her the radio correct? Trump buggered off to change clothing?
+T 1454402944 18<Kaabi18>	*yawns*
+T 1454402946 22*	26ChanServ sets mode 24+a on 22#jupiterbroadcasting Angela
+T 1454402946 22*	26ChanServ gives channel operator status to 18Angela
+T 1454402946 18<Q18>	hear*
+T 1454402960 18<TheAnime18>	im still hoping coralville goes to rand :)
+T 1454402972 18<TheAnime18>	Q I think that was carson not trump
+T 1454402977 18<Q18>	oh
+T 1454402983 18<Q18>	still lulzy
+T 1454403047 18<TheAnime18>	paul came in second, ahead of trump, in a lot of iowa city precincts
+T 1454403118 18<Q18>	so much for hot air Trump
+T 1454404221 18<rjp42118>	 http://www.brighttalk.com/webcast/10587/188219
+T 1454405003 18<swift110-phone18>	Kk
+T 1454406205 18<mort_18>	hi
+T 1454406212 18<kalzu18>	hi
+T 1454406217 18<mort_18>	what's up?
+T 1454407320 18<TheLive118>	appreciate the effort of scale to put up videos of talks on youtube but unfortunately no one will watch them. terrible audio quality, video sucks too. 
+T 1454407576 18<mort_18>	:(
+T 1454408377 18<IronicBadger18>	how does one record the mumble room as well as maintaining good quality for the hosts?
+T 1454408439 18<Kaabi18>	:O I never thought about ^ that question...
+T 1454408612 18<IronicBadger18>	Kaabi: it's a doozy
+T 1454408624 18<IronicBadger18>	i'm starting out a new podcast with a remote host.
+T 1454408627 18<Kaabi18>	tell me 'bout it.
+T 1454408636 18<IronicBadger18>	but i also have a room where random guests can join
+T 1454408639 18<IronicBadger18>	kinda like LUP
+T 1454408649 18<IronicBadger18>	i want the guests to be able to hear the hosts
+T 1454408650 18<Kaabi18>	maybe email the crew and ask about it?
+T 1454408673 18<IronicBadger18>	i started a thread in reddit asking for audio routing help a few weeks ago, it got 60+ upvotes but ChrisLAS didn't respond
+T 1454408695 18<Kaabi18>	He won't respond to everything he's mentioned in
+T 1454408701 18<Kaabi18>	Otherwise there'd be no times for shows ;)
+T 1454408705 18<Kaabi18>	email Noah
+T 1454408709 18<Kaabi18>	He's usually pretty good right Kernellinux 
+T 1454408712 18<IronicBadger18>	yeah i know that. but 60+ upvotes...
+T 1454408722 18<Kaabi18>	still
+T 1454408744 18<Kaabi18>	He's got a lot to do, ;) It's rare for him to even chat in here..... Just email and be patient :) they'll usually get to you eventually.
+T 1454408747 18<IronicBadger18>	so i want the guests to be able to hear the hosts via mumble, but also to record the guests without including hosts audio...
+T 1454408768 18<IronicBadger18>	Kaabi: i'm not impatient :) 
+T 1454408785 18<Kaabi18>	Oh i figured ;)
+T 1454408938 18<mort_18>	IronicBadger: http://manual.audacityteam.org/o/man/tutorial_recording_computer_playback_on_linux.html that could help
+T 1454408939 18<JBot18>	^ Tutorial - Recording Computer Playback on Linux - Audacity Manual
+T 1454408978 18<IronicBadger18>	thanks mort_ i did read that already
+T 1454408990 18<mort_18>	what issues did you run into?
+T 1454409193 18<IronicBadger18>	mort_: i ended up with the output from mumble always including the hosts audio
+T 1454409295 18<mort_18>	as in audio played by the host's computer, e.g videos they play and such?
+T 1454409383 18<IronicBadger18>	mort_: yup, and spoken words
+T 1454409440 18<mort_18>	didn't you want to record the host's voice though?
+T 1454409468 18<IronicBadger18>	yes but the quality when it's piped via mumble isn't as a good
+T 1454409751 18<mort_18>	if you have headsets, you could use those headsets with mumble, while you record from two separate mics, one at your place and one at the host's, and then mix those two recordings together afterwards
+T 1454409787 18<mort_18>	and not have mumble touch any of the recordings at all
+T 1454409998 18<mort_18>	wouldn't even need a headset, just any earbuds or earphones would work
+T 1454410229 18<mort_18>	IronicBadger: do you think that would work?
+T 1454410478 18<swift110-phone18>	Wow people are up
+T 1454410842 18<Kaabi18>	swift110-phone, I never sleep -_-
+T 1454411134 18<IronicBadger18>	mort_: so how would the guests make it into the recording?
+T 1454411212 18<mort_18>	Oh, didn't notice the guest thing.
+T 1454411945 18<swift110-phone18>	Ok
+T 1454416146 18<WonderingGuru18>	Hello everyone
+T 1454416464 18<mort_18>	hello
+T 1454416595 18<WonderingGuru18>	How's it going mort?
+T 1454416616 18<mort_18>	it's going fine
+T 1454416626 18<mort_18>	how about you?
+T 1454417121 18<kalzu18>	what is mort?
+T 1454417192 18<Q18>	a character in the Discworld series
+T 1454417232 18<kalzu18>	... it seems that I cant read today ...
+T 1454417317 18<Q18>	it also means dead in French
+T 1454417331 18<WonderingGuru18>	And you are a character in Star Trek
+T 1454417347 18<Q18>	I suspect that there is a epitomological link to it and the Dutch word "moord", meaning a kill
+T 1454417403 18<Q18>	WonderingGuru: it is also the 17th letter in the alphabet that is popular is the English, French and Dutch languages. Maybe others too, not sure.
+T 1454417480 24*	28khan is now known as 18locust
+T 1454417554 18<WonderingGuru18>	I think the Q are an awesome species.
+T 1454417569 18<WonderingGuru18>	I'd love to study them if they were real.
+T 1454417663 18<Q18>	it'd be like an ant studying a huma ... quaintn
+T 1454417669 18<Q18>	-n
+T 1454417685 18<Q18>	this keyboard insists on making typos
+T 1454417716 18<WonderingGuru18>	Indeed it would be. But it would also be worth it to ask to be one of them as well just as commander riker had the opportunity to.
+T 1454417737 18<WonderingGuru18>	I'd like to study them, get some answers, then see if I want to upgrade myself.
+T 1454417738 18<WonderingGuru18>	lol
+T 1454418528 18<palasso18>	http://www.amd.com/en-us/press-releases/Pages/amd-reveals-worlds-2016feb01.aspx
+T 1454418553 18<Zerock18>	palasso: But is it packaged for Arch?
+T 1454418625 18<palasso18>	Zerock: It's in the AUR you just do pacaur -S amd-firepro-S7150 and it builds an AMD GPU right to your PCI Express port
+T 1454418634 18*	Zerock was joking
+T 1454418672 18*	palasso was joking as well. The AUR doesn't build GPUs yet
+T 1454418741 18<locust18>	http://i.imgur.com/O2KHoLl.gifv
+T 1454418742 18<JBot18>	^ US economy in a nutshell?
+T 1454418981 18<Q18>	is it supposed to not work?
+T 1454419701 18<rjp42118>	https://www.brighttalk.com/webcast/9923/184997 in 30m
+T 1454420693 18<WonderingGuru18>	Jordansinn
+T 1454420695 18<WonderingGuru18>	you are alive
+T 1454420697 18<WonderingGuru18>	holy <censored>
+T 1454420739 18<jordansinn18>	hello WonderingGuru
+T 1454420767 18<WonderingGuru18>	one moment phone call :)
+T 1454421859 18<xypherjack18>	\o  just finished listening to LUP 26 (2014 Feb 04).. where Wimpy first talked about being Arch Trusted User and Package Maintainer for Mate Desktop.. Wow.. Happy Anniversary, Good Man.
+T 1454421885 18<Wimpy18>	xypherjack, Thank :-)
+T 1454421914 18<xypherjack18>	(bows) Well deserved
+T 1454422009 18<tankrtoad18>	!next
+T 1454422010 18<JBot18>	Next show is Tech Talk Today in 2 hours 53 minutes 10 seconds (5:00pm UTC on Tuesday, 2/2/2016)
+T 1454423177 18*	Blastyr sips coffee.
+T 1454423180 18<Blastyr18>	Morning, all.
+T 1454423192 18<xypherjack18>	\o Hey ho there Blastyr 
+T 1454423216 18*	Blastyr booked his hotel for LFNW last night. \o/
+T 1454423233 18<xypherjack18>	Congrats, man
+T 1454423243 18<Blastyr18>	WizardGed: You should totally do LFNW.
+T 1454424041 18<ebeyer18>	Sup ever buddy..?
+T 1454424067 18<xypherjack18>	\o Hey yo ebeyer 
+T 1454424076 18<xypherjack18>	Not much going on o'er here
+T 1454424086 18<ebeyer18>	Maybe I could ask you linux and network experts for some advice?
+T 1454424243 18<ebeyer18>	Right now, I'm running a plex server on my mac, like an animal.  The movies are stored on an external USB spinning drive like it's the f-ing dark ages..
+T 1454424288 18<ebeyer18>	Also, the Mac, predictably keeps having issues of its own.  Mostly, the internal HD is slower than mud, making the whole thing loud, hot and I fear not very reliable.
+T 1454424358 18<ebeyer18>	I could try running Plex on a Raspi2 running raspbian (not officially supported but there are guides online).  I could suck it up and buy a Meerkat (~$610 with a 2 TB spinner inside).  Or I could really suck it up and get a FreeNAS mini, which is probably overkill.
+T 1454424405 18*	xypherjack has been looking to set up a (OpenMediaVault?) running emby.. and a bunch of small ( meerkat? / pi? ) kodi boxes around the house 
+T 1454424421 18<ebeyer18>	A bunch, you say?
+T 1454424434 18<xypherjack18>	by bunch i mean 5-10
+T 1454424464 18<ebeyer18>	I'd looked at emby but my clients are so vested in plex (wife/kids use Apple TV, scattered tablets throughout the family)
+T 1454424475 18<ebeyer18>	Why 5-10 and not, say, one big one?
+T 1454424514 18<xypherjack18>	kodi as the player (each one logged in to emby as user to track who played wha movie..
+T 1454424591 18<xypherjack18>	and several locations..  kitch, living/front room, each bed (2 daughters plus myself)   
+T 1454424646 18<xypherjack18>	distributive computing.. LOL  let each device specialize in what it does, and do it well
+T 1454424665 18<ebeyer18>	What does kodi do, as a client, that a plex client running on top of chrome does not?
+T 1454424703 18<jordansinn18>	I've been wanting to try and pick one out of the bunch, emby seemed really cool
+T 1454424749 18<xypherjack18>	that's my plan, jordansinn, OpenMediaVault hosting emby..with (5-10) kodi's as front-end... 
+T 1454424767 18<xypherjack18>	but sadly, i'm not familiar with plex as player/frontend
+T 1454424816 18<xypherjack18>	I guess, i am preferring to keep things open.. kodi <- emby <- OpenMediaVault
+T 1454424851 18<jordansinn18>	a meerkat would be so nice to have, I'll probably just use this old hp machine I have sitting around
+T 1454424974 18<joeordie18>	!next
+T 1454424974 18<JBot18>	Next show is Tech Talk Today in 2 hours 3 minutes 45 seconds (5:00pm UTC on Tuesday, 2/2/2016)
+T 1454425033 18<jaykay234218>	jordansinn: what does emby? i have kodi and it gets the files directly from openmediavault
+T 1454425095 18<joeordie18>	whats the questuoion jakay2342?
+T 1454425110 18<xypherjack18>	http://emby.media   
+T 1454425111 18<JBot18>	^ Emby - The open media solution
+T 1454425120 18<xypherjack18>	like an opensource plex server
+T 1454425128 18<jordansinn18>	oh I have next to no idea how emby works, I just saw it featured on a show a while back. I've never set up anything like plex, emby or the likes
+T 1454425193 18*	xypherjack brb afk
+T 1454426209 18*	xypherjack has returned
+T 1454426299 18<xypherjack18>	\o hullo
+T 1454427413 18<ebeyer18>	For an external USB holding large files (movies), should one use ext3, ext4, xfs or something else?
+T 1454427579 18<akik18>	ext3 is fine
+T 1454427606 18<renegadevi18>	depends on your compatability needs... I personally still think ext4 is brand new
+T 1454427671 18<renegadevi18>	i don't even know the difference between ext 2,3,4 other then it's been faster in some benchmark
+T 1454427713 18<renegadevi18>	faster and better
+T 1454427782 18<akik18>	linux can do ntfs and windows can do ext with ext2fsd
+T 1454427833 18<renegadevi18>	linux is great on that part. reads more or less any file system. 
+T 1454427924 18<Ioangogo18>	!next
+T 1454427924 18<JBot18>	Next show is Tech Talk Today in 1 hour 14 minutes 35 seconds (5:00pm UTC on Tuesday, 2/2/2016)
+T 1454428020 18<xman18>	I'm rocking ext4
+T 1454428538 18<ebeyer18>	Why do some people use xfs?  Does it have advantages over ext4?  I use ext4 mostly out of habit.
+T 1454428641 18<Ioangogo18>	!mumble
+T 1454429375 18<Ioangogo18>	!next
+T 1454429375 18<JBot18>	Next show is Tech Talk Today in 50 minutes 24 seconds (5:00pm UTC on Tuesday, 2/2/2016)
+T 1454429776 18<Zakhrov18>	!next
+T 1454429777 18<JBot18>	Next show is Tech Talk Today in 43 minutes 42 seconds (5:00pm UTC on Tuesday, 2/2/2016)
+T 1454429914 18<arch_uber_valley18>	!next
+T 1454429915 18<JBot18>	Next show is Tech Talk Today in 41 minutes 24 seconds (5:00pm UTC on Tuesday, 2/2/2016)
+T 1454429966 18<akik18>	ebeyer: here's a comparison of file systems https://en.wikipedia.org/wiki/Comparison_of_file_systems
+T 1454429967 18<JBot18>	^ Comparison of file systems - Wikipedia, the free encyclopedia
+T 1454429978 18<ebeyer18>	Thanks.
+T 1454430009 18<ebeyer18>	I think I'm partial to DECtape, personally.
+T 1454430053 18<akik18>	yo file system is so fat
+T 1454430092 18<ebeyer18>	Who knew google had its own file system?  
+T 1454430095 18<arch_uber_valley18>	EXTend your FAT 4 32 more bits
+T 1454430394 18<JBLive_1301218>	!next
+T 1454430394 18<JBot18>	Next show is Tech Talk Today in 33 minutes 25 seconds (5:00pm UTC on Tuesday, 2/2/2016)
+T 1454430747 18*	JbStudio Restarting the stream
+T 1454430813 18*	JbStudio Dem Streams.
+T 1454430958 18<sweetlew18>	What's up, peeps?
+T 1454430980 18<xypherjack18>	\o Greetings lew! 
+T 1454431001 18<sweetlew18>	How's it going, xypherjack?
+T 1454431026 18<xypherjack18>	it goes decently well..  and yourself?
+T 1454431047 18<sweetlew18>	Good. Just doing some more Ubuntu Mate 16.04 testing.
+T 1454431074 18<xypherjack18>	Oh. Ni-ice! 
+T 1454431104 18<sweetlew18>	Yeah. For whatever reason, blueman-applet keeps crashing on me.
+T 1454431124 18<renegadevi18>	There should be a !suggestsong community driven playlist haha :P
+T 1454431141 18<sweetlew18>	renegadevi: I agree.
+T 1454431167 18<xypherjack18>	I'm sure most of Jupiter Colony would like that..
+T 1454431197 18<ChrisLAS18>	Ok someone build that!
+T 1454431199 18<xypherjack18>	:-(  blueman .. hmm.. driver issues?
+T 1454431210 18<renegadevi18>	and then it would end up with a cool function like, !whatsonng ... which would reply 'Darude - Sandstorm' whenever it wants
+T 1454431217 18<sweetlew18>	Don't know.
+T 1454431221 18<xypherjack18>	\o  Greetings brother Chris, and Good Mornin! 
+T 1454431296 18<renegadevi18>	I know there was some kind of SpotifyBot tho,
+T 1454431298 18<renegadevi18>	http://www.spottybot.com/
+T 1454431299 18<JBot18>	^ SpottyBot - A Twitch Spotify Bot
+T 1454431308 18<xypherjack18>	Woot!   HillDog! 
+T 1454431353 18<WizardGed18>	Blastyr: which day is LFNW? I may go. I go to 1 OSS meetup a year
+T 1454431397 18<JBot18>	@jupitersignal: A new Coder Radio is OUT: https://t.co/BtZORQbrJA Brutally honest episode,Mike and Chris air some hard learned lessons & tell it like it is! (44 seconds ago)
+T 1454431400 18<Ioangogo18>	Mumbles compression format is not likeing songs
+T 1454431437 18<arch_uber_valley18>	!rms
+T 1454431438 18<JBot18>	It's negative in the freedom... dimension. - Via http://youtu.be/radmjL5OIaA
+T 1454431438 18<q5sys18>	You know what's not negative in the freedom dimension? http://freesoftware.foundation
+T 1454431440 18<JBot18>	^ The FreeBSD Foundation
+T 1454431542 18<sweetlew18>	Hello, ChrisLAS
+T 1454431558 18<renegadevi18>	I liked the Gameboy game, return to samus
+T 1454431595 18<Zakhrov18>	hello
+T 1454431605 18<renegadevi18>	here's a irc DJBot hm. 200~https://github.com/Hyphen-ated/DJBot
+T 1454431606 18<JBot18>	^ Hyphen-ated/DJBot · GitHub
+T 1454431633 18<xypherjack18>	Strange..  listening to this in Mum... and watching the rtsp strem (making for a visual delay in comparison to the audio!)
+T 1454431684 18<Zakhrov18>	hmm My bandwidth wont support both
+T 1454431698 18<JBot18>	@jupitersignal: Tech Talk Today is LIVE: https://t.co/MPvkJbBNoh Tech stories, dinosaurs hunting robots & #Kickstarter of the week! https://t.co/XEdP4SIoIH (58 seconds ago)
+T 1454431719 18<sweetlew18>	Chris, you should play the original commercial for Super Metroid!
+T 1454431759 18<Zakhrov18>	hehe LOL
+T 1454431771 18<Ioangogo18>	Warning flashing images
+T 1454431801 18<Zakhrov18>	this sounds pretty awesome
+T 1454431831 18<renegadevi18>	ChrisLAS: did you play a lot of donkey kong country?.. sure one of the best video game soundtracks as well
+T 1454431843 18<Zakhrov18>	YAAAY Knightrider
+T 1454431858 18<Zakhrov18>	I have all 4 seasons
+T 1454431870 18<Ioangogo18>	https://www.kickstarter.com/projects/1644407908/beep-beep-yarr
+T 1454431871 18<JBot18>	^ Beep Beep Yarr! by Linux Voice —Kickstarter
+T 1454431938 18<xypherjack18>	BEAKMANS WORLD!!  :-)
+T 1454431938 18<ChrisLAS18>	Ioangogo: Ang is BRINGIN the Kickstarter this week, so its ladies choice
+T 1454431981 18<biniar18>	I used to love watching that show, always wondered what the point of the rat was but hey cool show!
+T 1454431986 18<Zakhrov18>	ChrisLAS you are bringing back childhood memories. Gonna tear up
+T 1454431999 18*	biniar farts
+T 1454432004 18<sweetlew18>	Zakhov: Same here.
+T 1454432006 18<biniar18>	hey ChrisLAS
+T 1454432018 18<ChrisLAS18>	YO
+T 1454432024 18<xypherjack18>	WELCOME BACK, MR KOTTER!!  
+T 1454432075 18<xypherjack18>	<--- Head of the Class.. With home-dude from WKRP
+T 1454432079 18<himmAllRight18>	I am loving whoever own the loser.com domain right now
+T 1454432090 18<himmAllRight18>	ChrisLAS: Have you gone to loser.com today?
+T 1454432122 18<ChrisLAS18>	lol I had not
+T 1454432132 18<Zakhrov18>	Ok havent heard of this one
+T 1454432151 18<arch_uber_valley18>	wtf?
+T 1454432230 18<north_ranger18>	now of course they can't cut the intro and make the show longer, you cut the intro and put in more ads
+T 1454432270 18<north_ranger18>	Rocky & Bullwinkle laid the groundwork for Deadpool
+T 1454432276 18<sweetlew18>	himmAllRight: Hahahahaha
+T 1454432283 18<xypherjack18>	Like later seasons of Stargate SG-1.. just a quick splash logo.. and done! 
+T 1454432298 18<Zakhrov18>	hehe superman
+T 1454432334 18<Zakhrov18>	this sounds like its from the 50s
+T 1454432360 18<Zakhrov18>	or maybe the 40s
+T 1454432367 18<himmAllRight18>	sweetlew: :)
+T 1454432389 18<sweetlew18>	Zakhrov: Late 50's.
+T 1454432450 18<Zakhrov18>	its not public domain yet?
+T 1454432450 18<north_ranger18>	glasses and a changing hair part = solid disguise
+T 1454432463 18<sweetlew18>	Screw that. Torrent it.
+T 1454432467 18<north_ranger18>	if Mickey isn't public domain, Superman certainly isn't
+T 1454432504 22*	26ChanServ gives channel half-operator status to 18WWNSX
+T 1454432521 18<sweetlew18>	That was part of the late 40's serial film series, I think, not the actual TV series.
+T 1454432547 18<Ioangogo18>	ChrisLAS: Archive.org
+T 1454432583 18<sweetlew18>	Nvm.
+T 1454432625 18<Zakhrov18>	I think this used to air on kermit
+T 1454432762 24*	28SpazzyC is now known as 18Unidentified5164
+T 1454432840 18<Ioangogo18>	Ah, advertizing
+T 1454432854 18<himmAllRight18>	lol
+T 1454432857 18<micah6818>	"Native" ads
+T 1454432900 18<sweetlew18>	Yeah.
+T 1454432911 18<sweetlew18>	Hello, Angela!
+T 1454432931 18<sweetlew18>	Hello to the Mumble room as well!
+T 1454432941 18<xypherjack18>	\o Mornin, Angela 
+T 1454432955 18<Zakhrov18>	yaay the dean cain version
+T 1454432974 18<Zakhrov18>	LOL I seem to have watched a lot of Superman
+T 1454432995 18<Zakhrov18>	ChrisLAS are u prepping for the Batman Vs Superman movie?
+T 1454432997 18<WWNSX18>	The real house wives of Metropolis 
+T 1454432998 18<moothespacecow18>	Hi all
+T 1454433001 18<north_ranger18>	I forgot Lex Luthor on that show
+T 1454433017 18<xypherjack18>	+1 WWNSX !!  
+T 1454433030 18<renegadevi18>	luthor kills the god
+T 1454433032 18<renegadevi18>	:O
+T 1454433034 18<Unidentified516418>	He "Died", then came back with no hair from the revival process
+T 1454433043 18<north_ranger18>	Zuckerberg will be the best Luthor
+T 1454433049 18<renegadevi18>	https://www.youtube.com/watch?v=sfzA6JhgWAc
+T 1454433050 18<JBot18>	^ Vanguard - Atari Commercial - YouTube
+T 1454433068 18<immovableforce18>	Eisenberg
+T 1454433078 18<north_ranger18>	!bacon ChrisLAS
+T 1454433079 18*	JBot gives ChrisLAS a strip of delicious bacon as a gift from north_ranger.
+T 1454433080 18<immovableforce18>	or..
+T 1454433085 18<rikai18>	ChrisLAS: have a banana! :P
+T 1454433085 18<Zakhrov18>	north_ranger Zukerberg also has hair in the trailer
+T 1454433122 18<xypherjack18>	Anyone remem who played Mxy in the Dean Cain Super's?
+T 1454433130 18<Zakhrov18>	is that a Dialup modem?
+T 1454433142 18<Ioangogo18>	Zakhrov: i think it is
+T 1454433147 18<immovableforce18>	Mxy showed up in Lois and Clark??
+T 1454433168 18<renegadevi18>	Angela: why not use a password manager synced to your phone then? I used to use 1Password all the time on my iOS devices in the past.. convinience over security 
+T 1454433224 18<xypherjack18>	immovableforce, a couple times, i think...   in a "Twas the Night" for one
+T 1454433277 18<TheAnime18>	!next
+T 1454433277 18<JBot18>	Tech Talk Today is live right now! Next show is LINUX Unplugged in 4 hours 45 minutes 22 seconds (10:00pm UTC on Tuesday, 2/2/2016)
+T 1454433287 18<TheAnime18>	omgeee3
+T 1454433294 18<immovableforce18>	Even as a kid, I lost interest in LaC.  SHow tried to be too cute most of the time
+T 1454433316 18<moothespacecow18>	!suggest moo night terrors no fun
+T 1454433319 18<TheAnime18>	whee :)
+T 1454433328 18<SpazzyC18>	Taco Tuesday
+T 1454433333 18<TheAnime18>	o no wai I even catch the start?!
+T 1454433337 18<ChrisLAS18>	!start_show t3
+T 1454433338 18<JBot18>	Tech Talk starts now!
+T 1454433340 18<TheAnime18>	best day ever
+T 1454433353 18<WWNSX18>	!suggest Tech Taco Tuesday!!!
+T 1454433355 18<SpazzyC18>	!suggest Tech Talk Taco Tuesdays
+T 1454433371 18<north_ranger18>	!suggest Tech Talk-o Tuesday
+T 1454433374 18<TheAnime18>	itshappening.gif
+T 1454433407 18<TheAnime18>	ChrisLAS: there quite possibly might be an extension that blocks cookie notices
+T 1454433418 18<Zenny45218>	damn EU - Shakes fist to the Sky
+T 1454433433 18<renegadevi18>	stupid politicans, don't know a <censored>..
+T 1454433460 18<immovableforce18>	!suggest No Like Cookie
+T 1454433464 18<TheAnime18>	!suggest Kicking It JB Style
+T 1454433472 18<biniar18>	ChrisLAS: so sick and tired of being tired
+T 1454433484 18<biniar18>	hey Angela and ChrisLAS BIG SHOW TODAY GUYS!!!!! \o/
+T 1454433489 18<north_ranger18>	Eagles, why didn't we think of this?
+T 1454433495 18<TheAnime18>	!suggest Raptor vs Drone
+T 1454433516 18<moothespacecow18>	!suggest Upgrade your drones
+T 1454433536 18<WWNSX18>	!suggest Drone Extinction Event
+T 1454433539 18<biniar18>	epic drone and then nature took over
+T 1454433545 18<biniar18>	epic fails
+T 1454433549 18<micah6818>	They need to put an action cam on the eagle. So we can watch the whole ordeal from the vantage point of both the predator and the prey.
+T 1454433549 18<TheAnime18>	Raptors weren't scary enough, they had to learn how to fly
+T 1454433555 18<Zakhrov18>	! ChrisLAS mum couldnt they just use EMP guns?
+T 1454433560 18<moothespacecow18>	!suggest Upgrade your drones with trockets!
+T 1454433562 18<biniar18>	big drone with a net to capture the drone
+T 1454433565 18<TheAnime18>	AMERICA!
+T 1454433579 18<WWNSX18>	is this CIA or DARPA Backed?
+T 1454433588 18<Zenny45218>	Murican Eagle - God Bless the USA and Nowhere Else
+T 1454433595 18<TheAnime18>	er, DUTCHLAND!
+T 1454433650 18<rikai18>	http://prebake.eu/ !
+T 1454433651 18<JBot18>	^ Prebake: Block EU Cookie Notices with Adblock
+T 1454433656 18<north_ranger18>	actually this makes sense, they already have falconers at a number of US airports to reduce birdstrikes
+T 1454433677 18<biniar18>	and cookie notices.
+T 1454433682 18<TheAnime18>	omg
+T 1454433686 18<j60518>	<censored>
+T 1454433695 18<biniar18>	COOKIE COOKIE! 
+T 1454433698 18<Ioangogo18>	ChrisLAS & Angela: the consumer drones have weak propellers
+T 1454433699 18*	biniar loves cookies
+T 1454433709 18<xypherjack18>	C is for Cookie -- Good enough for me! 
+T 1454433710 18<north_ranger18>	surprise surprise, Failed Microsoft Browser Fail
+T 1454433717 18*	TheAnime is so disillusioned right now
+T 1454433718 18*	biniar raises chat hands
+T 1454433735 18<rikai18>	lol
+T 1454433758 18<TheAnime18>	!suggest The Day Everyone Stopped Using Edge
+T 1454433765 18<WWNSX18>	!suggest Microsoft Edge Failed Privacy
+T 1454433771 18<rikai18>	!suggest Edge's Public Privacy
+T 1454433783 18<TheAnime18>	!suggest The Edge of Privacy
+T 1454433793 18<xypherjack18>	!suggest Edgeless Privacy
+T 1454433794 18<sepsinn18>	this sounds intentional
+T 1454433804 18<Ioangogo18>	ChrisLAS: mum, could be lazy programers
+T 1454433816 18<SpazzyC18>	Toss Up
+T 1454433824 18<rikai18>	!suggest Microsoft sells Children for BTC!
+T 1454433825 18<rikai18>	lmao
+T 1454433833 18<xypherjack18>	!suggest Pivacy's Edge?
+T 1454433840 18<xypherjack18>	!suggest Privacy's Edge?
+T 1454433867 18<sepsinn18>	!suggest Edgeing down eagles
+T 1454433869 18<Blastyr18>	WizardGed: http://linuxfestnorthwest.org/2016
+T 1454433869 18<JBot18>	^ 2016 | LinuxFest Northwest 2016
+T 1454433871 18<SpazzyC18>	!suggest No bugs in my Cookies
+T 1454433876 18<WWNSX18>	ChrisLAS, mum thoughts on edge 
+T 1454433897 18<TheAnime18>	we're talking about microsoft here, the word you're looking for is "feature"
+T 1454433921 18<sepsinn18>	TheAnime: too right
+T 1454433969 18<rjp42118>	32c3?
+T 1454433969 18<TheAnime18>	yea chaos computer club's chaos communication congress
+T 1454434002 18<WWNSX18>	too many c's in their title
+T 1454434024 18<sweetlew18>	WWNSX: Got that right.
+T 1454434030 18<Ioangogo18>	nmap
+T 1454434077 18<TheAnime18>	microsoft fired all their testers, remember
+T 1454434079 18<immovableforce18>	Doesnt surprise me 1 bit
+T 1454434105 18<sweetlew18>	Who's glad that Java's going bye-bye?
+T 1454434109 18<WWNSX18>	!suggest RIP JAVA Plugin
+T 1454434113 18<TheAnime18>	:O
+T 1454434121 18<Blastyr18>	ChrisLAS: mum: Still Java underneath
+T 1454434123 18<biniar18>	ChrisLAS: dep-ra-cated
+T 1454434123 18<Ioangogo18>	The launcher is still java
+T 1454434127 18<north_ranger18>	the launcher is just a shim for Java web start (I think JNLP)
+T 1454434129 18<rikai18>	ChrisLAS: they are rewriting minecraft to not use java as well, though.
+T 1454434145 18<rjp42118>	how will i use asdm on my old asa5505
+T 1454434146 18<renegadevi18>	If minecraft wasn't written in java, it would proboboly be runnable on a windows 95 computer
+T 1454434163 18<renegadevi18>	*probably
+T 1454434165 18<WWNSX18>	!suggest JAVA Plugin decaffeinated
+T 1454434170 18<rikai18>	ChrisLAS: c++
+T 1454434187 18<sweetlew18>	renegadevi: What's proboboly?
+T 1454434194 18<renegadevi18>	a typo
+T 1454434221 18<rikai18>	Current the C++ version is windows, but they've promised it for other platforms, apparently.
+T 1454434234 18<sweetlew18>	Oh, I thought it meant "probable monopoly". XD
+T 1454434238 18<TheAnime18>	speaking of $GOOGL
+T 1454434321 18<north_ranger18>	speaking of ridiculous, my Galaxy S5 isn't getting marshmallow until April
+T 1454434353 18<Ioangogo18>	ChrisLAS: mum, it more providing a uniform device for people to move to from iphone
+T 1454434383 18<WWNSX18>	ChrisLAS, mum it might be good and bad
+T 1454434390 18<XenWildman18>	!suggest Alphabet Plays with their Googs.
+T 1454434406 18<moothespacecow18>	!suggest Crafting a new Android Ecosystem
+T 1454434443 18<WonderingGuru18>	What show is on right now?
+T 1454434457 18<north_ranger18>	every Nexus has some fatal flaw
+T 1454434463 18<Ioangogo18>	WonderingGuru: tech talk today
+T 1454434463 18<renegadevi18>	iphone is good for enterprise when it comes to mnake everyone to use the same system and how things works.
+T 1454434479 18<WonderingGuru18>	Every nexus does not have a fatal flaw. 
+T 1454434494 18<north_ranger18>	ok, "fatal" is a little harsh
+T 1454434497 18<WonderingGuru18>	I have a nexus 5 and a nexus 7 2013. They rock my socks off with awesomeness. 
+T 1454434498 18<arch_uber_valley18>	!suggest Nexus splinters
+T 1454434500 18<Ioangogo18>	So this change is the awnser from google ChrisLAS 
+T 1454434527 18<SpazzyC18>	Got a nexus 4.  No marshmallow. :{
+T 1454434541 18<WonderingGuru18>	Try rooting it and downloading dirty unicorns. 
+T 1454434548 18<WonderingGuru18>	nexus 4 will have new life.
+T 1454434552 18<north_ranger18>	smoke on the water
+T 1454434561 18<rikai18>	https://www.microsoft.com/en/mobile/phone/nokia-x/ ? :P
+T 1454434562 18<JBot18>	^ Nokia X Dual SIM - Smartphones - Microsoft - Global
+T 1454434562 18<Zakhrov18>	ChrisLAS mum: its actually because the phone market is not the desktop market. you Cannot have a custom OS without a custome phone
+T 1454434586 18<WWNSX18>	hopefully google doesn't pull in samsungs KNOX to their android phone and lock the bootloader
+T 1454434586 18<Ioangogo18>	STOP ADDDING LETTERS TO THE END apple
+T 1454434640 18<north_ranger18>	is this the iPhone where they drop the headphone jack?
+T 1454434651 18<Ioangogo18>	ChrisLAS: ^
+T 1454434652 18<renegadevi18>	I can work with 16GB. 4G everywhere,  :D
+T 1454434654 18<SpazzyC18>	Why 16GB?  Can't you have more for the same price now?
+T 1454434658 18<TheAnime18>	not if they're calling it 5se
+T 1454434667 18<arch_uber_valley18>	they should just get rid of all the ports all together
+T 1454434676 18<arch_uber_valley18>	and go wireless charging by mandate
+T 1454434678 18<TheAnime18>	they would bunp the number if they were goinfg to drop a jack
+T 1454434693 18<Ioangogo18>	arch_uber_valley: Data and sound
+T 1454434702 18<north_ranger18>	arch_uber_valley or just make batteries one time use and bring it in to the Apple store for replacement
+T 1454434703 18<renegadevi18>	I think the iPhone 5S looks better then the iPhone 6, but thjat's maybe just my taste 
+T 1454434731 18<rikai18>	the snapdragons are running into heat issues that are throttling them hard. It was a pretty big slipup by qualcomm to release the latest one.
+T 1454434746 18<north_ranger18>	iOS development is easier than Android
+T 1454434752 18<WonderingGuru18>	Does anyone own a Nexus 6?
+T 1454434762 18<micah6818>	I'm with you ChrisLAS
+T 1454434766 18<Ioangogo18>	they are removing the headphone port in this version i think acording to rumours
+T 1454434788 18<renegadevi18>	it's like saying 'OSX IS FreeBSD', in some ways yes, but it is it's own.
+T 1454434792 18<rikai18>	Ioangogo: makes sense. It's the biggest obstacle to making phones thinner these days.
+T 1454434793 18<micah6818>	It seems like iOS gives me better control over my device (settings, not tweaks). And yeah, the 6s rocks.
+T 1454434805 18<north_ranger18>	Ioangogo lightning to 3.5mm adapter $29.99?
+T 1454434812 18<WWNSX18>	Samsung is advertising their samsung pay everywhere and how it works even on older hardware
+T 1454434820 18<WWNSX18>	older pay hardware
+T 1454434834 18<north_ranger18>	Angerz can't keep it in her pants
+T 1454434835 18<rikai18>	north_ranger: i'd totally buy an adapter on an android phone if it meant a lighter device. :P
+T 1454434850 18<XenWildman18>	I agree. I'm not into phablets...
+T 1454434858 18<Ioangogo18>	rikai: But its annoying and will cause people not buy it as they cant plug it in to their amp out of the box
+T 1454434859 18<SpazzyC18>	!suggest I need it smaller
+T 1454434888 18<Ioangogo18>	and its not mutch diffent that  USBotg DAC
+T 1454434893 18<micah6818>	I believe that that is how Samsung pay works, yes
+T 1454434902 18<rikai18>	Ioangogo: i don't expect that'll be true at all.
+T 1454434918 18<Ioangogo18>	:(
+T 1454434919 18<rikai18>	Ioangogo: radical changes have never dinged their sales before, i dont expect it to change.
+T 1454434925 18<rikai18>	Ioangogo: as sad as that is :P
+T 1454434959 18<SpazzyC18>	http://www.walmart.com/ip/Minecraft-Stop-Motion-Movie-Creator/44932287
+T 1454434961 18<JBot18>	^ Minecraft Stop-Motion Movie Creator - Walmart.com
+T 1454434966 18<SpazzyC18>	My daughter has this
+T 1454434974 18<SpazzyC18>	she loves it
+T 1454434994 18<Zenny45218>	Jason and the Argonaunts - skeleton Fights
+T 1454434999 18<XenWildman18>	Stop motion machinima?
+T 1454435008 18<Ioangogo18>	Where is ardman
+T 1454435011 18<sweetlew18>	Anytime I hear "Kick it", I automatically think that "Fight For Your Right To Party" is starting. My fave from the Beastie Boys, personally.
+T 1454435063 18<XenWildman18>	Patreon seems like a better platform for a magazine
+T 1454435068 18<WWNSX18>	yeah
+T 1454435107 18<rikai18>	http://stopmotionmagazine.net/ shows some of the kind of articles they'd be doing, i imagine.
+T 1454435109 18<JBot18>	^ Stop Motion Magazine | One Frame At A Time
+T 1454435131 18<Ioangogo18>	It only works when the magazines have been made by existing authors E.G. Linux Voice
+T 1454435186 18<Blastyr18>	http://jblive.support/
+T 1454435187 18<JBot18>	^ Tech Talk Today is creating DAILY PODCASTS
+T 1454435238 18<biniar18>	what happened to the Jupiter Signal?
+T 1454435304 18<egftechman18>	I still use some 8" floppies on an old AS/400 that is still in production
+T 1454435308 18<WWNSX18>	lol
+T 1454435310 18<Zenny45218>	RACIST 
+T 1454435321 18<Zakhrov18>	140 bucks?
+T 1454435330 18<moothespacecow18>	ERASE SLAVE
+T 1454435337 18<Blastyr18>	Errbody BOAT
+T 1454435339 18<sweetlew18>	Blastyr: Cool!
+T 1454435341 18<WWNSX18>	NO MASTER NO!
+T 1454435344 18<Blastyr18>	http://bangsuggest.com
+T 1454435345 18<JBot18>	^ JBot | Home
+T 1454435348 18<Ioangogo18>	https://www.linkedin.com/in/johnikuma looks like the mag author is in the indastry
+T 1454435356 18<north_ranger18>	watched a bunch of old computer chronicles this weekend. shocking how expensive some of that stuff
+T 1454435383 18<rikai18>	ChrisLAS: You need this in your life: http://prebake.eu/
+T 1454435384 18<JBot18>	^ Prebake: Block EU Cookie Notices with Adblock
+T 1454435395 18<XenWildman18>	Edge of privacy = great title
+T 1454435409 18<Zenny45218>	Slave: Whats is your name ? GNU  Master: No its Apple Say Apple 
+T 1454435422 18<Blastyr18>	<3 DaftPunk
+T 1454435474 18<jbHawkOfTruth18>	Damn. Just missed TTT
+T 1454435489 18<micah6818>	Gotta love Linux controversies
+T 1454435503 18<moothespacecow18>	!next
+T 1454435504 18<JBot18>	Next show is LINUX Unplugged in 4 hours 8 minutes 15 seconds (10:00pm UTC on Tuesday, 2/2/2016)
+T 1454435510 18<micah6818>	Hopefully this one is new, and not something old hat that we seem to love to keep tossing around.
+T 1454435520 18<TheAnime18>	wewts
+T 1454435527 18<moothespacecow18>	loved it
+T 1454435530 18<TheAnime18>	baibees
+T 1454435531 18<XenWildman18>	Cya JB you rock!
+T 1454435536 18<kyr018>	bai bai
+T 1454435544 18<moothespacecow18>	adios
+T 1454435551 18<Zenny45218>	Bye Bye
+T 1454435553 18<sweetlew18>	Congrats on getting 1st & 2nd, TheAnime!
+T 1454435559 18<TheAnime18>	heh
+T 1454435579 18<sweetlew18>	Adios, amigos, for right now!
+T 1454435712 18<immovableforce18>	that's a lot of people using kiwiirc all leaving at once :D
+T 1454435894 18<rikai18>	immovableforce: we use kiwi for the web chat now. :)
+T 1454436163 18<Zakhrov18>	!next
+T 1454436164 18<JBot18>	Next show is LINUX Unplugged in 3 hours 57 minutes 16 seconds (10:00pm UTC on Tuesday, 2/2/2016)
+T 1454436166 18<renegadevi18>	anyone here knows web dev and SEO? I would need some help wioth robots.txt regarding static files. hm. should I disallow it?
+T 1454436200 18<Zakhrov18>	hmm 23:30 here. Do i stay up till 3 in the morning?
+T 1454436617 18<LibertyHawk18>	Runs Linux?  https://www.youtube.com/watch?v=ixTddQQ2Hs4
+T 1454436618 18<JBot18>	^ World's Fastest Rubik's Cube Solving Robot - YouTube
+T 1454436631 18<LibertyHawk18>	I think it's MATE
+T 1454436734 18<renegadevi18>	nope, it's gnome classic mode, standard on centos
+T 1454436806 18<renegadevi18>	LibertyHawk: http://core0.staticworld.net/images/article/2014/10/5-gnome-3-classic-mode-on-centos-7-100468869-orig.png
+T 1454436823 18<LibertyHawk18>	Cool.  Didn't know.  Still a neat runs linux. 
+T 1454436827 18<LibertyHawk18>	Thanks!
+T 1454436864 18<Ioangogo18>	https://asciinema.org/
+T 1454436866 18<JBot18>	^ asciinema - Record and share your terminal sessions, the right way
+T 1454437225 18<swift110-phone18>	Cool
+T 1454437338 18<Zakhrov18>	Anyone using openSUSE leap?
+T 1454440379 18<mort18>	so, eh
+T 1454440387 18<mort18>	why am I banned from irc.geekshed.net
+T 1454440400 18<mort18>	apparently my session limit was exceeded, which automatically banned me?
+T 1454440494 18<Unidentified3859318>	you are here now
+T 1454440497 24*	28Unidentified38593 is now known as 18Torikun
+T 1454440502 18<mort18>	in a different IRC client
+T 1454440538 18<mort18>	different IRC client from a different IP
+T 1454441018 18<biniar18>	breaking all the digital borders like a madman
+T 1454441070 18<mort18>	well, I generally use irccloud
+T 1454441092 18<mort18>	but it would be nice to not be randomly automatically banned
+T 1454441548 18<biniar18>	i am sure it was for a reason that you are unaware of perhaps?
+T 1454441940 18<mort18>	well
+T 1454441945 18<mort18>	it literally says: " *** You are banned from GeekShed (Session limit exceeded)"
+T 1454441959 18<mort18>	so I assume it has to do with my session limit being exceeded
+T 1454442002 18<F41L18>	Rebuilt an old i7 machine into my former mega chassis. i7 960
+T 1454442029 18<F41L18>	it says it's idling at like 70 degrees, 100 at load. Which makes no sense, the heatsink is barely warmer than my hand, and everything is running fine lol
+T 1454442043 18<F41L18>	Think the temps are being misreported 
+T 1454442071 18<WWNSX18>	maybe your cooling is inefficient
+T 1454442105 18<F41L18>	if it were running at 100 C it'd thermal shutdown
+T 1454442114 18<WWNSX18>	true
+T 1454442127 18<F41L18>	I have an Arctic Freezer 7 pro
+T 1454442167 18<WWNSX18>	i'd check temp in bios if you're not using the machine right now
+T 1454442178 18<F41L18>	it reports that in BIOS on cold boot
+T 1454442181 18<F41L18>	70 degrees
+T 1454442184 18<WWNSX18>	wow
+T 1454442195 18<F41L18>	I think the temp sensor is busted or something :D
+T 1454442223 18<F41L18>	it seems to cap out at 100 and does not go higher.
+T 1454442387 18<WWNSX18>	i'd check if there is a bios update if that is a known issue
+T 1454442445 24*	28swift110 is now known as 18Unidentified45024
+T 1454442453 18<Blackinator10118>	F41L: the i7 960 doesn't have the built in sensor I believe
+T 1454442478 18<_AACO18>	!next
+T 1454442479 18<JBot18>	Next show is LINUX Unplugged in 2 hours 12 minutes (10:00pm UTC on Tuesday, 2/2/2016)
+T 1454443208 24*	28Unidentified45024 is now known as 18swift110
+T 1454446006 18<renegadevi18>	mort: ask Allan !next
+T 1454446010 18<renegadevi18>	!next
+T 1454446011 18<JBot18>	Next show is LINUX Unplugged in 1 hour 13 minutes 9 seconds (10:00pm UTC on Tuesday, 2/2/2016)
+T 1454446254 24*	28Corey is now known as 18Crumbled_Cookie
+T 1454446481 18<JBLive_1301218>	!next
+T 1454446481 18<JBot18>	Next show is LINUX Unplugged in 1 hour 5 minutes 18 seconds (10:00pm UTC on Tuesday, 2/2/2016)
+T 1454446550 18<F41L18>	re-applied thermal paste just to be sure.
+T 1454446560 18<F41L18>	No change, it's definitely the reporting mechanism
+T 1454446571 18<F41L18>	I found there's some other values that seem more accurate
+T 1454446576 18<F41L18>	TMPIN0-2
+T 1454446634 18<F41L18>	as soon as I start prime95, it jumps up to 100C instantly from like ~55
+T 1454446652 18<F41L18>	no ramp up, just tached out at 100 one frame to the next
+T 1454446659 18<F41L18>	So it's got to be wrong.
+T 1454446708 18<F41L18>	The TMPIN1 value appears to correlate better. With Prime95 on an i7 960 with Arctic Cooler Freezer 7 Pro with a fresh thermal paste application, caps out at about 86 C
+T 1454446732 18<F41L18>	Wherin it starts to clock down the CPU gradually
+T 1454446795 18<ebeyer18>	Do any of you guys use GoDaddy for email?
+T 1454446897 18<F41L18>	Luckily no
+T 1454446904 18<F41L18>	But I do use them for DNS >.<
+T 1454447024 18<Wimpy18>	Eveing
+T 1454447029 18<Wimpy18>	Evening, even.
+T 1454447207 18<MXS18>	Has anyone usesed http://linuxcnc.org/ in day to day work
+T 1454447208 18<JBot18>	^ LinuxCNC
+T 1454447625 18<ebeyer18>	I've been using them for email since I've started trying to break away from Mac OS about 2-3 years ago.  The problem is that SMTP login fails just often enough to be really annoying.
+T 1454447829 18<immovableforce18>	Holy... I've had my player playing the stream all this time.. But, and I didn't realize this before, I guess there is no bandwidth usage when they're not playing something.
+T 1454448105 18<Torikun18>	yo
+T 1454448328 18*	JbStudio Restarting the stream
+T 1454448458 18*	JbStudio Stream is up!
+T 1454448480 18<Blastyr18>	\o/
+T 1454448484 18<WWNSX18>	Interstella 5555
+T 1454448506 18<xypherjack18>	\o  Hey Howdy Hi and Hello!!
+T 1454448734 18<Blastyr18>	*guitar solo*
+T 1454448753 18<xypherjack18>	\o Rock on!!!
+T 1454448818 18<xypherjack18>	((smh))  98!  LOL
+T 1454448830 18<SeeM218>	remmember the time when windows release was kinda important?
+T 1454448905 18<kyr018>	them features.
+T 1454448946 18<SeeM218>	read: get that Netscape Navigator out of here.
+T 1454448994 18<Blastyr18>	"Oh yeah. The thing that runs random JS from some dude on the Internet with a geocities page has access to all the files on your hard drive. Brilliant. Can't go wrong."
+T 1454449035 18<SeeM218>	yeah... that activeX
+T 1454449044 18<WWNSX18>	Remember when they use to put effort into updates and describe issues that they fixed
+T 1454449101 18<oswriter18>	pfft.. users don't want "descriptions" or "explanations" of anything
+T 1454449138 18<Blastyr18>	-Oracle, 2015
+T 1454449197 18<xypherjack18>	and even more users today! ;)
+T 1454449216 18<SeeM218>	good to see windowmaker again
+T 1454449261 18<xypherjack18>	wow!  right SeeM2 !
+T 1454449278 18<JBot18>	@jupitersignal: LINUX Unplugged is LIVE: https://t.co/MPvkJbBNoh Mint's new apps, Tails' new release, and Ubuntu's call for help! https://t.co/GGlcSFVyvC (11 seconds ago)
+T 1454449290 18<WWNSX18>	RIP VA
+T 1454449328 18<WWNSX18>	I wonder if System76 learned anything from VA
+T 1454449350 18<xypherjack18>	 wouldn't doubt it WWNSX 
+T 1454449365 18<oswriter18>	I wonder how Linus' self-esteem is these days lol
+T 1454449435 18<_AACO18>	hello
+T 1454449459 18<concorde18>	via
+T 1454449493 18<_AACO18>	One of my old laptops had a VIA GPU iirc
+T 1454449497 18<JBLive_1248018>	Hello.
+T 1454449516 18<Blastyr18>	Wimpy: Rocking Ubuntu MATE for my development environment here at work. :)
+T 1454449543 18<Wimpy18>	Blastyr, Nince :-)
+T 1454449547 18<Wimpy18>	Blastyr, Nine :-)
+T 1454449554 18<Blastyr18>	Nice, even. :P
+T 1454449564 18<Wimpy18>	So tired!
+T 1454449572 18<Wimpy18>	Yes, excellent even :-D
+T 1454449622 18<swift11018>	hmm
+T 1454449623 18<Blastyr18>	I kind of want to pull down the default Hardy wallpaper for it.
+T 1454449633 18<ndacres18>	sup
+T 1454449637 18<_AACO18>	ChrisLAS can't you install bitnami "things" in DO?
+T 1454449688 18<SeeM218>	I have Ubuntu Mate on the old Dell PC, in which I had to cut the case to fit an old nvidia card (it stick almost like Amiga 520 :) ), since Ubuntu isn't working well with integrated video card.
+T 1454449691 18<ndacres18>	rocketchat has a phone app also
+T 1454449728 18<JBLive_1301218>	!next
+T 1454449728 18<JBot18>	Next show is LINUX Unplugged in 11 minutes 11 seconds (10:00pm UTC on Tuesday, 2/2/2016)
+T 1454449760 18<ndacres18>	I'm probibly going to deploy Rocketchat to my droplet by the end of the day.
+T 1454449761 18<Wimpy18>	Blastyr, What version?
+T 1454449783 18<ndacres18>	rocket chat is in meteor
+T 1454449811 18<Torikun18>	Rocket chat?
+T 1454449833 18<Torikun18>	Is that like slack
+T 1454449861 18<micah6818>	How does rocket.chat compare with mattermost?
+T 1454449889 18<ndacres18>	well, i can deploy Rocket.chat with an Ansible job
+T 1454449890 18<_AACO18>	damn... my first kernel panic in years...
+T 1454449894 18<ndacres18>	or with docker
+T 1454449896 18<ndacres18>	or with ...
+T 1454449906 18<ndacres18>	https://github.com/RocketChat/Rocket.Chat#deployment
+T 1454449907 18<JBot18>	^ RocketChat/Rocket.Chat - CoffeeScript - GitHub
+T 1454449920 18<ndacres18>	there's a lot of deployment options with rocketchat
+T 1454449983 18<ZFSFORTHEWIN18>	evenin all
+T 1454449993 18<Blastyr18>	Wimpy: 14.04. Probably gonna nuke/pave 16.04
+T 1454449996 18<SeeM218>	I wonder when Slack will be bought by Logmein.
+T 1454449997 18<Sonix71118>	Hey everyone! :) Hey ChrisLAS! :) hope yr all well! :)
+T 1454450000 18<Torikun18>	Rocket Chat seems cool
+T 1454450011 18<ndacres18>	you can only use one promo code right/
+T 1454450014 18<ndacres18>	one promo per account
+T 1454450024 18<Wimpy18>	Blastyr, Go with 15.10 or 16.04.
+T 1454450025 18<ndacres18>	i thought
+T 1454450026 18<TheAnime18>	freebsdnow
+T 1454450029 18<TheAnime18>	*ahem*
+T 1454450030 18<Wimpy18>	14.04 is not so great.
+T 1454450040 18<Sonix71118>	:)
+T 1454450041 18<Torikun18>	I can host your rocketchat on my server for free (linux-toys.com)
+T 1454450045 18<Wimpy18>	We've had a whole lot of learning since that was built.

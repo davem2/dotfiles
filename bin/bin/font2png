@@ -1,0 +1,22 @@
+#!/bin/sh
+
+convert -font Noto-Sans -background transparent -gravity center -size 830x80 label:'$1' output.png
+
+
+function fontToPng {
+	FONT=$1
+	OUTFILE=$2
+	TEXT=$"\u0000\u0001\u0002"
+
+
+    convert -font $FONT -background transparent -gravity center -size 830x80 label:$TEXT $OUTFILE
+}
+
+fontToPng $1 $2
+
+while [ $# -gt 0 ]
+do
+    echo " $1"
+    shift
+done
+

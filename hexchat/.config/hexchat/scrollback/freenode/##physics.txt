@@ -1,0 +1,720 @@
+T 1430360883 24*	Trocker_ has quit (Ping timeout: 256 seconds)
+T 1430360890 24*	km00000 has quit (Quit: Leaving)
+T 1430360912 23*	kreiGT (~kreig@190.149.48.4123) has joined
+T 1430360961 23*	sifeic`` (~sifeic@174-29-61-78.hlrn.qwest.net23) has joined
+T 1430360976 23*	Iapyx (~Iapyx@pdpc/supporter/student/iapyx23) has joined
+T 1430360981 18<otterspirit18>	two balls rolling away from each other at the velocity of the former squared and over the city of paris at a downhill angle comprised of 17 megatons of granite met after 17 seconds
+T 1430360991 18<otterspirit18>	what were their coordinates?
+T 1430361022 18<otterspirit18>	nah jk, I am just playing around. I am not a physicist
+T 1430361056 18<otterspirit18>	hey DogPolice
+T 1430361120 18<monoprotic18>	otterspirit ##not-physics
+T 1430361178 24*	Macuser has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+T 1430361182 18<otterspirit18>	you're the one who thought there was a fourth law of thermodynamics buddy :D
+T 1430361195 18<monoprotic18>	last warnin
+T 1430361196 24*	sifeic` has quit (Ping timeout: 252 seconds)
+T 1430361236 24*	Iapyx has quit (Client Quit)
+T 1430361297 18<otterspirit18>	ohh wrong answer
+T 1430361300 18<otterspirit18>	 /---------------------------------------\
+T 1430361300 18<otterspirit18>	| idea what the fourth law of            |
+T 1430361300 18<otterspirit18>	| thermodynamics is because there is not |
+T 1430361300 18<otterspirit18>	\ one                                    /
+T 1430361300 18<otterspirit18>	 ----------------------------------------
+T 1430361302 18<otterspirit18>	        \   ^__^
+T 1430361305 18<otterspirit18>	         \  (oo)\_______
+T 1430361305 22*	26ChanServ sets quiet on 18*!*@unaffiliated/barfod
+T 1430361315 24*	otterspirit (~none@unaffiliated/barfod24) has left
+T 1430361344 18<LemMinG18>	lol
+T 1430361345 23*	otterspirit (~none@unaffiliated/barfod23) has joined
+T 1430361363 24*	Alex5 has quit (Quit: Alex5)
+T 1430361392 23*	Alex5 (~Alex5@unaffiliated/alex523) has joined
+T 1430361553 18<neochronomo18>	otterspirit: haha, good puzzle idea
+T 1430361586 24*	ir2ivps has quit (Remote host closed the connection)
+T 1430361671 23*	ir2ivps (~ir2ivps@169.53.134.171-static.reverse.softlayer.com23) has joined
+T 1430361742 23*	Cs1177 (~Cs1177@46.166.190.13723) has joined
+T 1430361875 24*	esch has quit (Read error: Connection reset by peer)
+T 1430361925 18<theseb18>	otterspirit: wait...someone else who knows about Dog Police?
+T 1430362045 24*	Euthanasia has quit (Ping timeout: 264 seconds)
+T 1430362065 23*	Euthanasia (~Unkn0wn@64.134.26.2223) has joined
+T 1430362140 24*	otterspirit has quit (Quit: leaving)
+T 1430362320 23*	rooferdave (~rooferdav@66.87.136.9823) has joined
+T 1430362574 23*	django_ (~django_3@unaffiliated/django-/x-834575623) has joined
+T 1430362579 18<django_18>	hello all
+T 1430362599 18<django_18>	if you have two wave packets with a spectrial distribution y(k) how do you find the wave function
+T 1430362626 24*	theseb has quit (Quit: Leaving)
+T 1430362670 18<daa149418>	someone have a nice animation of parallel transport on a trajectory that is not a geodesic?
+T 1430362760 18<PlanckWalk18>	The usual "spherical triangle" one should
+T 1430362770 18<PlanckWalk18>	Ack, that's geodesic.
+T 1430362792 24*	rooferdave has quit (Quit: Leaving)
+T 1430362795 18<PlanckWalk18>	Well, each part is
+T 1430362802 18<PlanckWalk18>	Overall it's not though
+T 1430363027 18<daa149418>	Yes. Every animation that I find is on a geodesic.
+T 1430363127 24*	telex has quit (Remote host closed the connection)
+T 1430363200 23*	telex (teletype@freeshell.de23) has joined
+T 1430363239 24*	sifeic`` has quit (Ping timeout: 245 seconds)
+T 1430363303 23*	AyraXaryA (AyraXaryA@c-71-231-105-250.hsd1.wa.comcast.net23) has joined
+T 1430363366 23*	Askori_ (~Askori@50.49.153.2323) has joined
+T 1430363381 24*	Askori has quit (Ping timeout: 248 seconds)
+T 1430363656 24*	Kalov has quit (Remote host closed the connection)
+T 1430363663 24*	django_ (~django_3@unaffiliated/django-/x-834575624) has left ("Leaving")
+T 1430363748 23*	sbellina (~sbellina@107.191.1.61.static.utbb.net23) has joined
+T 1430363797 23*	Cirus (~Cirus@2601:9:80:74:e841:672:584e:7ab23) has joined
+T 1430363820 24*	paulo___ has quit (Ping timeout: 272 seconds)
+T 1430363869 24*	fyrril has quit (Read error: Connection reset by peer)
+T 1430363986 23*	ONI_Ghost (~ONI@209.179.74.17523) has joined
+T 1430363992 23*	johnflux (~johnflux@konversation/developer/JohnFlux23) has joined
+T 1430364130 24*	cefkamcau has quit (Ping timeout: 255 seconds)
+T 1430364146 23*	cefkamcau (~cefkamcau@bly138.neoplus.adsl.tpnet.pl23) has joined
+T 1430364186 18<PlanckWalk18>	Geodesics do make it easier to explain :-)
+T 1430364205 23*	eatyourguitar (~eatyourgu@pool-100-40-26-10.prvdri.fios.verizon.net23) has joined
+T 1430364211 23*	tpiXvas (~tpiXvas@TOROON473NW-LP140-01-1279741341.dsl.bell.ca23) has joined
+T 1430364240 24*	johnflux__ has quit (Ping timeout: 256 seconds)
+T 1430364240 24*	_Atom_ has quit (Quit: Goodbye mama, now you can have ice cream in heavan! I'll see you again tonight when I go to bed in my head movies. But this head movie makes my eyes rain!)
+T 1430364478 24*	Encapsulation has quit (Ping timeout: 256 seconds)
+T 1430364580 24*	esas has quit (Ping timeout: 272 seconds)
+T 1430364853 23*	Iapyx (~Iapyx@pdpc/supporter/student/iapyx23) has joined
+T 1430364967 24*	TheLoneMilkMan has quit (Ping timeout: 255 seconds)
+T 1430365132 24*	zampano has quit (Quit: Out.)
+T 1430365161 24*	Iapyx has quit (Quit: Leaving)
+T 1430365345 24*	Askori_ has quit (Ping timeout: 255 seconds)
+T 1430365374 23*	Askori (~Askori@50.48.205.7423) has joined
+T 1430365441 24*	blablaa has quit (Quit: Ping timeout: 260 seconds)
+T 1430365492 24*	buzzykins has quit (Quit: http://itn.cow.no - Home of the finest streams of all time)
+T 1430365548 24*	aLLeYRaT has quit (Quit: Sleep.)
+T 1430365587 24*	Ethoscience has quit (Quit: Nota mental: no crearme más notas mentales.)
+T 1430365747 18<daa149418>	yes but, would be nice to have one.
+T 1430365816 23*	singularity00 (~singulari@89-215-90-72.2075347199.ddns-lan.pl.ekk.bg23) has joined
+T 1430366448 23*	saiyate (~quassel@host-69-145-148-122.msl-mt.client.bresnan.net23) has joined
+T 1430366505 23*	Bth8 (~Bth8@unaffiliated/bth823) has joined
+T 1430366696 24*	m_ben has quit (Ping timeout: 240 seconds)
+T 1430366848 24*	daa1494 has quit (Read error: Connection reset by peer)
+T 1430366904 23*	daa1494 (~david@201.141.18.16123) has joined
+T 1430367033 23*	Rainb (~rainb@181.50.148.22423) has joined
+T 1430367113 18<xihr18>	it's pretty easy to find images of them
+T 1430367165 18<xihr18>	e.g., http://gregegan.customer.netspace.net.au/INCANDESCENCE/Schwarzschild/ParallelTransport.gif
+T 1430367295 24*	singularity00 has quit (Quit: Konversation terminated!)
+T 1430367320 23*	k0nichiwa (~jdoe@wsip-174-77-238-66.ga.at.cox.net23) has joined
+T 1430367355 18<xihr18>	... oops, didn't realize that conversation was that long ago :-)
+T 1430367398 24*	rr645 has quit (Quit: (null))
+T 1430367402 24*	centrinia has quit (Ping timeout: 256 seconds)
+T 1430367572 18<eatyourguitar18>	I watched a lecture that has some pretty convincing mathmatical proofs for why wavecollapse does not happen in two slit experiment
+T 1430367580 18<eatyourguitar18>	https://www.youtube.com/watch?v=dEaecUuEqfc
+T 1430367631 18<eatyourguitar18>	to sum up what he said; the more deterministic the measurement, the more it looks like wave collapse
+T 1430367662 18<eatyourguitar18>	basically if you count particles in whole numbers you are forcing the illusion of wave collapse
+T 1430367669 18<eatyourguitar18>	there is no wave collapse
+T 1430367795 18<xihr18>	oh please
+T 1430367844 18<eatyourguitar18>	he does a number of proofs some are theoretical not experimental
+T 1430367853 24*	k0nichiwa has quit (Ping timeout: 256 seconds)
+T 1430367858 18<CCFL_Man18>	i'm taking calculus 3 and physics 2 at my community college this summer
+T 1430367863 18<CCFL_Man18>	they only offer those classes in the summer
+T 1430367882 23*	Red40 (~Red40@14.141.157.2023) has joined
+T 1430367882 18<eatyourguitar18>	but he does an experiment to shows deinterference of photons
+T 1430367912 23*	centrinia (~centrinia@2602:306:bd0d:a690:9820:f363:72ba:9ff023) has joined
+T 1430368045 23*	CarlosPL (~CarlosPL@64.69.27.77.dynamic.mundo-r.com23) has joined
+T 1430368123 18<shminux18>	excellent comments there
+T 1430368130 18<shminux18>	fun to read
+T 1430368173 18<shminux18>	relativity has been violated for years, the only reason its still around is because a bunch of 'scientists' created something that appears not to exist in physical reality & cannot be observed or measured, due to apparently not existing, & therefore not corresponding to some underlying physical reality we can understand.
+T 1430368173 18<shminux18>	Relativity is not reality, its an idea about it, an idea that observations & measurements of reality consistently refute...yet its still with us & this is what passes for scientific study these days.
+T 1430368213 24*	Haswell has quit (Quit: Saliendo)
+T 1430368227 23*	theseb (~cs@74-194-126-197.cnrocmta01.res.dyn.suddenlink.net23) has joined
+T 1430368233 18<shminux18>	I find it funny how so much of science is "unknown" when a lot of scientists love to "ridicule" religions. They really arent much different - both are THEORIES always lacking some sort of evidence...something we seem to need...
+T 1430368242 18<shminux18>	and so on
+T 1430368272 18<shminux18>	oh, and "how can physicists not know to which slit they shot the particle?"
+T 1430368292 24*	centrinia has quit (Quit: Leaving)
+T 1430368415 18<eatyourguitar18>	does anyone do any group theory math?
+T 1430368441 18<monoprotic18>	probably, somewhere
+T 1430368458 18<eatyourguitar18>	the maximum data that can be contained in entangled particles as he puts it is similar to the reduction of data in a rubiks cube
+T 1430368475 18<eatyourguitar18>	the rubiks cube reference is mine
+T 1430368510 18<eatyourguitar18>	but I think there is something interesting going on with entanglement that reduces the data contained in the universe
+T 1430368547 18<eatyourguitar18>	where some of the data is redundant due to parity
+T 1430368580 18<eatyourguitar18>	but the redundant data is interchangeable with the significant data
+T 1430368591 18<eatyourguitar18>	although they can not both be redundant
+T 1430368630 24*	sheilong has quit (Remote host closed the connection)
+T 1430368646 23*	centrinia (~centrinia@2602:306:bd0d:a690:9820:f363:72ba:9ff023) has joined
+T 1430368670 23*	k0nichiwa (~jdoe@wsip-174-77-238-66.ga.at.cox.net23) has joined
+T 1430368796 24*	enthropy has quit (Ping timeout: 240 seconds)
+T 1430368823 23*	TheLoneMilkMan (Gamemaster@129.21.95.19123) has joined
+T 1430369268 24*	TheLoneMilkMan has quit (Ping timeout: 250 seconds)
+T 1430369270 23*	drostie (~quassel@50-27-216-76.stjo.sta.suddenlink.net23) has joined
+T 1430369278 23*	tmager (~Thunderbi@resnet149-109.medford.tufts.edu23) has joined
+T 1430369289 24*	drostie has quit (Remote host closed the connection)
+T 1430369326 23*	TheLoneMilkMan (~Gamemaste@mobile-107-107-58-63.mycingular.net23) has joined
+T 1430369347 24*	Cs1177 has quit (Remote host closed the connection)
+T 1430369368 24*	ksool has quit (Ping timeout: 255 seconds)
+T 1430369433 24*	Euthanasia has quit (Read error: Connection reset by peer)
+T 1430369446 23*	Euthanasia (~Unkn0wn@64.134.26.2223) has joined
+T 1430369470 24*	28Euthanasia is now known as 18Guest16612
+T 1430369724 18<xihr18>	bleep bloop boop
+T 1430369796 23*	AMERICAN_PSYCHO (~A_PSYCHO@226.sub-70-196-5.myvzw.com23) has joined
+T 1430369841 24*	k299 has quit (Ping timeout: 265 seconds)
+T 1430369849 23*	hoverfly (~vervet@host-239.180-235-182.cable.dynamic.kbtelecom.net23) has joined
+T 1430369959 24*	neochronomo has quit (Ping timeout: 246 seconds)
+T 1430370353 24*	oleo has quit (Quit: Leaving)
+T 1430370429 24*	greenbagels has quit (Read error: Connection reset by peer)
+T 1430370580 24*	tmager has quit (Ping timeout: 250 seconds)
+T 1430370988 24*	daa1494 has quit (Ping timeout: 255 seconds)
+T 1430371267 24*	kreiGT has quit (Remote host closed the connection)
+T 1430371436 23*	daa1494 (~david@201.141.152.16123) has joined
+T 1430371643 24*	Red40 has quit (Remote host closed the connection)
+T 1430371695 24*	28jaaronamo is now known as 18jonesinator
+T 1430371837 24*	DogPolice has quit (Ping timeout: 264 seconds)
+T 1430371838 23*	porcupine (~porcupine@cpe-173-172-122-7.kc.res.rr.com23) has joined
+T 1430371857 23*	oconnore (~eric@192.34.80.16723) has joined
+T 1430371875 23*	Red40 (~Red40@14.141.157.2023) has joined
+T 1430371909 24*	Red40 has quit (Remote host closed the connection)
+T 1430372053 18<xihr18>	ugh, that video is a complete waste of time
+T 1430372132 24*	redcheckers (~superuser@207.162.128.6024) has left
+T 1430372156 24*	AyraXaryA has quit ()
+T 1430372175 18<porcupine18>	what video
+T 1430372214 18<xihr18>	if you didn't see it, don't waste your time
+T 1430372218 18<xihr18>	(the link)
+T 1430372275 24*	iibewegung has quit (Quit: Disconnecting)
+T 1430372281 24*	mmango has quit (Quit: Leaving)
+T 1430372405 24*	cbot` has quit (Ping timeout: 248 seconds)
+T 1430372515 24*	TheLoneMilkMan has quit (Read error: Connection reset by peer)
+T 1430372531 23*	TheLoneMilkMan (Gamemaster@129.21.95.19123) has joined
+T 1430372586 18<jle`18>	xihr: the google tech talk one?
+T 1430372591 23*	cbot` (~FS@ool-2f12e4fc.dyn.optonline.net23) has joined
+T 1430372652 18<xihr18>	yes
+T 1430372716 23*	t4nk754 (45f2e25b@gateway/web/freenode/ip.69.242.226.9123) has joined
+T 1430372767 24*	eatyourguitar has quit (Remote host closed the connection)
+T 1430372783 18<t4nk75418>	maxwells equations...are supposed to disagree, to the exact extent that relativity predicts, right?
+T 1430372787 23*	zeRez (~zeRez@x5f776a98.dyn.telefonica.de23) has joined
+T 1430372801 18<xihr18>	disagree with what? huh?
+T 1430372830 18<t4nk75418>	with each other
+T 1430372852 18<t4nk75418>	in one reference frame, the maxwell equations can give you a much higher force
+T 1430372868 18<t4nk75418>	but, the motion is the same because of relativistic changes in force? (this is my question, not a statement)
+T 1430372907 18<xihr18>	how can equation disagree with itself?
+T 1430372920 18<xihr18>	in SR, Maxwell's equations are correct in any inertial frame; what appears as an electric vs. a magnetic field will vary from frame to frame, however
+T 1430372937 18<t4nk75418>	yes
+T 1430372941 18<t4nk75418>	ok, a rephrase
+T 1430372956 18<t4nk75418>	of my question:
+T 1430372972 18<t4nk75418>	Maxwell's equations are correct in any inertial frame...regarding the final motion/momentum of the objects?
+T 1430372982 23*	Trocker_ (~Trocker@ip-188-127-14-247.ennet.pl23) has joined
+T 1430372985 18<t4nk75418>	or even the magnitude of total forces as well?
+T 1430372989 18<jle`18>	if you apply the mechanics to study a system in one inertial frame, the results you predict will be the same as if you used the equations to study it in another inertial reference frame
+T 1430373003 18<t4nk75418>	ok
+T 1430373015 18<t4nk75418>	so, does relativity transform these forces, yet still tell you the results will be the same
+T 1430373051 18<xihr18>	not sure what that question even means
+T 1430373052 18<t4nk75418>	i guess i'm asking if equivalent result = equivalent force
+T 1430373064 18<xihr18>	not making much sense
+T 1430373073 18<t4nk75418>	ok, let me set up a problem
+T 1430373074 18<xihr18>	forces are not frame invariant, if that's what you're asking
+T 1430373084 24*	DragonPunch (~salman@cpe-70-92-146-217.wi.res.rr.com24) has left
+T 1430373095 18<t4nk75418>	yes! almost, xihr
+T 1430373102 18<xihr18>	the relativity principle states that the laws of physics are the same in all inertial reference frames ... not that everything is exactly the same in all frames
+T 1430373116 23*	nilg (~user@77.70.2.22923) has joined
+T 1430373123 18<t4nk75418>	i'm asking if forces vary from frame to frame...by the exact amount that Maxwell's equations' predicted forces vary from frame to frame...(while all the time giving the same "result" of motion)
+T 1430373275 18<jle`18>	i think looking at forces might be a red herring here
+T 1430373347 18<xihr18>	Maxwell's equations don't "predict forces vary[ing] from frame to frame," so you seem very confused
+T 1430373455 18<porcupine18>	do you mean whether the force is from an E or a vxB?
+T 1430373480 18<t4nk75418>	ok, i'll set up my question
+T 1430373495 18<t4nk75418>	anyone who actually is enjoying this can read if they like
+T 1430373519 23*	KAHR-Alpha (~chatzilla@AReims-652-1-197-64.w86-192.abo.wanadoo.fr23) has joined
+T 1430373548 18<jle`18>	your general intuition might be correct here.  special relativity and maxwell's equations being the same under all reference frames are somewhat equivalent postulates, in a way.  you can derive one from the other.  you can eliminate B fields and call the resulting behavior a result of relativistically studying E, or you can assume invariance between frames and arrive at special relativity
+T 1430373553 18<t4nk75418>	we're considering a stationary, charged wire, with 0 current, and an electron traveling alongside it.
+T 1430373590 18<xihr18>	well, specifically, SR was developed to be compatible with Maxwell's equations ... that was the original motivation for Einstein's paper
+T 1430373591 18<t4nk75418>	jle`: that does kind of make sense, actually
+T 1430373636 24*	Jorgebio has quit (Quit: Jorgebio)
+T 1430373643 18<jle`18>	yeah, the second direction in the relationship is more or less the commonly told story of the birth of SR
+T 1430373720 18<xihr18>	well, given that it IS the birth of SR ...
+T 1430373736 18<xihr18>	was: re: the title of his paper
+T 1430373779 18<jle`18>	mhm
+T 1430373899 18<t4nk75418>	thanks ^^
+T 1430373955 18<jle`18>	if you study systems of charges moving at constant velocities or stationary and only look at E, and incorporate SR and relativistic effects...from length contraction, etc., you'll end up with behavior that looks a lot like what you'd consider classically, with a B field
+T 1430373998 24*	utack has quit (Read error: Connection reset by peer)
+T 1430374007 23*	utack (~utack@ip923464f1.dynamic.kabel-deutschland.de23) has joined
+T 1430374149 23*	Bilz (~bilz@202.66.60.16623) has joined
+T 1430374186 18<jle`18>	t4nk754: this article gives something like the standard treatment of this in textbooks http://en.wikipedia.org/wiki/Relativistic_electromagnetism
+T 1430374191 23*	Qantourisc (~Qantouris@cable-213-34-255-70.zeelandnet.nl23) has joined
+T 1430374192 24*	deathonater has quit (Quit: Leaving)
+T 1430374237 24*	CarlosPL has quit (Ping timeout: 264 seconds)
+T 1430374271 24*	Qantourisc has quit (Read error: Connection reset by peer)
+T 1430374304 18<t4nk75418>	oh yeah, thanks jle` that's useful
+T 1430374364 24*	daa1494 has quit (Ping timeout: 245 seconds)
+T 1430374534 23*	Qantourisc (~Qantouris@cable-213-34-255-70.zeelandnet.nl23) has joined
+T 1430374576 24*	centrinia has quit (Ping timeout: 256 seconds)
+T 1430375196 24*	nealshire has quit (Ping timeout: 240 seconds)
+T 1430375322 24*	k0nichiwa has quit (Ping timeout: 265 seconds)
+T 1430375334 24*	theseb has quit (Quit: Leaving)
+T 1430375416 24*	porcupine has quit (Ping timeout: 255 seconds)
+T 1430375625 24*	Sp3cTrE has quit (Read error: Connection reset by peer)
+T 1430375676 24*	Guest16612 has quit (Ping timeout: 250 seconds)
+T 1430375685 23*	Sp3cTrE (~V3n0m@unaffiliated/damnyou23) has joined
+T 1430375714 23*	Alex6 (~Alex6@ool-ad033100.dyn.optonline.net23) has joined
+T 1430375716 24*	nilg has quit (Remote host closed the connection)
+T 1430375729 23*	nilg (~user@77.70.2.22923) has joined
+T 1430375844 23*	aLLeYRaT (~anonymous@cpe-76-167-98-250.san.res.rr.com23) has joined
+T 1430375979 24*	bigbadjesus has quit (Ping timeout: 256 seconds)
+T 1430376049 23*	curie (dirac@unaffiliated/freeboson/bot/curie23) has joined
+T 1430376049 22*	26ChanServ gives voice to 18curie
+T 1430376125 23*	xrlk (~xrlk@216-58-27-26.cpe.distributel.net23) has joined
+T 1430376154 22*	26ChanServ gives channel operator status to 18curie
+T 1430376156 22*	26curie removes quiet on 18*!*@2600:1008:b049:67d9:59e6:ff13:f839:d549
+T 1430376156 22*	26curie removes channel operator status from 18curie
+T 1430376166 23*	Red40 (~Red40@14.141.157.2023) has joined
+T 1430376204 23*	nfk|laptop (~nfk@unaffiliated/nfk23) has joined
+T 1430376263 23*	GregorATG (~q@cable-kw-89-145-5-11.telta.net23) has joined
+T 1430376275 24*	Alex6 has quit (Quit: Alex6)
+T 1430376430 24*	Red40 has quit (Ping timeout: 250 seconds)
+T 1430376507 23*	luminance_137 (~JonSnow@pool2-wzd-75-131.brain.net.pk23) has joined
+T 1430376540 24*	luminance_137 has quit (Changing host)
+T 1430376540 23*	luminance_137 (~JonSnow@unaffiliated/luminance-137/x-407346823) has joined
+T 1430376713 24*	Cirus has quit (Quit: Leaving)
+T 1430376717 23*	CarlosPL (~CarlosPL@64.69.27.77.dynamic.mundo-r.com23) has joined
+T 1430376726 23*	kaffeetrauma (~Thunderbi@n37.informatik.fh-dortmund.de23) has joined
+T 1430376765 23*	Guest16612 (~Unkn0wn@64.134.26.2223) has joined
+T 1430376788 24*	Bth8 has quit (Quit: Leaving)
+T 1430376854 24*	lavender has quit (Ping timeout: 256 seconds)
+T 1430376931 24*	TheLoneMilkMan has quit (Ping timeout: 256 seconds)
+T 1430377102 23*	xtra_ (2d13383f@gateway/web/freenode/ip.45.19.56.6323) has joined
+T 1430377133 18<xtra_18>	i need assistance
+T 1430377134 18<xtra_18>	http://puu.sh/hw1Hr.png
+T 1430377171 23*	maphry (~maphry@meinhotspot11.websecuritas.com23) has joined
+T 1430377219 18<shminux18>	xtra_, use the definition of cross product
+T 1430377261 18<shminux18>	hint: it's a 3x3 determinant
+T 1430377278 23*	S0-102 (~sgra@triband-mum-120.62.162.210.mtnl.net.in23) has joined
+T 1430377281 18<xtra_18>	2i*-i + 2i*2j + 3j*-i + 3j*2j
+T 1430377283 18<xtra_18>	right
+T 1430377285 18<xtra_18>	thats
+T 1430377289 18<xihr18>	well, that's the mnemonic, anyway
+T 1430377294 18<xtra_18>	0 + 4 + -3 + 0
+T 1430377297 18<xihr18>	there's also ##math for this if you remain stuck
+T 1430377297 18<xtra_18>	right
+T 1430377318 18<xtra_18>	wait
+T 1430377321 18<xtra_18>	is it +3 or -3
+T 1430377372 24*	BrandonB has quit (Read error: Connection reset by peer)
+T 1430377376 24*	S0-2 has quit (Ping timeout: 240 seconds)
+T 1430377429 24*	nofacade has quit (Ping timeout: 248 seconds)
+T 1430377721 23*	SgrA (~sgra@unaffiliated/sgra23) has joined
+T 1430377721 24*	maphry has quit (Quit: This computer has gone to sleep)
+T 1430377790 23*	CapsAdmine (~CapsAdmin@109.199.217.2323) has joined
+T 1430377839 24*	S0-102 has quit (Ping timeout: 245 seconds)
+T 1430377943 23*	Irina_ (~chatzilla@AStrasbourg-653-1-123-55.w92-161.abo.wanadoo.fr23) has joined
+T 1430377956 24*	CapsAdmin has quit (Ping timeout: 240 seconds)
+T 1430378196 24*	shminux has quit (Ping timeout: 240 seconds)
+T 1430378203 23*	Shibe (ShibaInu@gateway/shell/firrre/x-ufncxphhaedudojl23) has joined
+T 1430378233 24*	Shibe (ShibaInu@gateway/shell/firrre/x-ufncxphhaedudojl24) has left ("Leaving")
+T 1430378294 24*	zeRez has quit (Quit: Leaving)
+T 1430378349 23*	bigbadjesus (~WAT@unaffiliated/psidrome23) has joined
+T 1430378476 23*	zeRez (~zeRez@x5f776a98.dyn.telefonica.de23) has joined
+T 1430378906 24*	CalamityToo has quit (Read error: Connection reset by peer)
+T 1430379011 23*	shminux (~shminux@unaffiliated/shminux23) has joined
+T 1430379225 24*	28luminance_137 is now known as 18Peter-Griffin
+T 1430379460 23*	CalamityBlue (~CalamityB@v157-7-72-178.z1d10.static.cnode.jp23) has joined
+T 1430379529 23*	johnflux_ (~johnflux@cpc19-brig16-2-0-cust194.3-3.cable.virginm.net23) has joined
+T 1430379529 24*	johnflux_ has quit (Changing host)
+T 1430379529 23*	johnflux_ (~johnflux@konversation/developer/JohnFlux23) has joined
+T 1430379765 24*	johnflux has quit (Ping timeout: 248 seconds)
+T 1430379848 23*	Axone (~Antoine@ip-252.net-82-216-149.suresnes3.rev.numericable.fr23) has joined
+T 1430379954 18<Manko18>	Anyone here sort of a platonism or math realist here ?
+T 1430380438 23*	Beetny (~Beetny@14-202-48-200.tpgi.com.au23) has joined
+T 1430380542 23*	slereah_ (~slereah@195.190.86.1823) has joined
+T 1430380779 23*	S0-2 (~sgra@unaffiliated/sgra23) has joined
+T 1430380902 24*	SgrA has quit (Ping timeout: 250 seconds)
+T 1430381088 24*	aLLeYRaT has quit (Quit: Sleep.)
+T 1430381257 24*	t4nk754 has quit (Ping timeout: 246 seconds)
+T 1430381400 24*	AMERICAN_PSYCHO has quit (Quit: Bye!)
+T 1430381433 23*	S0-102 (~sgra@triband-mum-120.62.175.112.mtnl.net.in23) has joined
+T 1430381604 24*	S0-2 has quit (Ping timeout: 272 seconds)
+T 1430381717 23*	Askori_ (~Askori@50.49.156.23523) has joined
+T 1430381751 23*	iulian (iulian@d67-193-150-199.home3.cgocable.net23) has joined
+T 1430381774 24*	28iulian is now known as 18Guest24409
+T 1430381786 24*	Askori has quit (Ping timeout: 250 seconds)
+T 1430381869 24*	cbot` has quit (Quit: Leaving)
+T 1430381966 24*	Bilz has quit (Remote host closed the connection)
+T 1430382211 24*	saiyate has quit (Read error: Connection reset by peer)
+T 1430382288 24*	tpiXvas has quit (Ping timeout: 244 seconds)
+T 1430382328 24*	KornKage has quit (Ping timeout: 256 seconds)
+T 1430382368 23*	eisrad (5e666d14@gateway/web/freenode/ip.94.102.109.2023) has joined
+T 1430382369 23*	KornKage (~KornKageQ@bl13-75-44.dsl.telepac.pt23) has joined
+T 1430382373 18<eisrad18>	hi
+T 1430382385 23*	saiyate (~quassel@host-69-145-148-122.msl-mt.client.bresnan.net23) has joined
+T 1430382387 18<slereah_18>	Hi.
+T 1430382573 24*	eisrad has quit (Client Quit)
+T 1430382643 24*	KornKage has quit (Ping timeout: 256 seconds)
+T 1430382679 23*	KornKage (~KornKageQ@bl9-185-142.dsl.telepac.pt23) has joined
+T 1430382703 24*	dustinm has quit (Ping timeout: 248 seconds)
+T 1430382713 23*	merzo (~merzo@user-94-45-58-141.skif.com.ua23) has joined
+T 1430382826 23*	Bilz (~bilz@202.66.60.16623) has joined
+T 1430382826 23*	singularity00 (~singulari@91-139-181-97.plvd.ddns.bulsat.com23) has joined
+T 1430382846 23*	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net23) has joined
+T 1430382872 23*	xihiro (~xihiro@a79-168-185-2.cpe.netcabo.pt23) has joined
+T 1430383078 23*	_christoph_ (~christoph@8d3a052d.hlrs.de23) has joined
+T 1430383192 23*	nintendo (~nintendo@ip-176-199-243-151.hsi06.unitymediagroup.de23) has joined
+T 1430383218 24*	sbellina has quit (Ping timeout: 244 seconds)
+T 1430383297 23*	IRWolfie- (~W0LF@unaffiliated/irwolfie-23) has joined
+T 1430383386 18<xihr18>	Manko: ##philosophy
+T 1430383408 24*	xtra_ has quit (Quit: Page closed)
+T 1430383518 24*	FreezingCold (~FreezingC@135.0.41.1424) has left ("Out")
+T 1430383614 24*	KornKage has quit (Ping timeout: 252 seconds)
+T 1430383657 23*	KornKage (~KornKageQ@bl9-177-84.dsl.telepac.pt23) has joined
+T 1430383711 23*	uv (~uv@51B64AE2.dsl.pool.telekom.hu23) has joined
+T 1430383714 23*	nayfie (~nayfie@CPE-58-160-174-54.unqy1.fli.bigpond.net.au23) has joined
+T 1430383936 23*	dustinm (~dustinm@105.ip-167-114-152.net23) has joined
+T 1430383967 24*	Anastasios has quit (Disconnected by services)
+T 1430383969 23*	Anastasios1 (Anastasios@d94-186-38-189.cust.tele2.se23) has joined
+T 1430384045 24*	sparetire has quit (Quit: sparetire)
+T 1430384093 24*	Guest16612 has quit (Read error: Connection reset by peer)
+T 1430384157 24*	Anastasios1 has quit (Client Quit)
+T 1430384167 23*	Anastasios (Anastasios@d94-186-38-189.cust.tele2.se23) has joined
+T 1430384240 24*	singularity00 has quit (Quit: Konversation terminated!)
+T 1430384255 23*	singularity00 (~singulari@91-139-181-97.plvd.ddns.bulsat.com23) has joined
+T 1430384762 24*	Carbonflux has quit (Quit: Lumen est solum textura opus)
+T 1430384916 24*	zeRez has quit (Quit: Leaving)
+T 1430384954 24*	Trocker_ has quit (Ping timeout: 244 seconds)
+T 1430385116 24*	Rainb has quit (Ping timeout: 240 seconds)
+T 1430385228 23*	helasraizam (~helasraiz@cpe-24-92-60-48.nycap.res.rr.com23) has joined
+T 1430385232 23*	Cust0sL1men (~CustosLim@unaffiliated/cust0slim3n23) has joined
+T 1430385263 24*	Bilz has quit (Remote host closed the connection)
+T 1430385300 23*	chris_99 (~chris_99@unaffiliated/chris-99/x-306292923) has joined
+T 1430385517 23*	effex (1b2111f9@gateway/web/freenode/ip.27.33.17.24923) has joined
+T 1430385835 24*	effex has quit (Ping timeout: 246 seconds)
+T 1430386097 23*	eisrad (5e666d14@gateway/web/freenode/ip.94.102.109.2023) has joined
+T 1430386101 23*	caramel (~caramel@unaffiliated/caramel23) has joined
+T 1430386129 24*	Manko has quit (Ping timeout: 246 seconds)
+T 1430386498 23*	effex (1b2111f9@gateway/web/freenode/ip.27.33.17.24923) has joined
+T 1430386886 24*	singularity00 has quit (Ping timeout: 272 seconds)
+T 1430387223 24*	eisrad has quit (Quit: Page closed)
+T 1430387407 23*	t4nk084 (45f2e25b@gateway/web/freenode/ip.69.242.226.9123) has joined
+T 1430387710 23*	Viper168_ (~Viper@unaffiliated/viper16823) has joined
+T 1430387759 23*	apetiss (~apetiss@host-37-191-202-2.lynet.no23) has joined
+T 1430387809 24*	Viper168 has quit (Ping timeout: 264 seconds)
+T 1430388261 23*	maphry (~maphry@meinhotspot11.websecuritas.com23) has joined
+T 1430388264 24*	28niston` is now known as 18niston
+T 1430388276 23*	Jupiterian (~Jupiteria@95.146.91.21423) has joined
+T 1430388330 23*	Leftas (~leftas@91.228.84.18023) has joined
+T 1430388336 23*	singularity00 (~singulari@89-215-90-72.2075347199.ddns-lan.pl.ekk.bg23) has joined
+T 1430388617 24*	funkentelechrxp has quit ()
+T 1430388642 23*	Wasped (~Wasp70@pool-108-36-104-15.phlapa.fios.verizon.net23) has joined
+T 1430389781 23*	Bilz (~bilz@202.66.60.16823) has joined
+T 1430389882 24*	seg_ has quit (Quit: !!)
+T 1430390029 23*	dvabr (~dvabr@ip5651543c.adsl-surfen.hetnet.nl23) has joined
+T 1430390046 18<dvabr18>	hi guys
+T 1430390079 18<dvabr18>	do we actually know the age of the universe? or are those measurements based on tons of assumptions?
+T 1430390123 18<SpeedEvil18>	Everything is assumptions.
+T 1430390148 18<SpeedEvil18>	We have a consistent model that in many ways gives similar answers clustering around a small range of values.
+T 1430390181 23*	mtakkman (~user@176.97.193.15023) has joined
+T 1430390182 18<SpeedEvil18>	http://en.wikipedia.org/wiki/Age_of_the_universe
+T 1430390229 18<SpeedEvil18>	Could in principle we be wrong - sure - but as it's more inaccurate, it requires more and more of physics as currently known to be inaccurate and complexity to do so.
+T 1430390237 18<SpeedEvil18>	For example - if it was 10 seconds ago, ...
+T 1430390259 24*	fahadash has quit (Quit: Connection closed for inactivity)
+T 1430390286 23*	sbellina (~sbellina@107.191.1.209.static.utbb.net23) has joined
+T 1430390348 23*	sudomarize (~sudomariz@141.70.115.19323) has joined
+T 1430390377 23*	sikio (~sikio@unaffiliated/sikio23) has joined
+T 1430390379 24*	Sp3cTrE has quit (Ping timeout: 244 seconds)
+T 1430390399 23*	The_Cat (~d@molmod78.ugent.be23) has joined
+T 1430390418 23*	seg (~seg@seg.ninja23) has joined
+T 1430390419 24*	seg has quit (Changing host)
+T 1430390419 23*	seg (~seg@fsf/member/seg23) has joined
+T 1430390444 23*	Rainb (~rainb@181.50.148.22423) has joined
+T 1430390465 24*	dvabr has quit ()
+T 1430390539 24*	sbellina has quit (Ping timeout: 245 seconds)
+T 1430390592 24*	Jellysnake has quit (Read error: Connection reset by peer)
+T 1430390658 24*	Wasped has quit (Ping timeout: 256 seconds)
+T 1430390996 23*	Red40 (~Red40@14.141.157.2023) has joined
+T 1430391010 24*	Red40 has quit (Remote host closed the connection)
+T 1430391157 24*	aural has quit (Ping timeout: 264 seconds)
+T 1430391291 23*	m_ben (~m_ben@dslb-084-056-128-208.084.056.pools.vodafone-ip.de23) has joined
+T 1430391312 23*	Trocker_ (~Trocker@ip-188-127-14-247.ennet.pl23) has joined
+T 1430391337 24*	Se-bash has quit (Ping timeout: 264 seconds)
+T 1430391439 23*	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net23) has joined
+T 1430391462 23*	Bilz_ (~bilz@202.66.60.16823) has joined
+T 1430391558 23*	Se-bash (~seba@unaffiliated/se-bash23) has joined
+T 1430391670 23*	Sp3cTrE (~V3n0m@unaffiliated/damnyou23) has joined
+T 1430391687 24*	Bilz has quit (Ping timeout: 256 seconds)
+T 1430391900 24*	mtakkman has quit (Read error: Connection reset by peer)
+T 1430391989 24*	yasha9 has quit (Ping timeout: 248 seconds)
+T 1430392221 23*	eisrad (5e666d14@gateway/web/freenode/ip.94.102.109.2023) has joined
+T 1430392347 24*	maphry has quit (Quit: This computer has gone to sleep)
+T 1430392371 23*	maphry (~maphry@meinhotspot11.websecuritas.com23) has joined
+T 1430392373 24*	maphry has quit (Remote host closed the connection)
+T 1430392667 23*	Bilz (~bilz@202.66.60.16823) has joined
+T 1430392725 18<R0b0t118>	Is it possible to have a nonintegral number of dimensions?
+T 1430392751 24*	Bilz_ has quit (Ping timeout: 265 seconds)
+T 1430392763 23*	yasha9 (~yasha@188.17.192.2823) has joined
+T 1430392775 24*	singularity00 has quit (Quit: Konversation terminated!)
+T 1430392803 18<slereah_18>	R0b0t1 : Depends how you define dimensions
+T 1430392820 18<R0b0t118>	What are the options?
+T 1430392823 18<slereah_18>	Hausdorff dimensions can be non-integer
+T 1430392845 18<eisrad18>	length, mass, color, time, temperature ...
+T 1430392875 18<SpeedEvil18>	One way of measuring that is if some dimensions are inextricably linked to others.
+T 1430392892 18<SpeedEvil18>	err - having nonintegral dimensions
+T 1430392922 18<R0b0t118>	ooooh
+T 1430392933 18<eisrad18>	SpeedEvil: length and speed? Or relativistic speed and time?
+T 1430392939 18<R0b0t118>	slereah_: Okay I got that answer before, but the specific name pointed me towards useful information
+T 1430393164 24*	Bilz has quit (Ping timeout: 245 seconds)
+T 1430393203 18<slereah_18>	the basic definition of dimension is always integers, though
+T 1430393254 18<R0b0t118>	slereah_: why?
+T 1430393308 18<slereah_18>	The dimension of a space is the number of variables required to identify its points
+T 1430393328 18<The_Cat18>	well, it's not necessarily an integer
+T 1430393331 18<slereah_18>	The number of linearly independant vectors to span the whole space.
+T 1430393333 18<The_Cat18>	it can be any real number
+T 1430393335 23*	Red40 (~Red40@202.54.248.16023) has joined
+T 1430393337 18<slereah_18>	When is it not though
+T 1430393343 18<The_Cat18>	if you're talking about hausdorff dimension
+T 1430393352 18<The_Cat18>	oh right
+T 1430393355 18<The_Cat18>	that's what you said earlier
+T 1430393359 18<slereah_18>	Hausdorff dimensions aren't the same definition though
+T 1430393361 18<The_Cat18>	i should read a bit more of the backlog
+T 1430393367 18<The_Cat18>	yes, i know
+T 1430393367 18<slereah_18>	It's applied pretty specifically to fractals
+T 1430393377 18<The_Cat18>	you got this, carry on :p
+T 1430393504 23*	dearhawk (~smurfa@unaffiliated/smurfa23) has joined
+T 1430393545 18*	SpeedEvil ponders Hasselhof dimension.
+T 1430393577 18<R0b0t118>	heh
+T 1430393638 24*	telex has quit (Remote host closed the connection)
+T 1430393641 24*	nfk|laptop has quit (Ping timeout: 255 seconds)
+T 1430393678 23*	telex (teletype@freeshell.de23) has joined
+T 1430393701 18<R0b0t118>	Hmm.. thanks for the answers, but somehow I'm not satisfied.
+T 1430393707 18<effex18>	he''s so dreamy.....
+T 1430393740 18<slereah_18>	He was in the Spongebob movie, too
+T 1430393765 18<slereah_18>	http://img.photobucket.com/albums/v299/OhGodtheRats/bloghasselhoffspongebob.jpg
+T 1430393978 24*	Askori_ has quit (Ping timeout: 264 seconds)
+T 1430394079 23*	Askori (~Askori@50.48.246.4423) has joined
+T 1430394326 18<The_Cat18>	http://imgur.com/a/rMZYn <= group (top) versus phase (bottom) sound velocity; red is fast, blue is slow, you're looking from the top down on a structure, the center is the z-direction, the edge is the "equator"
+T 1430394340 24*	xrlk has quit (Quit: allahu akbar)
+T 1430394418 23*	k299 (~vervet@host-239.180-235-182.cable.dynamic.kbtelecom.net23) has joined
+T 1430394491 24*	hoverfly has quit (Ping timeout: 265 seconds)
+T 1430394559 23*	daa1494 (~david@201.141.18.16123) has joined
+T 1430394585 23*	Askori_ (~Askori@50.49.138.623) has joined
+T 1430394658 24*	Askori has quit (Ping timeout: 252 seconds)
+T 1430394730 23*	Red40_ (~Red40@202.54.248.16023) has joined
+T 1430394730 24*	Red40 has quit (Read error: Connection reset by peer)
+T 1430394771 24*	Jellysnake has quit (Ping timeout: 250 seconds)
+T 1430394796 23*	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net23) has joined
+T 1430394854 24*	ColinT has quit (Quit: Leaving...)
+T 1430395001 24*	helasraizam has quit (Remote host closed the connection)
+T 1430395057 23*	sifeic`` (~sifeic@c-75-71-117-103.hsd1.co.comcast.net23) has joined
+T 1430395160 24*	fstd has quit (Remote host closed the connection)
+T 1430395177 23*	fstd (~fstd@unaffiliated/fisted23) has joined
+T 1430395308 24*	nilg has quit (Remote host closed the connection)
+T 1430395358 23*	nofacade (~nofacade@unaffiliated/nofacade23) has joined
+T 1430395358 24*	Red40_ has quit (Read error: Connection reset by peer)
+T 1430395422 23*	Red40 (~Red40@202.54.248.16023) has joined
+T 1430395425 24*	sifeic`` has quit (Quit: WeeChat 0.3.8)
+T 1430395579 18<t4nk08418>	does anyone know if there's some place, out somewhere in this vast world of the internet...
+T 1430395606 18<t4nk08418>	where i can find a bunch of precise data on the motion of various projectiles?
+T 1430395625 18<koollman18>	Texas? :)
+T 1430395649 18<t4nk08418>	i'm thinking of just some sort of database... that might have precise measurements of position in space vs. time for different situations, free for anyone to look at
+T 1430395650 18<koollman18>	I'm sure various gun testing labs have that kind of data, but I do not know any public database
+T 1430395672 18<t4nk08418>	ok, i'll start looking in Texas
+T 1430395685 18<t4nk08418>	that's a good idea too, koollman, ty
+T 1430395701 18<IRWolfie-18>	You want to compare a computational model you have?
+T 1430395716 18<IRWolfie-18>	Surely there is probably some scientific literature in that area
+T 1430395749 18<koollman18>	http://www.accurateshooter.com/ballistics/bullet-database-with-2900-projectiles/ (not directly what you want, but at least part of the data on bullets, not shooting directly)
+T 1430395763 18<koollman18>	but it should be enough to check a model
+T 1430395874 18<t4nk08418>	(still looking in Texas)
+T 1430395922 18<t4nk08418>	this site is interesting
+T 1430395965 24*	eisrad has quit (Quit: Page closed)
+T 1430395986 18<IRWolfie-18>	I'd guess you'd need data from an enclosed environment where wind doesn't play a roll
+T 1430396041 18<R0b0t118>	t4nk084, there's also lots of data on the aerodynamic properties of various shapes. Sadly I can't remember where I was reading that, but it exists
+T 1430396074 18<R0b0t118>	based on your question though I'm not really sure what you're after
+T 1430396087 23*	oinil (~noinil@183.206.192.11023) has joined
+T 1430396106 23*	Mexer` (~Mexer`@86.124.159.22223) has joined
+T 1430396111 18<t4nk08418>	ideally, yes, it'd be without wind or friction
+T 1430396123 18<t4nk08418>	but it's good to know they have that much stuff out there
+T 1430396212 24*	sikio has quit (Remote host closed the connection)
+T 1430396224 18<IRWolfie-18>	What sort of projectile?
+T 1430396244 18<R0b0t118>	like generally what is available are the parameters for objects that affect drag, etc, so you can extrapolate the forces on them and how they would fly
+T 1430396254 18<R0b0t118>	instead of just recording distance vs. time
+T 1430396299 24*	nintendo has quit (Quit: ChatZilla 0.9.91.1 [Firefox 37.0.2/20150415140819])
+T 1430396325 23*	nfk|laptop (~nfk@unaffiliated/nfk23) has joined
+T 1430396341 18<t4nk08418>	that makes sense R0b0t1
+T 1430396375 24*	nfk|laptop has quit (Client Quit)
+T 1430396393 18<t4nk08418>	i'd actually be looking for relativistic effects in the motion...that's the purpose of it, anyway
+T 1430396397 23*	esas (~esas@unaffiliated/esas23) has joined
+T 1430396417 18<R0b0t118>	relativistic velocities... through atmosphere?
+T 1430396463 23*	Sindarus (~chatzilla@sab57-2-82-236-241-46.fbx.proxad.net23) has joined
+T 1430396499 18<IRWolfie-18>	What sort of projectile is this?
+T 1430396514 18<t4nk08418>	that's why i thought a bullet might make sense
+T 1430396523 18<IRWolfie-18>	far far too slow
+T 1430396527 23*	nfk|laptop (~nfk@unaffiliated/nfk23) has joined
+T 1430396546 18<t4nk08418>	but, i realize there'd be subtle effects, if anyway
+T 1430396552 18<t4nk08418>	any*
+T 1430396569 18<R0b0t118>	t4nk084, for you to notice it'd have to be going so fast that when it hit air, you'd basically be detonating a nuke
+T 1430396570 18<IRWolfie-18>	You could not discern any effect whatsoever
+T 1430396610 18<t4nk08418>	part of the point is to test a method for extrapolating really tiny relativistic effects
+T 1430396632 18<xihr18>	really tiny effects are tiny, they're irrelevant for everyday speeds
+T 1430396641 24*	daa1494 has quit (Ping timeout: 244 seconds)
+T 1430396649 24*	LSI has quit (Ping timeout: 276 seconds)
+T 1430396652 18<t4nk08418>	but now i'm thinking air drag will just cancel that out
+T 1430396664 18<t4nk08418>	so regardless of the method, there might be too much "noise"
+T 1430396679 18<xihr18>	it had nothing to do with cancelling, the effects are just far too small to be remotely relevant
+T 1430396686 18<IRWolfie-18>	t4nk084: The relativistic effect is very very very small for a bullet
+T 1430396690 18<IRWolfie-18>	It's too slow
+T 1430396709 18<IRWolfie-18>	Work out the loretenz factor and you will see
+T 1430396767 18<t4nk08418>	i guess i didn't mean "cancelling"
+T 1430396801 18<t4nk08418>	the method is to integrate a trend in deviation over as much data as (I) can gather
+T 1430396814 23*	goldkatze (~nobody@unaffiliated/goldkatze23) has joined
+T 1430396839 23*	sikio (~sikio@unaffiliated/sikio23) has joined
+T 1430396844 18<t4nk08418>	so you guys see my logic of 'trying to detect a very subtle change'
+T 1430396847 18<IRWolfie-18>	numerical and precision errors are going to hide any possible contribution
+T 1430396874 18<t4nk08418>	but...yeah, that's what i mean by "noise" IRWolfie-
+T 1430396876 24*	nsh has quit (Quit: ZNC - http://znc.in)
+T 1430396899 18<t4nk08418>	still, thank you
+T 1430396945 18<xihr18>	the answer is still not going to change
+T 1430396973 23*	nsh (~lol@wikipedia/nsh23) has joined
+T 1430397012 24*	curie has quit (Ping timeout: 252 seconds)
+T 1430397053 18<R0b0t118>	t4nk084: the effects would be indistinguishable from noise, i.e. you aren't going to detect it even if you were trying
+T 1430397184 24*	shminux has quit (Ping timeout: 272 seconds)
+T 1430397227 18<effex18>	what if the effects are statistically distinguishable from noise given a huge amount of high precision data?
+T 1430397383 24*	chris_99 has quit (Quit: Ex-Chat)
+T 1430397409 18<IRWolfie-18>	The level of detail you would require to distinguish in an experiment would be collosal. From wind speeds, to air temperature, to the deformation of the bullet and exact knowledge of the terrain. You still couldn't tell the difference with a numerical model.
+T 1430397420 23*	chris_99 (~chris_99@unaffiliated/chris-99/x-306292923) has joined
+T 1430397434 18<IRWolfie-18>	The effect is really very very small and there are many things that have a greater impact.
+T 1430397446 18<IRWolfie-18>	Choose a much faster object
+T 1430397449 24*	Jellysnake has quit (Ping timeout: 265 seconds)
+T 1430397538 18<effex18>	i think you''re right btw
+T 1430397540 23*	sbellina (~sbellina@107.191.1.200.static.utbb.net23) has joined
+T 1430397542 18<R0b0t118>	effex, well okay then sure, but I'd argue that much data at the precision necessary would be almost impossible to acquire
+T 1430397542 18<IRWolfie-18>	i.e that is, you would need far more detail than some average wind speed, you would need to know the exact wind speeds around the bullet moment-to-moment
+T 1430397550 18<effex18>	i just wonder if with a collossal amount of data if you could avg out those other effects
+T 1430397553 24*	^peter^ has quit ()
+T 1430397569 24*	nfk|laptop has quit (Ping timeout: 256 seconds)
+T 1430397570 18<R0b0t118>	it's quite possible
+T 1430397588 18<effex18>	it doesn''t seem feasible in practice though
+T 1430397596 18<R0b0t118>	yeah that's what I was trying to say
+T 1430397599 18<effex18>	i don''t think there''s that much high quality data out there to allow this
+T 1430397660 18<IRWolfie-18>	Well, what would be the deviation in a bullet landing position if you were firing it in a perfect vacuum? It's going to be a tiny difference even if you make large assumptions to make the issue easier.
+T 1430397700 23*	mtakkman (~user@176.97.193.5723) has joined
+T 1430397858 24*	sbellina has quit (Ping timeout: 276 seconds)
+T 1430397901 18<effex18>	there would be various noise terms giving a distribution and you may see a slight shift in the distribution, when that component shifts you to a neighboring bin, where a bin is your precision
+T 1430397973 24*	Askori_ has quit (Ping timeout: 248 seconds)
+T 1430398075 23*	singularity00 (~singulari@89-215-90-72.2075347199.ddns-lan.pl.ekk.bg23) has joined
+T 1430398076 23*	Askori (~Askori@50.48.227.22923) has joined
+T 1430398114 18<The_Cat18>	differences from the classical prediction would differ by less than 1e-12
+T 1430398122 18<IRWolfie-18>	effex: and what about system errors?
+T 1430398125 23*	nfk|laptop (~nfk@unaffiliated/nfk23) has joined
+T 1430398126 18<IRWolfie-18>	*systematic
+T 1430398134 18<The_Cat18>	that's an accuracy calculators don't even reach
+T 1430398154 24*	Beetny has quit (Ping timeout: 264 seconds)
+T 1430398162 18<xihr18>	there would be no detectable "shift" at all, the effects are far too tiny ... how many times does this need to be repeated
+T 1430398169 18<effex18>	IR hmm, good point
+T 1430398190 18<effex18>	i guess i was thinking of a hypothetical experiment where there is no relativity and one identical one with relativity switched on
+T 1430398212 18<effex18>	i don''t think doing 2 at low speed and one at higher speed would be enough, since systematic errors could be speed dependent
+T 1430398234 18<effex18>	it seems even with mountains of data it can''t be done
+T 1430398331 24*	mtakkman has quit (Quit: ERC (IRC client for Emacs 24.5.1))
+T 1430398376 18<R0b0t118>	._.
+T 1430398603 24*	Sindarus has quit (Quit: ChatZilla 0.9.91.1 [Firefox 38.0/20150427090451])
+T 1430398719 23*	Askori_ (~Askori@50.48.199.21123) has joined
+T 1430398741 24*	Askori has quit (Ping timeout: 248 seconds)
+T 1430398780 24*	nfk|laptop has quit (Quit: yawn)
+T 1430398849 23*	Guest15 (~textual@cpc1-heme11-2-0-cust438.9-1.cable.virginm.net23) has joined
+T 1430399107 24*	effex has quit (Ping timeout: 246 seconds)
+T 1430399134 24*	k299 has quit ()
+T 1430399140 23*	marad (~marad@robal.ift.uni.wroc.pl23) has joined
+T 1430399173 24*	caramel has quit (Read error: Connection reset by peer)
+T 1430399423 23*	Pinkamena_D (~paul@pool-100-8-67-211.nwrknj.fios.verizon.net23) has joined
+T 1430399789 24*	swampdog has quit (Ping timeout: 245 seconds)
+T 1430399835 23*	LauraCottonTail (uid62174@gateway/web/irccloud.com/x-nbrvgwpbpyakyhnc23) has joined
+T 1430399860 24*	oinil (~noinil@183.206.192.11024) has left ("ERC (IRC client for Emacs 24.5.1)")
+T 1430399936 23*	swampdog (swampdog@shell.xshellz.com23) has joined
+T 1430400085 24*	singularity00 has quit (Ping timeout: 248 seconds)
+T 1430400308 23*	DogPolice (~RJones@unaffiliated/rjones23) has joined
+T 1430400539 24*	_christoph_ has quit (Quit: Leaving)
+T 1430400661 23*	singularity00 (~singulari@91-139-181-97.plvd.ddns.bulsat.com23) has joined
+T 1430400705 23*	oleo (~oleo@unaffiliated/oleo23) has joined
+T 1430400837 24*	Red40 has quit (Read error: Connection reset by peer)
+T 1430400861 23*	Red40 (~Red40@202.54.248.16023) has joined
+T 1430400945 24*	Red40 has quit (Remote host closed the connection)
+T 1430401089 24*	Sp3cTrE has quit (Ping timeout: 245 seconds)
+T 1430401153 24*	kaffeetrauma has quit (Quit: kaffeetrauma)
+T 1430401460 24*	sudomarize has quit (Quit: WeeChat 1.1.1)
+T 1430401474 24*	utack has quit (Remote host closed the connection)
+T 1430401574 24*	KAHR-Alpha has quit (Ping timeout: 264 seconds)
+T 1430401845 23*	oinil (~noinil@183.206.192.11023) has joined
+T 1430401889 23*	theseb (~cs@74-194-126-197.cnrocmta01.res.dyn.suddenlink.net23) has joined
+T 1430402125 24*	oinil has quit (Ping timeout: 256 seconds)
+T 1430402234 23*	BrainDamage (~BrainDama@unaffiliated/braindamage23) has joined
+T 1430402243 24*	BrainDamage has quit (Remote host closed the connection)
+T 1430402251 24*	Alex5 has quit (Quit: Colloquy for iPhone - http://colloquy.mobi)
+T 1430402267 23*	Alex5 (~Alex5@unaffiliated/alex523) has joined
+T 1430402429 23*	BrainDamage (~BrainDama@unaffiliated/braindamage23) has joined
+T 1430402665 23*	zampano (~zampano@c-50-130-138-84.hsd1.nm.comcast.net23) has joined
+T 1430402665 24*	zampano has quit (Changing host)
+T 1430402665 23*	zampano (~zampano@unaffiliated/zampano23) has joined
+T 1430402764 23*	Sindarus (~chatzilla@sab57-2-82-236-241-46.fbx.proxad.net23) has joined
+T 1430402774 18<LemMinG18>	right, so we crunched some numbers on our capacitor bank
+T 1430402789 18<LemMinG18>	we're getting approx 2KN of force imparted to the can
+T 1430402830 18<SpeedEvil18>	can crusher?
+T 1430402851 18<LemMinG18>	can launcher
+T 1430402893 18<LemMinG18>	2424V, 640µF into a 5 turn flat coil of 2AWG wire
+T 1430402947 18<R0b0t118>	noice
+T 1430402969 18<SpeedEvil18>	Are you measuring the current, or assuming
+T 1430403018 18<LemMinG18>	calculating by filming it at 1200FPS and working back from the discharge flash time
+T 1430403056 24*	Trocker_ has quit (Ping timeout: 240 seconds)
+T 1430403081 18<SpeedEvil18>	ah
+T 1430403110 18<LemMinG18>	at 1200fps, the flash is over in less than a frame
+T 1430403116 18<LemMinG18>	ergo less than 1ms discharge time
+T 1430403238 24*	Xenolith has quit (Quit: Page closed)
+T 1430403307 24*	CarlosPL has quit (Ping timeout: 265 seconds)
+T 1430403360 18<Sindarus18>	Hi ! :) is there a way of knowing the change in enthalpy in a transformation that is neither at constant pressure nor constant volume ? Since dH = C . dT is not valid there.
+T 1430403381 23*	utack (~utack@ip923464f1.dynamic.kabel-deutschland.de23) has joined
+T 1430403514 24*	uv has quit (Remote host closed the connection)
+T 1430403582 24*	Jupiterian has quit (Read error: Connection reset by peer)
+T 1430403661 24*	Guest15 has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1430403703 23*	Jupiterian (~Jupiteria@95.146.91.21423) has joined
+T 1430403765 18<Sindarus18>	uhm, i was talking about a decompression.
+T 1430403793 24*	OwlsAttack has quit (Ping timeout: 250 seconds)
+T 1430403829 18<Sindarus18>	decompression at constant pressure makes no sense, and decompression at constant volume would mean the gaz cools down
+T 1430403855 23*	johnflux__ (~johnflux@cpc19-brig16-2-0-cust194.3-3.cable.virginm.net23) has joined
+T 1430403855 24*	johnflux__ has quit (Changing host)
+T 1430403855 23*	johnflux__ (~johnflux@konversation/developer/JohnFlux23) has joined
+T 1430403914 24*	DogPolice has quit (Ping timeout: 264 seconds)
+T 1430403918 24*	Rainb has quit (Ping timeout: 256 seconds)
+T 1430404044 24*	the8thbit has quit (Read error: Connection reset by peer)
+T 1430404047 18<Sindarus18>	but in my case, the gaz is to be expelled very fast so, It cannot be at constant volume
+T 1430404058 24*	Pinkamena_D has quit (Ping timeout: 264 seconds)
+T 1430404088 24*	johnflux_ has quit (Ping timeout: 256 seconds)
+T 1430404096 24*	johnflux__ has quit (Excess Flood)
+T 1430404123 23*	johnflux__ (~johnflux@konversation/developer/JohnFlux23) has joined
+T 1430404142 23*	Guest15 (~textual@cpc1-heme11-2-0-cust438.9-1.cable.virginm.net23) has joined
+T 1430404282 24*	dearhawk has quit (Quit: dearhawk)
+T 1430404510 23*	DogPolice (~RJones@unaffiliated/rjones23) has joined
+T 1430404754 23*	anton02 (~rohana@27-33-45-205.static.tpgi.com.au23) has joined
+T 1430404787 18<anton0218>	if you ride an airplane you'll receive a chest x-ray's worth of radiation in 7 hours. How does this affect pilots?
+T 1430404794 23*	sbellina (~sbellina@107.191.1.240.static.utbb.net23) has joined
+T 1430404810 24*	DogPolice has quit (Remote host closed the connection)
+T 1430404818 18<The_Cat18>	not a whole lot i guess
+T 1430404822 18<theseb18>	anton02: how does it affect you when you have an xray at the dentist's office?
+T 1430404823 23*	DogPolice (~RJones@unaffiliated/rjones23) has joined
+T 1430404836 18<The_Cat18>	it's still quite a minor dose
+T 1430404841 18<theseb18>	anton02: did you cough up blood?
+T 1430404851 18<theseb18>	anton02: grow cold sores?
+T 1430404867 18<theseb18>	turn psychotic?
+T 1430404931 18<anton0218>	air buses have been around for 50 years or so, long enough to see cancers develop that could be caused by it
+T 1430405045 18<theseb18>	anton02: you do realize that there is evidence a little radiation is GOOD for you?
+T 1430405062 24*	sbellina has quit (Ping timeout: 255 seconds)
+T 1430405087 18<anton0218>	radiation is too broad a term please refer to the spectrum
+T 1430405097 23*	NumZ (~numz@ALyon-553-1-190-60.w92-157.abo.wanadoo.fr23) has joined
+T 1430405121 18<anton0218>	and i doubt x-rays would be good for you ever
+T 1430405154 18<theseb18>	why?
+T 1430405167 18<anton0218>	ionization
+T 1430405184 18<theseb18>	and why can't that be good?
+T 1430405194 18<anton0218>	never heard of it being good
+T 1430405240 23*	CarlosPL (~CarlosPL@64.69.27.77.dynamic.mundo-r.com23) has joined
+T 1430405241 18<theseb18>	anton02: the evidence is after zapping mice with certain levels they thrive more
+T 1430405273 18<anton0218>	lol
+T 1430405366 18<ackthet18>	source on that?
+T 1430405371 23*	Eusion (~Daniel@152.78.218.9523) has joined
+T 1430405464 18<theseb18>	http://www.21stcenturysciencetech.com/articles/nuclear.html
+T 1430405492 24*	nayfie has quit (Quit: bb xoxo :3)
+T 1430405501 23*	adamdecaf (~adamdecaf@207.45.83.2223) has joined
+T 1430405539 18<anton0218>	i guess if you had that condition where you can take lead injections it'd be okay
+T 1430405555 18<anton0218>	to be a pilot i mean
+T 1430405587 23*	bbbb (~bbbb@cpc15-newc13-2-0-cust741.16-2.cable.virginm.net23) has joined
+T 1430405603 18<theseb18>	anton02: no one said anything about need for that
+T 1430405622 18<theseb18>	anton02: you're still trying to fight against low radiation exposure
+T 1430405623 23*	d1etyd3vil (~work@pool-71-170-52-97.dllstx.fios.verizon.net23) has joined
+T 1430405629 18<theseb18>	anton02: i presume by taking lead
+T 1430405641 23*	farzeen (farzeen@masterus.xshellz.com23) has joined
+T 1430405652 24*	bbbb has quit (Read error: Connection timed out)
+T 1430405653 24*	IRWolfie- has quit (Quit: leaving)
+T 1430405677 23*	Cs1177 (~Cs1177@46.166.190.13323) has joined
+T 1430405693 23*	bbbb (~bbbb@cpc15-newc13-2-0-cust741.16-2.cable.virginm.net23) has joined
+T 1430405694 24*	Eusion has quit (Quit: Leaving)
+T 1430405739 18<anton0218>	what is the condition called that space station astronauts have?
+T 1430405757 18<ackthet18>	the bone density one?
+T 1430405759 18<farzeen18>	zero gravity?
+T 1430405772 18<anton0218>	no, it's where their blood cells bind to lead
+T 1430405781 18<anton0218>	so its safe for them to have elevated levels

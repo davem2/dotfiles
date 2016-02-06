@@ -1,0 +1,593 @@
+T 1430402134 18<cjohnson18>	that website is opt in. it's not parasitic
+T 1430402146 24*	vanev__ has quit (Ping timeout: 255 seconds)
+T 1430402146 23*	Renesansz (~Renesansz@203.111.224.7023) has joined
+T 1430402152 23*	bros (~Marketing@adsl-98-64-174-209.mia.bellsouth.net23) has joined
+T 1430402159 18<Creeves18>	cjohnson: i don't think it is parasitic
+T 1430402162 23*	siba (~textual@60-242-28-48.static.tpgi.com.au23) has joined
+T 1430402167 18<bros18>	Is forEach known to be consistently slightly slower than for?
+T 1430402168 18<Creeves18>	sorry
+T 1430402169 23*	Kn|t3 (~developer@106.51.242.16723) has joined
+T 1430402171 18<Creeves18>	i don't think it's opt in
+T 1430402179 18<cjohnson18>	bros: no, and don't worry about performance at that level
+T 1430402194 18<cjohnson18>	Creeves: yes it is. You have to explicltly volunteer your website for use
+T 1430402201 18<Creeves18>	if you sign up to that crowdprocess website as an owner of a site, they give you some code that you chuck on your site, and users who visit your site become a node in their grid
+T 1430402203 18<cjohnson18>	and then it's up to you to ensure that your users are opting in
+T 1430402213 24*	mitchamphetamine (~mitchamph@134.48.163.1424) has left
+T 1430402215 18<cjohnson18>	and are informed
+T 1430402221 23*	john2496 (~john2496@static-96-246-47-142.nycmny.fios.verizon.net23) has joined
+T 1430402222 24*	jakeyy has quit (Ping timeout: 264 seconds)
+T 1430402228 18<Creeves18>	ah i see what you mean
+T 1430402249 24*	meitham has quit (Quit: Leaving.)
+T 1430402250 18<Creeves18>	i feel like that's kind of passing the buck then i guess
+T 1430402274 18<Creeves18>	becuase i only want to do the same thing, that is, design the platform that will allow what that crowdprocess website is doing
+T 1430402277 18<cjohnson18>	well, who else can make sure your users are opting in to your service beside you?
+T 1430402285 18<cjohnson18>	the buck was always and only in your plate to begin with, imo
+T 1430402291 18<Creeves18>	yeah true
+T 1430402295 18<bendman18>	anybody know how to get the raw content of a node, without encoding or decoding any of the entities?
+T 1430402299 18<bros18>	cjohnson, jsperf says 77% slower?
+T 1430402300 18<Creeves18>	but in that case, what i'm trying to do isn't really unethical
+T 1430402306 23*	mary5030 (~mary5030@2602:304:b0d5:9060:650d:b627:4668:394d23) has joined
+T 1430402313 18<cjohnson18>	ok I see what you're getting at. I still think it's a waste of time because the network is so incredibly slower than the GPU
+T 1430402321 18<Creeves18>	as i said, it's pretty much exactly what that site does, except utilizing the GPU
+T 1430402324 18<cjohnson18>	the whole thing with the website you linked is that the data doesn't need to be returned ina  timely fashion
+T 1430402330 18<Creeves18>	but yeah that is good information for me, regarding the bottleneck of the network
+T 1430402332 18<Creeves18>	thatnks for that
+T 1430402345 23*	Ronrun (~ronyrun@5-49-27-30.hfc.dyn.abo.bbox.fr23) has joined
+T 1430402345 18<bendman18>	innerHTML converts < characters to &lt; for example, and textContent removes any tags
+T 1430402351 18<cjohnson18>	bros: irrelevant micro benchmarks are irrelevant
+T 1430402363 18<cjohnson18>	bros: if you are concerned with performance, write your app, and then use a profiler
+T 1430402370 23*	chindley (chindley@nat/redhat/x-gcgiuotqmldtlbsm23) has joined
+T 1430402374 23*	jolda (~jolda@204.148.13.19423) has joined
+T 1430402374 24*	ircfox has quit (Remote host closed the connection)
+T 1430402379 18<cjohnson18>	there is no other useful performan test, because the JS engine does so much contextual work for you
+T 1430402382 18<cjohnson18>	it's very smart
+T 1430402388 18<Creeves18>	surely there could be applications where the size of the input/output is small but the work required to be done on it is comparably large
+T 1430402392 24*	garethdaine has quit (Quit: garethdaine)
+T 1430402394 18<Creeves18>	and this would be suitable for that
+T 1430402395 23*	Marverick (~angelslie@unaffiliated/marverick23) has joined
+T 1430402396 23*	vedran_ (~vedran@93-143-221-190.adsl.net.t-com.hr23) has joined
+T 1430402413 18<cjohnson18>	Creeves: but still, you're talking about offsetting GPU work, which generally has to be real-time right
+T 1430402428 24*	Ronyrun has quit (Ping timeout: 272 seconds)
+T 1430402433 24*	Elirips has quit (Quit: Page closed)
+T 1430402435 24*	maciejpaprocki has quit (Remote host closed the connection)
+T 1430402440 18<cjohnson18>	which rules out the network
+T 1430402444 18<xqo18>	Is there some way for event handlers to return values? my fiddle fails on line 21 http://jsfiddle.net/cb9vob85/4/
+T 1430402460 23*	kadoban (~mud@ip68-3-81-129.ph.ph.cox.net23) has joined
+T 1430402462 23*	neodon (~neodon@unaffiliated/neodon23) has joined
+T 1430402465 24*	psy_ has quit (Ping timeout: 256 seconds)
+T 1430402465 24*	hubutm20 has quit (Ping timeout: 256 seconds)
+T 1430402481 23*	Deithrian (~Deithrian@unaffiliated/deithrian23) has joined
+T 1430402485 18<cjohnson18>	xqo JPEG isn't an event handler. I don't see where you're trying to return a value in an event handler?
+T 1430402486 23*	maciejpaprocki (~maciejpap@5751e398.skybroadband.com23) has joined
+T 1430402491 24*	Deithrian has quit (Read error: Connection reset by peer)
+T 1430402498 23*	Matachines (~Matachine@150.108.242.4623) has joined
+T 1430402503 18<xqo18>	cjohnson line 7
+T 1430402504 18<Creeves18>	i'm not sure i understand what you mean by offsetting here, i'm still early in learning how distributed computing works
+T 1430402506 23*	Cyndre (~Cyndre@wbc-vl814-226.rev.lynxnet.ca23) has joined
+T 1430402507 23*	it0a (~it0a@rrcs-24-56-88-130.ma.biz.rr.com23) has joined
+T 1430402518 23*	hubutm20 (~hubutm20@79.114.86.17523) has joined
+T 1430402521 18<samssh18>	An obvious, if potentially illigal example of low input and output, high processing, non-realtime necessary computing is bruteforcing hashes.
+T 1430402521 23*	Deithrian (~Deithrian@unaffiliated/deithrian23) has joined
+T 1430402526 18<Creeves18>	in my mind it doesn't have to be real time, it's simply performing the calculations that a web worker would do but faster
+T 1430402530 24*	28Cyndre is now known as 18Guest85394
+T 1430402548 18<cjohnson18>	xqo: I am confused what you're trying to do. why do you need to return self? you already have access to self
+T 1430402567 18<Creeves18>	unless you mean real time as an input of size n calculated on a GPU with > n cores would complete the input in o(1) (assumming these bounds are met)
+T 1430402568 18<cjohnson18>	just remove line 7
+T 1430402577 24*	Matachines has quit (Client Quit)
+T 1430402586 18<cjohnson18>	line 6 sets "this".byteArray = reader.result;
+T 1430402591 18<cjohnson18>	where "this" is the instance of JPEG
+T 1430402593 23*	codestorm (~codestorm@cpe-75-83-205-183.socal.res.rr.com23) has joined
+T 1430402597 18<xqo18>	cjohnson it is useful for my real code, and cleaner than chaining a bunch of event handlers. I will use the returned JPEG in another script
+T 1430402602 23*	WajidKagzi (~WajidKagz@104-251-99-162.dedicated.allstream.net23) has joined
+T 1430402602 23*	swist (~swist@dyn1227-64.wlan.ic.ac.uk23) has joined
+T 1430402607 18<cjohnson18>	you *already* have access to it
+T 1430402618 18<cjohnson18>	via this.byteArray
+T 1430402646 18<cjohnson18>	or line 20, IMG.byteArray. except you have to wait until the async callback has completed
+T 1430402659 24*	clarkk has quit (Ping timeout: 255 seconds)
+T 1430402665 23*	zampano (~zampano@c-50-130-138-84.hsd1.nm.comcast.net23) has joined
+T 1430402665 24*	zampano has quit (Changing host)
+T 1430402665 23*	zampano (~zampano@unaffiliated/zampano23) has joined
+T 1430402679 18<xqo18>	cjohnson yes, thats why i want to wait. I dont want JPEG to return itself before the async callback has completed
+T 1430402695 23*	hiptobecubic (~john@unaffiliated/hiptobecubic23) has joined
+T 1430402712 18<cjohnson18>	right. You can't use return here if that's what you want
+T 1430402717 18<cjohnson18>	you'll have to change JPEG to use a callback
+T 1430402719 18<cjohnson18>	or be a promise
+T 1430402724 18<xqo18>	what is a promise?
+T 1430402728 24*	renekooi has quit (Ping timeout: 256 seconds)
+T 1430402728 18<cjohnson18>	!promise
+T 1430402730 18<cjohnson18>	!promises
+T 1430402730 18<ecmabot18>	cjohnson: Promises are placeholders for values that are not yet available, and allow one to regain compositionality for asynchronous operations in JavaScript. See: https://gist.github.com/domenic/3889970, https://blog.jcoglan.com/?p=1609 (contrast with !cps)
+T 1430402743 18<cjohnson18>	ES6 introduces them, but you can use them today with
+T 1430402745 18<cjohnson18>	!es6-shim
+T 1430402745 18<ecmabot18>	cjohnson: Use https://www.npmjs.com/package/es6-shim to get every backwards-compatible feature of ES6 in every browser and node.js! It's heavily tested, comes with Promises, and requires the !es5-shim.
+T 1430402758 24*	swist has quit (Client Quit)
+T 1430402761 23*	lordB8r (~lordB8r@c-50-151-131-148.hsd1.il.comcast.net23) has joined
+T 1430402764 24*	Temur has quit (Ping timeout: 245 seconds)
+T 1430402774 18<xqo18>	ok, thank you.
+T 1430402778 23*	Temur (~Tarmashir@59.91.150.423) has joined
+T 1430402778 24*	Temur has quit (Changing host)
+T 1430402778 23*	Temur (~Tarmashir@unaffiliated/temur23) has joined
+T 1430402783 23*	Matachines (~Matachine@150.108.242.4623) has joined
+T 1430402819 23*	Alisch (~Alisch@dhcp-089-098-220-020.chello.nl23) has joined
+T 1430402821 24*	Yoofie has quit (Ping timeout: 255 seconds)
+T 1430402837 24*	Mezjin has quit (Ping timeout: 248 seconds)
+T 1430402863 18<WajidKagzi18>	what REPL do you peeps use for JS?
+T 1430402865 23*	chrisgeorge (~chrisgeor@unaffiliated/chrisgeorge23) has joined
+T 1430402872 24*	codestorm has quit (Ping timeout: 265 seconds)
+T 1430402872 24*	athan has quit (Ping timeout: 265 seconds)
+T 1430402873 18<cjohnson18>	you asked this yesterday, the answer is npm
+T 1430402880 18<cjohnson18>	and then browserify to get modules into the browser
+T 1430402880 23*	athan (~quassel@host-24-54-130-90.beyondbb.com23) has joined
+T 1430402882 18<cjohnson18>	:P
+T 1430402888 18<WajidKagzi18>	what about Rhino?
+T 1430402891 23*	jlongste` (~user@pool-173-53-84-209.rcmdva.fios.verizon.net23) has joined
+T 1430402902 18<cjohnson18>	that...is something else
+T 1430402903 24*	Ronrun has quit (Ping timeout: 244 seconds)
+T 1430402904 18<WajidKagzi18>	mah bad cjohnson, thanks
+T 1430402905 23*	shackleford (~shacklefo@50.56.228.6823) has joined
+T 1430402908 18<cjohnson18>	Rhino is an open-source implementation of JavaScript written entirely in Java. It is typically embedded into Java applications to provide scripting to end users. It is embedded in J2SE 6 as the default Java scripting engine.
+T 1430402911 24*	jlongster has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+T 1430402912 23*	CIDIC (~CIDIC@c-73-212-95-22.hsd1.md.comcast.net23) has joined
+T 1430402912 24*	shackleford has quit (Remote host closed the connection)
+T 1430402914 24*	jlongste` has quit (Remote host closed the connection)
+T 1430402928 23*	shackleford (~shacklefo@50.56.228.6823) has joined
+T 1430402947 23*	swist (~swist@dyn1227-64.wlan.ic.ac.uk23) has joined
+T 1430402949 18<samssh18>	cjohnson, Did you mean node.js rather than npm?
+T 1430402956 18<cjohnson18>	no
+T 1430402981 23*	cyberbrai (~chatzilla@112.196.33.7423) has joined
+T 1430402990 23*	denete (~denete@216.143.242.11223) has joined
+T 1430402992 23*	vasanth (~vasanth@5.254.97.10723) has joined
+T 1430402992 24*	vasanth has quit (Client Quit)
+T 1430403004 18<cyberbrai18>	hot use a remove function in javascript
+T 1430403011 18<cjohnson18>	cyberbrai: ?
+T 1430403012 18<samssh18>	NPM is a package manager... Are we speaking of a Read-Eval-Print-Loop?
+T 1430403026 24*	khurram has quit (Quit: Page closed)
+T 1430403035 24*	denete has quit (Remote host closed the connection)
+T 1430403040 18<cyberbrai18>	cjohnson yes
+T 1430403045 18<cjohnson18>	maybe I'm confused. I thought REPL was a repository for packages. I seem to remember that being in the perl world
+T 1430403063 18<cjohnson18>	if that's the case then yeah I would say node or io.js are good interpreters
+T 1430403068 18<cjohnson18>	for doing that
+T 1430403070 18<cyberbrai18>	like in jquery if i wannt to remove then  $("#"+s).remove();
+T 1430403075 23*	iamjarvo (~textual@pool-108-52-128-141.phlapa.fios.verizon.net23) has joined
+T 1430403078 18<cjohnson18>	what about it cyberbrai
+T 1430403083 24*	iamjarvo has quit (Max SendQ exceeded)
+T 1430403083 18<cjohnson18>	what is your question
+T 1430403094 18<samssh18>	WajidKagzi, What were you asking for? A repository, or Read-Eval-Print-Loop?
+T 1430403094 24*	Raging_Hog has quit (Quit: Konversation terminated!)
+T 1430403112 23*	denete (~denete@216.143.242.11223) has joined
+T 1430403113 18<WajidKagzi18>	the latter
+T 1430403119 23*	iamjarvo (~textual@pool-108-52-128-141.phlapa.fios.verizon.net23) has joined
+T 1430403121 18<cjohnson18>	oh sorry for my confusion WajidKagzi
+T 1430403123 18<samssh18>	Yeah, Node.js is what you want.
+T 1430403126 18<cyberbrai18>	i want to remove the tr from tbody on the basis of id
+T 1430403128 18<cjohnson18>	node.js or io.js (which is a fork of node)
+T 1430403135 18<cjohnson18>	cyberbrai: you have the right syntax
+T 1430403142 18<cjohnson18>	$('#theid').remove()
+T 1430403157 18<cyberbrai18>	in js
+T 1430403161 18<cjohnson18>	jquery is JS
+T 1430403163 18<cyberbrai18>	not in jquery
+T 1430403164 23*	acheney1 (~acheney2@2602:306:c484:c0c0:3801:aade:780:8c7a23) has joined
+T 1430403165 24*	acheney has quit (Read error: Connection reset by peer)
+T 1430403174 18<WajidKagzi18>	but in node.js one cannot type muliple lines for functions
+T 1430403176 18<cjohnson18>	but removeChild is how you remove elements in vanilla JS
+T 1430403187 18<cjohnson18>	WajidKagzi: well, you would be writing your functions in an editor
+T 1430403195 24*	28mrpinc is now known as 18mr_pinc
+T 1430403201 18<cjohnson18>	if you're just trying to quickly test some JS, I use my browser's console
+T 1430403203 18<cjohnson18>	or jsfiddle
+T 1430403212 18<cjohnson18>	or ecmabot :)
+T 1430403212 18<WajidKagzi18>	okie dokie
+T 1430403217 18<cjohnson18>	>> console.log('Hello world!')
+T 1430403217 18<ecmabot18>	cjohnson: undefined; Console: 'Hello world!'
+T 1430403220 18<cjohnson18>	in PM of course
+T 1430403224 18<WajidKagzi18>	thanks peeps, sorry for the repeat question
+T 1430403233 18<cjohnson18>	no prob, good you asked because I misunderstood it the first time
+T 1430403236 18<cjohnson18>	which was my bad
+T 1430403240 23*	darkbasic (~quassel@niko.linuxsystems.it23) has joined
+T 1430403256 23*	CAPITANOOO (~CAPITANOO@5.2.2.7823) has joined
+T 1430403256 18<samssh18>	WajidKagzi, I just did a multi line function on the interactive node interpreter.
+T 1430403302 24*	darkbasic_ has quit (Ping timeout: 272 seconds)
+T 1430403302 23*	wjf___ (~wjf@NYUFWA-WLESSAUTHCLIENTS-02.NATPOOL.NYU.EDU23) has joined
+T 1430403312 23*	foEs (~foEs@vpn.kempervalve.com23) has joined
+T 1430403319 24*	28greves is now known as 18Guest1982
+T 1430403319 24*	Guest1982 has quit (Killed (wolfe.freenode.net (Nickname regained by services)))
+T 1430403334 23*	javascript782 (5669d805@gateway/web/freenode/ip.86.105.216.523) has joined
+T 1430403337 23*	Guest1982 (~Edward@59-115-213-250.dynamic.hinet.net23) has joined
+T 1430403342 18<cjohnson18>	yeah good point, worksh ere too
+T 1430403349 23*	javascript014 (58bc3e0d@gateway/web/freenode/ip.88.188.62.1323) has joined
+T 1430403354 18<cjohnson18>	but still... just write it in a file. or jsfiddle. if you're needing to write something that big
+T 1430403354 18<javascript01418>		$('#tree_container').on('select_node.jstree', function (event, data) { 		console.log(event); 		alert(data.instance.get_node(data.selected(0).text)); 	}).jstree({'core' : {'data' : this.array_json } });
+T 1430403362 23*	asteele (~Cronoh@ip72-208-165-180.ph.ph.cox.net23) has joined
+T 1430403367 18<javascript01418>	The parameter "data" is undefined according to my console
+T 1430403368 18<javascript01418>	why ?
+T 1430403370 18<javascript01418>		$('#tree_container').on('select_node.jstree', function (event, data) { 		console.log(event); 		alert(data.instance.get_node(data.selected(0).text)); 	}).jstree({'core' : {'data' : this.array_json } });
+T 1430403394 24*	Draecos has quit (Quit: This computer has gone to sleep)
+T 1430403397 18<bros18>	What's that clever way to map sum the values in an array of objects again?
+T 1430403403 23*	greves (~holoirc@180.206.8.23323) has joined
+T 1430403413 23*	Ronrun (~ronyrun@80.215.234.8923) has joined
+T 1430403416 23*	scpike (~scpike@li510-17.members.linode.com23) has joined
+T 1430403426 18<samssh18>	cjohnson, +1
+T 1430403426 18<cjohnson18>	javascript014: console.log(data); to see what it is
+T 1430403430 18<greves18>	Anyone used baobab?
+T 1430403435 18<khmer18>	all right everyone
+T 1430403439 18<khmer18>	nobody panic
+T 1430403442 18<javascript01418>	cjohnson: undefined
+T 1430403448 18<khmer18>	i've started rotating my right monitor 90º again
+T 1430403450 18<cjohnson18>	if it's undefined then it's because the triggering function didn't pass a second argument
+T 1430403454 18<cjohnson18>	so of course that's why it'd be undefined
+T 1430403478 18<samssh18>	khmer, I have Hexchat in a vertical monitor.
+T 1430403478 24*	javascript782 has quit (Client Quit)
+T 1430403479 24*	erste has quit (Quit: Leaving)
+T 1430403487 23*	jmichaelward (~jmichaelw@23-25-150-153-static.hfc.comcastbusiness.net23) has joined
+T 1430403496 24*	Alisch (~Alisch@dhcp-089-098-220-020.chello.nl24) has left ("Leaving")
+T 1430403511 23*	TheDriver23 (~Aaron@pd907f4d2.dip0.t-ipconnect.de23) has joined
+T 1430403519 18<javascript01418>	cjohnson: look at an official example : http://www.jstree.com/docs/events/     my code is quasi-the same ^
+T 1430403523 18<zap018>	khmer, welcome to the 90° club
+T 1430403535 18<javascript01418>	cjohnson: so perhasps i have not the same version of jstree
+T 1430403546 18<cjohnson18>	well, I dunno what to tell you javascript014, but if "data" is undefined then their code is not passing a second argument
+T 1430403557 18<samssh18>	If you're cold, just sit closer. Your monitor is 90°.
+T 1430403559 18<javascript01418>	cjohnson:  okay:p
+T 1430403567 18<javascript01418>	cjohnson: tx !! :)
+T 1430403569 24*	shackleford has quit (Remote host closed the connection)
+T 1430403571 24*	lordB8r has quit (Remote host closed the connection)
+T 1430403577 18<athan18>	So react.js is something like a way to bind DOM nodes together? The virtual components / properties & states system seems really cool
+T 1430403585 18<cjohnson18>	javascript014: try console.log(arguments);
+T 1430403598 18<cjohnson18>	maybe the second arg is intentionalyl undefined and there's some other data being passed as the third/fourth arg?
+T 1430403602 23*	shackleford (shacklefor@nat/rackspace/x-dzdihdapfiumjbia23) has joined
+T 1430403607 18<athan18>	does this make it agnostic for things like foundation, bootstrap, etc?
+T 1430403609 23*	HoloIRCUser3 (~holoirc@61-228-236-52.dynamic.hinet.net23) has joined
+T 1430403611 18<Creeves18>	cjohnson: thanks again about that info on the ethical implications of creating a platform for what i want to do and how it should be up to the websites hosting the code to make users opt in
+T 1430403617 18<Creeves18>	going to use that exact argument in my paper
+T 1430403618 18<cjohnson18>	np
+T 1430403618 18<HoloIRCUser318>	90 is almost boiling are u trying to kill the man?
+T 1430403618 23*	codestorm (~codestorm@cpe-75-83-205-183.socal.res.rr.com23) has joined
+T 1430403625 23*	clarkk (~clarkk@cust44-dsl91-135-6.idnet.net23) has joined
+T 1430403633 24*	acheney1 has quit (Read error: Connection reset by peer)
+T 1430403643 18<cjohnson18>	athan: it's virtual dom + diffing to save on performance, as a means of updating the DOM when data changes
+T 1430403645 23*	acheney1 (~acheney2@108-72-76-12.lightspeed.rcsntx.sbcglobal.net23) has joined
+T 1430403660 18<samssh18>	HoloIRCUser3, I said closer, not touching. Besides, I was thinking Fahrenheit.
+T 1430403661 24*	Guest15 has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1430403673 18<khmer18>	zap0: in a way i never left
+T 1430403675 18<cjohnson18>	it uses a different approach than templating or direct node updating, since you can have a naieve understanding of the layout but still performantly only change the DOM nodes whose data has changed
+T 1430403681 18<athan18>	cjohnson: okay that seems pretty simple
+T 1430403689 18<athan18>	oh wow
+T 1430403702 18<zap018>	khmer, i don't use left as much either, not that right is 90°  ;)
+T 1430403709 18<zap018>	now that/
+T 1430403733 18<khmer18>	zap0: i'm aware that the viewing angle isn't optimal for this
+T 1430403734 18<cyberbrai18>	   	  $("#sort").append("<li id="+Id+"> <input id="reverse" type=checkbox > "+userName+"</li>");  is it a right way to append the li
+T 1430403738 18<khmer18>	i'm aware that the color profile is different
+T 1430403743 23*	steeze (~steeze@wsip-24-248-168-142.ok.ok.cox.net23) has joined
+T 1430403743 18<khmer18>	everyone do their breathing exercises
+T 1430403747 24*	nikhil_ has quit (Ping timeout: 276 seconds)
+T 1430403749 18<HoloIRCUser318>	Fahrenheit? that's so complicated  don't even know if there's enough programers in the world to convert that to a real unit
+T 1430403756 23*	bollullera (~sevillana@95.63.152.10623) has joined
+T 1430403757 18<zap018>	khmer a TN planel... yeah, that'll look crap
+T 1430403759 24*	nettoweb has quit (Quit: Textual IRC Client: www.textualapp.com)
+T 1430403772 18<HoloIRCUser318>	IRC on mobile is terrible
+T 1430403775 18<zap018>	khmer, a good panel should have square pixels, and be good from all angles.
+T 1430403777 18<Creeves18>	khmer: 270° all the way
+T 1430403786 18<javascript01418>	cjohnson: i apologize : alert(data.node.text); it works:)
+T 1430403804 23*	nikhil_ (~nikhil@105.210.7.23123) has joined
+T 1430403821 24*	codebrainz has quit (Remote host closed the connection)
+T 1430403831 23*	hyjhnjhmnjh (~hyjhnjhmn@host87-131-dynamic.30-79-r.retail.telecomitalia.it23) has joined
+T 1430403836 18<hyjhnjhmnjh18>	list
+T 1430403842 24*	Sky[x] has quit (Quit: This computer has gone to sleep)
+T 1430403842 24*	greves has quit (Ping timeout: 264 seconds)
+T 1430403847 18<khmer18>	yeah, well, left is a big fat IPS monitor
+T 1430403853 24*	dseitz has quit (Quit: bbl)
+T 1430403853 18<khmer18>	specifically an ATD
+T 1430403857 24*	hyjhnjhmnjh has quit (Client Quit)
+T 1430403869 23*	jsx (uid48919@fsf/intern/jsx23) has joined
+T 1430403889 24*	Kassad has quit (Remote host closed the connection)
+T 1430403891 23*	prbc (~prbc@179.235.201.25123) has joined
+T 1430403891 18<cyberbrai18>	 $("#sort").append("<li id="+Id+"> <input id="reverse" type=checkbox > "+userName+"</li>"); is it a right way to append
+T 1430403901 24*	mikeybisbo has quit ()
+T 1430403918 24*	Rainb has quit (Ping timeout: 256 seconds)
+T 1430403927 23*	lordB8r (~lordB8r@c-50-151-131-148.hsd1.il.comcast.net23) has joined
+T 1430403931 18<cjohnson18>	javascript014: you lie!
+T 1430403932 18<Creeves18>	cyberbrai
+T 1430403932 18<cjohnson18>	:P
+T 1430403938 18<Creeves18>	you need to change up some of those quotes i think
+T 1430403954 18<Creeves18>	i think you want something like: $("#sort").append("<li id="+Id+"> <input id='reverse' type=checkbox > "+userName+"</li>");
+T 1430403957 18<cyberbrai18>	missing ) after argument list  it's give me somthing like that
+T 1430403959 23*	tiwula (~lane@70.89.246.241-Busname-UT.hfc.comcastbusiness.net23) has joined
+T 1430403962 24*	anna` has quit (Read error: Connection reset by peer)
+T 1430403963 18<cjohnson18>	well, fix it
+T 1430403966 18<cjohnson18>	don't just ignore the error
+T 1430403966 23*	nettoweb (~textual@189.4.73.5623) has joined
+T 1430403971 23*	balazs (~balazs@97-118-61-21.hlrn.qwest.net23) has joined
+T 1430403986 24*	FernandoBasso has quit (Quit: Leaving)
+T 1430403991 23*	JotaK (~Seven@unaffiliated/jotak23) has joined
+T 1430403995 18<macabre18>	i'm having an issue with flot charts. i have 4 charts that live inside tabs. when i load my page (tab 1) the chart looks perfect but as i click through the other tabs (tab 2, 3, 4) the chart seems a bit squooshed and both y axes seem to be off... has anyone had a similar issue?
+T 1430403998 18<javascript01418>	cjohnson: not at all haha
+T 1430403998 23*	hell_razer (~textual@77.91.130.8223) has joined
+T 1430403999 18<cyberbrai18>	cjohnson yes
+T 1430404004 18<cyberbrai18>	i will
+T 1430404004 23*	anna` (~anna@unaffiliated/anna/x-557409223) has joined
+T 1430404008 23*	ctorp (~ctorp@cpe-70-117-120-98.austin.res.rr.com23) has joined
+T 1430404011 24*	zeRez has quit (Quit: ...)
+T 1430404041 18<Creeves18>	cyberbrai: or to be a bit more compliant: $('#sort').append('<li id='+ Id +'> <input id="reverse" type="checkbox" > '+userName+'</li>');
+T 1430404051 23*	pxed (~quassel@unaffiliated/pxed23) has joined
+T 1430404055 23*	codedecay (~codedecay@c-73-2-84-38.hsd1.ca.comcast.net23) has joined
+T 1430404065 18<cjohnson18>	both are fine
+T 1430404080 18<Creeves18>	html attrs don't have to have quotes?
+T 1430404083 18<Creeves18>	i honestly am not sure
+T 1430404089 18<Creeves18>	you're probably right
+T 1430404091 23*	yansanmo (~yanmorin@progysm.com23) has joined
+T 1430404102 23*	kex (~kex@78.157.29.16023) has joined
+T 1430404109 23*	Kassad (~kassad@31.204.150.7123) has joined
+T 1430404135 24*	28zz_robotmayo is now known as 18robotmayo
+T 1430404137 23*	Guest15 (~textual@cpc1-heme11-2-0-cust438.9-1.cable.virginm.net23) has joined
+T 1430404153 23*	doug16k (~doug16k@ERMLON6511W-LP140-03-3096583983.dsl.bell.ca23) has joined
+T 1430404171 24*	prbc has quit (Ping timeout: 255 seconds)
+T 1430404195 23*	AhabsBeard (~AhabsBear@207.101.13.231.ptr.us.xo.net23) has joined
+T 1430404205 23*	LabCoatNomad (~LabCoatNo@MRHMON2409W-LP130-02-1128739857.dsl.bell.ca23) has joined
+T 1430404210 23*	mikeybisbo (~mikeybisb@host31-52-169-213.range31-52.btcentralplus.com23) has joined
+T 1430404226 18<khmer18>	they do not
+T 1430404253 23*	pwnawannab[NE] (~pwnawanna@c-73-219-244-227.hsd1.nh.comcast.net23) has joined
+T 1430404265 23*	Sky[x] (~skyx@internet-178-58-246-172.narocnik.mobitel.si23) has joined
+T 1430404267 24*	balazs has quit (Ping timeout: 256 seconds)
+T 1430404295 23*	ttosi (~ttosi@c-24-21-135-194.hsd1.wa.comcast.net23) has joined
+T 1430404305 18<ankr18>	Creeves  it's not required, but be aware for multiple values for an attribute
+T 1430404315 24*	Gluesticky has quit (Quit: This is the end. Goodbye cruel world!)
+T 1430404318 24*	it0a has quit (Quit: WeeChat 1.1.1)
+T 1430404319 23*	HoloIRCUser2 (~holoirc@180.206.109.6523) has joined
+T 1430404332 24*	wisecracker_ua has quit (Ping timeout: 276 seconds)
+T 1430404335 18<ankr18>	<div class="foo bar"> does what it's supposed to but
+T 1430404335 23*	mtthw (~textual@c-68-41-142-197.hsd1.mi.comcast.net23) has joined
+T 1430404335 23*	GoddeR (~GoddeR@209.131.123.12923) has joined
+T 1430404335 23*	it0a (~it0a@rrcs-24-56-88-130.ma.biz.rr.com23) has joined
+T 1430404335 24*	shfq has quit (Ping timeout: 256 seconds)
+T 1430404345 18<ankr18>	<div class=foo bar> will evaluate to <div class="foo" bar="">
+T 1430404358 18<khmer18>	yes
+T 1430404393 24*	pretag has quit (Quit: leaving)
+T 1430404395 23*	natmyers (~nmyers@216.1.97.6223) has joined
+T 1430404410 23*	felda (~felda@50.44.28.10123) has joined
+T 1430404441 24*	HoloIRCUser3 has quit (Ping timeout: 255 seconds)
+T 1430404445 23*	stlomob (1f348f2f@gateway/web/freenode/ip.31.52.143.4723) has joined
+T 1430404453 24*	earational has quit (Ping timeout: 244 seconds)
+T 1430404486 24*	28greves_ is now known as 18greves
+T 1430404501 23*	highcup (~highcup@207.181.193.22623) has joined
+T 1430404503 23*	Asiajey (~Asiajey@unaffiliated/asiajey23) has joined
+T 1430404516 24*	minikN has quit (Quit: Textual IRC Client: www.textualapp.com)
+T 1430404521 23*	Raging_Hog (~heikki@37-219-222-134.nat.bb.dnainternet.fi23) has joined
+T 1430404524 18<stlomob18>	Hi - How can I set a variable where $uid is in the following code? It is just printing out $uid into the json ::::::: $scope.change['file'] = {$uid:{name: $scope.changefile, url: $scope.fileurl, id: $index }};
+T 1430404541 23*	lancealtar (~lancealta@12.150.78.723) has joined
+T 1430404544 18<cyberbrai18>	attr or prop is their any diff between them
+T 1430404549 18<Creeves18>	ankr: good to know, cheers
+T 1430404579 18<Creeves18>	cyberbrai: http://stackoverflow.com/questions/5874652/prop-vs-attr
+T 1430404581 18<ankr18>	Creeves You are right, time for beers! Have good weekend guys.
+T 1430404583 23*	youser (~django492@46.12.60.114.dsl.dyn.forthnet.gr23) has joined
+T 1430404588 24*	HoloIRCUser2 has quit (Ping timeout: 250 seconds)
+T 1430404601 24*	rdaviesDG has quit (Read error: Connection reset by peer)
+T 1430404604 24*	Kassad has quit (Remote host closed the connection)
+T 1430404614 18<Creeves18>	it's 12:36am friday here, still a work day ahead haha
+T 1430404620 18<Creeves18>	i wish it was time for beers
+T 1430404628 18<Creeves18>	well actually it is, because it's late thursday night, so it's okay
+T 1430404630 18<javascript01418>	ankr: gwe
+T 1430404647 24*	lordB8r has quit (Remote host closed the connection)
+T 1430404648 18<ankr18>	likewise!
+T 1430404679 23*	ZeReEbRiL (~ZeReEbRiL@192.237.162.9223) has joined
+T 1430404680 23*	lordB8r (~lordB8r@c-50-151-131-148.hsd1.il.comcast.net23) has joined
+T 1430404689 24*	wjf___ has quit (Quit: Be back later ...)
+T 1430404691 24*	vedran_ has quit (Quit: This computer has gone to sleep)
+T 1430404707 23*	jamesheston (~jameshest@50.240.78.7523) has joined
+T 1430404711 23*	L8D (~L8D@99-156-81-153.lightspeed.austtx.sbcglobal.net23) has joined
+T 1430404719 24*	grzesag has quit (Remote host closed the connection)
+T 1430404736 23*	Kassad (~kassad@31.204.150.7123) has joined
+T 1430404742 24*	m1su has quit ()
+T 1430404790 23*	grzesag (~grzesag@163.1.246.5223) has joined
+T 1430404822 23*	odin22 (~odin22@host-82-241-2-96-static.midco.net23) has joined
+T 1430404830 23*	afs (~afs@bl14-213-130.dsl.telepac.pt23) has joined
+T 1430404831 18<cjohnson18>	Creeves: oh I see. I thought you were saying that double quotes were more compliant. technically I think attrs should have quotes but no browser anywhere actually enforces that
+T 1430404859 24*	Lieuwex has quit (Quit: WeeChat 1.1.1)
+T 1430404867 24*	Temur has quit (Read error: Connection reset by peer)
+T 1430404879 24*	naschine has quit (Ping timeout: 256 seconds)
+T 1430404889 24*	VnM has quit (Quit: Ping timeout: 1 second)
+T 1430404891 18<Creeves18>	ah okay, nah i just have a thing for attrs having double quotes
+T 1430404894 18<Creeves18>	it just seems... right
+T 1430404900 23*	shfq (~shfq@unaffiliated/shfq23) has joined
+T 1430404903 24*	kex has quit (Remote host closed the connection)
+T 1430404918 24*	Renesansz has quit (Ping timeout: 244 seconds)
+T 1430404919 23*	distruggle (~distruggl@104-251-99-162.dedicated.allstream.net23) has joined
+T 1430404932 18<cjohnson18>	I usually prefer single quotes to doubles but for HTML I actually agree -- only because for instance title="It's a me, Mario!"
+T 1430404940 23*	Renesansz (~Renesansz@203.111.224.6823) has joined
+T 1430404946 18<cjohnson18>	I tend to use apostrophes in normal writing more than double quotes
+T 1430404947 24*	lordB8r has quit (Ping timeout: 256 seconds)
+T 1430404952 23*	Lieuwex (~lieuwe@5ED188C3.cm-7-2c.dynamic.ziggo.nl23) has joined
+T 1430404955 24*	AhabsBeard has quit ()
+T 1430404961 18<Creeves18>	yeah for all other strings i prefer ' over " when available
+T 1430404965 18<Creeves18>	i mean
+T 1430404969 18<Creeves18>	it's a shift-less to type
+T 1430404980 23*	balazs (~balazs@157.166.175.12923) has joined
+T 1430404994 18<Creeves18>	i think when i first learned HTML i didn't have a concept of a string or anything and i learned that it was <element attr="value"> and bore that into my brain
+T 1430404998 18<Creeves18>	now any other way seems weird
+T 1430405018 24*	wvdhaute_ has quit (Ping timeout: 265 seconds)
+T 1430405044 23*	AhabsBeard (~AhabsBear@207.101.13.231.ptr.us.xo.net23) has joined
+T 1430405047 24*	stlomob has quit (Quit: Page closed)
+T 1430405062 24*	Kassad has quit (Remote host closed the connection)
+T 1430405069 18<natmyers18>	hey guys, is there a best way to trigger a file download from an XHR request?
+T 1430405081 18<natmyers18>	I'm seeing some stuff about using window.open()
+T 1430405112 24*	sinkensabe has quit (Remote host closed the connection)
+T 1430405142 24*	Kn|t3 has quit (Ping timeout: 256 seconds)
+T 1430405144 24*	Noizept has quit (Remote host closed the connection)
+T 1430405147 24*	Lieuwex has quit (Client Quit)
+T 1430405150 23*	wisecracker_ua (~Stas@186.6.196.9323) has joined
+T 1430405163 23*	Lieuwex (~lieuwe@5ED188C3.cm-7-2c.dynamic.ziggo.nl23) has joined
+T 1430405164 23*	Kassad (~kassad@31.204.150.7123) has joined
+T 1430405170 24*	Johnade has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+T 1430405171 23*	sinkensabe (~sinkensab@213.115.244.18023) has joined
+T 1430405176 23*	juampy (~juampy@23.pool80-102-41.dynamic.orange.es23) has joined
+T 1430405200 24*	fbdiom has quit ()
+T 1430405212 23*	wjf___ (~wjf@NYUFWA-WLESSAUTHCLIENTS-02.NATPOOL.NYU.EDU23) has joined
+T 1430405212 23*	pedro__ (~quassel@a95-94-145-198.cpe.netcabo.pt23) has joined
+T 1430405216 24*	petersaints has quit (Ping timeout: 240 seconds)
+T 1430405230 23*	Sorella (uid49404@oftn/member/Sorella23) has joined
+T 1430405238 23*	minikN (~minikN@aftr-37-201-169-6.unity-media.net23) has joined
+T 1430405250 24*	sckah has quit (Remote host closed the connection)
+T 1430405264 24*	nikhil_ has quit (Ping timeout: 250 seconds)
+T 1430405267 24*	Raging_Hog has quit (Quit: Konversation terminated!)
+T 1430405278 23*	lordB8r (~lordB8r@c-50-151-131-148.hsd1.il.comcast.net23) has joined
+T 1430405287 23*	sckah (~sckah@host236-40.diei.unipg.it23) has joined
+T 1430405309 23*	merobertsjr___ (~meroberts@75-32-245-22.lightspeed.rbrnca.sbcglobal.net23) has joined
+T 1430405378 24*	youser has quit (Quit: Leaving)
+T 1430405385 24*	ImQ009 has quit (Quit: Leaving)
+T 1430405408 23*	nahtnam (uid22411@gateway/web/irccloud.com/x-cpqbeflhhxlllwvb23) has joined
+T 1430405413 23*	delboy1978uk (~delboy197@host213-120-103-175.in-addr.btopenworld.com23) has joined
+T 1430405418 23*	fbdiom (~fbdiom@unaffiliated/fbdiom23) has joined
+T 1430405419 18<WajidKagzi18>	i want to do something special via JS for my girl. I was thinking of assembling a picture of her in pieces using JS
+T 1430405429 18<delboy1978uk18>	this is either a css or a javascript issue, but my bootstrap tabs (from a theme template i am tweaking for someone) seem to be screwed up, try clicking different tabs and you’ll see what i mean. can anyone help? http://lab.delboysplace.co.uk/agent-details.php
+T 1430405436 23*	munumnu (~munumnunu@x5f72e39c.dyn.telefonica.de23) has joined
+T 1430405460 18<delboy1978uk18>	ive never had a girlfriend who was impressed by my javascript :’(
+T 1430405464 23*	code_pod (~textual@178.73.193.21223) has joined
+T 1430405469 24*	sckah has quit (Remote host closed the connection)
+T 1430405470 18<alexcf18>	aww
+T 1430405483 24*	ChoiKyuSang has quit (Quit: Going offline, see ya! (( www.adiirc.com ))
+T 1430405483 23*	sckah (~sckah@host236-40.diei.unipg.it23) has joined
+T 1430405485 24*	sinkensabe has quit (Ping timeout: 264 seconds)
+T 1430405486 18<delboy1978uk18>	she was impressed by the money it earned me though :-)
+T 1430405492 23*	Temur (~Tarmashir@59.91.150.423) has joined
+T 1430405496 24*	afs has quit (Quit: Ex-Chat)
+T 1430405502 23*	vanev__ (~evansiege@cpe-98-14-242-46.nyc.res.rr.com23) has joined
+T 1430405511 24*	Temur has quit (Changing host)
+T 1430405511 23*	Temur (~Tarmashir@unaffiliated/temur23) has joined
+T 1430405514 24*	lordB8r has quit (Remote host closed the connection)
+T 1430405528 18<WajidKagzi18>	ahahah
+T 1430405530 24*	Temur has quit (Max SendQ exceeded)
+T 1430405531 18<delboy1978uk18>	anyway can anyone help? i have bootstrap tabbed content, but each tab seems to start after the last div further down the page!
+T 1430405549 18<natmyers18>	WajidKagzi: you could try using canvas
+T 1430405560 23*	Temur (~Tarmashir@59.91.150.423) has joined
+T 1430405562 24*	Temur has quit (Changing host)
+T 1430405562 23*	Temur (~Tarmashir@unaffiliated/temur23) has joined
+T 1430405564 24*	AhabsBeard has quit ()
+T 1430405566 18<delboy1978uk18>	the weirdest thing is the first tab is active but you cant see it till you click another tab then click on the first tab again!
+T 1430405570 24*	merobertsjr__ has quit (Ping timeout: 264 seconds)
+T 1430405590 24*	Kassad has quit (Remote host closed the connection)
+T 1430405591 18<WajidKagzi18>	could you elaborate natmyers?
+T 1430405606 24*	merobertsjr___ has quit (Ping timeout: 264 seconds)
+T 1430405617 24*	Temur has quit (Max SendQ exceeded)
+T 1430405623 18<natmyers18>	https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+T 1430405633 18<ankr18>	WajidKagzi http://www.craftymind.com/factory/html5video/CanvasVideo.html
+T 1430405640 18<L8D18>	SVG would work too
+T 1430405646 24*	nicolasbadia has quit (Quit: nicolasbadia)
+T 1430405646 18<natmyers18>	it's pretty good for manipulating images and animation
+T 1430405647 23*	Temur (~Tarmashir@59.91.150.423) has joined
+T 1430405660 23*	negaduck (~negaduck@213.243.66.1823) has joined
+T 1430405660 24*	Temur has quit (Changing host)
+T 1430405660 23*	Temur (~Tarmashir@unaffiliated/temur23) has joined
+T 1430405661 18<L8D18>	That reminds me, how come so many people jump straight to using canvases before even considering SVG?
+T 1430405662 23*	Kassad (~kassad@31.204.150.7123) has joined
+T 1430405665 23*	AhabsBeard (~AhabsBear@207.101.13.231.ptr.us.xo.net23) has joined
+T 1430405670 24*	TheDriver23 (~Aaron@pd907f4d2.dip0.t-ipconnect.de24) has left
+T 1430405671 18<L8D18>	When 90% of the time SVG is better and faster
+T 1430405674 18<ankr18>	L8D less math
+T 1430405679 18<natmyers18>	ha, I just like openGL
+T 1430405683 18<WajidKagzi18>	thanks guys
+T 1430405685 23*	Bootinbull (~Bootinbul@209.64.8.24223) has joined
+T 1430405689 18<WajidKagzi18>	you guys know a lot
+T 1430405698 18<L8D18>	Yeah, SVG for 2D stuff and openGL for the 3D stuff
+T 1430405701 24*	Temur has quit (Max SendQ exceeded)
+T 1430405717 18<L8D18>	ankr: I feel like I've still do a lot of math when working with canvas
+T 1430405733 23*	Temur (~Tarmashir@59.91.150.423) has joined
+T 1430405734 23*	cresten (~cresten@209.117.251.11423) has joined
+T 1430405744 18<L8D18>	but when it comes to scaling SVG things I can always resort to D3
+T 1430405746 24*	Temur has quit (Changing host)
+T 1430405746 23*	Temur (~Tarmashir@unaffiliated/temur23) has joined
+T 1430405753 24*	t4nkd has quit (Quit: Linkinus - http://linkinus.com)
+T 1430405757 24*	Temur has quit (Read error: Connection reset by peer)
+T 1430405760 23*	lordB8r (~lordB8r@c-50-151-131-148.hsd1.il.comcast.net23) has joined
+T 1430405769 23*	julianocomg (~julianoco@177.201.52.5323) has joined
+T 1430405772 18<L8D18>	the most complicated part of SVG is the 'd' attribute in paths
+T 1432221639 19*	Now talking on 22##javascript
+T 1432221639 22*	Topic for 22##javascript is: Can't talk? Get registered on freenode (HOWTO: http://freenode.net/faq.shtml#nicksetup ). | ECMAScript, JavaScript. JS *not* Java. | Say "!help" (or ask and wait). | Say "!mdn abc" for docs on "abc". | Don't paste code in the channel.
+T 1432221639 22*	Topic for 22##javascript set by 26Agamemnus!~Agamemnus@pool-173-76-102-147.bstnma.fios.verizon.net (24Mon May 11 16:06:33 2015)
+T 1432221658 24*	ghox_ has quit (Ping timeout: 258 seconds)
+T 1432221659 23*	denete (~denete@216.143.242.11223) has joined
+T 1432221660 24*	dabos has quit (Ping timeout: 256 seconds)
+T 1432221685 23*	enitiz (~saurabh@pool-98-117-183-21.bflony.fios.verizon.net23) has joined
+T 1432221705 24*	Dragooon has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1432221729 24*	wam has quit (Quit: Ex-Chat)
+T 1432221734 24*	abeym__ has quit (Quit: Page closed)
+T 1432221739 23*	ehynds (~ehynds@146-115-145-170.c3-0.nwt-ubr1.sbo-nwt.ma.cable.rcn.com23) has joined
+T 1432221751 24*	aiena has quit (Ping timeout: 258 seconds)
+T 1432221805 23*	anew (~anew@unaffiliated/anew23) has joined
+T 1432221805 24*	jfmercer has quit (Ping timeout: 256 seconds)
+T 1432221814 23*	decoponio (~decoponio@pon059-128.kcn.ne.jp23) has joined
+T 1432221841 23*	DerisiveLogic (~smuxi@cpe-74-72-21-199.nyc.res.rr.com23) has joined
+T 1432221866 24*	DerisiveLogic has quit (Remote host closed the connection)
+T 1432221869 23*	overtime (~overtime@cmr-208-124-150-146.cr.net.cable.rogers.com23) has joined
+T 1432221876 24*	cmoneylulz has quit (Remote host closed the connection)
+T 1432221881 23*	kureev (~kureev@ip-213-127-165-157.ip.prioritytelecom.net23) has joined
+T 1432221888 24*	mewm has quit (Quit: Textual IRC Client: www.textualapp.com)
+T 1432221890 23*	Eduard_Munteanu (~Eduard_Mu@office.instore-media.ro23) has joined
+T 1432221891 23*	DerisiveLogic (~smuxi@cpe-74-72-21-199.nyc.res.rr.com23) has joined
+T 1432221894 18<cjohnson18>	Is there any reason to use var foo = function(){} ?
+T 1432221906 18<cjohnson18>	other than "I don't want hoisting" maybe
+T 1432221907 24*	cotalinux has quit (Remote host closed the connection)
+T 1432221914 23*	ghox (~ghox@179.7.123.22523) has joined
+T 1432221933 23*	j0n3 (~j0n3@80.174.54.98.dyn.user.ono.com23) has joined
+T 1432221935 18<Eduard_Munteanu18>	Is anyone familiar with blueimp's jQuery-File-Upload? How do I make it upload files only when pressing a submit button?
+T 1432221938 24*	poosanth has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1432221940 23*	L8D (~L8D@99-156-81-153.lightspeed.austtx.sbcglobal.net23) has joined
+T 1432221956 23*	cotalinux (~colin@79.112.60.23423) has joined
+T 1432221957 24*	antgel has quit (Ping timeout: 258 seconds)
+T 1432221976 24*	NikoZz has quit (Quit: Random quote: "You see things; and you say, 'Why?' But I dream things that never were; and I say, "Why not?""(Bernard Shaw))
+T 1432221991 24*	jcerise_ has quit (Remote host closed the connection)
+T 1432222008 24*	s2013 has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1432222025 23*	sabajo (~sabajo@c-68-35-157-247.hsd1.al.comcast.net23) has joined
+T 1432222039 23*	erts (~la@unaffiliated/erts23) has joined
+T 1432222047 23*	antgel (~topdog@82.166.98.4123) has joined
+T 1432222057 23*	speakingcode (~unknown@50.153.220.1223) has joined
+T 1432222068 23*	jkoudys_ (~jkoudys@TOROON12-1177861142.sdsl.bell.ca23) has joined
+T 1432222096 23*	flux159 (~textual@wsip-70-182-2-52.dc.dc.cox.net23) has joined
+T 1432222113 23*	steelbrain (~steelbrai@182.187.57.17523) has joined
+T 1432222155 24*	tumulte has quit (Read error: Connection reset by peer)
+T 1432222179 18<Xatenev18>	Eduard_Munteanu: aswell u can try #jquery
+T 1432222188 18<Eduard_Munteanu18>	Thanks.
+T 1432222203 18<erts18>	Hello, I'm querying the Google QPX Express API and it's returning huge JSON objects, is there any way to query those results without having to reverse-engineer the whole thing? Thanks
+T 1432222205 23*	fbdiom (~fbdiom@unaffiliated/fbdiom23) has joined
+T 1432222213 24*	L8D has quit (Ping timeout: 256 seconds)
+T 1432222214 23*	Sailor3775 (~sailfish@ip-77-25-177-188.web.vodafone.de23) has joined
+T 1432222216 24*	asheinfeld has quit (Remote host closed the connection)
+T 1432222220 23*	dabos (~superbos@79.114.31.8923) has joined
+T 1432222265 24*	mariuscc has quit (Quit: Nettalk6 - www.ntalk.de)
+T 1432222297 24*	Sailor3775_ has quit (Ping timeout: 264 seconds)
+T 1432222303 24*	jkoudys has quit (Ping timeout: 265 seconds)
+T 1432222306 24*	DeviaVir_ has quit ()
+T 1432222308 23*	nucleartide (~jason2@216.0.200.19823) has joined
+T 1432222320 24*	nucleartide has quit (Read error: Connection reset by peer)
+T 1432222329 23*	asheinfeld (~asheinfel@static-108-30-103-46.nycmny.fios.verizon.net23) has joined
+T 1432222333 24*	aaronmoodie has quit (Read error: Connection reset by peer)
+T 1432222338 24*	leolrrj has quit (Read error: Connection timed out)
+T 1432222354 23*	aaronmoodie (~aaronmood@64.124.192.21023) has joined
+T 1432222382 23*	Aamir_ (~aamir@212.240.83.2023) has joined
+T 1432222403 18<JSONB18>	Sorella: Yeah the examples were just there for sake of brevity. I was under the impression the call stack always returned "anonymous function if it was not named. Its possible I'm following the wrong route
+T 1432222418 24*	CrowX- has quit (Read error: Connection reset by peer)
+T 1432222421 23*	leolrrj (~leolrrj@189.78.147.17923) has joined
+T 1432222423 23*	ascarter (~ascarter@c-24-16-31-97.hsd1.wa.comcast.net23) has joined
+T 1432222425 23*	jrajav_ (~jrajav@198.179.137.20223) has joined
+T 1432222434 18<Sorella18>	JSONB: only in older engines
+T 1432222438 24*	dan2k3k4k5 has quit (Ping timeout: 272 seconds)
+T 1432222441 24*	m1su has quit (Ping timeout: 264 seconds)
+T 1432222470 23*	ImQ009 (~ImQ009@unaffiliated/imq00923) has joined
+T 1432222474 24*	ascarter has quit (Max SendQ exceeded)
+T 1432222474 24*	aaronmoodie has quit (Client Quit)
+T 1432222476 18<JSONB18>	Sorella: Thats good to know! Thanks :)
+T 1432222483 23*	CrowX- (~crow@79.141.122.8623) has joined
+T 1432222486 24*	fbdiom has quit (Ping timeout: 255 seconds)
+T 1432222486 24*	kriskropd has quit (Ping timeout: 255 seconds)
+T 1432222487 24*	28MichD is now known as 18michd
+T 1432222495 23*	shivtej (~shivtej@117.237.75.16723) has joined
+T 1432222501 24*	CrowX- has quit (Read error: Connection reset by peer)
+T 1432222502 18<Sorella18>	JSONB:  https://www.irccloud.com/pastebin/gpbDQQiL
+T 1432222504 23*	ascarter (~ascarter@c-24-16-31-97.hsd1.wa.comcast.net23) has joined
+T 1432222510 24*	AMERICAN_PSYCHO has quit (Ping timeout: 244 seconds)
+T 1432222523 23*	Guest10804 (~Torkable@50.246.217.3823) has joined
+T 1432222527 24*	28michd is now known as 18MichD
+T 1432222528 24*	shivtej (~shivtej@117.237.75.16724) has left ("Leaving")
+T 1432222534 18<JSONB18>	well i'll be... :)
+T 1432222552 23*	cvvjf (~cvvjf@aftr-95-222-25-184.unity-media.net23) has joined
+T 1432222554 23*	jkoudys__ (~jkoudys@CPE00180a1104ae-CMbcc810008575.cpe.net.cable.rogers.com23) has joined
+T 1432222554 18<Sorella18>	They'll also propagate names in properties, and try to give you the full path to the object (which is pretty neat)
+T 1432222554 24*	RedAero has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+T 1432222561 23*	CrowX- (~crow@79.141.122.8623) has joined
+T 1432222561 24*	28lanceball is now known as 18lance|afk
