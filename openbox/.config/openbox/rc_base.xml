@@ -90,12 +90,12 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>sans</name>
+      <name>Sans</name>
       <size>9</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
@@ -250,7 +250,7 @@
           <keybind key="C-W-A-Right">
             <keybind key="C-W-A-1">
               <action name="Execute">
-                <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_extended1.xml</command>
+                <command>set-obconf /home/david/.config/openbox/rc_extended1.xml</command>
               </action>
             </keybind>
           </keybind>
@@ -263,7 +263,7 @@
           <keybind key="C-W-A-Right">
             <keybind key="C-W-A-2">
               <action name="Execute">
-                <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_extended2.xml</command>
+                <command>set-obconf /home/david/.config/openbox/rc_extended2.xml</command>
               </action>
             </keybind>
           </keybind>

@@ -250,7 +250,7 @@
           <keybind key="Left">
             <keybind key="Right">
               <action name="Execute">
-                <command>set-obconf /home/david/.dotfiles/desktop/openbox/rc_base.xml</command>
+                <command>set-obconf /home/david/.config/openbox/rc_base.xml</command>
               </action>
 			</keybind>
           </keybind>
