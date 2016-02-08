@@ -90,7 +90,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Sans</name>
+      <name>sans</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>Bold</weight>
@@ -399,7 +399,7 @@
     </keybind>
     <keybind key="W-S-t">
       <action name="Execute">
-        <command>xfce4-terminal</command>
+        <command>wlaunch sakura sakura</command>
       </action>
     </keybind>
     <keybind key="W-b">
