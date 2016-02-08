@@ -1,4 +1,0 @@
-T 1432221826 19*	Now talking on 22#xfce
-T 1432221826 22*	Topic for 22#xfce is: Xfce is alive and kicking - here is 4.12 for you to enjoy! Get it here: http://www.xfce.org/download | Interested in translating Xfce? See http://translations.xfce.org/ | Ask your question and then BE PATIENT AND IDLE FOR A WHILE
-T 1432221826 22*	Topic for 22#xfce set by 26JPohlmann (24Sat Feb 28 15:46:02 2015)
-T 1432221826 22*	Channel 22#xfce url: 24http://www.xfce.org
