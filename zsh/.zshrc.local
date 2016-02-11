@@ -14,16 +14,12 @@ alias free='free -m'                # show sizes in MB
 alias cal='cal -y'
 
 alias pm='sudo pacman'
-alias pms='sudo pacman -Ss'
-alias pmi='sudo pacman -S'
-alias pmu='sudo pacman -Syu'
-alias pmr='sudo pacman -Rcs'
 #alias pk='packer --noconfirm --noedit'
 alias pk='pacaur --noconfirm --noedit'
 alias pks='pk -Ss'
 alias pki='pk -S'
 alias pku='pk -Syu'
-alias pkr='pk -Rcs'
+alias pkr='pk -Rs'
 
 alias github='hub'
 
