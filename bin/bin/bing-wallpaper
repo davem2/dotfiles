@@ -1,20 +1,21 @@
 #!/usr/bin/env bash
 #
-# Downloads background image from www.bing.com, saves a copy of it to 
-# $bing_wallpaper_directory then sets the wallpaper of the main display 
-# to it.  Wallpaper on the secondary display is set to a randomly selected 
+# Downloads background image from www.bing.com, saves a copy of it to
+# $bing_wallpaper_directory then sets the wallpaper of the main display
+# to it.  Wallpaper on the secondary display is set to a randomly selected
 # image from $bing_wallpaper_directory.
 #
 # Adapted from https://github.com/thejandroman/bing-wallpaper/blob/master/bing-wallpaper.sh
 #
 
 bing_wallpaper_directory="$HOME/wallpapers/bing-wallpapers"
-gradient_file="$HOME/bin/gradient1.png"
+main_wallpaper_directory="$HOME/wallpapers"
+gradient_file="$HOME/bin/gradient0.png"
 mkdir -p $bing_wallpaper_directory
 
 DownloadBingWallpaper() {
 
-# Download bing wallpaper	
+# Download bing wallpaper
 urls=( $(curl -s http://www.bing.com | \
     grep -Eo "url:'.*?'" | \
     sed -e "s/url:'\([^']*\)'.*/http:\/\/bing.com\1/" | \
@@ -34,12 +35,14 @@ done
 
 # Grab a random previously downloaded bing wallpaper to use for secondary display
 randomWallpaper=$(find $bing_wallpaper_directory ! -type d -print0 | shuf -z -n 1)
+# Grab a random wallpaper to use for secondary display
+randomWallpaper=$(find $main_wallpaper_directory ! -type d -print0 | shuf -z -n 1)
 
 #feh --bg-fill "$todayWallpaper" "$randomWallpaper"
 #alternate: pushes colors towards #777 to allow conky overlay (white) to be more readable
 #convert "$randomWallpaper" -size 1x1 xc:\#777 -fx 'u*v.p{0,0}' jpg:- | feh --bg-fill - "$todayWallpaper"
-#alternate: darken with gradient 
-composite -compose Multiply "$gradient_file" "$randomWallpaper" png:- | feh --bg-fill - "$todayWallpaper"
+#alternate: darken with gradient
+composite -compose Multiply -gravity center "$gradient_file" -resize '1x1<' "$randomWallpaper" png:- | feh --bg-fill - "$todayWallpaper"
 
 logger "Wallpaper changed: $randomWallpaper, $todayWallpaper"
 
