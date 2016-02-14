@@ -42,7 +42,7 @@ randomWallpaper=$(find $main_wallpaper_directory ! -type d -print0 | shuf -z -n 
 #alternate: pushes colors towards #777 to allow conky overlay (white) to be more readable
 #convert "$randomWallpaper" -size 1x1 xc:\#777 -fx 'u*v.p{0,0}' jpg:- | feh --bg-fill - "$todayWallpaper"
 #alternate: darken with gradient
-composite -resize '1x1<' -compose Multiply -gravity center -resize 1920x1080 "$gradient_file" "$randomWallpaper" png:- | feh --bg-fill - "$todayWallpaper"
+composite -compose Multiply -gravity center -resize 1920x1080 "$gradient_file" "$randomWallpaper" png:- | feh --bg-fill - "$todayWallpaper"
 
 logger "Wallpaper changed: $randomWallpaper, $todayWallpaper"
 
