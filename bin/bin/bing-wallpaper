@@ -10,7 +10,7 @@
 
 bing_wallpaper_directory="$HOME/wallpapers/bing-wallpapers"
 main_wallpaper_directory="$HOME/wallpapers"
-gradient_file="$HOME/bin/gradient0.png"
+gradient_file="$HOME/bin/gradient3.png"
 mkdir -p $bing_wallpaper_directory
 
 DownloadBingWallpaper() {
