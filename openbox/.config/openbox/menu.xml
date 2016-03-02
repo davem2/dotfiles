@@ -5,11 +5,11 @@
   <menu id="root-menu" label="Applications">
     <item label="File Manager" icon=""><action name="Execute"><execute><![CDATA[thunar]]></execute></action></item>
     <item label="Terminal" icon=""><action name="Execute"><execute><![CDATA[sakura]]></execute></action></item>
-    <item label="Web Browser" icon="/usr/share/icons/Adwaita/256x256/apps/web-browser.png"><action name="Execute"><execute><![CDATA[google-chrome]]></execute></action></item>
-    <item label="Run command" icon="/usr/share/icons/Adwaita/256x256/actions/system-run.png"><action name="Execute"><execute><![CDATA[gmrun]]></execute></action></item>
-    <item label="Instant messaging" icon="/usr/share/icons/Adwaita/256x256/apps/system-users.png"><action name="Execute"><execute><![CDATA[telegram]]></execute></action></item>
+    <item label="Web Browser" icon="/usr/share/icons/elementary/apps/32/web-browser.svg"><action name="Execute"><execute><![CDATA[google-chrome]]></execute></action></item>
+    <item label="Run command" icon="/usr/share/icons/elementary/actions/48/system-run.svg"><action name="Execute"><execute><![CDATA[gmrun]]></execute></action></item>
+    <item label="Instant messaging" icon="/usr/share/icons/elementary/apps/32/system-users.svg"><action name="Execute"><execute><![CDATA[telegram]]></execute></action></item>
   <separator label="Applications"/>
-  <menu id="Accessories" icon="/usr/share/icons/Adwaita/16x16/categories/applications-utilities.png" label="Accessories">
+  <menu id="Accessories" icon="/usr/share/icons/elementary/categories/48/applications-utilities.svg" label="Accessories">
     <item label="About Xfce" icon="/usr/share/icons/Adwaita/16x16/actions/help-about.png"><action name="Execute"><execute><![CDATA[xfce4-about]]></execute></action></item>
     <item label="Archive Manager" icon="/usr/share/icons/hicolor/16x16/apps/file-roller.png"><action name="Execute"><execute><![CDATA[file-roller]]></execute></action></item>
     <item label="Bulk Rename" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></execute></action></item>
@@ -19,32 +19,39 @@
     <item label="Terminal Emulator" icon="/usr/share/icons/Adwaita/256x256/apps/utilities-terminal.png"><action name="Execute"><execute><![CDATA[exo-open --launch TerminalEmulator]]></execute></action></item>
     <item label="Thunar File Manager" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute><![CDATA[thunar]]></execute></action></item>
   </menu>
-  <menu id="Development" icon="/usr/share/icons/Adwaita/256x256/categories/applications-development.png" label="Development">
+  <menu id="Development" icon="/usr/share/icons/elementary/categories/48/applications-development.svg" label="Development">
     <item label="Geany" icon="/usr/share/icons/hicolor/16x16/apps/geany.png"><action name="Execute"><execute><![CDATA[geany]]></execute></action></item>
+    <item label="Icon Browser" icon="/usr/share/icons/hicolor/16x16/apps/yad.png"><action name="Execute"><execute><![CDATA[yad-icon-browser]]></execute></action></item>
     <item label="Meld" icon="/usr/share/icons/hicolor/16x16/apps/meld.png"><action name="Execute"><execute><![CDATA[meld]]></execute></action></item>
     <item label="Qt4 Assistant" icon="/usr/share/icons/hicolor/32x32/apps/assistant-qt4.png"><action name="Execute"><execute><![CDATA[assistant-qt4]]></execute></action></item>
     <item label="Qt4 Designer" icon="/usr/share/icons/hicolor/128x128/apps/designer-qt4.png"><action name="Execute"><execute><![CDATA[designer-qt4]]></execute></action></item>
     <item label="Qt4 Linguist" icon="/usr/share/icons/hicolor/16x16/apps/linguist-qt4.png"><action name="Execute"><execute><![CDATA[linguist-qt4]]></execute></action></item>
     <item label="Qt4 QDbusViewer" icon="/usr/share/icons/hicolor/32x32/apps/qdbusviewer-qt4.png"><action name="Execute"><execute><![CDATA[qdbusviewer-qt4]]></execute></action></item>
   </menu>
-  <menu id="Graphics" icon="/usr/share/icons/Adwaita/256x256/categories/applications-graphics.png" label="Graphics">
+  <menu id="Graphics" icon="/usr/share/icons/elementary/categories/48/applications-graphics.svg" label="Graphics">
     <item label="Blender" icon="/usr/share/icons/hicolor/256x256/apps/blender.png"><action name="Execute"><execute><![CDATA[blender]]></execute></action></item>
     <item label="Feh" icon="/usr/share/feh/images/feh.png"><action name="Execute"><execute><![CDATA[feh]]></execute></action></item>
+    <item label="FontForge" icon="/usr/share/icons/hicolor/256x256/apps/fontforge.png"><action name="Execute"><execute><![CDATA[fontforge]]></execute></action></item>
     <item label="Geeqie" icon="/usr/share/pixmaps/geeqie.png"><action name="Execute"><execute><![CDATA[geeqie -r]]></execute></action></item>
+    <item label="GNU Image Manipulation Program" icon="/usr/share/icons/hicolor/256x256/apps/gimp.png"><action name="Execute"><execute><![CDATA[gimp-2.8]]></execute></action></item>
+    <item label="gThumb" icon="/usr/share/icons/hicolor/256x256/apps/gthumb.png"><action name="Execute"><execute><![CDATA[gthumb]]></execute></action></item>
     <item label="Inkscape" icon="/usr/share/icons/hicolor/256x256/apps/inkscape.png"><action name="Execute"><execute><![CDATA[inkscape]]></execute></action></item>
     <item label="MyPaint" icon="/usr/share/icons/hicolor/256x256/apps/mypaint.png"><action name="Execute"><execute><![CDATA[mypaint]]></execute></action></item>
   </menu>
-  <menu id="Multimedia" icon="/usr/share/icons/Adwaita/16x16/categories/applications-multimedia.png" label="Multimedia">
+  <menu id="Multimedia" icon="/usr/share/icons/elementary/categories/48/applications-multimedia.svg" label="Multimedia">
     <item label="Audacity" icon="/usr/share/pixmaps/audacity.xpm"><action name="Execute"><execute><![CDATA[env UBUNTU_MENUPROXY=0 audacity]]></execute></action></item>
     <item label="Bitwig Studio" icon="/usr/share/icons/hicolor/scalable/apps/bitwig-studio.svg"><action name="Execute"><execute><![CDATA["/opt/bitwig-studio/bitwig-studio"]]></execute></action></item>
+    <item label="gtk-recordMyDesktop" icon="/usr/share/pixmaps/gtk-recordmydesktop.png"><action name="Execute"><execute><![CDATA[gtk-recordMyDesktop]]></execute></action></item>
     <item label="Kdenlive" icon="/usr/share/pixmaps/kdenlive.png"><action name="Execute"><execute><![CDATA[kdenlive]]></execute></action></item>
     <item label="mpv Media Player" icon="/usr/share/icons/hicolor/16x16/apps/mpv.png"><action name="Execute"><execute><![CDATA[mpv --profile=pseudo-gui --]]></execute></action></item>
     <item label="PulseAudio Volume Control" icon="/usr/share/icons/Adwaita/256x256/apps/multimedia-volume-control.png"><action name="Execute"><execute><![CDATA[pavucontrol]]></execute></action></item>
+    <item label="QjackCtl" icon="/usr/share/icons/hicolor/32x32/apps/qjackctl.png"><action name="Execute"><execute><![CDATA[/usr/bin/qjackctl]]></execute></action></item>
     <item label="Qt V4L2 test Utility" icon="/usr/share/icons/hicolor/16x16/apps/qv4l2.png"><action name="Execute"><execute><![CDATA[qv4l2]]></execute></action></item>
+    <item label="qt-recordMyDesktop" icon="/usr/share/pixmaps/qt-recordmydesktop.png"><action name="Execute"><execute><![CDATA[qt-recordMyDesktop]]></execute></action></item>
   </menu>
-  <menu id="Network" icon="/usr/share/icons/Adwaita/256x256/categories/applications-internet.png" label="Network">
-    <item label="Avahi SSH Server Browser" icon="/usr/share/icons/Adwaita/16x16/devices/network-wired.png"><action name="Execute"><execute><![CDATA[/usr/bin/bssh]]></execute></action></item>
-    <item label="Avahi VNC Server Browser" icon="/usr/share/icons/Adwaita/16x16/devices/network-wired.png"><action name="Execute"><execute><![CDATA[/usr/bin/bvnc]]></execute></action></item>
+  <menu id="Network" icon="/usr/share/icons/elementary/categories/32/applications-internet.svg" label="Network">
+    <item label="Avahi SSH Server Browser" icon="/usr/share/icons/elementary/categories/32/network-wired.svg"><action name="Execute"><execute><![CDATA[/usr/bin/bssh]]></execute></action></item>
+    <item label="Avahi VNC Server Browser" icon="/usr/share/icons/elementary/categories/32/network-wired.svg"><action name="Execute"><execute><![CDATA[/usr/bin/bvnc]]></execute></action></item>
     <item label="Deluge" icon="/usr/share/pixmaps/deluge.xpm"><action name="Execute"><execute><![CDATA[deluge-gtk]]></execute></action></item>
     <item label="Firefox" icon="/usr/share/icons/hicolor/256x256/apps/firefox.png"><action name="Execute"><execute><![CDATA[firefox]]></execute></action></item>
     <item label="HexChat" icon="/usr/share/icons/hicolor/scalable/apps/hexchat.svg"><action name="Execute"><execute><![CDATA[hexchat]]></execute></action></item>
@@ -54,19 +61,24 @@
     <item label="Zenmap (as root)" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><execute><![CDATA[/usr/share/zenmap/su-to-zenmap.sh]]></execute></action></item>
     <item label="Zenmap" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><execute><![CDATA[zenmap]]></execute></action></item>
   </menu>
-  <menu id="Settings" icon="/usr/share/icons/Adwaita/16x16/categories/applications-accessories.png" label="Settings">
-    <item label="Customize Look and Feel" icon="/usr/share/icons/Adwaita/256x256/apps/preferences-desktop-theme.png"><action name="Execute"><execute><![CDATA[lxappearance]]></execute></action></item>
-    <item label="Default applications for LXSession" icon=""><action name="Execute"><execute><![CDATA[lxsession-default-apps]]></execute></action></item>
-    <item label="Desktop Session Settings" icon=""><action name="Execute"><execute><![CDATA[lxsession-edit]]></execute></action></item>
+  <menu id="Office" icon="/usr/share/icons/elementary/categories/48/applications-office.svg" label="Office">
+    <item label="Zathura" icon=""><action name="Execute"><execute><![CDATA[zathura]]></execute></action></item>
+  </menu>
+  <menu id="Settings" icon="/usr/share/icons/elementary/categories/48/applications-accessories.svg" label="Settings">
+    <item label="Adobe Flash Player" icon="/usr/share/icons/hicolor/16x16/apps/flash-player-properties.png"><action name="Execute"><execute><![CDATA[flash-player-properties]]></execute></action></item>
+    <item label="Customize Look and Feel" icon=""><action name="Execute"><execute><![CDATA[lxappearance]]></execute></action></item>
+    <item label="Default applications for LXSession" icon="/usr/share/icons/elementary/apps/32/preferences-desktop.svg"><action name="Execute"><execute><![CDATA[lxsession-default-apps]]></execute></action></item>
+    <item label="Desktop Session Settings" icon="/usr/share/icons/elementary/apps/32/preferences-desktop.svg"><action name="Execute"><execute><![CDATA[lxsession-edit]]></execute></action></item>
     <item label="File Manager" icon="/usr/share/icons/Adwaita/256x256/apps/system-file-manager.png"><action name="Execute"><execute><![CDATA[thunar-settings]]></execute></action></item>
     <item label="NVIDIA X Server Settings" icon="/usr/share/pixmaps/nvidia-settings.png"><action name="Execute"><execute><![CDATA[/usr/bin/nvidia-settings]]></execute></action></item>
     <item label="Openbox Configuration Manager" icon="/usr/share/pixmaps/obconf.png"><action name="Execute"><execute><![CDATA[obconf]]></execute></action></item>
     <item label="Preferred Applications" icon="/usr/share/icons/hicolor/24x24/apps/preferences-desktop-default-applications.png"><action name="Execute"><execute><![CDATA[exo-preferred-applications]]></execute></action></item>
     <item label="Tint2 panel settings" icon="/usr/share/icons/hicolor/scalable/apps/tint2conf.svg"><action name="Execute"><execute><![CDATA[tint2conf]]></execute></action></item>
   </menu>
-  <menu id="System" icon="/usr/share/icons/Adwaita/256x256/categories/applications-system.png" label="System">
-    <item label="Avahi Zeroconf Browser" icon="/usr/share/icons/Adwaita/16x16/devices/network-wired.png"><action name="Execute"><execute><![CDATA[/usr/bin/avahi-discover]]></execute></action></item>
+  <menu id="System" icon="/usr/share/icons/elementary/categories/48/applications-system.svg" label="System">
+    <item label="Avahi Zeroconf Browser" icon="/usr/share/icons/elementary/categories/32/network-wired.svg"><action name="Execute"><execute><![CDATA[/usr/bin/avahi-discover]]></execute></action></item>
     <item label="Bulk Rename" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></execute></action></item>
+    <item label="FSlint" icon="/usr/share/pixmaps/fslint_icon.png"><action name="Execute"><execute><![CDATA[fslint-gui]]></execute></action></item>
     <item label="Sakura" icon="/usr/share/pixmaps/terminal-tango.svg"><action name="Execute"><execute><![CDATA[sakura]]></execute></action></item>
     <item label="Thunar File Manager" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute><![CDATA[thunar]]></execute></action></item>
     <item label="Tint2 panel" icon="/usr/share/icons/hicolor/scalable/apps/tint2.svg"><action name="Execute"><execute><![CDATA[tint2]]></execute></action></item>
@@ -75,7 +87,7 @@
     <item label="XTerm" icon="/usr/share/pixmaps/xterm-color_48x48.xpm"><action name="Execute"><execute><![CDATA[xterm]]></execute></action></item>
   </menu>
   <separator/>
-  <menu id="Openbox Settings" label="Openbox Settings" icon="/usr/share/icons/Adwaita/16x16/categories/applications-engineering.png">
+  <menu id="Openbox Settings" label="Openbox Settings" icon="/usr/share/icons/elementary/categories/48/applications-engineering.svg">
     <item label="Reconfigure Openbox"><action name="Reconfigure" /></item>
     <item label="Openbox Configuration Manager"><action name="Execute"><execute>obconf</execute></action></item>
     <item label="Configure autostarted apps"><action name="Execute"><execute><![CDATA[geany /home/david/.config/openbox/autostart]]></execute></action></item>
