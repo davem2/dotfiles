@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]] || [[ $# > 1 ]]; then
+    echo "usage: pomo <duration>"
+    echo "Options:"
+    echo "  duration: timer duration in minutes (default 25 min)"
+else
+    if [ -z $1 ]; then
+        SECONDS=1500
+    else
+        SECONDS=$(($1*60))
+    fi
+    MINUTES=$(($SECONDS/60))
+
+    TITLE="POMODORO TIMER"
+    ICON="emblem-ok-symbolic"
+    BEEP='aplay -q "$HOME/bin/alarm.wav"'
+    MESSAGE="\n\n\n\n\n\t\t\tTimer finished.\t\t\t\t\t\n\n\t\t($MINUTES minutes have elapsed)\t\t\n\n\n\n\n"
+
+    echo -e "$TITLE\n* Timer set for $MINUTES minutes\n"
+    eval "(sleep $SECONDS && notify-send '$TITLE' '$MESSAGE' --icon=$ICON && $BEEP &)"
+fi
+
