@@ -5,10 +5,10 @@
 #
 
 gradient_file="$HOME/bin/gradient3.png"
-dir1="$HOME/wallpapers/"  # Wallpapers specific for main monitor containing conky overlay
-dir2="$HOME/wallpapers/bing-wallpapers"      # Wallpapers for secondary monitor(s)
-#dir1=$1                        # TODO: Allow wallpaper directories to be passed as command line args?
-swap_interval=33m
+dir1=${1:-"$HOME/wallpapers/"}    # Wallpapers specific for main monitor containing conky overlay
+dir2=${2:-"$HOME/wallpapers/"}    # Wallpapers for secondary monitor(s)
+swap_interval=33m  # TODO: make configurable
+
 
 if [ ! -d "$dir1" ]; then
     echo "No such directory: $dir1"
@@ -19,8 +19,6 @@ elif [ ! -d "$dir2" ]; then
 fi
 
 SetBG () {
-
-#bg1="${HOME}/wallpapers/sfbg.jpg"
 bg1=$(find "$dir1" ! -type d -print0 | shuf -z -n 1)
 bg2=$(find "$dir2" ! -type d -print0 | shuf -z -n 1)
 
@@ -37,19 +35,14 @@ logger "grey_level: $grey_level"
 #fi
 
 composite -compose Multiply -gravity center -resize 1920x1080 "$gradient_file" "$bg1" png:- | feh --bg-fill - "$bg2"
-logger "Wallpaper changed: $bg1, $bg2"
-
-
+logger "Wallpaper changed:"
+logger "bg1: $bg1"
+logger "bg2: $bg2"
 }
 
-SetBG
-
-
 while [[ -n $swap_interval ]]; do
-    echo $swap_interval
-    notify-send $swap_interval
-    sleep $swap_interval
     SetBG
+    sleep $swap_interval
 done
 
 
