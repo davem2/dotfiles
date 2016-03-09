@@ -18,6 +18,7 @@ else
     MESSAGE="\n\n\n\n\n\t\t\tTimer finished.\t\t\t\t\t\n\n\t\t($MINUTES minutes have elapsed)\t\t\n\n\n\n\n"
 
     echo -e "$TITLE\n* Timer set for $MINUTES minutes\n"
+    notify-send "$TITLE" "Timer set for $MINUTES minutes" --icon=$ICON
     eval "(sleep $SECONDS && notify-send '$TITLE' '$MESSAGE' --icon=$ICON && $BEEP &)"
 fi
 
