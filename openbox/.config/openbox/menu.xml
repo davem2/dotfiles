@@ -16,13 +16,22 @@
     <item label="ClipIt" icon="/usr/share/icons/hicolor/scalable/apps/clipit-trayicon.svg"><action name="Execute"><execute><![CDATA[clipit]]></execute></action></item>
     <item label="File Manager" icon="/usr/share/icons/Adwaita/256x256/apps/system-file-manager.png"><action name="Execute"><execute><![CDATA[exo-open --launch FileManager]]></execute></action></item>
     <item label="Sakura" icon="/usr/share/pixmaps/terminal-tango.svg"><action name="Execute"><execute><![CDATA[sakura]]></execute></action></item>
+    <item label="Springseed" icon="/usr/share/icons/hicolor/scalable/apps/springseed.svg"><action name="Execute"><execute><![CDATA[/usr/bin/springseed]]></execute></action></item>
     <item label="Terminal Emulator" icon="/usr/share/icons/Adwaita/256x256/apps/utilities-terminal.png"><action name="Execute"><execute><![CDATA[exo-open --launch TerminalEmulator]]></execute></action></item>
     <item label="Thunar File Manager" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png"><action name="Execute"><execute><![CDATA[thunar]]></execute></action></item>
+    <item label="Tomboy Notes" icon="/usr/share/icons/hicolor/256x256/apps/tomboy.png"><action name="Execute"><execute><![CDATA[tomboy --search]]></execute></action></item>
+    <item label="Tuxcards" icon="/usr/share/icons/locolor/32x32/apps/tuxcards.png"><action name="Execute"><execute><![CDATA[tuxcards]]></execute></action></item>
+    <item label="Zim Desktop Wiki" icon="/usr/share/pixmaps/zim.png"><action name="Execute"><execute><![CDATA[zim]]></execute></action></item>
+    <item label="zNotes" icon="/usr/share/pixmaps/znotes.png"><action name="Execute"><execute><![CDATA[znotes]]></execute></action></item>
   </menu>
   <menu id="Development" icon="/usr/share/icons/elementary/categories/48/applications-development.svg" label="Development">
     <item label="Geany" icon="/usr/share/icons/hicolor/16x16/apps/geany.png"><action name="Execute"><execute><![CDATA[geany]]></execute></action></item>
     <item label="Icon Browser" icon="/usr/share/icons/hicolor/16x16/apps/yad.png"><action name="Execute"><execute><![CDATA[yad-icon-browser]]></execute></action></item>
     <item label="Meld" icon="/usr/share/icons/hicolor/16x16/apps/meld.png"><action name="Execute"><execute><![CDATA[meld]]></execute></action></item>
+    <item label="Qt Assistant" icon="/usr/share/icons/hicolor/32x32/apps/assistant.png"><action name="Execute"><execute><![CDATA[/usr/lib/qt/bin/assistant]]></execute></action></item>
+    <item label="Qt Designer" icon="/usr/share/icons/hicolor/128x128/apps/QtProject-designer.png"><action name="Execute"><execute><![CDATA[/usr/lib/qt/bin/designer]]></execute></action></item>
+    <item label="Qt Linguist" icon="/usr/share/icons/hicolor/16x16/apps/linguist.png"><action name="Execute"><execute><![CDATA[/usr/lib/qt/bin/linguist]]></execute></action></item>
+    <item label="Qt QDbusViewer" icon="/usr/share/icons/hicolor/32x32/apps/qdbusviewer.png"><action name="Execute"><execute><![CDATA[/usr/lib/qt/bin/qdbusviewer]]></execute></action></item>
     <item label="Qt4 Assistant" icon="/usr/share/icons/hicolor/32x32/apps/assistant-qt4.png"><action name="Execute"><execute><![CDATA[assistant-qt4]]></execute></action></item>
     <item label="Qt4 Designer" icon="/usr/share/icons/hicolor/128x128/apps/designer-qt4.png"><action name="Execute"><execute><![CDATA[designer-qt4]]></execute></action></item>
     <item label="Qt4 Linguist" icon="/usr/share/icons/hicolor/16x16/apps/linguist-qt4.png"><action name="Execute"><execute><![CDATA[linguist-qt4]]></execute></action></item>
@@ -46,6 +55,7 @@
     <item label="mpv Media Player" icon="/usr/share/icons/hicolor/16x16/apps/mpv.png"><action name="Execute"><execute><![CDATA[mpv --profile=pseudo-gui --]]></execute></action></item>
     <item label="PulseAudio Volume Control" icon="/usr/share/icons/Adwaita/256x256/apps/multimedia-volume-control.png"><action name="Execute"><execute><![CDATA[pavucontrol]]></execute></action></item>
     <item label="QjackCtl" icon="/usr/share/icons/hicolor/32x32/apps/qjackctl.png"><action name="Execute"><execute><![CDATA[/usr/bin/qjackctl]]></execute></action></item>
+    <item label="Qsynth" icon="/usr/share/icons/hicolor/32x32/apps/qsynth.png"><action name="Execute"><execute><![CDATA[/usr/bin/qsynth]]></execute></action></item>
     <item label="Qt V4L2 test Utility" icon="/usr/share/icons/hicolor/16x16/apps/qv4l2.png"><action name="Execute"><execute><![CDATA[qv4l2]]></execute></action></item>
     <item label="qt-recordMyDesktop" icon="/usr/share/pixmaps/qt-recordmydesktop.png"><action name="Execute"><execute><![CDATA[qt-recordMyDesktop]]></execute></action></item>
   </menu>
@@ -62,6 +72,8 @@
     <item label="Zenmap" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><execute><![CDATA[zenmap]]></execute></action></item>
   </menu>
   <menu id="Office" icon="/usr/share/icons/elementary/categories/48/applications-office.svg" label="Office">
+    <item label="MyNotex" icon="/usr/share/pixmaps/mynotex.png"><action name="Execute"><execute><![CDATA[env LIBOVERLAY_SCROLLBAR=0 /opt/mynotex/mynotex]]></execute></action></item>
+    <item label="Tuxcards" icon="/usr/share/icons/locolor/32x32/apps/tuxcards.png"><action name="Execute"><execute><![CDATA[tuxcards]]></execute></action></item>
     <item label="Zathura" icon=""><action name="Execute"><execute><![CDATA[zathura]]></execute></action></item>
   </menu>
   <menu id="Settings" icon="/usr/share/icons/elementary/categories/48/applications-accessories.svg" label="Settings">

@@ -200,25 +200,25 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Left">
+    <keybind key="S-C-A-Left">
       <action name="SendToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Right">
+    <keybind key="S-C-A-Right">
       <action name="SendToDesktop">
         <to>right</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Up">
+    <keybind key="S-C-A-Up">
       <action name="SendToDesktop">
         <to>up</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Down">
+    <keybind key="S-C-A-Down">
       <action name="SendToDesktop">
         <to>down</to>
         <wrap>no</wrap>
@@ -256,6 +256,11 @@
           </keybind>
         </keybind>
       </keybind>
+    </keybind>
+    <keybind key="W-space">
+      <action name="ShowMenu">
+        <menu>root-menu</menu>
+      </action>
     </keybind>
     <keybind key="F1">
       <action name="Execute">
@@ -575,6 +580,11 @@
         <command>wlaunch geany geany</command>
       </action>
     </keybind>
+    <keybind key="W-n">
+      <action name="Execute">
+        <command>wlaunch zim zim</command>
+      </action>
+    </keybind>
     <!-- Screenshots -->
     <keybind key="Print">
       <action name="Execute">
@@ -633,8 +643,8 @@
       <action name="MoveResizeTo">
         <x>center</x>
         <y>center</y>
-        <width>84%</width>
-        <height>84%</height>
+        <width>80%</width>
+        <height>80%</height>
       </action>
     </keybind>
     <keybind key="W-C-Left">
