@@ -1,31 +1,34 @@
-# To download a single file
+# Download a single file
 wget http://path.to.the/file
 
-# To download a file and change its name
+# Download a file and change its name
 wget http://path.to.the/file -o newname
 
-# To download a file into a directory
+# Download a file into a directory
 wget -P path/to/directory http://path.to.the/file
 
-# To continue an aborted downloaded
+# Continue an aborted downloaded
 wget -c http://path.to.the/file
 
-# To download multiples files with multiple URLs
+# Download multiples files with multiple URLs
 wget URL1 URL2
 
-# To parse a file that contains a list of URLs to fetch each one
+# Parse a file that contains a list of URLs to fetch each one
 wget -i url_list.txt
 
-# To mirror a whole page locally
+# Mirror whole page 
 wget -pk http://path.to.the/page.html
 
-# To mirror a whole site locally
-wget -mk http://site.tl/
+# Mirror whole site 
+wget -mk http://www.server.com/
 
-# To download files according to a pattern
+# Mirror whole site (in more human appearing way)
+wget --wait=20 --limit-rate=20K -r -p -U Mozilla http://www.server.com
+
+# Download files according to a pattern
 wget http://www.myserver.com/files-{1..15}.tar.bz2
 
-# To download all the files in a directory with a specific extension if directory indexing is enabled
+# Download all the files in a directory with a specific extension if directory indexing is enabled
 wget -r -l1 -A.extension http://myserver.com/directory
 wget -r -l1 -H -t1 -nd -N -np -A.mp3 -erobots=off http:://myserver.com/directory
 
