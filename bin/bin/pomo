@@ -19,6 +19,19 @@ else
 
     echo -e "$TITLE\n* Timer set for $MINUTES minutes\n"
     notify-send "$TITLE" "Timer set for $MINUTES minutes" --icon=$ICON
-    eval "(sleep $SECONDS && notify-send '$TITLE' '$MESSAGE' --icon=$ICON && $BEEP &)"
+
+    s=0
+    ends=$SECONDS
+    (while [ $s -le $ends ]
+    do
+        p=$(echo "$s/$ends*100"|bc -l)
+        echo $p
+        #echo "$s second, of $ends seconds"
+        sleep 1
+        s=$(($s + 1))
+    done)| zenity --progress --auto-close --auto-kill --time-remaining --text='PROMODORO Timer' &
+
+    eval "($BEEP && sleep $SECONDS && $BEEP && zenity --info --text='$MESSAGE' --icon-name=$ICON &)"
+    #eval "(sleep $SECONDS && notify-send '$TITLE' '$MESSAGE' --icon=$ICON && $BEEP &)"
 fi
 
