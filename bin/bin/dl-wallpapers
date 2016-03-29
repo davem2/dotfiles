@@ -13,8 +13,6 @@ main_wallpaper_directory="$HOME/wallpapers"
 gradient_file="$HOME/bin/gradient3.png"
 mkdir -p $bing_wallpaper_directory
 
-DownloadBingWallpaper() {
-
 # Download bing wallpaper
 urls=( $(curl -s http://www.bing.com | \
     grep -Eo "url:'.*?'" | \
@@ -32,6 +30,3 @@ for p in ${urls[@]}; do
         logger "Skipping: $filename ..."
     fi
 done
-
-DownloadBingWallpaper
-
