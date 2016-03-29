@@ -15,7 +15,7 @@ else
     TITLE="POMODORO TIMER"
     ICON="emblem-ok-symbolic"
     BEEP='aplay -q "$HOME/bin/alarm.wav"'
-    MESSAGE="\n\n\n\n\n\t\t\tTimer finished.\t\t\t\t\t\n\n\t\t($MINUTES minutes have elapsed)\t\t\n\n\n\n\n"
+    MESSAGE="\n\t\t\tTimer finished.\t\t\t\t\t\n\n\t\t($MINUTES minutes have elapsed)\t\t\n"
 
     echo -e "$TITLE\n* Timer set for $MINUTES minutes\n"
     notify-send "$TITLE" "Timer set for $MINUTES minutes" --icon=$ICON
@@ -29,7 +29,7 @@ else
         #echo "$s second, of $ends seconds"
         sleep 1
         s=$(($s + 1))
-    done)| zenity --progress --auto-close --auto-kill --time-remaining --text='PROMODORO Timer' &
+    done)| zenity --progress --auto-close --auto-kill --time-remaining --no-cancel --text='PROMODORO Timer' &
 
     eval "($BEEP && sleep $SECONDS && $BEEP && zenity --info --text='$MESSAGE' --icon-name=$ICON &)"
     #eval "(sleep $SECONDS && notify-send '$TITLE' '$MESSAGE' --icon=$ICON && $BEEP &)"
