@@ -29,7 +29,7 @@ else
         #echo "$s second, of $ends seconds"
         sleep 1
         s=$(($s + 1))
-    done)| zenity --progress --auto-close --auto-kill --time-remaining --no-cancel --text='PROMODORO Timer' &
+    done)| zenity --progress --auto-close --auto-kill --time-remaining --no-cancel --text='POMODORO Timer' &
 
     eval "($BEEP && sleep $SECONDS && $BEEP && zenity --info --text='$MESSAGE' --icon-name=$ICON &)"
     #eval "(sleep $SECONDS && notify-send '$TITLE' '$MESSAGE' --icon=$ICON && $BEEP &)"
