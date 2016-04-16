@@ -24,4 +24,4 @@ tint2 &
 volumeicon &
 clipit &
 xfce4-power-manager &
-
+compton --config ~/.config/compton/compton.conf -b
