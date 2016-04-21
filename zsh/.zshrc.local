@@ -12,6 +12,7 @@ alias df='df -h'                    # human readable
 alias du='du -hc'                   # human readable
 alias free='free -m'                # show sizes in MB
 alias cal='cal -y'
+alias yt='youtube-dl'
 
 alias pm='sudo pacman'
 #alias pk='packer --noconfirm --noedit'
