@@ -422,6 +422,11 @@
         <command>wlaunch zim zim</command>
       </action>
     </keybind>
+    <keybind key="W-x">
+      <action name="Execute">
+        <command>togglexflux</command>
+      </action>
+    </keybind>
     <!-- Screenshots -->
     <keybind key="Print">
       <action name="Execute">

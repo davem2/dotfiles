@@ -1,0 +1,14 @@
+#!/bin/sh
+
+appProcessId=$(pgrep xflux)
+echo $appProcessId
+if [ -z $appProcessId ]; then
+    echo "1"
+    xflux -l 42.4 -g -71.5
+    notify-send "xf.lux" "f.lux is now on"
+else
+    echo "2"
+    pkill xflux
+    notify-send "xf.lux" "f.lux is now off"
+fi
+
