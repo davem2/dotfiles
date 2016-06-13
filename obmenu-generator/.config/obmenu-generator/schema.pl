@@ -60,18 +60,17 @@ require '/home/david/.config/obmenu-generator/config.pl';
 
 our $SCHEMA = [
     #          COMMAND             LABEL                ICON
-    {item => ['thunar',        'File Manager',      'file-manager']},
-    {item => ['sakura',        'Terminal',          'terminal']},
-    {item => ['google-chrome', 'Web Browser',       'web-browser']},
+    {item => ['thunar',        'File Manager',      'system-file-manager']},
+    {item => ['sakura',        'Terminal',          'utilities-terminal']},
+    {item => ['firefox',       'Web Browser',       'firefox']},
     {item => ['gmrun',         'Run command',       'system-run']},
-    {item => ['telegram',      'Instant messaging', 'system-users']},
 
     {sep => 'Applications'},
 
     #          NAME            LABEL                ICON
     {cat => ['utility',     'Accessories', 'applications-utilities']},
     {cat => ['development', 'Development', 'applications-development']},
-    {cat => ['education',   'Education',   'applications-science']},
+    #{cat => ['education',   'Education',   'applications-science']},
     {cat => ['game',        'Games',       'applications-games']},
     {cat => ['graphics',    'Graphics',    'applications-graphics']},
     {cat => ['audiovideo',  'Multimedia',  'applications-multimedia']},
