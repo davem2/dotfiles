@@ -38,3 +38,6 @@ pacman -Qdt
 
 # Get help specific to the -S operation
 pacman -Sh
+
+# Clean up package cache (remove all but the most recent version of packages)
+pacman -Sc
