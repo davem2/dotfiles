@@ -15,14 +15,14 @@ Start=001
 Text=-
 
 [ThunarSbrReplaceRenamer]
-Regexp=TRUE
-Replacement=-$1
+Regexp=FALSE
+Replacement=\ 
 CaseSensitive=FALSE
-Pattern=([v-z])
+Pattern=%20
 
 [ThunarSbrInsertRenamer]
-Offset=0
+Offset=2
 Mode=THUNAR_SBR_INSERT_MODE_INSERT
 OffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
-Text=-jkl
+Text=el
 

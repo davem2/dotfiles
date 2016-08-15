@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#TODO: instead of toggle, have one function.. disable xflux for x minutes..
+
 appProcessId=$(pgrep xflux)
 echo $appProcessId
 if [ -z $appProcessId ]; then

@@ -587,7 +587,7 @@
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <command>togglexflux</command>
+        <command>toggleflux</command>
       </action>
     </keybind>
     <!-- Screenshots -->

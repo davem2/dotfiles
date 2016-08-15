@@ -11,9 +11,9 @@
 	<directories/>
 </action>
 <action>
-	<icon>smplayer</icon>
+	<icon>video-x-generic-symbolic</icon>
 	<name>Mediagrid</name>
-	<unique-id>1446426707410984-1</unique-id>
+	<unique-id>1458331891626627-2</unique-id>
 	<command>$HOME/tsnap/mediagrid/mediagrid %F</command>
 	<description>Mediagrid</description>
 	<patterns>*;*.MOV</patterns>
