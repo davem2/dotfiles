@@ -1,0 +1,6 @@
+# Mount a directory
+sshfs admin@lisa:/Users/admin/Public ~/lisa
+
+# Unmount
+fusermount -u ~/lisa
+
