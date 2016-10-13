@@ -47,16 +47,16 @@ ${voffset 10}${color EAEAEA}${hr 1}
 
 
 ${voffset -48}
-${offset 8}${color orange}${font Droid Sans Mono:pixelsize=11}CPU${offset 30}${voffset -8}${cpugraph cpu0 28,320 ${color orange} $color}
-${offset 8}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${hwmon 0 temp 1}°C ${cpu}%
-${offset 8}${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}RAM${offset 30}${voffset -8}${memgraph 28,320 ${color orange} $color}
-${offset 8}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}$mem
-${offset 8}${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}DISK${offset 22}${voffset -8}${diskiograph /dev/sda 28,320 ${color orange} $color}
-${offset 8}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${diskio /dev/sda}
-${offset 8}${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}DOWN${offset 22}${voffset -8}${downspeedgraph enp6s0 28,320 ${color orange} $color}
-${offset 8}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed enp6s0}
-${offset 8}${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}UP${offset 36}${voffset -8}${upspeedgraph enp6s0 28,320 ${color orange} $color}
-${offset 8}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed enp6s0}
+${color orange}${font Droid Sans Mono:pixelsize=11}CPU${voffset -8}${alignr}${cpugraph cpu0 28,320 ${color orange} $color}
+${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${hwmon 0 temp 1}°C ${cpu}%
+${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}RAM${voffset -8}${alignr}${memgraph 28,320 ${color orange} $color}
+${voffset -22}$color${font Droid Sans Mono:pixelsize=11}$mem
+${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}DISK${voffset -8}${alignr}${diskiograph /dev/sda 28,320 ${color orange} $color}
+${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${diskio /dev/sda}
+${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}DOWN${voffset -8}${alignr}${downspeedgraph enp6s0 28,320 ${color orange} $color}
+${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed enp6s0}
+${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}UP${voffset -8}${alignr}${upspeedgraph enp6s0 28,320 ${color orange} $color}
+${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed enp6s0}
 
 ${color EAEAEA}${font Droid Sans Mono:pixelsize=70}${voffset -35}${hr 1}
 ${color EAEAEA}${font AngelToes:pixelsize=30}${voffset -48}${execpi 10000 ~/bin/brainyquote | fmt -s -w 47 -g 37 | sed '$s/^/${font AngelToes:pixelsize=20}${alignr} /' }
