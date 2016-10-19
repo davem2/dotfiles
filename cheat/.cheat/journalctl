@@ -25,3 +25,9 @@ journalctl --disk-usage
 # Check logs for errors
 journalctl --verify
 
+# Manually clean up old logs
+journalctl --vacuum-time=2d
+journalctl --vacuum-size=500M
+
+(setting SystemMaxUse value in /etc/systemd/journald.conf can be used to make systemd clean up logs automatically)
+
