@@ -8,7 +8,7 @@ conky.config = {
     own_window_transparent = yes,
 	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
 	double_buffer = true,
-	minimum_width = 380, minimum_height = 5,
+	minimum_width = 420, minimum_height = 5,
 	maximum_width = 1000,
 	draw_shades = false,
 	draw_outline = false,
@@ -38,28 +38,26 @@ conky.text = [[
 #${color EAEAEA}${font Droid Sans Mono:pixelsize=24}${font Droid Sans Mono:pixelsize=24}${exec cal}
 #${color 888888}${font Droid Sans Mono:pixelsize=22}${hr 1}
 
+${voffset -20}${color EAEAEA}${font Droid Sans:pixelsize=130}${alignc}${time %H}${voffset -10}:${voffset 10}${time %M}${font Droid Sans:pixelsize=32}
+${voffset 40}${color EAEAEA}${font Droid Sans Mono:size=13}${execpi 60 DJS=$(date +%-d); cal | sed s/"\b$DJS\b"/'${color orange}'"$DJS"'$color'/ | sed s/^/'${alignc}'/ }
 
-${color EAEAEA}${font Droid Sans:pixelsize=130}${alignc}${time %H}${voffset -10}:${voffset 10}${time %M}${font Droid Sans:pixelsize=32}
-${voffset 20}${color EAEAEA}${font Droid Sans Mono:size=13}${execpi 60 DJS=$(date +%-d); cal | sed s/"\b$DJS\b"/'${color orange}'"$DJS"'$color'/ | sed s/^/'${alignc}'/ }
-${voffset 10}${color EAEAEA}${hr 1}
+#${voffset -30}${color black}${hr 1}
 #${font DejaVu Sans:size=8}${color #ffccaa}TODO
 #${font DejaVu Sans:size=8}${color #CC00CC}${execi 300 ~/bin/todolist }
 
+${color EAEAEA}${font AngelToes:pixelsize=30}${voffset -6}${execpi 10000 ~/bin/brainyquote | fmt -s -w 47 -g 37 | sed '$s/^/${font AngelToes:pixelsize=20}${alignr} /' }
 
-${voffset -48}
-${color orange}${font Droid Sans Mono:pixelsize=11}CPU${voffset -8}${alignr}${cpugraph cpu0 28,320 ${color orange} $color}
-${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${hwmon 0 temp 1}°C ${cpu}%
-${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}RAM${voffset -8}${alignr}${memgraph 28,320 ${color orange} $color}
-${voffset -22}$color${font Droid Sans Mono:pixelsize=11}$mem
-${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}DISK${voffset -8}${alignr}${diskiograph /dev/sda 28,320 ${color orange} $color}
-${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${diskio /dev/sda}
-${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}DOWN${voffset -8}${alignr}${downspeedgraph enp6s0 28,320 ${color orange} $color}
-${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed enp6s0}
-${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}UP${voffset -8}${alignr}${upspeedgraph enp6s0 28,320 ${color orange} $color}
-${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed enp6s0}
+#${voffset -10}${color black}${hr 1}
 
-${color EAEAEA}${font Droid Sans Mono:pixelsize=70}${voffset -35}${hr 1}
-${color EAEAEA}${font AngelToes:pixelsize=30}${voffset -48}${execpi 10000 ~/bin/brainyquote | fmt -s -w 47 -g 37 | sed '$s/^/${font AngelToes:pixelsize=20}${alignr} /' }
-
+${offset 120}${color orange}${font Droid Sans Mono:pixelsize=11}CPU${voffset -8}${alignr}${offset -120}${cpugraph cpu0 28,100 ${color orange} $color -t -l}
+${offset 120}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${hwmon 0 temp 1}°C ${cpu}%
+${offset 120}${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}RAM${voffset -8}${alignr}${offset -120}${memgraph 28,100 ${color orange} $color}
+${offset 120}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}$mem
+${offset 120}${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}DISK${voffset -8}${alignr}${offset -120}${diskiograph /dev/sda 28,100 ${color orange} $color}
+${offset 120}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${diskio /dev/sda}
+${offset 120}${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}DOWN${voffset -8}${alignr}${offset -120}${downspeedgraph enp6s0 28,100 ${color orange} $color}
+${offset 120}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed enp6s0}
+${offset 120}${voffset 8}${color orange}${font Droid Sans Mono:pixelsize=11}UP${voffset -8}${alignr}${offset -120}${upspeedgraph enp6s0 28,100 ${color orange} $color}
+${offset 120}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed enp6s0}
 
 ]];
