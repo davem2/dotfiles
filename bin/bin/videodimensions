@@ -2,7 +2,8 @@
 
 for f in "$@"; do
     NAME=$(basename "$f")
-    WIDTH=$(ffprobe -v quiet -print_format json -show_format -show_streams "$f" | ack '"width": (\d+)' --output='$1')
-    HEIGHT=$(ffprobe -v quiet -print_format json -show_format -show_streams "$f" | ack '"height": (\d+)' --output='$1')
+    INFO=$(ffprobe -v quiet -print_format json -show_format -show_streams "$f" | sed 's/^[ \t]*//')
+    WIDTH=$(printf "$INFO" | grep -P '^"width": (\d+)' | tr -cd '[:digit:]')
+    HEIGHT=$(printf "$INFO" | grep -P '^"height": (\d+)' | tr -cd '[:digit:]')
     printf "%s\t%s\t%s\n" "$NAME" "$WIDTH" "$HEIGHT"
 done
