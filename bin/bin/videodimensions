@@ -1,9 +1,36 @@
 #!/bin/sh
 
+GETW=0
+GETH=0
+
+while getopts ":wh" opt; do
+  case $opt in
+    w)
+      GETW=1
+      shift $((OPTIND-1))
+      ;;
+    h)
+      GETH=1
+      shift $((OPTIND-1))
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      ;;
+  esac
+done
+
+
 for f in "$@"; do
     NAME=$(basename "$f")
     INFO=$(ffprobe -v quiet -print_format json -show_format -show_streams "$f" | sed 's/^[ \t]*//')
     WIDTH=$(printf "$INFO" | grep -P '^"width": (\d+)' | tr -cd '[:digit:]')
     HEIGHT=$(printf "$INFO" | grep -P '^"height": (\d+)' | tr -cd '[:digit:]')
-    printf "%s\t%s\t%s\n" "$NAME" "$WIDTH" "$HEIGHT"
+
+    if [ "$GETW" = 1 ]; then
+        printf "$WIDTH\n"
+    elif [ "$GETH" = 1 ] ; then
+        printf "$HEIGHT\n"
+    else
+        printf "%s\t%s\t%s\n" "$NAME" "$WIDTH" "$HEIGHT"
+    fi
 done
