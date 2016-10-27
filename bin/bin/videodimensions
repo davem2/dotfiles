@@ -1,9 +1,16 @@
 #!/bin/sh
 
+# Example that moves all videos with a width less than 321 to a folder called lowres
+# $ videodimensions -l 321 *.(avi|flv|mp4|wmv|mpg|mpeg|ogv|webm) | xargs -0 -I{} mv {} lowres/
+#
+# Example that moves all videos with a width greater than 800 to a folder called hd
+# $ videodimensions -g 800 *.(avi|flv|mp4|wmv|mpg|mpeg|ogv|webm) | xargs -0 -I{} mv {} hd/
+#
+
 GETW=0
 GETH=0
 
-while getopts ":wh" opt; do
+while getopts ":whg:l:" opt; do
   case $opt in
     w)
       GETW=1
@@ -12,6 +19,16 @@ while getopts ":wh" opt; do
     h)
       GETH=1
       shift $((OPTIND-1))
+      ;;
+    g)
+      GETWGT=1
+      shift $((OPTIND-1))
+      GETWGT_OPT=$OPTARG
+      ;;
+    l)
+      GETWLT=1
+      shift $((OPTIND-1))
+      GETWLT_OPT=$OPTARG
       ;;
     \?)
       echo "Invalid option: -$OPTARG" >&2
@@ -30,7 +47,18 @@ for f in "$@"; do
         printf "$WIDTH\n"
     elif [ "$GETH" = 1 ] ; then
         printf "$HEIGHT\n"
+    elif [ "$GETWGT" = 1 ]; then
+        if [ "$WIDTH" -gt "$GETWGT_OPT" ]; then
+            printf "$f\0"
+            #printf "%s\t%s\t%s\n" "'$NAME'" "$WIDTH" "$HEIGHT"
+        fi
+    elif [ "$GETWLT" = 1 ]; then
+        if [ "$WIDTH" -lt "$GETWLT_OPT" ]; then
+            printf "$f\0"
+            #printf "%s\t%s\t%s\n" "'$NAME'" "$WIDTH" "$HEIGHT"
+        fi
     else
-        printf "%s\t%s\t%s\n" "$NAME" "$WIDTH" "$HEIGHT"
+        printf "%s\t%s\t%s\n" "'$NAME'" "$WIDTH" "$HEIGHT"
     fi
 done
+
