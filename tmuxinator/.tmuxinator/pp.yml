@@ -7,17 +7,14 @@ windows:
   - pp:
       layout: even-vertical
       panes:
-        - harpers:
-          - cd /mnt/marge/e/dp/PP/ppv/harpers-outdoor-book-for-boys
+        - buddism:
+          - cd /mnt/marge/e/dp/PP/buddhism-and-christianity
           - clear
-        - impending:
-          - cd /mnt/marge/e/dp/PP/ppv/the-impending-crisis
+        - letters:
+          - cd /mnt/marge/e/dp/PP/letters-to-catherine-e-beecher
           - clear
-        - saturday:
-          - cd /mnt/marge/e/dp/PP/ppv/the-saturday-magazine-66
-          - clear
-        - passamaquoddy:
-          - cd /mnt/marge/e/dp/PP/passamaquoddy-texts
+        - ministers:
+          - cd /mnt/marge/e/dp/PP/tales-of-english-ministers
           - clear
   - ppimg:
     - cd ~/pp/tools/repo/ppimg
