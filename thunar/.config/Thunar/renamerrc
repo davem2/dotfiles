@@ -16,13 +16,13 @@ Text=-
 
 [ThunarSbrReplaceRenamer]
 Regexp=FALSE
-Replacement=\ 
+Replacement=i_
 CaseSensitive=FALSE
-Pattern=%20
+Pattern=i
 
 [ThunarSbrInsertRenamer]
-Offset=2
+Offset=0
 Mode=THUNAR_SBR_INSERT_MODE_INSERT
-OffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
-Text=el
+OffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
+Text=km_
 
