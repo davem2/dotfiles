@@ -12,3 +12,7 @@ mount -t nfs example.com:/remote/example/dir /local/example/dir
 
 # Re-mount all drives in fstab
 mount -a
+
+# Unmount drive
+umount /mnt/drive/d
+
