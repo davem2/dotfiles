@@ -1,3 +1,7 @@
+# Mount a remote windows share
+mount -t cifs //winserver/sharename -o username=user,password=pass /mnt/winserver/sharename
+mount -t cifs //winserver/sharename /mnt/winserver/sharename
+
 # To mount / partition as read-write in repair mode:
 mount -o remount,rw /
 
