@@ -96,3 +96,6 @@ git push origin --delete branchname
 # Abort operation in progess 
 git merge --abort
 git rebase --abort
+
+# Diff staged files
+git diff --cached
