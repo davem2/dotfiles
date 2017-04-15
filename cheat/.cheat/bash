@@ -34,3 +34,5 @@ Ctrl + z     Puts whatever you are running into a suspended background process. 
 # Default arguments
 variable=${1:-defaultvalue}
 
+# Redirect stdout and stderr
+dostuff > out.txt 2>&1
