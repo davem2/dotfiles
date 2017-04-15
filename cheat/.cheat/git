@@ -99,3 +99,6 @@ git rebase --abort
 
 # Diff staged files
 git diff --cached
+
+# Remove "my_file" from every commit, useful to delete history of deleted file
+git filter-branch --tree-filter --prine-empty 'rm -f my_file' HEAD
