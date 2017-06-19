@@ -1,12 +1,11 @@
 #!/bin/sh
 
-fullfilename=$(readlink -e "$1")
-#filename=$(basename -s "$fullfilename")
-#extension="${filename##*.}"
 filename=${1%.*}
 extension=${1##*.}
+maxw=240
+maxh=480
 
 echo "Creating Thumbnail: $1 --> $filename-tn.$extension"
 
-# Scale down large image to fit in 1024x1024 box
-convert "$1" -resize 240x480\> "$filename-tn.$extension"
+# Scale down large image to thumbnail size
+convert "$1" -resize "$maxw"x"$maxh"\> "$filename-tn.$extension"

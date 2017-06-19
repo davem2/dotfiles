@@ -1,12 +1,22 @@
 #!/bin/sh
 
-category=$(zenity --list --text="Enter post category" --column="Category" baskets watercolor other)
+categories=(baskets watercolor other)
+category=$(zenity --list --text="Enter post category" --column="Category" ${categories[@]} )
 mtime=$(stat -c %y $1 | awk '{print$ 1}')
+postdate=$(zenity --entry --text='Enter Post Date' --entry-text="$mtime")
+images=$@
+maxw=960
+maxh=960
+
 
 count=1
 while [ $# -gt 0 ]
 do
-    echo "Processing: $1 --> $category$mtime-$count.jpg"
+    filename=${1%.*}
+    extension=${1##*.}
+
+    fname="$category$postdate-$count.$extension"
+    echo "Processing: $1 --> $fname"
 
     # Apply exif rotations
     jhead -autorot "$1"
@@ -14,12 +24,13 @@ do
     # Nuke exif
     exiftool -all= "$1"
 
-    # Scale down large image to fit in 1024x1024 box
-    convert "$1" -resize 1024x1024\> "$category$mtime-$count.jpg"
+    # Scale down large image
+    convert "$1" -resize "$maxw"x"$maxh"\> "$fname"
 
     count=$((count + 1))
     shift
 done
 
-blogthumbnail "$category$mtime-1.jpg"
+blogthumbnail "$category$postdate-1.$extension"
+blogpost "$category" "$postdate" "$category$postdate-1-tn.$extension" $images
 

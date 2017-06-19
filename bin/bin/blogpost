@@ -1,0 +1,39 @@
+#!/bin/sh
+
+category=$1
+shift
+postdate=$1
+shift
+thumb=$1
+shift
+outfile="$category$postdate.md"
+
+title="$category$postdate"
+date="$postdate"
+tags="$category"
+image="$thumb"
+
+echo "Creating Blogpost: $outfile"
+
+cat > "$outfile" <<- EOM
+Title: $title
+Date: $date
+Tags: $tags
+Image: /images/$category/$image
+SummaryStyle: thumbonly
+
+EOM
+
+count=1
+while [ $# -gt 0 ]
+do
+    filename=${1%.*}
+    extension=${1##*.}
+
+    fname="$category$postdate-$count.$extension"
+    printf "![%s]({filename}/images/%s/%s)\n" "$fname" "$category" "$fname" >> "$outfile"
+    count=$((count + 1))
+    shift
+done
+
+
