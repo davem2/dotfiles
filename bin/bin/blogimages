@@ -1,0 +1,25 @@
+#!/bin/sh
+
+category=$(zenity --list --text="Enter post category" --column="Category" baskets watercolor other)
+mtime=$(stat -c %y $1 | awk '{print$ 1}')
+
+count=1
+while [ $# -gt 0 ]
+do
+    echo "Processing: $1 --> $category$mtime-$count.jpg"
+
+    # Apply exif rotations
+    jhead -autorot "$1"
+
+    # Nuke exif
+    exiftool -all= "$1"
+
+    # Scale down large image to fit in 1024x1024 box
+    convert "$1" -resize 1024x1024\> "$category$mtime-$count.jpg"
+
+    count=$((count + 1))
+    shift
+done
+
+blogthumbnail "$category$mtime-1.jpg"
+
