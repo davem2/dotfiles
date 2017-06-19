@@ -1,0 +1,6 @@
+# List sound cards
+cat /proc/asound/cards
+
+# Get valid ALSA card names
+aplay -l | awk -F \: '/,/{print $2}' | awk '{print $1}' | uniq
+    

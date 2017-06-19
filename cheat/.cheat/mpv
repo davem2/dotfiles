@@ -1,0 +1,2 @@
+# Stream youtube video in mpv
+mpv --ytdl https://www.youtube.com/watch?v=i356hHfww

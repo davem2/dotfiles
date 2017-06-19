@@ -1,0 +1,3 @@
+# Change access and modified time to specified date [[CC]YY]MMDDhhmm[.ss] format
+touch -a -m -t 201512180130.09 filetomodify
+
