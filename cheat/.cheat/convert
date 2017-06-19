@@ -10,6 +10,9 @@ convert original-image.jpg -resize 100x100 converted-image.jpg
 # To resize an image and simultaneously change its file type:
 convert original-image.jpg -resize 100x converted-image.png
 
+# Resize an image to fit area
+convert original-image.jpg -resize 100x100^ converted-image.jpg
+
 # Create thumbnail from pdf file
 convert -thumbnail x300 -background white -alpha remove input_file.pdf[0] output_thumbnail.png
 
