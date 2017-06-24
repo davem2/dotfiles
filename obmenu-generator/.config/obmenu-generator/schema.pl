@@ -62,7 +62,8 @@ our $SCHEMA = [
     #          COMMAND             LABEL                ICON
     {item => ['thunar',        'File Manager',      'system-file-manager']},
     {item => ['sakura',        'Terminal',          'utilities-terminal']},
-    {item => ['firefox',       'Web Browser',       'firefox']},
+    {item => ['firefox',       'Firefox',           'firefox']},
+    {item => ['vivaldi-stable','Vivaldi',           'vivaldi']},
     {item => ['gmrun',         'Run command',       'system-run']},
 
     {sep => 'Applications'},
@@ -80,8 +81,8 @@ our $SCHEMA = [
     {cat => ['settings',    'Settings',    'applications-accessories']},
     {cat => ['system',      'System',      'applications-system']},
 
-    #{cat => ['qt',          'QT Applications',    'qtlogo']},
-    #{cat => ['gtk',         'GTK Applications',   'gnome-applications']},
+    {cat => ['qt',          'QT Applications',    'qtlogo']},
+    {cat => ['gtk',         'GTK Applications',   'gnome-applications']},
     #{cat => ['x_xfce',      'XFCE Applications',  'applications-other']},
     #{cat => ['gnome',       'GNOME Applications', 'gnome-applications']},
     #{cat => ['consoleonly', 'CLI Applications',   'applications-utilities']},
