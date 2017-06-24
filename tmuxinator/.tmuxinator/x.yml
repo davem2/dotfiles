@@ -1,7 +1,7 @@
-# ~/.tmuxinator/temp.yml
+# ~/.tmuxinator/x.yml
 
-name: temp
-root: ~/
+name: x
+root: ~/temp/x/
 
 # Optional tmux socket
 # socket_name: foo
