@@ -24,4 +24,26 @@
 	<text-files/>
 	<video-files/>
 </action>
+<action>
+	<icon>image-crop-symbolic</icon>
+	<name>Blog Images</name>
+	<unique-id>1497836292881894-3</unique-id>
+	<command>$HOME/bin/blogimages %F</command>
+	<description>Blog Images</description>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>fingerprint-symbolic</icon>
+	<name>Touch</name>
+	<unique-id>1497844477418150-2</unique-id>
+	<command>touch %F</command>
+	<description>Touch</description>
+	<patterns>*</patterns>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
 </actions>
