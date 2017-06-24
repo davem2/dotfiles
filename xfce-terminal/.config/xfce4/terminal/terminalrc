@@ -22,4 +22,13 @@ FontAllowBold=FALSE
 ColorForeground=#fffffa67dcd5
 BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_CENTERED
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
+MiscBellUrgent=FALSE
+MiscMouseWheelZoom=TRUE
+MiscMiddleClickOpensUri=FALSE
+MiscCopyOnSelect=FALSE
+MiscDefaultWorkingDir=
+MiscRewrapOnResize=TRUE
+MiscUseShiftArrowsToScroll=FALSE
+MiscSlimTabs=FALSE
+ShortcutsNoMenukey=TRUE
 
