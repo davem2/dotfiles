@@ -33,3 +33,6 @@ root: ~/projects/
 windows:
   - projects:
       layout: main-vertical
+  - website:
+      layout: main-vertical
+      root: ~/projects/website
