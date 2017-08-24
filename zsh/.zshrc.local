@@ -28,6 +28,9 @@ alias github='hub'
 alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
 alias top10='print -l ? ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 
+
+alias jblive='mpv rtmp://jblive.videocdn.scaleengine.net/jb-live/play/jblive.stream'
+
 # Set environment
 export EDITOR="vim"
 export VISUAL="vim"
