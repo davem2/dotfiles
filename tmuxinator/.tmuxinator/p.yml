@@ -36,3 +36,6 @@ windows:
   - website:
       layout: main-vertical
       root: ~/projects/website
+  - dotfiles:
+      layout: main-vertical
+      root: ~/.dotfiles
