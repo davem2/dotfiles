@@ -8,8 +8,8 @@ conky.config = {
     own_window_transparent = true,
 	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
 	double_buffer = true,
-	minimum_width = 420, minimum_height = 5,
-	maximum_width = 1000,
+	minimum_width = 520, minimum_height = 5,
+	maximum_width = 800,
 	draw_shades = false,
 	draw_outline = false,
 	draw_borders = false,
@@ -49,15 +49,15 @@ ${color EAEAEA}${font AngelToes:pixelsize=30}${voffset -6}${execpi 10000 ~/bin/b
 
 #${voffset -10}${color black}${hr 1}
 
-${offset 120}${color cc7777}${font Droid Sans Mono:pixelsize=11}CPU${voffset -8}${alignr}${offset -120}${cpugraph cpu0 28,100 ${color orange} $color -t -l}
-${offset 120}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${hwmon 0 temp 1}°C ${cpu}%
-${offset 120}${voffset 8}${color 8888cc}${font Droid Sans Mono:pixelsize=11}RAM${voffset -8}${alignr}${offset -120}${memgraph 28,100 ${color orange} $color}
-${offset 120}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}$mem
-${offset 120}${voffset 8}${color 996633}${font Droid Sans Mono:pixelsize=11}DISK${voffset -8}${alignr}${offset -120}${diskiograph /dev/sda 28,100 ${color orange} $color}
-${offset 120}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${diskio /dev/sda}
-${offset 120}${voffset 8}${color bb8844}${font Droid Sans Mono:pixelsize=11}DOWN${voffset -8}${alignr}${offset -120}${downspeedgraph enp6s0 28,100 ${color orange} $color}
-${offset 120}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed enp6s0}
-${offset 120}${voffset 8}${color ddaa66}${font Droid Sans Mono:pixelsize=11}UP${voffset -8}${alignr}${offset -120}${upspeedgraph enp6s0 28,100 ${color orange} $color}
-${offset 120}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed enp6s0}
+${offset 160}${color cc6666}${font Droid Sans Mono:pixelsize=11}CPU${voffset -8}${alignr}${offset -160}${cpugraph cpu0 28,100 ${color orange} $color -t -l}
+${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${hwmon 0 temp 1}°C ${cpu}%
+${offset 160}${voffset 8}${color 8888cc}${font Droid Sans Mono:pixelsize=11}RAM${voffset -8}${alignr}${offset -160}${memgraph 28,100 ${color orange} $color}
+${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}$mem
+${offset 160}${voffset 8}${color 99bb33}${font Droid Sans Mono:pixelsize=11}DISK${voffset -8}${alignr}${offset -160}${diskiograph /dev/sda 28,100 ${color orange} $color}
+${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${diskio /dev/sda}
+${offset 160}${voffset 8}${color bb8844}${font Droid Sans Mono:pixelsize=11}DOWN${voffset -8}${alignr}${offset -160}${downspeedgraph enp6s0 28,100 ${color orange} $color}
+${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed enp6s0}
+${offset 160}${voffset 8}${color ddaa66}${font Droid Sans Mono:pixelsize=11}UP${voffset -8}${alignr}${offset -160}${upspeedgraph enp6s0 28,100 ${color orange} $color}
+${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed enp6s0}
 
 ]];
