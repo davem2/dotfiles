@@ -34,7 +34,10 @@ pacman -Qqe
 pacman -Qqm
 
 # To list orphan packages (installed as dependencies and not required anymore)
-pacman -Qdt
+pacman -Qqtd
+
+# Uninstall all orphan packages
+pacman -Rs $(pacman -Qqtd)
 
 # Get help specific to the -S operation
 pacman -Sh
