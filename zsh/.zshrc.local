@@ -13,7 +13,7 @@ alias du='du -hc'                   # human readable
 alias free='free -m'                # show sizes in MB
 alias cal='cal -y'
 alias yt='youtube-dl'
-alias mux='tmuxinator'
+alias mux='tmuxp load'
 
 alias pm='sudo pacman'
 #alias pk='packer --noconfirm --noedit'
