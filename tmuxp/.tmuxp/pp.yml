@@ -1,0 +1,30 @@
+session_name: pp
+start_directory: /mnt/marge/e/dp/PP
+windows:
+- window_name: pp
+  layout: even-vertical
+  panes:
+  - blank:
+    start_directory: /mnt/marge/e/dp/PP/buddhism-and-christianity
+  - blank:
+    start_directory: /mnt/marge/e/dp/PP/letters-to-catherine-e-beecher
+  - blank:
+    start_directory: /mnt/marge/e/dp/PP/tales-of-english-ministers
+
+- window_name: ppimg
+  layout: main-vertical
+  start_directory: ~/pp/tools/repo/ppimg
+  panes:
+  - blank
+
+- window_name: dp2ppgen
+  layout: main-vertical
+  start_directory: ~/pp/tools/repo/dp2ppgen
+  panes:
+  - blank
+
+- window_name: ppgen
+  layout: main-vertical
+  start_directory: ~/pp/tools/repo/ppgen
+  panes:
+  - blank

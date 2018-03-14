@@ -1,0 +1,18 @@
+session_name: p
+start_directory: ~/projects/
+windows:
+- window_name: projects
+  layout: main-vertical
+  panes:
+  - blank
+  start_directory: ~/projects
+- window_name: website
+  layout: main-vertical
+  panes:
+  - blank
+  start_directory: ~/projects/website
+- window_name: dotfiles
+  layout: main-vertical
+  panes:
+  - blank
+  start_directory: ~/.dotfiles
