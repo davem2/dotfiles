@@ -7,7 +7,7 @@
 gradient_file="$HOME/bin/gradient3.png"
 dir1=${1:-"$HOME/wallpapers/"}    # Wallpapers specific for main monitor containing conky overlay
 dir2=${2:-"$HOME/wallpapers/"}    # Wallpapers for secondary monitor(s)
-swap_interval=33m  # TODO: make configurable
+swap_interval=600m  # TODO: make configurable
 
 
 if [ ! -d "$dir1" ]; then
