@@ -8,3 +8,12 @@ modprobe -r hid-huion
 make install
 # reconnect H610 
 
+
+# Limit drawable area to one monitor
+xinput map-to-output 20 VGA-0
+xinput map-to-output 21 VGA-1
+
+
+# List device ids
+xinput_calibrator --list 
+

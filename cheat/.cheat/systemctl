@@ -37,3 +37,7 @@ systemctl enable foo.target
 
 # List systemd services which fail to start
 systemctl --state=failed
+
+# More on systemd units
+man systemd.timer
+man systemd.service
