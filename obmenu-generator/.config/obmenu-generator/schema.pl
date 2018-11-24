@@ -65,6 +65,7 @@ our $SCHEMA = [
     {item => ['firefox',       'Firefox',           'firefox']},
     {item => ['vivaldi-stable','Vivaldi',           'vivaldi']},
     {item => ['gmrun',         'Run command',       'system-run']},
+    {item => ['wine /home/david/.wine/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/Wow.exe',  'World of Warcraft', 'cat-icon']},
 
     {sep => 'Applications'},
 
