@@ -17,11 +17,11 @@
 #xfce-mcs-manager &
 
 
-compton --config ~/.config/compton/compton.conf -b
 ~/bin/randomwallpaper &
 #~/bin/bing-wallpaper &
 conky &
+tint2 &
 volumeicon &
 clipit &
 xfce4-power-manager &
-tint2 &
+compton --config ~/.config/compton/compton.conf -b &
