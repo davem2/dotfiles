@@ -20,7 +20,7 @@ alias pm='sudo pacman'
 alias pk='pacaur --noconfirm --noedit'
 alias pks='pk -Ss'
 alias pki='pk -S'
-alias pku='pk -Syu'
+alias pku='pk -Syu --ignore=bitwig-studio,vivaldi,vivaldi-ffmpeg-codecs'
 alias pkr='pk -Rs'
 
 alias github='hub'
