@@ -31,7 +31,7 @@ do
     extension=${1##*.}
 
     fname="$category$postdate-$count.$extension"
-    printf "![%s]({filename}/images/%s/%s)\n" "$fname" "$category" "$fname" >> "$outfile"
+    printf "![%s]({static}/images/%s/%s)\n" "$fname" "$category" "$fname" >> "$outfile"
     count=$((count + 1))
     shift
 done
