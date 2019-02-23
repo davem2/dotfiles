@@ -17,7 +17,7 @@ conky.config = {
 	default_color = '#EAEAEA',
 	default_shade_color = '#555555',
 	default_outline_color = 'black',
-	alignment = 'tm',
+	alignment = 'tr',
 	gap_x = 130,
 	gap_y = 130,
 	no_buffers = true,
@@ -55,9 +55,13 @@ ${offset 160}${voffset 8}${color 8888cc}${font Droid Sans Mono:pixelsize=11}RAM$
 ${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}$mem
 ${offset 160}${voffset 8}${color 99bb33}${font Droid Sans Mono:pixelsize=11}DISK${voffset -8}${alignr}${offset -160}${diskiograph /dev/sda 28,100 ${color orange} $color}
 ${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${diskio /dev/sda}
-${offset 160}${voffset 8}${color bb8844}${font Droid Sans Mono:pixelsize=11}DOWN${voffset -8}${alignr}${offset -160}${downspeedgraph enp6s0 28,100 ${color orange} $color}
-${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed enp6s0}
-${offset 160}${voffset 8}${color ddaa66}${font Droid Sans Mono:pixelsize=11}UP${voffset -8}${alignr}${offset -160}${upspeedgraph enp6s0 28,100 ${color orange} $color}
-${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed enp6s0}
+#${offset 160}${voffset 8}${color bb8844}${font Droid Sans Mono:pixelsize=11}DOWN${voffset -8}${alignr}${offset -160}${downspeedgraph enp6s0 28,100 ${color orange} $color}
+#${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed enp6s0}
+#${offset 160}${voffset 8}${color ddaa66}${font Droid Sans Mono:pixelsize=11}UP${voffset -8}${alignr}${offset -160}${upspeedgraph enp6s0 28,100 ${color orange} $color}
+#${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed enp6s0}
+${offset 160}${voffset 8}${color bb8844}${font Droid Sans Mono:pixelsize=11}DOWN${voffset -8}${alignr}${offset -160}${downspeedgraph wlp0s29f7u6 28,100 ${color orange} $color}
+${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed wlp0s29f7u6}
+${offset 160}${voffset 8}${color ddaa66}${font Droid Sans Mono:pixelsize=11}UP${voffset -8}${alignr}${offset -160}${upspeedgraph wlp0s29f7u6 28,100 ${color orange} $color}
+${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed wlp0s29f7u6}
 
 ]];
