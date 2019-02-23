@@ -10,8 +10,11 @@ make install
 
 
 # Limit drawable area to one monitor
+xinput list
+xinput_calibrator --list
+xrandr
 xinput map-to-output 20 VGA-0
-xinput map-to-output 21 VGA-1
+xinput map-to-output 21 VGA-0
 
 
 # List device ids
