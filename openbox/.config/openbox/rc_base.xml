@@ -384,7 +384,8 @@
     </keybind>
     <keybind key="W-b">
       <action name="Execute">
-        <command>wlaunch "firejail firefox" Navigator</command>
+        <command>wlaunch vivaldi-stable crx_mpognobbkildjkofajifpdfhcoklimli</command>
+        <!--<command>wlaunch "firejail firefox" Navigator</command>-->
       </action>
     </keybind>
     <keybind key="W-S-b">
