@@ -8,7 +8,7 @@ conky.config = {
     own_window_transparent = true,
 	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
 	double_buffer = true,
-	minimum_width = 520, minimum_height = 5,
+	minimum_width = 420, minimum_height = 5,
 	maximum_width = 800,
 	draw_shades = false,
 	draw_outline = false,
@@ -18,8 +18,8 @@ conky.config = {
 	default_shade_color = '#555555',
 	default_outline_color = 'black',
 	alignment = 'tr',
-	gap_x = 130,
-	gap_y = 130,
+	gap_x = 90,
+	gap_y = 30,
 	no_buffers = true,
 	uppercase = false,
 	cpu_avg_samples = 2,
@@ -32,38 +32,32 @@ conky.config = {
 };
 
 conky.text = [[
-#FFA300
-#${color orange}${font Droid Sans:pixelsize=32}${time %a}${color EAEAEA}${font Droid Sans:pixelsize=80}${voffset -43}${time %d}${font Droid Sans:pixelsize=32}
-#${color 888888}${font Droid Sans Mono:pixelsize=22}${hr 1}
-#${color EAEAEA}${font Droid Sans Mono:pixelsize=24}${font Droid Sans Mono:pixelsize=24}${exec cal}
-#${color 888888}${font Droid Sans Mono:pixelsize=22}${hr 1}
 
-${voffset -20}${color EAEAEA}${font Droid Sans:pixelsize=130}${alignc}${time %H}${voffset -10}:${voffset 10}${time %M}${font Droid Sans:pixelsize=32}
-${voffset 40}${color EAEAEA}${font Droid Sans Mono:size=13}${execpi 60 DJS=$(date +%-d); cal | sed s/"\b$DJS\b"/'${color orange}'"$DJS"'$color'/ | sed s/^/'${alignc}'/ }
+${voffset -20}${color eaeaea}${font Droid Sans:size=120}${alignc}${time %H}${voffset -10}:${voffset 10}${time %M}$font
+${voffset 40}${color eaeaea}${font Droid Sans Mono:size=13}${execpi 60 DJS=$(date +%-d); cal | sed s/"\b$DJS\b"/'${color orange}'"$DJS"'$color'/ | sed s/^/'${alignc}'/ }
+${color eaeaea}${font AngelToes:size=22}${execpi 10000 ~/bin/brainyquote | fmt -s -w 47 -g 37 | sed '$s/^/${font AngelToes:pixelsize=20}${alignr} /' }
+${color 999999}${voffset 8}${hr 1}$font
 
-#${voffset -30}${color black}${hr 1}
-#${font DejaVu Sans:size=8}${color #ffccaa}TODO
-#${font DejaVu Sans:size=8}${color #CC00CC}${execi 300 ~/bin/todolist }
+${offset 22}${color ee7777}${font Droid Sans:size=20}CPU$font${alignr}${offset -12}${voffset -3}${color aeaeae}${freq_g 1}GHz ${color eaeaea}${font pixelsize=22}${voffset -5}${cpu cpu1}%${offset 10}${color ee7777}${cpugraph cpu1 22,170}$color$font
+${voffset 3}${offset 22}${color ee7777}${font size=22}${color eaeaea}${hwmon 0 temp 1}°C$font${alignr}${offset -12}${color aeaeae}${freq_g 2}GHz ${color eaeaea}${font pixelsize=22}${voffset -5}${cpu cpu2}%${offset 10}${color ee7777}${cpugraph cpu2 22,170}$color$font
+${voffset 3}${offset 22}${top name 1}${alignr}${offset -22}${top cpu 1}%
+${offset 22}${top name 2}${alignr}${offset -22}${top cpu 2}%
+${offset 22}${top name 3}${alignr}${offset -22}${top cpu 3}%
+${offset 22}${top name 4}${alignr}${offset -22}${top cpu 4}%
+${offset 22}${top name 5}${alignr}${offset -22}${top cpu 5}%
 
-${color EAEAEA}${font AngelToes:pixelsize=30}${voffset -6}${execpi 10000 ~/bin/brainyquote | fmt -s -w 47 -g 37 | sed '$s/^/${font AngelToes:pixelsize=20}${alignr} /' }
+${offset 22}${color 8888ee}${font Droid Sans:size=20}RAM${alignr}${offset -3}${color eaeaea}${font size=22}${voffset -3}$mem${offset 10}${color 8888ee}${voffset 2}${memgraph 22,170}$color$font
+${voffset 3}${offset 22}${top_mem name 1}${alignr}${offset -22}${top_mem mem_res 1}
+${offset 22}${top_mem name 2}${alignr}${offset -22}${top_mem mem_res 2}
+${offset 22}${top_mem name 3}${alignr}${offset -22}${top_mem mem_res 3}
+${offset 22}${top_mem name 4}${alignr}${offset -22}${top_mem mem_res 4}
+${offset 22}${top_mem name 5}${alignr}${offset -22}${top_mem mem_res 5}
 
-#${voffset -10}${color black}${hr 1}
+${offset 22}${color ccaa66}${font Droid Sans:size=20}WIFI${alignr}${offset -3}${color eaeaea}${font size=22}${voffset -3}${upspeed wlp0s29f7u4} / ${downspeed wlp0s29f7u4}${offset 10}${color ccaa66}${voffset 2}${downspeedgraph wlp0s29f7u4 22,170}$color$font
+${voffset 3}${offset 22}Bitrate${alignr}${offset -22}${wireless_bitrate wlp0s29f7u4}
+${offset 22}Quality${alignr}${offset -22}${wireless_link_qual_perc wlp0s29f7u4}%
 
-${offset 160}${color cc6666}${font Droid Sans Mono:pixelsize=11}CPU0 $color${freq_g 1}GHz${color cc6666}${voffset -8}${alignr}${offset -160}${cpugraph cpu1 28,100 ${color orange} $color -t -l}
-${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${hwmon 0 temp 1}°C ${cpu cpu1}%
-${offset 160}${voffset 8}${color cc6666}${font Droid Sans Mono:pixelsize=11}CPU1 $color${freq_g 2}GHz${color cc6666}${voffset -8}${alignr}${offset -160}${cpugraph cpu2 28,100 ${color orange} $color -t -l}
-${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${hwmon 0 temp 1}°C ${cpu cpu2}%
-${offset 160}${voffset 8}${color 8888cc}${font Droid Sans Mono:pixelsize=11}RAM${voffset -8}${alignr}${offset -160}${memgraph 28,100 ${color orange} $color}
-${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}$mem
-${offset 160}${voffset 8}${color 99bb33}${font Droid Sans Mono:pixelsize=11}DISK${voffset -8}${alignr}${offset -160}${diskiograph /dev/sda 28,100 ${color orange} $color}
-${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${diskio /dev/sda}
-#${offset 160}${voffset 8}${color bb8844}${font Droid Sans Mono:pixelsize=11}DOWN${voffset -8}${alignr}${offset -160}${downspeedgraph enp6s0 28,100 ${color orange} $color}
-#${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed enp6s0}
-#${offset 160}${voffset 8}${color ddaa66}${font Droid Sans Mono:pixelsize=11}UP${voffset -8}${alignr}${offset -160}${upspeedgraph enp6s0 28,100 ${color orange} $color}
-#${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed enp6s0}
-${offset 160}${voffset 8}${color bb8844}${font Droid Sans Mono:pixelsize=11}DOWN${voffset -8}${alignr}${offset -160}${downspeedgraph wlp0s29f7u6 28,100 ${color orange} $color}
-${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${downspeed wlp0s29f7u6}
-${offset 160}${voffset 8}${color ddaa66}${font Droid Sans Mono:pixelsize=11}UP${voffset -8}${alignr}${offset -160}${upspeedgraph wlp0s29f7u6 28,100 ${color orange} $color}
-${offset 160}${voffset -22}$color${font Droid Sans Mono:pixelsize=11}${upspeed wlp0s29f7u6}
-
+${offset 22}${color 99cc33}${font Droid Sans:size=20}DISK${alignr}${offset -3}${color eaeaea}${font size=22}${voffset -3}${diskio /dev/sda}${offset 10}${color 99cc33}${voffset 2}${diskiograph /dev/sda 22,170}$color$font
+${voffset 3}${offset 22}${top_io name 1}${alignr}${offset -22}${top_io io_read 1}/${top_io io_write 1}
+${offset 22}${top_io name 2}${alignr}${offset -22}${top_io io_read 2}/${top_io io_write 2}
 ]];
