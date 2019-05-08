@@ -1,10 +1,11 @@
 #!/bin/sh
 
-categories=(baskets watercolor other)
-category=$(zenity --list --text="Enter post category" --column="Category" ${categories[@]} )
+categories=(baskets watercolor woodworking other)
+category=$(zenity --list --title="Enter post category" --width=300 --height=200 --column="Category" ${categories[@]} )
 mtime=$(stat -c %y $1 | awk '{print$ 1}')
-postdate=$(zenity --entry --text='Enter Post Date' --entry-text="$mtime")
+postdate=$(zenity --entry --title="Enter Post Date" --width=300 --height=200 --entry-text="$mtime")
 images=$@
+thumbnailsourcefile=$(zenity --file-selection --filename=$images[0] --title="Choose thumbnail image" --width=300 --height=200)
 maxw=960
 maxh=960
 
@@ -18,19 +19,19 @@ do
     fname="$category$postdate-$count.$extension"
     echo "Processing: $1 --> $fname"
 
-    # Apply exif rotations
-    jhead -autorot "$1"
-
-    # Nuke exif
-    exiftool -all= "$1"
-
     # Scale down large image
     convert "$1" -resize "$maxw"x"$maxh"\> "$fname"
+
+    # Apply exif rotations
+    jhead -autorot "$fname"
+
+    # Nuke exif
+    exiftool -overwrite_original -all= "$fname"
 
     count=$((count + 1))
     shift
 done
 
-blogthumbnail "$category$postdate-1.$extension"
-blogpost "$category" "$postdate" "$category$postdate-1-tn.$extension" $images
+blogthumbnail "$thumbnailsourcefile" "$category$postdate-tn.$extension"
+blogpost "$category" "$postdate" "$category$postdate-tn.$extension" $images
 

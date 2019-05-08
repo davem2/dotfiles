@@ -1,11 +1,11 @@
 #!/bin/sh
 
-filename=${1%.*}
-extension=${1##*.}
+filename=${2%.*}
+extension=${2##*.}
 maxw=240
 maxh=480
 
-echo "Creating Thumbnail: $1 --> $filename-tn.$extension"
+echo "Creating Thumbnail: $1 --> $filename.$extension"
 
 # Scale down large image to thumbnail size
-convert "$1" -resize "$maxw"x"$maxh"\> "$filename-tn.$extension"
+convert "$1" -resize "$maxw"x"$maxh"\> "$filename.$extension"
