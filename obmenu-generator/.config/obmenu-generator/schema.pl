@@ -66,6 +66,7 @@ our $SCHEMA = [
     {item => ['vivaldi-stable','Vivaldi',           'vivaldi']},
     {item => ['gmrun',         'Run command',       'system-run']},
     {item => ['wine /home/david/.wine/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/Wow.exe',  'World of Warcraft', 'cat-icon']},
+    {item => ['wine /home/david/.wine/drive_c/Program\ Files\ \(x86\)/StandingStoneGames/The\ Lord\ of\ the\ Rings\ Online/LotroLauncher.exe',  'Lord of the Rings', 'cat-icon']},
 
     {sep => 'Applications'},
 
