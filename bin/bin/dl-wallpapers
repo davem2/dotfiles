@@ -15,9 +15,10 @@ mkdir -p $bing_wallpaper_directory
 
 # Download bing wallpaper
 urls=( $(curl -s http://www.bing.com | \
-    grep -Eo "url:'.*?'" | \
-    sed -e "s/url:'\([^']*\)'.*/http:\/\/bing.com\1/" | \
-    sed -e "s/\\\//g") )
+    grep -Eo 'href="\/th\?id=OHR\S*' | \
+    sed -e 's/href="\/th/http:\/\/bing.com\/th/' | \
+    sed -e "s/&amp;/&/" | \
+    sed -e 's/"//') )
 
 # Save wallpaper if it's new
 for p in ${urls[@]}; do
