@@ -64,6 +64,7 @@ our $SCHEMA = [
     {item => ['sakura',        'Terminal',          'utilities-terminal']},
     {item => ['firefox',       'Firefox',           'firefox']},
     {item => ['vivaldi-stable','Vivaldi',           'vivaldi']},
+    {item => ['brave',         'Brave',             'brave']},
     {item => ['gmrun',         'Run command',       'system-run']},
     {item => ['wine /home/david/.wine/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/Wow.exe',  'World of Warcraft', 'cat-icon']},
     {item => ['wine /home/david/.wine/drive_c/Program\ Files\ \(x86\)/StandingStoneGames/The\ Lord\ of\ the\ Rings\ Online/LotroLauncher.exe',  'Lord of the Rings', 'cat-icon']},
