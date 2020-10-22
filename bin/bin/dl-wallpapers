@@ -25,6 +25,7 @@ for p in ${urls[@]}; do
     # Remove http://www.bing.com and other junk from filename
     filename=$(echo $p|sed -e "s/.*\/\(.*\)/\1/")
     filename=$(echo $filename|sed -e "s/th?id=OHR\.//")
+    filename=$(echo $filename|sed -e "s/.*_1920x1200\.jpg.*/watermarked/")
     filename=$(echo $filename|sed -e "s/\.jpg.*/.jpg/")
 
     todayWallpaper="$bing_wallpaper_directory/$filename"
