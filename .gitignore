@@ -12,7 +12,5 @@ openbox/.config/openbox/menu.xml.bak
 obmenu-generator/.config/obmenu-generator/cache.db
 obmenu-generator/.config/obmenu-generator/icons.db
 
-geany/
-
 bin/bin/dailyprogrammer-dl
 
