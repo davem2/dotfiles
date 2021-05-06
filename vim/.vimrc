@@ -1,43 +1,76 @@
-""
-"" Janus setup
-""
+call plug#begin('~/.vim/plugged')
 
-" Define paths
-if has('win32') || has('win64') || has('win32unix')
-  let g:janus_path = expand("~/.vim/janus/vim")
-  let g:janus_vim_path = expand("~/.vim/janus/vim")
-else
-  let g:janus_path = escape(fnamemodify(resolve(expand("<sfile>:p")), ":h"), ' ')
-  let g:janus_vim_path = escape(fnamemodify(resolve(expand("<sfile>:p" . "vim")), ":h"), ' ')
-endif
-let g:janus_custom_path = expand("~/.janus")
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-abolish'
 
-" Source janus's core
-exe 'source ' . g:janus_vim_path . '/core/before/plugin/janus.vim'
+Plug 'junegunn/vim-easy-align',       { 'on': ['<Plug>(EasyAlign)', 'EasyAlign'] }
+Plug 'junegunn/vim-github-dashboard', { 'on': ['GHDashboard', 'GHActivity']      }
+Plug 'junegunn/vim-emoji'
+Plug 'junegunn/vim-pseudocl'
+Plug 'junegunn/vim-oblique'
+Plug 'junegunn/vim-fnr'
+Plug 'junegunn/vim-peekaboo'
+Plug 'junegunn/vim-journal'
+Plug 'junegunn/seoul256.vim'
+Plug 'junegunn/gv.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+Plug 'junegunn/vader.vim',  { 'on': 'Vader', 'for': 'vader' }
 
-" You should note that groups will be processed by Pathogen in reverse
-" order they were added.
-call janus#add_group("tools")
-call janus#add_group("langs")
-call janus#add_group("colors")
+" Colors
+Plug 'tomasr/molokai'
+Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'junegunn/seoul256.vim'
+Plug 'shawncplus/skittles_berry'
+Plug 'altercation/vim-colors-solarized'
 
-""
-"" Customisations
-""
+" Edit
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-commentary',        { 'on': '<Plug>Commentary' }
+Plug 'mbbill/undotree',             { 'on': 'UndotreeToggle'   }
+Plug 'vim-scripts/ReplaceWithRegister'
+Plug 'AndrewRadev/splitjoin.vim'
+Plug 'bronson/vim-trailing-whitespace'
 
-if filereadable(expand("~/.vimrc.before"))
-  source ~/.vimrc.before
-endif
+" Tmux
+Plug 'tpope/vim-tbone'
 
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'justinmk/vim-gtfo'
+Plug 'tpope/vim-fugitive'
+Plug 'groenewege/vim-less'
+Plug 'pangloss/vim-javascript'
+Plug 'slim-template/vim-slim'
+Plug 'chrisbra/unicode.vim', { 'for': 'journal' }
 
-" Disable plugins prior to loading pathogen
-exe 'source ' . g:janus_vim_path . '/core/plugins.vim'
+call plug#end()
 
-""
-"" Pathogen setup
-""
+set t_Co=256
+set nocompatible
+set noswapfile
+set autoindent
+set smartindent
+set smarttab
+set copyindent
+set number
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set shiftround
+set incsearch
+set ignorecase
+set hlsearch
+set noerrorbells
+set relativenumber
+set nowrap
+set encoding=utf-8
+set nrformats=
+set hidden
+set history=100
 
-" Load all groups, custom dir, and janus core
-call janus#load_pathogen()
+filetype on
+syntax on
+colorscheme seoul256
 
-" .vimrc.after is loaded after the plugins have loaded
