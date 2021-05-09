@@ -21,6 +21,7 @@ fi
 SetBG () {
 bg1=$(find "$dir1" ! -type d -print0 | shuf -z -n 1)
 bg2=$(find "$dir2" ! -type d -print0 | shuf -z -n 1)
+bg3=$(find "$dir2" ! -type d -print0 | shuf -z -n 1)
 
 # Set background(s) with feh
 #feh --bg-fill "${bg1}" "${bg2}"
@@ -34,10 +35,11 @@ logger "grey_level: $grey_level"
 #    feh --bg-fill "$bg1" "$bg2"
 #fi
 
-composite -compose Multiply -gravity center -resize 1920x1080 "$gradient_file" "$bg1" png:- | feh --bg-fill - "$bg2"
+composite -compose Multiply -gravity center -resize 1920x1080 "$gradient_file" "$bg1" png:- | feh --bg-fill - "$bg2" "$bg3"
 logger "Wallpaper changed:"
 logger "bg1: $bg1"
 logger "bg2: $bg2"
+logger "bg3: $bg3"
 }
 
 while [[ -n $swap_interval ]]; do
