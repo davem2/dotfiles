@@ -8,8 +8,8 @@
 # Adapted from https://github.com/thejandroman/bing-wallpaper/blob/master/bing-wallpaper.sh
 #
 
-bing_wallpaper_directory="$HOME/wallpapers/bing-wallpapers"
-main_wallpaper_directory="$HOME/wallpapers"
+bing_wallpaper_directory="$HOME/mystuff/wallpapers/bing-wallpapers"
+main_wallpaper_directory="$HOME/mystuff/wallpapers"
 gradient_file="$HOME/bin/gradient3.png"
 mkdir -p $bing_wallpaper_directory
 

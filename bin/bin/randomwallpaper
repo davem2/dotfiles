@@ -5,8 +5,8 @@
 #
 
 gradient_file="$HOME/bin/gradient3.png"
-dir1=${1:-"$HOME/wallpapers/"}    # Wallpapers specific for main monitor containing conky overlay
-dir2=${2:-"$HOME/wallpapers/"}    # Wallpapers for secondary monitor(s)
+dir1=${1:-"$HOME/mystuff/wallpapers/"}    # Wallpapers specific for main monitor containing conky overlay
+dir2=${2:-"$HOME/mystuff/wallpapers/"}    # Wallpapers for secondary monitor(s)
 swap_interval=600m  # TODO: make configurable
 
 
@@ -35,7 +35,8 @@ logger "grey_level: $grey_level"
 #    feh --bg-fill "$bg1" "$bg2"
 #fi
 
-composite -compose Multiply -gravity center -resize 1920x1080 "$gradient_file" "$bg1" png:- | feh --bg-fill - "$bg2" "$bg3"
+composite -compose Multiply -gravity center -resize 1920x1080 "$gradient_file" "$bg1" png:- | feh --no-fehbg --bg-fill - "$bg2" "$bg3"
+
 logger "Wallpaper changed:"
 logger "bg1: $bg1"
 logger "bg2: $bg2"
@@ -46,5 +47,4 @@ while [[ -n $swap_interval ]]; do
     SetBG
     sleep $swap_interval
 done
-
 
