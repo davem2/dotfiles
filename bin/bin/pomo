@@ -1,4 +1,5 @@
 #!/bin/bash
+# requires zenity (dialog), bc (calc)
 
 if [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]] || [[ $# > 1 ]]; then
     echo "usage: pomo <duration>"
