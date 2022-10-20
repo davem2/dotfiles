@@ -478,14 +478,14 @@
     <keybind key="W-C-Left">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <monitor>prev</monitor>
+        <monitor><!-- prev -->next</monitor>
       </action>
       <action name="Maximize"/>
     </keybind>
     <keybind key="W-C-Right">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <monitor>next</monitor>
+        <monitor><!-- next -->prev</monitor>
       </action>
       <action name="Maximize"/>
     </keybind>
