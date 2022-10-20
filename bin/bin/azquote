@@ -1,0 +1,18 @@
+#!/bin/python
+#
+# Extracts Quotes from azquotes.com
+#
+
+from bs4 import BeautifulSoup
+import requests
+import random
+
+htmldata = requests.get('https://www.azquotes.com/quote_of_the_day.html')
+soup = BeautifulSoup(htmldata.text,"lxml")
+
+quote = soup.find_all("p", class_="au_nopic")
+author = soup.find_all("div", class_="author_nopic")
+
+QUOTES_PER_DAY = 5
+v = random.randint(0,QUOTES_PER_DAY-1)
+print("{}\n-- {}".format(quote[v].find("a").string, author[v].find("a").string))

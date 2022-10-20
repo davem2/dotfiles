@@ -35,29 +35,29 @@ conky.text = [[
 
 ${voffset -20}${color eaeaea}${font Droid Sans:size=120}${alignc}${time %H}${voffset -10}:${voffset 10}${time %M}$font
 ${voffset 40}${color eaeaea}${font Droid Sans Mono:size=13}${execpi 60 DJS=$(date +%-d); cal | sed s/"\b$DJS\b"/'${color orange}'"$DJS"'$color'/ | sed s/^/'${alignc}'/ }
-${color eaeaea}${font AngelToes:size=22}${execpi 10000 ~/bin/brainyquote | fmt -s -w 47 -g 37 | sed '$s/^/${font AngelToes:pixelsize=20}${alignr} /' }
+${voffset 20}${color eaeaea}${font AngelToes:size=22}${execpi 10000 ~/bin/azquote | fmt -s -w 47 -g 37 | sed '$s/^/${font AngelToes:pixelsize=20}${alignr} /' }
 ${color 999999}${voffset 8}${hr 1}$font
 
-${offset 22}${color ee7777}${font Droid Sans:size=20}CPU ${color ffaaaa}${cpu cpu0}%$font${alignr}${offset -12}${voffset -3}${color aeaeae}${freq_g 1}GHz ${color eaeaea}${font pixelsize=22}${voffset -5}${cpu cpu1}%${offset 10}${color ee7777}${cpugraph cpu1 22,170}$color$font
-${voffset 3}${offset 22}${color ee7777}${font size=22}${goto 87}${color ffaaaa}${hwmon 0 temp 1}°C$font${alignr}${offset -12}${color aeaeae}${freq_g 2}GHz ${color eaeaea}${font pixelsize=22}${voffset -5}${cpu cpu2}%${offset 10}${color ee7777}${cpugraph cpu2 22,170}$color$font
+${offset 22}${color ee7777}${font Droid Sans:size=20}CPU ${color ffaaaa}${cpu cpu0}%$font${alignr}${offset -12}${voffset -3}${color aeaeae}${freq_g 1}GHz ${color eaeaea}${font pixelsize=22}${voffset -5}${cpu cpu1}%${offset 18}${voffset -13}${color ee7777}${cpugraph cpu1 22,170}$color$font
+${voffset 3}${offset 22}${color ee7777}${font size=22}${goto 87}${color ffaaaa}${hwmon 0 temp 1}°C$font${alignr}${offset -12}${color aeaeae}${freq_g 2}GHz ${color eaeaea}${font pixelsize=22}${voffset -5}${cpu cpu2}%${offset 18}${voffset -13}${color ee7777}${cpugraph cpu2 22,170}$color$font
 ${voffset 3}${offset 22}${top name 1}${alignr}${offset -22}${top cpu 1}%
 ${offset 22}${top name 2}${alignr}${offset -22}${top cpu 2}%
 ${offset 22}${top name 3}${alignr}${offset -22}${top cpu 3}%
 ${offset 22}${top name 4}${alignr}${offset -22}${top cpu 4}%
 ${offset 22}${top name 5}${alignr}${offset -22}${top cpu 5}%
 
-${offset 22}${color 99cc33}${font Droid Sans:size=20}RAM${alignr}${offset -3}${color bbff77}${font size=22}${voffset -3}$mem${offset 10}${color 99cc33}${voffset 2}${memgraph 22,170}$color$font
+${offset 22}${color 99cc33}${font Droid Sans:size=20}RAM${alignr}${offset -3}${color bbff77}${font size=22}${voffset -3}$mem${offset 10}${color 99cc33}${voffset -12}${memgraph 22,170}$color$font
 ${voffset 3}${offset 22}${top_mem name 1}${alignr}${offset -22}${top_mem mem_res 1}
 ${offset 22}${top_mem name 2}${alignr}${offset -22}${top_mem mem_res 2}
 ${offset 22}${top_mem name 3}${alignr}${offset -22}${top_mem mem_res 3}
 ${offset 22}${top_mem name 4}${alignr}${offset -22}${top_mem mem_res 4}
 ${offset 22}${top_mem name 5}${alignr}${offset -22}${top_mem mem_res 5}
 
-${offset 22}${color ccaa66}${font Droid Sans:size=20}WIFI${alignr}${offset -3}${color ffddaa}${font size=22}${voffset -3}${upspeed wlp0s29f7u4} / ${downspeed wlp0s29f7u4}${offset 10}${color ccaa66}${voffset 2}${downspeedgraph wlp0s29f7u4 22,170}$color$font
-${voffset 3}${offset 22}Bitrate${alignr}${offset -22}${wireless_bitrate wlp0s29f7u4}
-${offset 22}Quality${alignr}${offset -22}${wireless_link_qual_perc wlp0s29f7u4}%
+${offset 22}${color ccaa66}${font Droid Sans:size=20}WIFI${alignr}${offset -3}${color ffddaa}${font size=22}${voffset -3}${upspeed wlan0} / ${downspeed wlan0}${offset 10}${color ccaa66}${voffset -12}${downspeedgraph wlan0 22,170}$color$font
+${voffset 3}${offset 22}Bitrate${alignr}${offset -22}${wireless_bitrate wlan0}
+${offset 22}Quality${alignr}${offset -22}${wireless_link_qual_perc wlan0}%
 
-${offset 22}${color 8888ee}${font Droid Sans:size=20}DISK${alignr}${offset -3}${color aaaaff}${font size=22}${voffset -3}${diskio /dev/sda}${offset 10}${color 8888ee}${voffset 2}${diskiograph /dev/sda 22,170}$color$font
+${offset 22}${color 8888ee}${font Droid Sans:size=20}DISK${alignr}${offset -3}${color aaaaff}${font size=22}${voffset -3}${diskio /dev/sda}${offset 10}${color 8888ee}${voffset -12}${diskiograph /dev/sda 22,170}$color$font
 ${voffset 3}${offset 22}${top_io name 1}${alignr}${offset -22}${top_io io_read 1}/${top_io io_write 1}
 ${offset 22}${top_io name 2}${alignr}${offset -22}${top_io io_read 2}/${top_io io_write 2}
 ]];
