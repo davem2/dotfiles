@@ -14,6 +14,6 @@ quote = soup.find_all("a", title="view quote")
 author = soup.find_all("a", title="view author")
 
 QUOTES_PER_DAY = 5
-v = random.randint(0,QUOTES_PER_DAY-1)
+v = random.randint(1,QUOTES_PER_DAY)
 q = next(quote[v].find("div").stripped_strings)
 print(q + "\n-- " + author[v].string)
